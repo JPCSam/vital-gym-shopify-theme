@@ -1,0 +1,261 @@
+{%- assign blog = blogs[section.settings.blog] -%}
+<div class="page-width no-padding">
+    <section class="blog__section">
+        <div class="header__area">
+            <h2 class="collection-settings-title">{{section.settings.title}}</h2>
+            <a href="{{ blog.url }}" class="blog-btn">
+            View more news      
+            <img class='arrow-btn' src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+            </a>
+        </div>
+    <div class="blog__slider">
+        {%- for article in blog.articles limit: 2 -%}
+        <div class="blog__slide" onclick="window.location.href='{{ article.url }}'">
+            <div class="blog__image">
+                 <img class="lazyload" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+            </div>
+            <div class="blog__text">
+                <div class="blog__date">
+                    <p class="date day">
+                        {{ article.published_at | date: "%d" }}
+                    </p>
+                    <p class="date month">
+                        {{ article.published_at | date: "%b" }}
+                    </p>
+                </div>
+                <p class="blog__title">{{ article.title }}</p>
+                <p class="blog__description">{{ article.excerpt}}</p>
+                <button class="block__btn" aria-label='Open link'>
+                    <a href="{{ article.url }}" class="block__link">Read</a>
+                    <img class='arrow-btn' src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+                </button>             
+            </div>
+        </div>
+        {%- endfor -%}
+    </div>
+    </section>
+</div>
+<script>
+if (window.matchMedia("(max-width: 480px)").matches) {
+    $('.blog__slider').slick({
+      responsive: [{
+        breakpoint: 481,
+          settings: {
+            centerMode: true,
+            accessibility: false,
+            centerPadding: "8px",
+            dots:true,
+            autoplay:true,
+            autoplaySpeed:3000,
+            speed:400,
+            slidesToShow:1
+          }
+      }]
+    });
+}
+</script>
+<style>
+    /*Blog*/
+.blog-btn {
+  font-size: 18px;
+  border: 1px solid #f0f0f0;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.blog-btn:hover {
+  background: #F0F0F0;
+}
+
+.header__area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__slide:nth-child(even):not(.template-index .blog__slide) {
+  margin-right: 30px;
+}
+
+.blog__slide {
+  display: flex;
+  width: 48%;
+  float: left;
+  margin-bottom: 64px;
+  max-height: 316px;
+}
+
+.blog__image {
+  max-width: 316px;
+  margin-right: 20px;
+}
+
+.blog__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+}
+.block__btn {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+a.block__link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #1C1C1D;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #1c1c1d;
+}
+p.blog__title {
+  font-family: 'Industry Demi' !important;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+p.blog__description {
+  font-family: 'Industry-Book' !important;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.article__link {
+  font-family: 'Industry-Book' !important;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #1C1C1D;
+}
+
+p.date {
+  font-family: 'Industry Demi' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p.date.month {
+  font-family: 'Industry-Book' !important;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.blog__date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1c1c1d;
+  padding: 8px 10px;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 32px;
+}
+
+.blog__section {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.blog__slider {
+  display: flex;
+  margin-top: 52px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .blog__slide {
+    width: 46%;
+    flex-direction: column;
+    margin-bottom: 45px;
+    max-height: unset;
+  }
+}
+@media screen and (max-width: 480px) {
+  .blog-btn {
+    display: none;
+  }
+
+  .blog__date {
+    position: absolute;
+    top: 0;
+  }
+
+  .blog__image,
+  .blog__text {
+    max-width: 335px;
+  }
+
+  .blog__slide:first-child,
+  .blog__image {
+    margin-right: 0;
+  }
+
+  .blog__section {
+    margin-bottom: 60px;
+    padding: 0;
+  }
+
+  .header__area {
+    padding-left: 16px;
+  }
+
+  .blog__slider,
+  .blog__title {
+    margin-top: 24px;
+  }
+
+  p.blog__description {
+    margin-bottom: 24px;
+  }
+
+  p.blog__title {
+    margin-bottom: 16px;
+  }
+
+  .blog__slider .slick-list {
+    margin: 0 0 0 8px;
+  }
+  .blog__slide {
+    width: 100%;
+    position: relative;
+  }
+}
+</style>
+{% schema %}
+{
+    "name": "Blog slider",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "The Vital Blog"
+      },
+      {
+        "id": "blog",
+        "type": "blog",
+        "label": "Blog"
+      }
+    ],
+    "presets": [
+        {
+            "category": "Blog",
+            "name":"Blog slider"
+        }
+    ]
+}
+{% endschema %}

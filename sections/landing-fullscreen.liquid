@@ -1,0 +1,70 @@
+<div class="fullscreen" style="background-image: url('{{ section.settings.background_desktop | img_url: 'master' }}')">
+   <div class="fullscreen-mobile" style="background-image: url('{{ section.settings.background_mobile | img_url: 'master' }}')"></div>
+   <div class="page-width">
+      <div class="fullscreen-content">
+         <div class="fullscreen-content-subtitle"><span>{{ section.settings.section_subtitle_left }}</span><span>{{ section.settings.section_subtitle_right }}</span></div>
+         <div class="fullscreen-content-image">
+            <img src="{{ section.settings.image_between | img_url: 'x880' }}" alt="VitalGym">
+         </div>
+         <h1 class="fullscreen-content-title">{{ section.settings.section_title }}</h1>
+         <button type="button" class="fullscreen-content-button scroll-to-form">{{ section.settings.button_text }}</button>
+      </div>
+   </div>
+</div>
+
+{% schema %}
+   {
+      "name": "Fullscreen",
+      "settings": [
+         {
+            "type": "header",
+            "content": "Section header"
+         },
+         {
+            "type": "text",
+            "id": "section_title",
+            "label": "Title",
+            "default": "VITALCLUB"
+         },
+         {
+            "type": "text",
+            "id": "section_subtitle_left",
+            "label": "Subtitle (left)",
+            "default": "Become a"
+         },
+         {
+            "type": "text",
+            "id": "section_subtitle_right",
+            "label": "Subtitle (right)",
+            "default": "member of"
+         },
+         {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button text",
+            "default": "Join free"
+         },
+         {
+            "type": "image_picker",
+            "id": "background_desktop",
+            "label": "Background image for desktop"
+         },
+         {
+            "type": "image_picker",
+            "id": "background_mobile",
+            "label": "Background image for mobile"
+         },
+         {
+            "type": "image_picker",
+            "id": "image_between",
+            "label": "Image between the titles"
+         } 
+      ],
+      "presets": [
+         {
+            "category": "Vital Club",
+            "name":"Fullscreen"
+         }
+      ]
+   }
+{% endschema %}

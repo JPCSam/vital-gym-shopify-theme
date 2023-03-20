@@ -1,0 +1,54 @@
+<div class="reviews">
+   <div class="page-width">
+      <div class="reviews__slider">
+         {%- for block in section.blocks -%}
+         <div class="reviews__slider-card">
+            <div class="reviews__slider-card-left">
+               <img src="{{ block.settings.image | img_url: 'x600' }}" alt="{{ block.settings.image.alt }}">
+            </div>
+            <div class="reviews__slider-card-right">
+               <div class="reviews__slider-card-right-review">
+                  <div class="reviews__slider-card-right-review-name">{{ block.settings.name }}</div>
+                  <div class="reviews__slider-card-right-review-text">{{ block.settings.text }}</div>
+               </div>
+            </div>
+         </div>
+         {%- endfor -%}
+      </div>
+   </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Reviews",
+        "blocks": [
+            {
+            "type": "image",
+            "name": "slide",
+            "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "name",
+                        "label": "Name"
+                    },
+                    {
+                     "type": "textarea",
+                     "id": "text",
+                     "label": "Text"
+                     }
+                ]
+            }
+        ],
+        "presets": [
+           {
+              "category": "Vital Club",
+              "name":"Reviews"
+           }
+        ]
+    }
+{% endschema %}

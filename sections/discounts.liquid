@@ -1,0 +1,247 @@
+<section class="discounts page-width">
+    {% for block in section.blocks %}
+        <div class="discount">
+            <div class="discount-left">
+                <p class="discount-big">{{ block.settings.disc_amount }}<br /><span>off</span></p>
+            </div>
+            <div class="discount-right">
+                <div class="discount-info">
+                    <p class="discount-title">{{ block.settings.disc_title }}</p>
+                    <p class="discount-description">{{ block.settings.disc_description }}</p>
+                </div>
+                <div class="discount-copy">
+                    <input id='copy-input-{{block.settings.disc_code}}' class='copy-input' type="text" readonly  value="{{block.settings.disc_code}}"/>
+                    <button id='copy-btn-{{block.settings.disc_code}}' data-code='{{block.settings.disc_code}}' class="copy-button">
+                        copy
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
+                            <path d="M2.66667 3.00004V1.00004C2.66667 0.82323 2.7369 0.65366 2.86193 0.528636C2.98695 0.403612 3.15652 0.333374 3.33333 0.333374H11.3333C11.5101 0.333374 11.6797 0.403612 11.8047 0.528636C11.9298 0.65366 12 0.82323 12 1.00004V10.3334C12 10.5102 11.9298 10.6798 11.8047 10.8048C11.6797 10.9298 11.5101 11 11.3333 11H9.33333V13C9.33333 13.368 9.03333 13.6667 8.662 13.6667H0.671333C0.583418 13.6672 0.496265 13.6504 0.414882 13.6171C0.333498 13.5839 0.259489 13.5349 0.197106 13.4729C0.134723 13.411 0.0851953 13.3373 0.0513695 13.2561C0.0175437 13.175 8.62495e-05 13.088 0 13L0.00200001 3.66671C0.00200001 3.29871 0.302 3.00004 0.673334 3.00004H2.66667ZM1.33533 4.33337L1.33333 12.3334H8V4.33337H1.33533ZM4 3.00004H9.33333V9.66671H10.6667V1.66671h3V3.00004Z" fill="black"/>
+                        </svg>
+                    </button>
+                    <div class="copied-alert" id='copied-alert-{{block.settings.disc_code}}'>
+                      <img class="copied-alert-img" src="{{ 'check-icon.svg' | asset_url }}" alt="VitalGym">
+                      <h4 class="copied-alert-text">Code copied</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('#copy-btn-'+'{{block.settings.disc_code}}').on("click", function(){
+                let copyText = $('#copy-input-'+'{{block.settings.disc_code}}');
+                copyText.select();
+                document.execCommand("copy");
+                $('#copied-alert'+'{{block.settings.disc_code}}').addClass("show");
+            });
+        </script>
+    {% endfor %}
+</section>
+
+<style>
+    .discounts{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .discount{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 1170px;
+        margin-bottom: 30px;
+        height: 136px;
+    }
+    .discount-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 220px;
+        border: 1px solid #F0F0F0;
+        padding-top: 25px;
+        height: 100%;
+        width: 18%;
+    }
+    .discount-right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F0F0F0;
+        padding: 40px 50px 40px 30px;
+        width: 82%;
+        position: relative;
+    }
+    .discount-right::after{
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 56px 56px 0;
+        border-color: transparent #fff transparent transparent;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+    .discount-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .discount-copy{
+        display: flex;
+        align-items: center;
+    }
+    .discount-big{
+        font-family: Industry-Bold;
+        font-size: 50px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .discount-big span{
+        font-family: Industry Demi;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .discount-title{
+        font-family: Industry-Bold;
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+    }
+    .discount-description{
+        font-family: Industry-Book;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        color: #515151;
+        margin-bottom: 0;
+    }
+    .copy-input{
+        font-family: 'Industry Demi';
+        font-size: 14px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #616060;
+        background: white;
+        max-height: 56px;
+        text-align: center;
+    }
+    .copy-button {
+        padding: 17px 32px;
+        background: #fc0;
+        max-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Industry Demi';
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    .copy-button svg{
+        margin-left: 14px;
+    }
+    .copied-alert {
+        margin-left: 10px;
+        max-height: 50px;
+        display: none;
+    }
+    .copied-alert.show{
+        display: block;
+    }
+    @media screen and (max-width:768px) {
+        .discount {
+            flex-direction: column;
+            height: auto;
+            margin-bottom: 24px;
+        }
+        .discount-right{
+            padding: 20px 16px 24px 16px;
+        }
+        .discount-right,
+        .discount-copy {
+            flex-direction: column;
+            width: 100%;
+        }
+        .copy-input,
+        .copy-button{
+            width: 100%;
+        }
+        .discount-copy {
+            margin-top: 16px;
+        }
+        .copy-input{
+            margin-bottom: 12px;;
+        }
+        .discount-left {
+            padding: 52px 0 48px 0;
+            width: 100%;
+            max-width: unset;
+        }
+        .discount-right::after{
+            display: none;
+        }
+
+    }
+</style>
+
+<!-- <script>
+    var copy_btn = $('.copy-button');
+    copy_btn.click(function () {
+        console.log('clicked');
+        let copyText = $('.copy-input').filter(code => code == copy_btn.attr('data-code'));
+        console.log(copyText[0]);
+        if (copy_btn.attr('data-code') == copyText){
+            console.log('data-code = ', copyText);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            $('.copied-alert').addClass("show");
+        }
+        
+    });
+</script> -->
+{% schema %}
+{
+    "name": "Discounts",
+    "settings": [
+        
+    ],
+    "blocks":[
+        {
+            "name": "discount",
+            "type": "text",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "disc_amount",
+                    "label": "Discount amount",
+                    "default": "10"
+                },
+                {
+                    "type": "text",
+                    "id": "disc_title",
+                    "label": "Discount title"
+                },
+                {
+                    "type": "text",
+                    "id": "disc_description",
+                    "label": "Discount description"
+                },
+                {
+                    "type": "text",
+                    "id": "disc_code",
+                    "label": "Discount code"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "category": "Content",
+            "name":"Discounts"
+        }
+    ]
+}
+{% endschema %}

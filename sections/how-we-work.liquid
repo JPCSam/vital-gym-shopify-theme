@@ -1,0 +1,57 @@
+<section class="how-we-work container">
+  <h1>How We Work</h1>
+  <p>Our simple 5-step process to build the home gym of your dreams...</p>
+  {%- if section.blocks.size > 0 -%}
+  <div class="step-slider">
+    {%- for block in section.blocks-%}
+    <div class="step-content">
+      <span class="step-number"> {{ forloop.index }}</span>
+      <h3>{{block.settings.title}}</h3>
+      <p>{{block.settings.description}}</p>
+      {% if forloop.first == true or forloop.last == true%}
+      <a href="#contact" class="button btn">ENQUIRE NOW</a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "How we work",
+    "settings": [],
+	"max_blocks": 5,
+	"blocks": [
+          {
+            "type": "text",
+            "name": "Step",
+            "settings": [
+              {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+              },
+  			 {
+                "type": "text",
+                "id": "description",
+                "label": "Description"
+              }
+			]
+          }
+		],
+	
+	 "presets": [
+      {
+        "name": "How we work",
+        "category": "Content"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

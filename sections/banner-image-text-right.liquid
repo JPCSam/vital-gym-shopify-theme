@@ -1,0 +1,35 @@
+<section class="image-text right container">
+  <div class="image-content">
+    <h2 class="mobile">... and VitalGym provides you an effective equipment for your 
+daily excercises</h2>
+    <img src="{{section.settings.image | img_url : "master"}}" alt="VitalGym">
+  </div>
+
+  <div class="text-content">
+    <h2 class="desktop">… with <br>state-of-the-art premium equipment from VitalGym</h2>
+    <h2 class="desktop">and we’ll even 
+      throwin a free 
+      special bonus 
+      worth up to £1000</h2>
+    <a href="#contact" class="btn button" >BOOK CONSULTATION</a>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Image Text Right",
+    "settings": [
+    {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              }
+
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

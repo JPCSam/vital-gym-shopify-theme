@@ -1,0 +1,424 @@
+<div id="recover_password_success_modal" class="recover-password-success-modal custom-modal">
+  <div class="modal-content">
+    <div class="modal-close-container">
+      <img id="modal_close_recover_password_success" class="modal-close-icon" src="{{ "close-line.svg" | asset_url }} " loading="lazy">
+    </div>
+    
+    <div class="modal-container">
+      <div class="modal-success-image">
+        <img loading="lazy" class="modal-success-img" src="{{ "recover-password-check.svg" | asset_url }}" data-src="https://d9vo8r3k6i520d3w-36554145928.shopifypreview.com" alt="VitalGym">
+      </div>
+      <div class="modal-success-content">
+        <p class="modal-success-title">SUCCESSFULLY SENT!</p>
+        <p class="modal-success-subtitle">Email has been sent to entered email adrdress. Please check.</p>
+      </div>
+      <input type="button" value="close" id="btn_close_recover_password_success" class="modal-form-input-last btn btn--full btn--no-animate">
+    </div>
+  </div>
+</div>
+
+<div id="my-custom-modal" class="custom-modal">
+  <div class="modal-content">
+    <div id="modal-back" class="modal-back-container">
+      <img class="modal-back-icon" src="{{ "Modal-Arrow-Left.svg" | asset_url }}" loading="lazy" alt="VitalGym">
+      <p class="modal-back-text">Back</p>
+    </div>
+    <div class="modal-close-container">
+      <img id="modal-close" class="modal-close-icon" src="{{ "close-line.svg" | asset_url }}" loading="lazy" alt="VitalGym">
+    </div>
+    <div id="ModalCustomerLogin" class="modal-customer-login modal-container">
+      <div class="customer-login-title modal-title" >
+        <h2 class="customer-login-title modal-title-text-before">LOG IN TO</h2>
+        <h2 class="customer-login-title modal-title-text-after">YOUR ACCOUNT</h2>
+      </div>
+      <div id="customer-login-form" class="modal-form">
+        {% form 'customer_login' %}
+        {{ form.errors | default_errors }}
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerLoginEmail">{{ 'customer.login.email' | t }}</label>
+          <p id="modal-form-login-validate-email" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <input type="email" name="customer[email]" id="ModalCustomerLoginEmail" class="modal-form-input input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus placeholder="ENTER EMAIL">
+
+        {% if form.password_needed %}
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerLoginPassword">{{ 'customer.login.password' | t }}</label>
+          <p id="modal-form-login-validate-password" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <div class="modal-form-password">
+          <input type="password" value="" name="customer[password]" id="ModalCustomerLoginPassword" class="modal-form-input modal-form-input-last input-full{% if form.errors contains 'password' %} error{% endif %}" placeholder="ENTER PASSWORD">
+          <img id="eye-icon-form-login" class="password-eye toggle-password" src="{{ "password-eye.svg" | asset_url }}" loading="lazy" loading="lazy" alt="password eye">
+        </div>
+        <div class="modal-redirect">
+          <p class="modal-redirect-text">Forgot to password?</p>
+          <p id="modal-redirect-to-recover-password" class="modal-redirect-text modal-redirect-link js-no-transition">
+            {% comment %}{{ 'customer.login.forgot_password' | t }}{% endcomment %}
+            Click here.
+          </p>
+        </div>
+        {% endif %}
+
+        <input type="submit" class="modal-form-input-last btn btn--full btn--no-animate" value="{% comment %}{{ 'customer.login.sign_in' | t }}{% endcomment %}login">
+        <div class="modal-redirect">
+          <p class="modal-redirect-text modal-redirect-text-last">{% comment %}{{ 'layout.customer.create_account' | t | customer_register_link }}{% endcomment %}Don’t have an account?</p>
+          <p id="modal-redirect-to-register" class="modal-redirect-text modal-redirect-text-last modal-redirect-link">
+            Sign up for free.
+          </p>
+        </div>
+        {% endform %}
+      </div>
+    </div>
+    
+    <div id="ModalCustomerRegister" class="modal-customer-register modal-container">
+      
+      <div class="customer-register-title modal-title" >
+        <h2 class="customer-register-title-text modal-title-text-before">SIGN UP</h2>
+        <h2 class="customer-register-title-text modal-title-text-after">FOR FREE</h2>
+      </div>
+      <div id="customer-register-form" class="modal-form">
+        {% form 'create_customer' %}
+          <input type="hidden" id="customer_tags" name="customer[tags]" value="vital club"/>
+        {{ form.errors | default_errors }}
+          <input type="hidden" name="return_to" value="/account" />
+          {%- comment -%}
+                    <script>
+              const user_registered = localStorage.getItem('userRegistered');
+              if (user_registered === 'true' && !window.location.href.includes('account')){
+                window.location.href = '/account';
+                localStorage.removeItem('userRegistered');
+                console.log(userRegistered);
+              }
+            </script>    
+          {%- endcomment -%}
+            
+        
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerRegisterFirstName">{{ 'customer.register.first_name' | t }}</label>
+          <p id="modal-form-register-validate-firstname" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <input type="text" name="customer[first_name]" id="ModalCustomerRegisterFirstName" class="modal-form-input input-full" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus placeholder="ENTER FIRST NAME">
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerRegisterLastName">{{ 'customer.register.last_name' | t }}</label>
+          <p id="modal-form-register-validate-lastname" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <input type="text" name="customer[last_name]" id="ModalCustomerRegisterLastName" class="modal-form-input input-full" {% if form.last_name %}value="{{ form.last_name }}"{% endif %} autocapitalize="words" placeholder="ENTER LAST NAME">
+        
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerRegisterEmail">{{ 'customer.register.email' | t }}</label>
+          <p id="modal-form-register-validate-email" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <input type="email" name="customer[email]" id="ModalCustomerRegisterEmail" class="modal-form-input input-full{% if form.errors contains 'email' %} error{% endif %}" {% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off" placeholder="ENTER EMAIL">
+        
+        {%- comment -%}
+        <div class="modal-form-label grid">
+          <label for="ModalCustomerRegisterPhone" class="modal-form-label-text grid__item one-half" >Phone Number</label>
+           <p id="modal-form-register-validate-phone" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <input type="text" class="modal-form-input input-full" id="ModalCustomerRegisterPhone" name="customer[note][phonenumber]" value="" placeholder="ENTER PHONE NUMBER" required>
+
+        {%- endcomment -%}
+        
+        
+        
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerRegisterPassword">{{ 'customer.register.password' | t }}</label>
+          <p id="modal-form-register-validate-password" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <div class="modal-form-password">
+          <input type="password" name="customer[password]" id="ModalCustomerRegisterPassword" class="modal-form-input modal-form-input-last input-full{% if form.errors contains 'password' %} error{% endif %}" placeholder="ENTER PASSWORD">
+          <img id="eye-icon-form-register" class="password-eye toggle-password" src="{{ "password-eye.svg" | asset_url }}" loading="lazy" alt="password eye">
+        </div>
+        <button id='to-confirm-email-btn' type="submit" class="modal-form-input-last btn btn--full btn--no-animate">create account</button>
+        <div class="modal-redirect">
+          <p class="modal-redirect-text modal-redirect-text-last">Already have an account?</p>
+          <p id="modal-redirect-to-login" class="modal-redirect-text modal-redirect-text-last modal-redirect-link">
+            Login
+          </p>
+        </div>
+        {%- comment -%}
+        <div class="modal-form-confirm-email custom-modal" id="modal-form-confirm-email">
+          <div class="modal-content">
+            <div class="modal-close-container">
+            <img id="modal-close" class="modal-close-icon" src="{{ "close-line.svg" | asset_url }}">
+          </div>
+          <div class="mail-img">
+            <svg width="60" height="40" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.503906 2.50696V37.4561L17.5473 19.9109L0.503906 2.50696Z" fill="#FFCC00"/>
+            <path d="M59.4899 2.50696V37.4561L42.5312 19.9816L59.4899 2.50696Z" fill="#FFCC00"/>
+            <path d="M1.79297 0.921753H58.0878L35.9631 23.9593C34.3884 25.5988 32.2135 26.5255 29.9405 26.5255C27.6674 26.5255 25.4925 25.5988 23.9179 23.9593L1.79297 0.921753Z" fill="#FFCC00"/>
+            <path d="M37.2394 25.1848C35.3412 27.1613 32.6809 28.2951 29.9405 28.2951C27.2002 28.2951 24.5398 27.1616 22.6417 25.185L18.8889 21.2773L1.79297 39.0782H58.0878L40.992 21.2773L37.2394 25.1848Z" fill="#FFCC00"/>
+            </svg>
+          </div>
+          <h2 class="customer-register-title-text modal-title-text-after">PLEASE CONFIRM EMAIL</h2>
+          <p>The email was sent to entered email address. Please check and confirm email.</p>
+          <a href="/account">
+           <input type="button" value="close" class="modal-form-input-last btn btn--full btn--no-animate">
+          </a>
+         
+          <div class="modal-redirect">
+          <p class="modal-redirect-text modal-redirect-text-last">Entered the wrong email?</p>
+          <p id="modal-redirect-to-register-2" class="modal-redirect-text modal-redirect-text-last modal-redirect-link">
+            Sign up
+          </p>
+        </div>
+        </div>
+        </div>
+     {%- endcomment -%}
+        {% endform %}
+      </div>
+    </div>
+    
+    <div id="ModalCustomerRecoverPassword" class="modal-customer-recover-password modal-container">
+      <div class="customer-recover-password-title modal-title" >
+        <h2 class="customer-recover-password-title-text modal-title-text-before">RESTORE</h2>
+        <h2 class="customer-recover-password-title-text modal-title-text-after">PASSWORD</h2>
+      </div>
+      <div class="modal-above-form-content">
+        <p class="modal-above-form-content-text">
+          Please enter the Email address your registered with in order to reset your password
+        </p>
+      </div>
+      <div id="customer-recover-password-form" class="modal-form">
+        {% assign redirect_url = canonical_url | remove: shop.url %}
+        {% assign customer_recover_password_redirect_url = "/account/recover?return_to=" | append: redirect_url %}
+        {% form 'recover_customer_password', action: customer_recover_password_redirect_url, id: 'customer_recover_password' %}
+        {{ form.errors | default_errors }}
+          
+        {% if form.posted_successfully? %}
+          <script>
+            var modal_recover_password_success = document.getElementById("recover_password_success_modal");
+            modal_recover_password_success.style.display = "flex";
+          </script>
+        {% endif %}
+
+        <div class="modal-form-label grid">
+          <label class="modal-form-label-text grid__item one-half" for="ModalCustomerRecoverPasswordEmail">{{ 'customer.register.email' | t }}</label>
+          <p id="modal-form-recover-password-validate-email" class="modal-form-validate grid__item one-half text-right">Please fill-in this field</p>
+        </div>
+        <input type="email" value="" name="email" id="ModalCustomerRecoverPasswordEmail" class="modal-form-input modal-form-input-last input-full" autocorrect="off" autocapitalize="off">
+
+        <input type="submit" class="btn btn--full btn--no-animate" value="{% comment %}{{ 'customer.recover_password.submit' | t }}{% endcomment %}send">
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script  type="text/javascript">
+  window.onload = function(){
+    var modal = document.getElementById("my-custom-modal");
+    var modal_recover_password_success = document.getElementById("recover_password_success_modal");
+    var log_in_open_btn = document.getElementById("open-login-modal");
+    var sign_up_open_btn = document.getElementById("open-signup-modal");
+    var mobile_btn = document.getElementById("mobile-open-custom-modal");
+
+    var close = document.getElementById("modal-close");
+    
+    var close_recover_password_success = document.getElementById("modal_close_recover_password_success");
+    
+    var btn_close_recover_password_success = document.getElementById("btn_close_recover_password_success");
+    
+    var back = document.getElementById("modal-back");
+    
+    var register_redirect_link = document.getElementById("modal-redirect-to-register");
+
+    var modal_form_confirm_email = document.getElementById("modal-form-confirm-email");
+    
+    var login_redirect_link = document.getElementById("modal-redirect-to-login");
+    
+    var recover_password_redirect_link = document.getElementById("modal-redirect-to-recover-password");
+    
+    var modal_customer_login = document.getElementById("ModalCustomerLogin");
+    
+    var modal_customer_register = document.getElementById("ModalCustomerRegister");
+    
+    var modal_customer_recover_password = document.getElementById("ModalCustomerRecoverPassword");
+    
+    var modal_recover_password_success = document.getElementById("recover_password_success_modal");
+
+
+    // log_in_open_btn.onclick = function() {
+    //   modal.style.display = "flex";
+    //   modal_customer_login.style.display = 'block';
+    // }
+    // sign_up_open_btn.onclick = function() {
+    //   modal.style.display = "flex";
+    // }
+
+    
+    // mobile_btn.onclick = function() {
+    //   modal.style.display = "flex";
+    // }
+
+    close.onclick = function() {
+      modal.style.display = "none";
+      modal_customer_register.style.display = 'none';
+      modal_customer_login.style.display = 'block';
+      modal_customer_recover_password.style.display = 'none';
+      back.style.display = 'none';
+    }
+    
+    close_recover_password_success.onclick = function() {
+      modal_recover_password_success.style.display = "none";
+    }
+    
+    btn_close_recover_password_success.onclick = function() {
+      modal_recover_password_success.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        modal_customer_register.style.display = 'none';
+        modal_customer_login.style.display = 'block';
+        modal_customer_recover_password.style.display = 'none';
+        back.style.display = 'none';
+      }
+    }
+
+    register_redirect_link.onclick = function() {
+      modal_customer_login.style.display = "none";
+      modal_customer_recover_password.style.display = "none";
+      modal_customer_register.style.display = "block";
+    }
+    
+    login_redirect_link.onclick = function() {
+      modal_customer_login.style.display = "block";
+      modal_customer_recover_password.style.display = "none";
+      modal_customer_register.style.display = "none";
+    }
+    
+    recover_password_redirect_link.onclick = function() {
+      modal_customer_login.style.display = "none";
+      modal_customer_register.style.display = "none";
+      modal_customer_recover_password.style.display = "block";
+      back.style.display = "block";
+      back.style.display = 'inline-block';
+    }
+    
+    back.onclick = function() {
+      modal_customer_login.style.display = "block";
+      modal_customer_register.style.display = "none";
+      modal_customer_recover_password.style.display = "none";
+      back.style.display = "none";
+    }
+    
+    var eye_icon_form_login = document.getElementById("eye-icon-form-login");
+    
+    eye_icon_form_login.onclick = function() {
+      var input_type_form_login = document.getElementById("ModalCustomerLoginPassword").type;
+      if (input_type_form_login == "password") {
+        document.getElementById("ModalCustomerLoginPassword").type = "text";
+      } else {
+        document.getElementById("ModalCustomerLoginPassword").type = "password";
+      }
+    }
+    
+    var eye_icon_form_register = document.getElementById("eye-icon-form-register");
+
+    eye_icon_form_register.onclick = function() {
+      var input_type_form_register = document.getElementById("ModalCustomerRegisterPassword").type;
+      if (input_type_form_register == "password") {
+        document.getElementById("ModalCustomerRegisterPassword").type = "text";
+      } else {
+        document.getElementById("ModalCustomerRegisterPassword").type = "password";
+      }
+    }
+  }
+  $("#customer_login").submit(function(event){
+    var email = $("#ModalCustomerLoginEmail").val();
+    var password = $("#ModalCustomerLoginPassword").val();
+    
+    if (email == "") {
+      $("#modal-form-login-validate-email").css("opacity", "1");
+      $("#ModalCustomerLoginEmail").addClass("modal-form-input-error");
+      event.preventDefault();
+    } else {
+      $("#modal-form-login-validate-email").css("opacity", "0");
+      $("#ModalCustomerLoginEmail").removeClass("modal-form-input-error");
+    }
+    
+    if (password == "") {
+      $("#modal-form-login-validate-password").css("opacity", "1");
+      $("#ModalCustomerLoginPassword").addClass("modal-form-input-error");
+      event.preventDefault();
+    } else {
+      $("#modal-form-login-validate-password").css("opacity", "0");
+      $("#ModalCustomerLoginPassword").removeClass("modal-form-input-error");
+    }
+  });
+  
+  $("#to-confirm-email-btn").on('click', function(event){
+  console.log('submit started');
+  event.preventDefault();
+  event.stopPropagation();
+  let validaton = true;
+  console.log(validaton)
+    var firstname = $("#ModalCustomerRegisterFirstName").val();
+    var lastname = $("#ModalCustomerRegisterLastName").val();
+    var email = $("#ModalCustomerRegisterEmail").val();
+    var password = $("#ModalCustomerRegisterPassword").val();
+
+    if (firstname == "") {
+      $("#modal-form-register-validate-firstname").css("opacity", "1");
+      $("#ModalCustomerRegisterFirstName").addClass("modal-form-input-error");
+      validaton = false;
+    } else {
+      $("#modal-form-register-validate-firstname").css("opacity", "0");
+      $("#ModalCustomerRegisterFirstName").removeClass("modal-form-input-error");
+    }
+
+    if (lastname == "") {
+      $("#modal-form-register-validate-lastname").css("opacity", "1");
+      $("#ModalCustomerRegisterLastName").addClass("modal-form-input-error");
+      validaton = false;
+    } else {
+      $("#modal-form-register-validate-lastname").css("opacity", "0");
+      $("#ModalCustomerRegisterLastName").removeClass("modal-form-input-error");
+    }
+
+    if (email == "") {
+      $("#modal-form-register-validate-email").css("opacity", "1");
+      $("#ModalCustomerRegisterEmail").addClass("modal-form-input-error");
+      validaton = false;
+    } else {
+      $("#modal-form-register-validate-email").css("opacity", "0");
+      $("#ModalCustomerRegisterEmail").removeClass("modal-form-input-error");
+    }
+
+    if (password == "") {
+      $("#modal-form-register-validate-password").css("opacity", "1");
+      $("#ModalCustomerRegisterPassword").addClass("modal-form-input-error");
+      validaton = false;
+    } else {
+      $("#modal-form-register-validate-password").css("opacity", "0");
+      $("#ModalCustomerRegisterPassword").removeClass("modal-form-input-error");
+    }
+    if (validaton){
+      console.log('validation is',validaton)
+       $("#create_customer").submit();
+       $("#to-confirm-email-btn").addClass('loading-account');
+       //TODO bad practise, double check how form success is working in the theme
+       localStorage.setItem('userRegistered','true');
+       console.log(userRegistered)
+    }
+    
+  });
+
+
+  $("#customer_recover_password").submit(function(event) {
+    var email = $("#ModalCustomerRecoverPasswordEmail").val();
+
+    if (email == "") {
+      $("#modal-form-recover-password-validate-email").css("opacity", "1");
+      $("#ModalCustomerRecoverPasswordEmail").addClass("modal-form-input-error");
+      event.preventDefault();
+    } else {
+      $("#modal-form-recover-password-validate-email").css("opacity", "0");
+      $("#ModalCustomerRecoverPasswordEmail").removeClass("modal-form-input-error");
+    }
+    
+  });
+  
+ 
+</script>

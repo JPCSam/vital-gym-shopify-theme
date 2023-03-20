@@ -1,0 +1,246 @@
+<header class="section-header">
+    <h1 class="section-header__title contact-us-title">CONTACT US</h1>
+</header>
+<div class="page-width">
+    <div class="contact__info">
+        <div class="info__address">
+            {%- for block in section.blocks -%}
+                {%- if block.type == 'address' -%}
+                    <p class="address__title">
+                        {{ block.settings.title }}
+                    </p>
+                    <p class="address__text">
+                        {{ block.settings.addres_text }}
+                    </p>
+                    {% if block.settings.phoneOn %}
+                        <a href="tel:{{ block.settings.phone }}" class="address__phone">{{ block.settings.phone }}</a>
+                    {% endif %}
+                    <img src="{{ block.settings.img | img_url: 'master' }}" alt="Headquarters office" class="contact__image lazyloading">
+                {%- endif -%}
+            {%- endfor -%}
+        </div>
+        <div class="contact__form">
+            {%- render 'contact-form.liquid', block: block -%}
+        </div>
+    </div>
+</div>
+<div class="contacts__map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1244.4237649694523!2d-0.680852991658542!3d51.40585616806648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767ec05ed0f8e9%3A0xb5c96b425b57fbbc!2sAscot%20SL5%209FE!5e0!3m2!1sen!2suk!4v1670414543812!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+{% stylesheet %}
+/*Contact*/
+h1.section-header__title.contact-us-title {
+    margin: 80px 0;
+}
+.contact__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address__title {
+  font-family: "Industry"!important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.address__text,
+.address__phone {
+  font-size: 20px;
+  line-height: 32px;
+}
+.address__text {
+  margin-bottom: 32px;
+}
+.address__phone {
+  display: block;
+  margin-bottom: 48px;
+}
+.info__address {
+  margin-right: 50px;
+}
+.contact__form .index-section{
+  margin: 0;
+}
+.contact__form form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 60px rgb(132 132 132 / 10%);
+  max-width: 670px;
+  padding: 60px 100px;
+
+}
+.contact__form{
+  z-index: 9;
+  background: white;
+}
+.contact__form .grid.grid--small {
+  display: flex;
+  flex-direction: column;
+}
+.template-page.contact .contact__form label {
+  font-family: "Industry Demi";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.contact__form .input-full {
+  margin-bottom: 24px;
+  padding: 15.4px 20px;
+}
+.contact__form .input-full:active,
+.contact__form .input-full:focus{
+  border: 1px solid #e8e8e1;
+  border-bottom: 2px solid #FFCC00;
+}
+.contact__form .btn {
+  font-family: "Industry Demi"!important;
+  margin-bottom: 32px;
+  line-height: 24px;
+}
+.contact__form ::-webkit-input-placeholder {
+  text-transform: none!important;
+}
+.protection + p{
+  margin-bottom: 0;
+}
+.contact__form textarea {
+  min-height: 172px;
+  max-height: 300px;
+}
+.contacts__map {
+  z-index: 1;
+  margin-top: -44px;
+  max-height: 600px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.contact__image {
+  max-width: 272px;
+}
+@media screen and (max-width:1024px) {
+  .contacts__map {
+    max-height: 300px;
+    margin-top: -24px;
+  }
+  .contact__form form{
+    max-width: 570px;
+    padding: 50px;
+  }
+  .contacts__map iframe{
+    height: 300px;
+  }
+  h1.section-header__title.contact-us-title {
+    margin: 30px 0;
+  }
+}
+@media screen and (max-width:768px) {
+  .template-page.contact .section-header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .contact__form form {
+    max-width: 490px;
+    padding: 25px;
+  }
+}
+@media screen and (max-width:480px) {
+  .contact__info{
+    flex-direction: column-reverse;
+  }
+  .info__address{
+    margin-right: 0;
+    margin-top: 25px;
+  }
+  .contact__image{
+    display: none;
+  }
+  .drawer__footer .grid.grid--full{
+    display: flex;
+    align-items: center;
+  }
+  .contacts__map {
+    margin-top: 0;
+  }
+}
+{% endstylesheet %}
+{% schema %}
+{
+    "name": "Contacts page",
+    "blocks": [
+        {
+            "type": "address",
+            "name": "Address",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Pick image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "OUR Headquarters"
+                },
+                {
+                    "type": "html",
+                    "id": "addres_text",
+                    "label": "Type address"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "phoneOn",
+                    "label": "Show phone",
+                    "default": false
+                },
+                {
+                    "type": "text",
+                    "id": "phone",
+                    "label": "Phone number"
+                }
+            ]
+        },
+        {
+        "type": "contact-form",
+        "name": "Contact form",
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "All submissions are sent to the customer email address of your store. [Learn more](https://help.shopify.com/en/manual/using-themes/change-the-layout/add-contact-form#view-contact-form-submissions)."
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_phone",
+            "label": "Show phone number"
+          },
+          {
+            "type": "checkbox",
+            "id": "narrow_column",
+            "label": "Narrow column",
+            "default": true
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "category": "Contact",
+            "name":"Contact us page"
+        }
+    ]
+}
+{% endschema %}

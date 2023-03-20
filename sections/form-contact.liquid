@@ -1,0 +1,55 @@
+<section class="form-contact-custom" id="contact">
+  <div class="contact-image"><img class="desktop" src="{{'contact.png' | asset_url}}" alt="VitalGym"></div>
+  <div class="form-contact">
+    {%- comment -%}
+     {% form 'contact' %}
+    <h2 class="desktop">Get a Free Consultation</h2>
+      <h2 class="mobile" >Get in touch</h2>
+      <p class="mobile">Enter your contact details below and choose a <strong>FREE perk</strong>. Our team will be in touch to arrange a no obligation consultation. </p>
+    {%  if form.posted_successfully? %}
+    <p class="note form-success">Thanks For Subscribing!</p>
+    {% endif %}
+    {% if form.errors  %}
+      <p>{{form.errors}}</p>
+    {% endif %}
+    
+      <input type="hidden" name="contact[form]" value="Home Gym Inquiry">
+
+    <div class="grid__item ">      
+      <label class="label">Full Name</label>
+      <input type="text" placeholder="Enter Full Name" class="input-full" name="contact[name]" autocapitalize="words" value="">
+    </div>
+    <div class="grid__item ">
+      <label class="label">Email</label>
+      <input type="text" placeholder="Enter Email" class="input-full" name="contact[email]" autocapitalize="words" value="">
+    </div>
+    <div class="grid__item ">
+      <label class="label">Telephone</label>
+      <input pattern="[0-9\-]*" placeholder="+44" type="number" class="input-full" name="contact[phone]" autocapitalize="words" value="">
+    </div>
+    <div class="grid__item">
+      <label class="label">Choose your FREE perk</label>
+      <select name="contact[free_perk]">
+        <option value="Monster Squat Rack">Monster Squat Rack</option>
+        <option value="Bench Press 2.0">Bench Press 2.0</option>
+        <option value="Lux Olympic Barbell">Lux Olympic Barbell
+
+      </select>
+    </div>
+    <div class="grid__item checkbox">
+      <input type="checkbox" id="ContactForm" name="contact[subscrible]" />
+      I am happy for Vital Gym to share my contact information on to our partners
+    </div>
+    <input type="submit" class="button btn" value="Submit"/>
+    {% endform %}
+    {%- endcomment -%}
+   <div class="klaviyo-form-Tt8hfi"></div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Form Contact",
+    "settings": []
+  }
+{% endschema %}
+

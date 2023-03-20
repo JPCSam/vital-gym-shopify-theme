@@ -1,0 +1,51 @@
+<section class="banner-guarantee container">
+  <div class="image-content">
+    <h1 class="mobile">Small or Big <br>
+        Spaces Welcome </h1>
+  	<img src="{{section.settings.image | img_url : "master"}}" alt="VitalGym">
+
+  </div>
+  <div class="text-content">
+    <div class="text-above">
+      <h1 class="desktop">Small or Big <br>
+        Spaces Welcome </h1>
+      <p>Size doesn’t matter; we can create amazing, functional home gyms in small areas, as well as big ones. Our experts can help to design an effective & efficient space for you, so that you make the most out of your space and create an inspiring place to work out. 
+      </p>
+      <p>No more excuses - get your gains from the comfort of your own home!</p>
+    </div>
+    <div class="text-below">
+      <div class="guarantee">
+        <h3>10 Year Guarantee</h3>
+        <p>Are provided for our buildings</p>
+      </div>
+      <div class="installtion">
+        <h3>2-5 Days</h3>
+        <p>For full installation</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Banner Content Guarantee",
+    "settings": [
+		{
+		"type": "image_picker",
+		"id": "image",
+		"label": "Image"
+		}
+	],
+	 "presets": [
+      {
+        "name": "Banner Content Guarantee",
+        "category": "Content"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

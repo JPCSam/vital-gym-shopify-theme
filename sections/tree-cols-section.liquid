@@ -1,0 +1,151 @@
+
+  <div class="section-blocks">
+    {%- for block in section.blocks -%}
+     <div class="col-wrapper">
+        <img src="{{block.settings.image | img_url : 'master'}}" alt="Icon">
+        <p class="block__heading">{{block.settings.title}}</p>
+        <p class="block___description">{{block.settings.text  | remove: '<p>'  | remove: '</p>'}}</p>
+        {% if block.settings.url != blank %}
+          <button class="block__btn" aria-label='Open link'>
+            <a href="{{block.settings.url}}" class="block__link">
+                {{block.settings.button_label}}
+            </a>
+            {% if block.settings.title == 'Student Discount' %}
+                <img class='arrow-btn' src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+            {% endif %} 
+        </button>
+        {% endif %}
+     </div>
+    {%- endfor -%}
+  </div>
+<style>
+.three-cols-section{
+    background: #FAFAFA;
+}
+.section-blocks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 130px 0 126px 0;
+}
+.col-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 270px;
+}
+p.block__heading {
+    font-family: 'Industry'!important;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+p.block___description {
+    font-family: 'Industry-Book'!important;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #616060;
+    margin-bottom:26px;
+}
+.block__btn{
+    display: flex;
+    align-items: center;
+}
+a.block__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C1C1D;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #1c1c1d;
+}
+@media screen and (max-width: 800px){
+    .col-wrapper{
+        max-width: 165px;
+    }
+}
+@media screen and (max-width: 575px){
+    .section-blocks {
+        flex-direction: column;
+        align-items: center;
+        padding: 67px 0 0 0;
+    }
+    .col-wrapper{
+        max-width: 80%;
+        margin-bottom: 50px;
+        text-align:center;
+    }
+    p.block___description{
+        font-size:15px;
+    }
+}
+</style>
+
+{% schema %}
+  {
+    "name": "3 columns with images",
+    "class": "three-cols-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button label",
+            "default": "More"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "3 columns with images",
+        "category": "Content",
+        "blocks": [
+          {
+            "type": "text_block"
+          },
+          {
+            "type": "text_block"
+          },
+          {
+            "type": "text_block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

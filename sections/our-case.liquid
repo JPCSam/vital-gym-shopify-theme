@@ -1,0 +1,112 @@
+<section class="our-case">
+  <div class="title-container">
+    <h1>Our Case Studies</h1>
+    <img src="{{ 'trustpilot.svg' | asset_url}}" alt="VitalGym">
+  </div>
+  <div class="reviews-slider">
+    {%- for block in section.blocks-%}
+    <div class="review-content">
+      <img src="{{block.settings.image | img_url : "master"}}" alt="VitalGym">
+      <div class="review-text">
+        <div class="review-info">
+          <img src="{{block.settings.avatar | img_url : "master"}}" alt="VitalGym">
+          <div class="review-name">
+            <h4>{{block.settings.name}}</h4>
+            <p>{{block.settings.location}}</p>
+          </div>
+          <p>{{block.settings.description}}</p>
+        </div>
+        <div class="review-price">
+          <div class="price-info price">
+            <label>From</label>
+            <h3>{{block.settings.price}}</h3>
+          </div>
+          <div class="price-info size">
+            <label>Size</label>
+            <h3>{{block.settings.size}}</h3>
+          </div>
+          <div class="price-info type">
+            <label>Type</label>
+            <h3>{{block.settings.type}}</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<div class="slick-navigation container">
+  <div class="slick-dots-custom"></div>
+  <div class="slick-button slick-left"><img src="{{ 'Arrow-Left.svg' | asset_url}}" loading="lazy" alt="left arrow"></div>
+  <div class="slick-button slick-right"><img src="{{ 'Arrow-Right.svg' | asset_url}}" loading="lazy" alt="right arrow"></div>
+</div>
+{% schema %}
+   {
+    "name": "Our Case",
+    "settings": [],
+	"max_blocks": 5,
+	"blocks": [
+          {
+            "type": "image",
+            "name": "Slide",
+            "settings": [
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              },
+  				{
+                "type": "image_picker",
+                "id": "avatar",
+                "label": "Avartar"
+              },
+  				{
+                "type": "text",
+                "id": "name",
+                "label": "Name"
+              },
+  				{
+                "type": "text",
+                "id": "location",
+                "label": "Location"
+              },
+  				{
+                "type": "text",
+                "id": "description",
+                "label": "Descrption"
+              },
+  				{
+                "type": "text",
+                "id": "price",
+                "label": "Price"
+              },
+  				{
+                "type": "text",
+                "id": "size",
+                "label": "Size"
+              },
+  				{
+                "type": "text",
+                "id": "type",
+                "label": "Type"
+              }
+  				
+			]
+          }
+		],
+	
+	 "presets": [
+      {
+        "name": "Our Case",
+        "category": "Content"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

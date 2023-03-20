@@ -1,0 +1,193 @@
+
+<div class="join">
+   <div class="page-width">
+      <div class="join__header">
+         {%- capture highlighted -%}
+            <span>{{- section.settings.section_title_highlighted -}}</span>
+         {%- endcapture -%}
+         <div class="join__header-title">{{ section.settings.section_title | replace: section.settings.section_title_highlighted, highlighted }}</div>
+         <div class="join__header-subtitle">{{ section.settings.section_subtitle }}</div>
+      </div>
+   </div>
+   <div class="join__split">
+      <div class="join__split-image">
+         <div class="join__split-image-desktop">
+            <img src="{{ section.settings.image_desktop | img_url: "master" }}" alt="{{ section.settings.image_desktop.alt }}">
+         </div>
+         <div class="join__split-image-mobile">
+            <img src="{{ section.settings.image_mobile | img_url: "900x" }}" alt="{{ section.settings.image_mobile.alt }}">
+         </div>
+      </div>
+      <div class="join__split-form">
+         <div class="join__split-form-wrapper">
+            {% form 'create_customer' %} 
+             <input type="hidden" id="customer_tags" name="customer[tags]" value="vital club"/>
+            {{ form.errors | default_errors }}
+
+            <label for="first_name">First Name</label>
+            <input type="text" value="" name="customer[first_name]" placeholder="ENTER FIRST NAME" required />
+            
+            <label for="last_name">Last Name</label>
+            <input type="text" value="" name="customer[last_name]" placeholder="ENTER LAST NAME" required />
+            
+            <label for="email">Email</label>
+            <input type="email" value="" name="customer[email]" placeholder="ENTER EMAIL" required />
+            
+            <label for="password">Password</label>
+            <div class="join__split-form-password">
+               <input type="password" value="" name="customer[password]" size="30" placeholder="ENTER PASSWORD" required />
+            </div>
+            <input type="submit" value="SIGN UP FREE" />
+            
+            {% endform %} 
+            <script>
+               $( document ).ready(function() {
+                  $("#create_customer").submit(function(){
+                     window.location.href = 'https://vitalgym.co/account';
+                  });
+               // (function() {
+               // var REDIRECT_PATH = '/account';
+
+               // var selector = '#create_customer, form[action$="/account"][method="post"]',
+               //    $form = document.querySelectorAll(selector)[0];
+
+               // if ($form) {
+               //    $redirect = document.createElement('input');
+               //    $redirect.setAttribute('name', 'return_to');
+               //    $redirect.setAttribute('type', 'hidden');
+               //    $redirect.value = REDIRECT_PATH;
+               //    $form.appendChild($redirect);
+               // }
+               // });
+            });
+            </script>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+{% schema %}
+   {
+      "name": "Join",
+      "settings": [
+         {
+            "type": "header",
+            "content": "Section header"
+         },
+         {
+            "type": "text",
+            "id": "section_title",
+            "label": "Title",
+            "default": "Join right now for free"
+         },
+         {
+            "type": "text",
+            "id": "section_title_highlighted",
+            "label": "Highlighted word",
+            "default": "Join"
+         },
+         {
+            "type": "textarea",
+            "id": "section_subtitle",
+            "label": "Subtitle",
+            "default": "To celebrate the launch of the Vital Club, we’re giving you full access for free. But hurry - this won’t be available for long! Just fill in the simple registration form and instantly become a member."
+         },
+         {
+            "type": "image_picker",
+            "id": "image_desktop",
+            "label": "Image for desktop"
+         },
+         {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Image for mobile"
+         }
+      ],
+      "presets": [
+         {
+            "category": "Vital Club",
+            "name":"Join us"
+         }
+      ]
+   }
+{% endschema %}
+<script>
+   //Vital Club landing
+document.addEventListener("DOMContentLoaded", function (event) {
+
+// Media breakpoint
+const breakpoint = {
+  "desktop": "(min-width: 900px)",
+  "mobile": "(max-width: 900px)"
+}
+
+// Scroll to sign up form
+const scrollBtn = document.querySelectorAll(".scroll-to-form");
+
+  scrollBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const signUpForm = document.querySelector(".join");
+    const scrollPosition = signUpForm.offsetTop;
+    window.scrollTo({
+      top: scrollPosition,
+      behavior: "smooth",
+    });
+    });
+  });
+
+// Change type of password input
+const eyeBtn = document.querySelector(".join__split-form-password-eye");
+const passwordInput = document.querySelector("input[type='password']");
+
+if (eyeBtn && passwordInput) {
+  eyeBtn.addEventListener("click", () => {
+    const type = passwordInput.getAttribute("type") == "password" ? "text" : "password";
+    passwordInput.setAttribute("type", type);
+  });
+}
+
+// Toggle slick elements in partners section for mobile
+const togglePartnersSlider = () => {
+if (window.matchMedia(breakpoint["mobile"]).matches) {
+    if (!document.querySelector(".partners__card-wrapper").classList.contains("slick-slider")) {
+      $(".partners__card-wrapper").slick({
+        dots: true,
+        arrows: false,
+        adaptiveHeight: true
+      });
+    }
+} else {
+  if (document.querySelector(".partners__card-wrapper").classList.contains("slick-slider")) {
+    $(".partners__card-wrapper").slick("unslick");
+    }
+  }
+};
+togglePartnersSlider();
+window.addEventListener("resize", togglePartnersSlider);
+
+// Toggle options of slick elements in reviews section
+const toggleReviewsSlider = () => {
+if (!document.querySelector(".reviews__slider").classList.contains("slick-slider")) {
+  const nextAarrow = "<button class='slick-next'><svg xmlns='http://www.w3.org/2000/svg' width='34' height='32' viewBox='0 0 34 32' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M5.90914 17.0971C5.37587 17.0238 4.96484 16.5606 4.96484 16.0001C4.96484 15.3887 5.45399 14.8931 6.05739 14.8931L25.2618 14.8931L18.3245 7.89154L18.2184 7.7676C17.9002 7.33486 17.9342 6.71974 18.3213 6.32588C18.747 5.89264 19.4388 5.89119 19.8664 6.32264L28.664 15.2005C28.7164 15.2514 28.7638 15.3075 28.8054 15.368C29.1032 15.8003 29.0613 16.4001 28.6795 16.7853L19.8663 25.6774L19.7435 25.7844C19.3151 26.105 18.7082 26.0679 18.3212 25.6741C17.8955 25.2408 17.8969 24.5398 18.3245 24.1084L25.2636 17.1072L6.05739 17.1072L5.90914 17.0971Z' fill='white' /></svg></button>";
+    const prevAarrow = "<button class='slick-prev'><svg xmlns='http://www.w3.org/2000/svg' width='34' height='32' viewBox='0 0 34 32' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M5.90914 17.0971C5.37587 17.0238 4.96484 16.5606 4.96484 16.0001C4.96484 15.3887 5.45399 14.8931 6.05739 14.8931L25.2618 14.8931L18.3245 7.89154L18.2184 7.7676C17.9002 7.33486 17.9342 6.71974 18.3213 6.32588C18.747 5.89264 19.4388 5.89119 19.8664 6.32264L28.664 15.2005C28.7164 15.2514 28.7638 15.3075 28.8054 15.368C29.1032 15.8003 29.0613 16.4001 28.6795 16.7853L19.8663 25.6774L19.7435 25.7844C19.3151 26.105 18.7082 26.0679 18.3212 25.6741C17.8955 25.2408 17.8969 24.5398 18.3245 24.1084L25.2636 17.1072L6.05739 17.1072L5.90914 17.0971Z' fill='white' /></svg></button>";
+    $(".reviews__slider").slick({
+      dots: true,
+      arrows: true,
+      nextArrow: nextAarrow,
+      prevArrow: prevAarrow
+    });
+}
+
+if (window.matchMedia(breakpoint["mobile"]).matches) {
+  $(".reviews__slider").slick("slickSetOption", "arrows", false, true);
+  $(".reviews__slider").slick("slickSetOption", "adaptiveHeight", true, true);
+} else {
+  $(".reviews__slider").slick("slickSetOption", "arrows", true, true);
+  $(".reviews__slider").slick("slickSetOption", "adaptiveHeight", false, true);
+  }
+}
+toggleReviewsSlider();
+window.addEventListener("resize", toggleReviewsSlider);
+});
+</script>

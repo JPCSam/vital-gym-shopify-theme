@@ -1,0 +1,377 @@
+    <div class="video-section">
+        <div class="bg_circle"></div>
+        <div class="bg_curve">
+            <img loading="lazy" src="{{'curv-line.svg' | asset_url}}" alt="curv line">
+        </div>
+        <div class="bg-x">
+            <img loading="lazy" src="{{'close-line.svg' | asset_url}}" alt="close line">
+        </div>
+        <div class="text-block">
+            <p class="upheading">{{section.settings.uptitle}}</p>
+            <p class="heading">{{section.settings.title}}</p>
+            <p class="rich-text">{{section.settings.text_description | remove: '<p>'  | remove: '</p>' }}</p>
+            <a href="{{section.settings.button_link}}" class="btn link_vital">
+                {{section.settings.button_label}}
+                <img loading="lazy" class='arrow-btn' src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+            </a>  
+        </div>
+        <div class="video-block">
+            <iframe width="578" height="351" src="https://www.youtube.com/embed/Emyd5mcaSDI?start=2" 
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,
+                span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+                <a href=https://www.youtube.com/embed/Emyd5mcaSDI?autoplay=1><img src=https://cdn.shopify.com/s/files/1/0365/5414/5928/files/PixelBook-Go-2.png?v=1622114507 alt='Video Vital Club by Vital Gym'></a>"
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <!-- <img class='play_btn' src="https://cdn.shopify.com/s/files/1/0365/5414/5928/files/play_btn.png?v=1622110835" alt=""> -->
+         <a href="{{section.settings.button_link}}" class="btn link_vital mobile">
+                {{section.settings.button_label}}
+                <img loading="lazy" class='arrow-btn' src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+            </a>  
+        </div>
+    </div>
+<style>
+.bg-x, .bg_curve, .bg_circle{
+    position: absolute;
+}
+.bg_circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid white;
+    bottom: 207px;
+    left: 559px;
+}
+.bg_curve {
+    bottom: 97px;
+    right: 480px;
+}
+.bg-x {
+    top: 87px;
+    right: 276px;
+}
+.text-block p{
+    margin: 0;
+    color: #fff;
+}
+.video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 86px;
+    background: #1C1C1D;
+    position: relative;
+}
+.video-section .text-block{
+    width: 50%;
+    position: relative;
+    padding: 100px 0 100px 26px;
+    margin-right: 99px;
+}
+.video-section:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 60px 0;
+    border-color: transparent #fff transparent transparent;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.video-block{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    min-width: 578px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.play_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-block .upheading{
+    font-family: 'Industry Demi'!important;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #868585;
+}
+.text-block .heading{
+    font-family: 'Industry'!important;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text-block .rich-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF!important;
+    margin: 12px 0 40px 0;
+}
+.btn.link_vital{
+    font-family: 'Industry Demi'!important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 17px 32px 15px 32px;
+    color: #1C1C1D;
+    text-align: center;
+    background: #FFCC00;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.link_vital.mobile{
+    display: none;
+}
+.text-block::before {
+    left: -26px;
+    top: -26px;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    z-index: 9;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+}
+.text-block::after {
+    left: -26px;
+    bottom: -26px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    z-index: 9;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+}
+.video-section::after {
+    right: 60px;
+    bottom: 60px;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    z-index: 9;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+}
+@media screen and (max-width: 1300px){
+    .video-section .text-block{
+        margin-right: 30px;
+    }
+    .text-block .heading{
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .video-block{
+        min-width: 520px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .text-block .upheading{
+        font-size: 28px;
+    }
+    .text-block .heading{
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .text-block .rich-text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 900px){
+    .video-block{
+        min-width: 400px;
+    }
+}
+@media screen and (max-width: 768px){
+     .video-section{
+        flex-direction: column;
+        padding: 30px;
+     }
+    .video-section .text-block{
+        width: 100%;
+        margin-right: 0;
+        padding: 50px 50px 32px 50px;
+    }
+    .text-block::before {
+        left: 0;
+        top: 26px;
+    }
+    .text-block::after {
+        right: 0;
+        top: 26px;
+        left: unset;
+        bottom: unset;
+        border: none;
+        border-top: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+
+    }
+    .video-block{
+        flex-direction: column;
+        padding: 0 50px 32px 50px;
+        width: 100%;
+    }
+   .btn.link_vital{
+        display: none;
+    }
+    .link_vital.mobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 32px;
+        align-items: baseline;
+    }
+    .video-section::after {
+        right: 26px;
+        bottom: 26px;
+    }
+    .video-block:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+}
+@media screen and (max-width: 480px){
+    
+    .bg-x, .bg_curve, .bg_circle{
+        display: none;
+    }
+    .video-section iframe {
+        max-height: 207px;
+        margin: 24px 0 36px 0;
+    }
+    .video-section{
+        flex-direction: column;
+        padding: 0 16px;
+    }
+    .video-section .text-block {
+        width: 100%;
+        text-align: center;
+        padding: 90px 0 0 0;
+        margin-right: 0;
+    }
+    .text-block .upheading {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .text-block .heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .text-block .rich-text {
+        font-family: "Industry-Book"!important;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 8px 0 0 0;
+    }
+    .btn.link_vital.mobile{
+        margin-top: 0;
+    }
+    .video-block{
+        width: 100%;
+        flex-direction: column;
+        padding: 0 0 90px 0;
+        min-width: unset;
+    }
+    .video-section:before{
+        border-width: 0 46px 46px 0;
+    }
+    .text-block::before {
+        left: 0px;
+        top: 46px;
+    }
+    .video-section::after {
+        right: 26px;
+        bottom: 26px;
+    }
+    .text-block::after {
+        right: 0px;
+        top: 46px;
+        left: unset;
+        bottom: 0;
+        border: none;
+        border-top: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+    .video-section::after {
+        right: 16px;
+        bottom: 46px;
+    }
+    .video-block:before {
+        left: 0;
+        bottom: 46px;
+        border-bottom: 2px solid #ffffff;
+        border-left: 2px solid #ffffff;
+        z-index: 9;
+        position: absolute;
+        content: "";
+        width: 12px;
+        height: 12px;
+    }
+}
+</style>
+
+{% schema %}
+  {
+    "name": "Video with CTA button",
+    "class": "video-section-with-cta",
+    "settings": [
+      {
+        "type": "text",
+        "id": "uptitle",
+        "label": "Upheading",
+        "default": "Become a member"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Vitalclub"
+      },
+      {
+        "type": "richtext",
+        "id": "text_description",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button label",
+        "default": "Learn more"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Video with CTA button",
+        "category": "Video"
+      }
+    ]
+}
+{% endschema %}

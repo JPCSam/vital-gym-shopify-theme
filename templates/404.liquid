@@ -1,0 +1,91 @@
+{%- comment -%}
+<div class="page-width page-content">
+ <header class="section-header section-header--404">
+    <h1 class="section-header__title">{{ 'general.404.title' | t }}</h1>
+    <div class="rte text-spacing">
+      {{ 'general.404.subtext_html' | t: url: routes.root_url }}
+    </div>
+  </header> 
+{%- endcomment -%}
+  <section class='page-404'>
+    <article class="block_left">
+      <h1>OOPS!</h1> <br>
+      <h2>404 – PAGE NOT FOUND</h2>
+      <p>It looks like the link you are trying to reach is broken or has been moved. 
+        Our technical team have been notified and will take a look to see whats going on.</p>
+      <button class="btn"><a href="https://vitalgym.co/">Go to SHOP</a></button>
+    </article>
+  </section>
+{%- comment -%}</div> {%- endcomment -%}
+{% style %}
+  body{
+    position:relative!important;
+  }
+  .site-header {
+    background: transparent;
+  }
+  #shopify-section-header{
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+  }
+  .main-content {
+    min-height: 90vh;
+  }
+  .page-404{
+    background:linear-gradient(180deg, rgb(0 0 0 / 49%) 0%, #000000 95.82%),
+    url('https://cdn.shopify.com/s/files/1/0365/5414/5928/files/shutterstock_1311381122_1.jpg?v=1620136704');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding: 250px 90px;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .page-404 h1{
+    font-family: 'Industry';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 110%;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display:block!important;
+    margin:0;
+  }
+  .page-404 h2{
+    font-size: 36px;
+    line-height: 110%;
+    color:#ffffff;
+    background:none;
+  }
+  .page-404 p{
+    font-family: 'Industry-Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    max-width:346px;
+  }
+  .page-404 button{
+    margin-top: 20px;
+    z-index:999;
+  }
+  footer{
+    display:none!important;
+  }
+  #NavDrawer {
+    z-index: 9999;
+  }
+ .js-drawer-open .main-content:after {
+    animation: none;
+  }
+{% endstyle %}
+ {% include 'BrokenLinkRedirect' %}

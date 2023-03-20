@@ -1,0 +1,173 @@
+<footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer-section">        
+    <div class="footer_left">
+        <div class="logo-socials">
+            <div class="footer__logo">
+                <img loading="lazy" src="{{ 'logo-white.svg' | asset_url }}" alt="VitalGym" width="130" height="35">
+            </div>
+            {%- render 'footer-logo-social', block: block -%}
+        </div>
+        <nav class="nav__wrapper">
+            {%- for block in section.blocks -%}
+                {%- if block.type == 'menu' -%}
+                    <div class="footer__nav">
+                        {%- render 'footer-menu', block: block -%}
+                    </div>
+                {%- endif -%}
+            {%- endfor -%}
+        </nav>
+        {%- for block in section.blocks -%}
+            {%- if block.type == 'right_block' -%}
+                <div class="subscribe__wrapper mobile">
+                    <p class="subscribe__title">
+                        {{ block.settings.title }}
+                    </p>
+                    <p class="subscribe__description">
+                        {{ block.settings.block_description }}
+                    </p>
+                    {%- render 'footer-newsletter', block: block -%}
+                </div>  
+            {%- endif -%} 
+        {%- endfor -%}
+        <div class="copyright__block">
+            <p class="copyright__text">&copy{{ section.settings.copyright }}</p>
+            <div class="pay__icons">
+                {%- if section.settings.show_payment_icons -%}                
+                    {%- unless shop.enabled_payment_types == empty -%}
+                    <ul class="inline-list payment-icons site-footer__bottom-block text-center">
+                      {% assign enabled_payment_types = "clearpay" | concat: shop.enabled_payment_types %}  
+                      {%- for type in shop.enabled_payment_types -%}
+                        <li class="icon--payment">
+                            {{ type | payment_type_svg_tag }}
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                    {%- endunless -%}
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+    <div class="footer_right">
+         <div class="logo-socials mobile">
+            <div class="footer__logo">
+                <img src="{{ 'logo-white.svg' | asset_url }}" alt="VitalGym" width="120" height="32">
+            </div>
+            {%- render 'footer-logo-social', block: block -%}
+        </div>
+        {%- for block in section.blocks -%}
+            {%- if block.type == 'right_block' -%}
+                <a href="{{ block.settings.url1 }}" class="footer-link yellow">
+                    {{ block.settings.url1_text }}
+                    <img src="{{ 'arrow-right-black.svg' | asset_url }}" alt="VitalGym">
+                </a>                
+                <div class="subscribe__wrapper">
+                    <p class="subscribe__title">
+                        {{ block.settings.title }}
+                    </p>
+                    <p class="subscribe__description">
+                        {{ block.settings.block_description }}
+                    </p>
+                   {%- render 'footer-newsletter', block: block -%}
+                </div>
+            {%- endif -%}
+        {%- endfor -%}
+    </div>
+</footer>
+{% schema %}
+{
+    "name": "Footer",
+    "max_blocks": 5,
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "show_payment_icons",
+            "label": "Enable social icon",
+            "default": true
+        },
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Chose logo image"
+        },
+        {
+            "type": "checkbox",
+            "id": "pay_icons",
+            "label": "Enable payment icons",
+            "default": true
+        },
+        {
+            "type": "textarea",
+            "id": "copyright",
+            "label": "Footer copyright",
+            "default": "2021 Vital Gym LTD - 71–75 Shelton Street, LONDON, WC2H 9JQ"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "menu",
+            "name": "Menu",
+            "settings": [
+                {
+                    "type": "checkbox",
+                    "id": "show_footer_title",
+                    "label": "Show title",
+                    "default": true
+                },
+                {
+                    "type": "link_list",
+                    "id": "menu",
+                    "label": "Choose a menu",
+                    "default": "footer",
+                    "info": "This menu won't show dropdown items"
+                }
+            ]
+        },
+        {
+            "type": "right_block",
+            "name": "Right block",
+            "settings": [
+                {
+                    "type": "url",
+                    "id": "url1",
+                    "label": "Custom link 1"
+                },
+                {
+                    "type": "text",
+                    "id": "url1_text",
+                    "label": "Link 1 text"
+                },
+                {
+                    "type": "url",
+                    "id": "url2",
+                    "label": "Custom link 2"
+                },
+                {
+                    "type": "text",
+                    "id": "url2_text",
+                    "label": "Link 2 text"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Subscribe"
+                },
+                {
+                    "type": "textarea",
+                    "id": "block_description",
+                    "label": "Text under title",
+                    "default": "Be notified about special offers, free giveaways, and once-in-a-lifetime deals."
+                }
+            ]
+        }
+    ],
+        "default": {
+      "settings": {},
+      "blocks": [
+        {
+          "type": "menu",
+          "settings": {}
+        }
+      ]
+    }
+}
+{% endschema %}

@@ -1,0 +1,65 @@
+<section class="home-gym-list container">
+  {%- if section.blocks.size > 0 -%}
+  <div class="home-gyms">
+    {%- for block in section.blocks-%}
+    <div class="gym-list">
+      <div class="gym-image"><img src="{{block.settings.image | img_url:'master' }}"></div>
+      <div class="gym-content">
+        <h3>{{block.settings.title}}</h3>
+        <p>{{block.settings.description}}</p>
+        <span>From: £{{block.settings.price}} </span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <a href="#contact" class="button btn">ENQUIRE NOW</a>
+  {% endif %}
+</section>
+{% schema %}
+  {
+    "name": "Home Gym List",
+    "settings": [],
+	"max_blocks": 4,
+	"blocks": [
+          {
+            "type": "text",
+            "name": "Step",
+            "settings": [
+				{
+                "type":"image_picker",
+                "id":"image",
+                "label":"Iamge"
+              },
+              {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+              },
+  			 {
+                "type": "text",
+                "id": "description",
+                "label": "Description"
+              },
+				{
+				"type" :"text",
+				"id" :"price",
+				"label":"Price"
+				}
+			]
+          }
+		],
+	
+	 "presets": [
+      {
+        "name": "How we work",
+        "category": "Content"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

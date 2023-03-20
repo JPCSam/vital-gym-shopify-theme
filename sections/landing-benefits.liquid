@@ -1,0 +1,141 @@
+<div class="benefits">
+   <div class="page-width">
+      <div class="benefits__header">
+         {%- capture highlighted -%}
+            <span>{{- section.settings.section_title_highlighted -}}</span>
+         {%- endcapture -%}
+         <div class="benefits__header-title">{{ section.settings.section_title | replace: section.settings.section_title_highlighted, highlighted }}</div>
+         <div class="benefits__header-subtitle">{{ section.settings.section_subtitle }}</div>
+      </div>
+      <div class="benefits__cards-container">
+         <div class="benefits__card">
+            <div class="benefits__card-icon">
+               <img src="{{ 'giveaway.svg' | asset_url}}" alt="VitalGym">
+            </div>
+            <div class="benefits__card-title">{{ section.settings.first_title }}</div>
+            <div class="benefits__card-subtitle">{{ section.settings.first_subtitle }}</div>
+         </div>
+         <div class="benefits__card">
+            <div class="benefits__card-icon">
+               <img src="{{ 'discount.svg' | asset_url}}" alt="VitalGym">
+            </div>
+            <div class="benefits__card-title">{{ section.settings.second_title }}</div>
+            <div class="benefits__card-subtitle">{{ section.settings.second_subtitle }}</div>
+         </div>
+         <div class="benefits__card">
+            <div class="benefits__card-icon">
+               <img src="{{ 'playlist.svg' | asset_url}}" alt="VitalGym">
+            </div>
+            <div class="benefits__card-title">{{ section.settings.third_title }}</div>
+            <div class="benefits__card-subtitle">{{ section.settings.third_subtitle }}</div>
+         </div>
+         <div class="benefits__card">
+            <div class="benefits__card-icon">
+               <img src="{{ 'refer.svg' | asset_url}}" alt="VitalGym">
+            </div>
+            <div class="benefits__card-title">{{ section.settings.fourth_title }}</div>
+            <div class="benefits__card-subtitle">{{ section.settings.fourth_subtitle }}</div>
+         </div>
+      </div>
+   </div>
+</div>
+
+{% schema %}
+   {
+      "name": "Benefits",
+      "settings": [
+         {
+            "type": "header",
+            "content": "Section header"
+         },
+         {
+            "type": "text",
+            "id": "section_title",
+            "label": "Title",
+            "default": "More vital benefits"
+         },
+         {
+            "type": "text",
+            "id": "section_title_highlighted",
+            "label": "Highlighted word",
+            "default": "benefits"
+         },
+         {
+            "type": "textarea",
+            "id": "section_subtitle",
+            "label": "Subtitle",
+            "default": "As well as discounts on our carefully selected partners, you’ll get access to a private portal where you can:"
+         },
+         {
+            "type": "header",
+            "content": "1st card"
+         },
+         {
+            "type": "text",
+            "id": "first_title",
+            "label": "Title",
+            "default": "Monthly Giveaway"
+         },
+         {
+            "type": "textarea",
+            "id": "first_subtitle",
+            "label": "Subtitle",
+            "default": "Go in the draw & you’ll get 12 chances of winning a Vital Gym product every year!"
+         },
+         {
+            "type": "header",
+            "content": "2nd card"
+         },
+         {
+            "type": "text",
+            "id": "second_title",
+            "label": "Title",
+            "default": "Discount Coupon"
+         },
+         {
+            "type": "textarea",
+            "id": "second_subtitle",
+            "label": "Subtitle",
+            "default": "£10 off your next Vital Gym purchase so you can kit out your home gym for less."
+         },
+         {
+            "type": "header",
+            "content": "3rd card"
+         },
+         {
+            "type": "text",
+            "id": "third_title",
+            "label": "Title",
+            "default": "Spotify Playlist"
+         },
+         {
+            "type": "textarea",
+            "id": "third_subtitle",
+            "label": "Subtitle",
+            "default": "Bored of your tunes & need some extra motivation? Every month, we curate playlists with the best tunes for working out."
+         },
+         {
+            "type": "header",
+            "content": "4th card"
+         },
+         {
+            "type": "text",
+            "id": "fourth_title",
+            "label": "Title",
+            "default": "Refer & Earn"
+         },
+         {
+            "type": "textarea",
+            "id": "fourth_subtitle",
+            "label": "Subtitle",
+            "default": "Refer a friend to the Vital Club and earn commission for every person who joins."
+         }
+      ],
+      "presets": [
+         {
+            "category": "Vital Club",
+            "name":"Benefits"
+         }
+      ]
+   }
+{% endschema %}

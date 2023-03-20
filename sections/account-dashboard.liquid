@@ -1,0 +1,198 @@
+<section class="tab dashboard">
+    <div class="dashboard-slider">
+        <div class="account-slider">
+            {%- for block in section.blocks-%}
+            <div class="slide">
+                <a href="{{ block.settings.url }}" target="_blank" class="image-content">
+                    <picture>
+                        {% if block.settings.image_mobile %}
+                        <source media="(max-width:992px)" srcset="{{block.settings.image_mobile | img_url : 'master'}}">
+                        {% endif %}
+                        <img src="{{block.settings.image | img_url : 'master'}}" alt="Flowers" style="width:auto;">
+                    </picture>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="slick-navigation container">
+            <div class="slick-dots-custom"></div>
+            <div class="slick-button slick-left">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
+            </div>
+            <div class="slick-button slick-right">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
+            </div>
+        </div>
+    </div>
+    <div class="dashboard-bottom">
+        {% assign Timestamp = section.settings.product_day | date: '%s' %}
+        {% assign  dateStart = 'now' | date: '%s' %}
+
+        {% comment %} difference in seconds {% endcomment %}
+        {% assign diffSeconds = Timestamp | minus: dateStart %}
+
+        {% comment %} difference in days {% endcomment %}
+        {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+        {% if diffDays < 0 %}
+        {% assign diffDays = 0 %}
+        {% endif %}
+        {% assign product = all_products[section.settings.featured_product] %}
+        <div class="dashboard-product">
+            <span class="product-count">
+                {{ diffDays }} DAYS LEFT
+            </span>
+            <div class="product-info">
+                <h3>{{section.settings.product_offer}}</h3>
+                <h2 class="product-title">{{product.title}}</h2>
+                <div class="product-price">
+                  <span class="product__price">{{product.price | money}}</span>
+<!--                     {% if section.settings.price_sale  %}
+                    <span class="product__price product__price--compare">{{product.price | money}}</span>
+                    <span class="product__price sale-price">{{ section.settings.price_sale }}</span>
+                    {% else %}
+                        
+                    {% endif %} -->
+                </div>
+                <form method="post" action="/cart/add" id="addCartForm">
+                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                    <button id='add-to-cart-dashboard' type='submit' class="btn add-to-cart add-cart-variant" data-percent="{{ section.settings.percent }}" data-product-id="{{product.variants[0].id}}">Add to cart</button>
+                </form>
+            </div>
+            <div class="product-image">
+                <img src="{{product.featured_image.src | img_url : 'master'}}" alt="VitalGym">
+            </div>
+        </div>
+        <div class="dashboard-gift">
+            <div class="give-away gift-container">
+                <h3>This Months Giveaway</h3>
+                <h2>{{section.settings.give_name}}</h2>
+                <img src="{{section.settings.give_image | img_url : 'master'}}" alt="VitalGym">
+            </div>
+            <div class="discount gift-container">
+                <div class="discount-code">
+                    <h3>DISCOUT CODE</h3>
+                    <h2>{{section.settings.discount}}</h2>
+                    <div class="discount-id">
+                        <input id="copy_discount" type="text" readonly  value="{{section.settings.discount_id}}"/>
+                        <button id="discount-copy">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
+                                <path d="M2.66667 3.00004V1.00004C2.66667 0.82323 2.7369 0.65366 2.86193 0.528636C2.98695 0.403612 3.15652 0.333374 3.33333 0.333374H11.3333C11.5101 0.333374 11.6797 0.403612 11.8047 0.528636C11.9298 0.65366 12 0.82323 12 1.00004V10.3334C12 10.5102 11.9298 10.6798 11.8047 10.8048C11.6797 10.9298 11.5101 11 11.3333 11H9.33333V13C9.33333 13.368 9.03333 13.6667 8.662 13.6667H0.671333C0.583418 13.6672 0.496265 13.6504 0.414882 13.6171C0.333498 13.5839 0.259489 13.5349 0.197106 13.4729C0.134723 13.411 0.0851953 13.3373 0.0513695 13.2561C0.0175437 13.175 8.62495e-05 13.088 0 13L0.00200001 3.66671C0.00200001 3.29871 0.302 3.00004 0.673334 3.00004H2.66667ZM1.33533 4.33337L1.33333 12.3334H8V4.33337H1.33533ZM4 3.00004H9.33333V9.66671H10.6667V1.66671h3V3.00004Z" fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="copied-alert">
+                      <img class="copied-alert-img" src="{{ 'check-icon.svg' | asset_url }}" alt="VitalGym">
+                      <h3 class="copied-alert-text">Code copied</h3>
+                    </div>
+                </div>
+                <a target="_blank" class="spotify" href="{{ section.settings.training_link }}">
+                        <div class="text-spotify">
+                            <h3>{{ section.settings.training_title }}</h3>
+                            <h2>{{section.settings.training}}</h2> 
+                        </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Account Dashboard",
+        "max_blocks": 5,
+        "blocks": [
+            {
+            "type": "image",
+            "name": "Slide",
+            "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_mobile",
+                        "label": "Image Mobile"
+                    },
+                    {
+                        "type": "url",
+                        "id": "url",
+                        "label": "Image Link"
+                    }
+                ]
+            }
+        ],
+        "settings": [
+            {
+                "type": "text",
+                "id": "percent",
+                "label": "Product Discount Code"
+            },
+            {
+                "type": "text",
+                "id": "price_sale",
+                "label": "Price After Sale",
+                "default" : "£179.00"
+            },
+            {
+                "type": "product",
+                "id": "featured_product",
+                "label": "Product"
+            },
+            {
+                "type":"text",
+                "id":"product_offer",
+                "label":"Offer Text",
+                "default":"EXLUSIVE VIP OFFER"
+            },
+            {
+                "type":"text",
+                "id":"product_day",
+                "label":"Date expired (Ex: March 20, 2021)",
+                "default":"March 20, 2021"
+            },
+            {
+                "type":"text",
+                "id":"give_name",
+                "label":"Giveaway Name",
+                "default":"Protein shaker"
+            },
+            {
+                "type":"image_picker",
+                "id":"give_image",
+                "label":"Giveaway Image"
+            },
+            {
+                "type":"text",
+                "id":"discount",
+                "label":"Discount",
+                "default":"£15 OFF COUPON"
+            },
+            {
+                "type":"text",
+                "id":"discount_id",
+                "label":"Discount Code",
+                "default":"FEB2JDA"
+            },
+            {
+                "type":"text",
+                "id":"training_title",
+                "label":"Training Title",
+                "default":"MARCH PLAYLIST"
+            },
+            {
+                "type":"text",
+                "id":"training",
+                "label":"Training Text",
+                "default":"Let’s GET training"
+            },
+            {
+                "type": "url",
+                "id": "training_link",
+                "label": "Training link"
+            }
+
+        ]
+    }
+{% endschema %}

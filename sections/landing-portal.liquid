@@ -1,0 +1,59 @@
+<div class="portal">
+   <div class="page-width">
+      <div class="portal__header">
+         <div class="portal__header-title">{{ section.settings.section_title }}</div>
+         <div class="portal__header-subtitle">{{ section.settings.section_subtitle }}</div>
+      </div>
+   </div>
+   <div class="portal__image">
+      <div class="page-width">
+         <div class="portal__image-desktop">
+            <img src="{{ section.settings.image_desktop | img_url: "x667" }}" alt="{{ section.settings.image_desktop.alt }}">
+         </div>
+      </div>
+      <div class="portal__image-mobile">
+         <img src="{{ section.settings.image_mobile | img_url: "x270" }}" alt="{{ section.settings.image_mobile.alt }}">
+      </div>
+   </div>
+   
+</div>
+
+{% schema %}
+   {
+      "name": "Portal",
+      "settings": [
+         {
+            "type": "header",
+            "content": "Section header"
+         },
+         {
+            "type": "textarea",
+            "id": "section_title",
+            "label": "Title",
+            "default": "SPECIAL PORTAL\nFOR MEMBERS"
+         },
+         {
+            "type": "textarea",
+            "id": "section_subtitle",
+            "label": "Subtitle",
+            "default": "Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines."
+         },
+         {
+            "type": "image_picker",
+            "id": "image_desktop",
+            "label": "Image for desktop"
+         },
+         {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Image for mobile"
+         }
+      ],
+      "presets": [
+         {
+            "category": "Vital Club",
+            "name":"Portal"
+         }
+      ]
+   }
+{% endschema %}

@@ -1,0 +1,475 @@
+{% capture _ %}{% increment counter %}{% endcapture %}
+{%- if section.blocks.size > 0 -%}
+<section class="slider-with-banners">
+  <div class="homepage-slider container">
+    {%- for block in section.blocks-%}    
+    
+    <div class="homepage-slide {% if block.settings.reversed_slide %}reversed{% endif %} {% if block.settings.show_fw %}slide-fullwidth{% endif %}">
+      {% unless block.settings.show_fw %}
+        <div class="slide__image-block">
+        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img lazyload" loading="lazy">
+        <img class="logo-vertical lazyload" loading="lazy" src="{{'vital-gym-logo.svg' | asset_url}}" alt="VitalGym">
+        <img class='x-absolute lazyload' loading="lazy" src="{{'cross-line.svg' | asset_url}}" alt="VitalGym">
+        <img class='curve-line lazyload' loading="lazy" src="{{'curv-line.svg' | asset_url}}" alt="VitalGym">
+      </div>
+      <div class="slide__text-block">
+          <p class="slide__header">{{block.settings.slide_header}}</p>
+          <p class="slide__description">{{block.settings.description}}</p>
+          <div class="btn-wrapper">
+              <a href="{{ block.settings.url }}" class="btn catalogue">
+                 {{ block.settings.btn_label }}
+                  <img class='arrow-btn lazyload' loading="lazy" src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+              </a>
+          </div>
+      </div>
+      {% else %}
+        <a href='{{block.settings.url}}' class="fullwidth-banner">
+          <img src="{{block.settings.image | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload desktop-banner">
+          <img src="{{block.settings.image_mob | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload mobile-banner">
+        </a>
+      {% endunless %}
+
+    </div>
+    {% endfor %}
+  </div>
+   <div class="slide__counter">
+      <p>
+      </p>
+      <span class="total-counter">
+        {%- for block in section.blocks-%}
+          {% if forloop.last %}
+            0{{forloop.index}}
+          {% endif %}
+        {% endfor %}
+      </span>
+</section>
+{% endif %}
+<style>
+@media screen and (max-width: 1550px){
+    /* .homepage-slider .slick-list,
+    .homepage-slide.slick-slide{
+      max-height: 500px;
+    } */
+}
+    .bg-img{
+      height: 100%;
+    }
+    .homepage-slider .slick-track{
+      background: #1c1c1d;
+    }
+    .slider-with-banners{
+      position: relative;
+    }
+    .homepage-slide {
+        display: flex!important;
+        flex-direction: row;
+    }
+    .homepage-slide.reversed {
+        flex-direction: row-reverse;
+    }
+    .slide__text-block {
+        background: #1c1c1d;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 51%;
+        padding: 0 100px;
+        position: relative;
+    }
+    .slide__header{
+        font-family:'Industry'!important;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 62px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .slide__description{
+        font-family: 'Industry'!important;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    .catalogue{
+        font-family: 'Industry Demi'!important;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #1C1C1D;
+        padding:16px 32px;
+        display:flex!important;
+        align-items:center;
+    }
+    .homepage-slider .slick-arrow{
+      top: unset;
+      bottom:35px;
+    }
+    .homepage-slider svg.icon.icon-chevron-right {
+        display: none;
+    }
+    .slide__counter p {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 0;
+    }
+    .total-counter{
+        font-size: 24px;
+        color: #ffffff;
+    }
+    .slide__image-block {
+        width: 49%;
+        position: relative;
+        background: #1c1c1d;
+    }
+    .reversed .slide__image-block{
+      display: flex;
+      justify-content: flex-end;
+
+    }
+    .slide__image-block img{
+        width: 100%;
+    } 
+    .slick-navigation{
+        position: absolute;
+        bottom: 53px;
+    }
+    .logo-vertical {
+        position: absolute;
+        width: 36px!important;
+        top: calc(50% - 36px);
+        margin-left: 86px;
+    }
+    .slide__image-block::before {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 92px;
+        width: 12px;
+        height: 12px;
+        border: 2px solid #FFFFFF;
+        border-radius: 50%;
+    }
+    .slide__text-block::before {
+      content: "";
+      position: absolute;
+      top: 50px;
+      right: 92px;
+      width: 12px;
+      height: 12px;
+      border: 2px solid #FFFFFF;
+      border-radius: 50%;
+    }
+    .btn-wrapper {
+      display: flex;
+    }
+    .slide__counter {
+      position: absolute;
+      bottom: 35px;
+      left: 130px;
+      display:flex;
+    }
+    .reversed .slide__image-block::before{
+      left: unset;
+      right: 86px;
+    }
+    .reversed .slide__text-block::before{
+      left: 92px;
+    }
+    .reversed .logo-vertical{
+      right:86px;
+    }
+    .x-absolute{
+      position: absolute;
+      height: 14px;
+      width: 14px!important;
+      top: 150px;
+      left: 277px;
+    }
+    .reversed .x-absolute{
+      left: unset;
+      right:287px;
+    }
+    .curve-line {
+      position: absolute;
+      width: 48px!important;
+      height: 6px;
+      bottom: 225px;
+      right: 130px;
+    }
+    .reversed .curve-line{
+      right: unset;
+      left: 130px;
+    }
+  .homepage-slider .slick-prev .icon{
+    display: none;
+  }
+  .homepage-slider .slick-prev {
+    left: 86px;
+  }
+  .homepage-slider .slick-next {
+    right: 86px;
+  }
+  .homepage-slider .slick-next.slick-arrow {
+    background: url('https://cdn.shopify.com/s/files/1/0365/5414/5928/files/Arrow-right-slider_cc17f8e0-cadd-4da0-a50e-416e9fdaf6e7.svg?v=1621870649');
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+  .homepage-slider .slick-prev.slick-arrow {
+    background: url('https://cdn.shopify.com/s/files/1/0365/5414/5928/files/arrow-left-slider.svg?v=1621870831');
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.homepage-slider .slick-prev.slick-arrow:hover{
+  transition: background .1s cubic-bezier(0, 1.38, 1, 1);
+  background: url('https://cdn.shopify.com/s/files/1/0365/5414/5928/files/arrow-left-yellow-slider.png?v=1622460591');
+}
+.homepage-slider .slick-next.slick-arrow:hover{
+  transition: background .1s cubic-bezier(0, 1.38, 1, 1);
+  background: url('https://cdn.shopify.com/s/files/1/0365/5414/5928/files/arrow-right-yellow-slider.png?v=1622460591');
+}
+@media only screen and (max-width: 1250px) {
+  .slide__text-block{
+    padding: 0 40px;
+  }
+  .slide__header{
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .slide__description{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .homepage-slider .slick-prev {
+    left: 40px;
+  }
+  .slide__counter{
+    left: 80px  ;
+  }
+  .reversed .slide__text-block::before, .slide__image-block::before {
+    left: 45px;
+  }
+  .logo-vertical{
+    margin-left: 45px;
+  }
+    .slide__counter{
+    bottom: 23px;
+  }
+  .homepage-slider .slick-arrow{
+    bottom: 13px;
+  }
+  .total-counter {
+    font-size: 20px;
+  }
+  .slide__counter p {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .slide__text-block {
+    padding: 0 20px;
+  }
+  .slide__header {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .slide__description {
+    font-size: 16px;
+    line-height: 20px;
+  } 
+  .catalogue{
+    padding: 10px 20px;
+  }
+  .slide__text-block::before{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px){
+  .slide__text-block{
+    justify-content: flex-start;
+    padding-top: 10px;
+  }
+  .slide__header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 480px){
+  .homepage-slide, .homepage-slide.reversed{
+    flex-direction: column;
+  }
+  .slide__image-block, 
+  .slide__text-block{
+    width: 100%;
+  }
+  .slide__text-block{
+    padding: 0 16px;
+    min-height: unset;
+  }
+  .curve-line{
+    right: 60px;
+    bottom: 80px;
+  }
+  .reversed .curve-line{
+    left: 60px;
+    bottom: 80px;
+  }
+  .slide__counter, .logo-vertical, .x-absolute, .slide__text-block::before{
+    display: none!important;
+  }
+  .slide__header{
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: -20px;
+    margin-bottom: 8px;
+  }
+  .slide__description{
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 60px;
+  }
+  a.btn.catalogue {
+    width: 100%;
+    justify-content: center;
+  } 
+  .homepage-slider .slick-dots{
+    bottom: 20px;
+  }
+  .homepage-slider .slick-dots li button:before{
+    background: #666666;
+    border: none;
+  }
+  .homepage-slider li.slick-active button:before{
+    background-color: #fff!important;
+  }
+  .btn-wrapper{
+    margin-bottom: 56px;
+  }
+  .homepage-slider .slick-list,
+  .homepage-slide.slick-slide{
+    max-height: unset;
+  }
+  
+}
+.fullwidth-banner,
+.fullwidth-banner img{
+  width: 100%;
+} 
+
+</style>
+<script>
+$(document).ready(function(){
+$(".homepage-slider").on("init", function(event, slick){
+    $(".slide__counter p").text('0' + parseInt(slick.currentSlide + 1) + ' / ');
+    // $(".total-counter").text('0' + slick.slideCount);
+    
+});
+
+$(".homepage-slider").on("afterChange", function(event, slick, currentSlide){
+    $(".slide__counter p").text('0' + parseInt(slick.currentSlide + 1) + ' / ');
+     $(".total-counter").text('0' + slick.slideCount);
+     console.log(slick.slideCount)
+});
+$('.homepage-slider').slick({
+      accessibility: false,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight:true,
+      arrows: true,
+      slidesToShow:1,
+      responsive: [{
+        breakpoint: 480,
+          settings: {
+            dots:true,
+            arrows:false,
+            autoplay:true,
+            autoplaySpeed:3000,
+            speed:400
+          }
+      }]
+    });
+});
+</script>
+{% schema %}
+  {
+    "name": "Home Page Slider",
+    "settings": [],
+	"max_blocks": 10, 
+	"blocks": [
+          {
+            "type": "image",
+            "name": "Slide",
+            "settings": [
+            {
+              "type": "checkbox",
+              "id": "show_fw",
+              "label": "Full width slide",
+              "info": "Only image, no text",
+              "default": false
+            },
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              },
+              {
+                "type": "image_picker",
+                "id": "image_mob",
+                "label": "Mobile image"
+              },
+              {
+                "type": "text",
+                "id": "slide_header",
+                "label": "Slide Header"
+              },
+              {
+                "type": "textarea",
+                "id": "description",
+                "label": "Description mobile",
+                "default": "CrossFit is a lifestyle characterized by safe, effective exercise and sound nutrition."
+              },
+              {
+                "type": "url",
+                "id": "url",
+                "label": "Url button mobile"
+              },
+              {
+                "type": "text",
+                "id": "btn_label",
+                "label": "Label button",
+                "default": "GO TO CATALOGUE"
+              },
+              {
+                "type": "checkbox",
+                "id": "reversed_slide",
+                "label": "Reverse slide",
+                "default": false
+              }
+			]
+          }
+		],
+	
+	 "presets": [
+      {
+        "name": "Home Page Slider",
+        "category": "Content"
+      }
+    ]
+  }
+{% endschema %}
+
+

@@ -1,0 +1,703 @@
+<section class="tab workouts">
+    {%- comment -%}
+     <div class="workouts__wrapper">
+        {% for block in section.blocks %}
+            <div class="mobile__wrapper">
+                <div class="bg__img_mob"  style="background:linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 100%),url({{ block.settings.img | img_url: '409x' }}) no-repeat right center;">
+                    <div class="block__type mobile">
+                        <p class="type">{{block.settings.type}}</p>
+                    </div>
+                </div>
+                <div class="workout__block" style="background:linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 58.64%),url({{ block.settings.img | img_url: '409x' }}) no-repeat right center;">
+                    <div class="text__wrapper">
+                        <div class="block__type">
+                            <p class="type">{{block.settings.type}}</p>
+                        </div>
+                        <div class="block__author">
+                            <p class="author">{{block.settings.author}}</p>
+                        </div>
+                        <div class="block__title">
+                            <p class="title">{{block.settings.title}}</p>
+                        </div>
+                        <div class="block__description">
+                            <p class="description">{{block.settings.description}}</p>
+                        </div>
+                        <ul class="workout-details">
+                            <li class="detail">Muscle group: <span class="detail-bold"> {{block.settings.muscle_group}}</span></li>
+                            <li class="detail">Level: <span class="detail-bold">{{block.settings.level}}</span> </li>
+                            <li class="detail">Intensity: <span class="detail-bold">{{block.settings.intensity}}</span></li>
+                            <li class="detail">Duration: <span class="detail-bold">{{block.settings.duration}}</span></li>
+                        </ul>
+                        <div class="block-cta">
+                            <button class="btn cta"  data-index="{{block.id}}">go to workout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="workouts__fullpage_wrapper">
+    {% for block in section.blocks %}
+    <div class="workouts__fullpage {{block.id}}">
+        <div class="disabled back-link mobile">
+            <span>
+                <img src="{{'back-arrow.svg' | asset_url}}" alt="">
+                Back
+            </span>
+        </div>
+        <div class="fullpage__block_top">
+            <div class="workout__video">
+                <iframe width="779" height="437" src="{{ block.settings.video_link }}"
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            <div class="workout__description">
+                <div class="block__author">
+                    <p class="author full">{{block.settings.author}}</p>
+                </div>
+
+                <div class="block__title">
+                    <p class="title full">{{block.settings.title}}</p>
+                </div>
+
+                <div class="block__description">
+                    <p class="description full">
+                        {% if block.settings.full_description != blank %}
+                            {{block.settings.full_description}}
+                        {% else %}
+                            {{block.settings.description}}
+                        {% endif %}
+                    </p>
+                </div>
+
+                <ul class="workout-details">
+                    <li class="detail full">Main goal: <span class="detail-bold"> {{block.settings.goal}}</span></li>
+                    <li class="detail full">Sets: <span class="detail-bold">{{block.settings.sets}}</span> </li>
+                    <li class="detail full">Reps: <span class="detail-bold">{{block.settings.reps}}</span></li>
+                    <li class="detail full">Intensity: <span class="detail-bold">{{block.settings.intensity}}</span></li>
+                    <li class="detail full">Powerlifting: <span class="detail-bold">{{block.settings.powerlifting}}</span></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="fullpage__block_bottom">
+            <div class="workout__text_block">
+                <p class="title">Equipment<br>for trainings</p>
+                <p class="description">For each of the areas of strength training in modern <br>
+                   times, there is a specially designed sports equipment. <br>
+                   It can be versatile or tailored for specific exercise.</p>
+            </div>
+            <div class="workout__products">
+                {% if block.settings.product_1 != blank %}
+                    <div class="workout__product grid-product " data-product-handle="{{ all_products[block.settings.product_1].handle }}">
+                        <div data-href="{{all_products[block.settings.product_1].url}}" class="workout__product_link">
+                            <div class="product__img">
+                                <img src="{{all_products[block.settings.product_1].featured_image.src | img_url : '145x'}}" alt="">
+                                <div class="view">
+                                    <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ all_products[block.settings.product_1].id }} small--hide" data-product-id="{{ all_products[block.settings.product_1].id }}">
+                                        <span class="quick__view quick-product__label">QUICK VIEW</span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <p class="product__title">{{all_products[block.settings.product_1].title}}</p>
+                        </div>
+                        {%- render 'quick-shop-modal', product: all_products[block.settings.product_1] -%}
+                    </div>               
+                {% endif %}
+                {% if block.settings.product_2 != blank %}
+                    <div class="workout__product grid-product " data-product-handle="{{ all_products[block.settings.product_2].handle }}">
+                        <div data-href="{{all_products[block.settings.product_2].url}}" class="workout__product_link">
+                            <div class="product__img">
+                                <img src="{{all_products[block.settings.product_2].featured_image.src | img_url : '145x'}}" alt="">
+                                <div class="view">
+                                    <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ all_products[block.settings.product_2].id }} small--hide" data-product-id="{{ all_products[block.settings.product_2].id }}">
+                                        <span class="quick__view quick-product__label">QUICK VIEW</span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <p class="product__title">{{all_products[block.settings.product_2].title}}</p>
+                        </div>
+                        {%- render 'quick-shop-modal', product: all_products[block.settings.product_2] -%}
+                    </div>
+                {% endif %}
+                {% if block.settings.product_3 != blank %}
+                    <div class="workout__product grid-product " data-product-handle="{{ all_products[block.settings.product_3].handle }}">
+                        <div data-href="{{all_products[block.settings.product_3].url}}" class="workout__product_link">
+                            <div class="product__img">
+                                <img src="{{all_products[block.settings.product_3].featured_image.src | img_url : '145x'}}" alt="">
+                                <div class="view">
+                                    <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ all_products[block.settings.product_3].id }} small--hide" data-product-id="{{ all_products[block.settings.product_3].id }}">
+                                        <span class="quick__view quick-product__label">QUICK VIEW</span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <p class="product__title">{{all_products[block.settings.product_3].title}}</p>
+                        </div>
+                        {%- render 'quick-shop-modal', product: all_products[block.settings.product_3] -%}
+                    </div>
+                {% endif %}
+                {% if block.settings.product_4 != blank %}
+                    <div class="workout__product grid-product " data-product-handle="{{ all_products[block.settings.product_4].handle }}">
+                        <div data-href="{{all_products[block.settings.product_4].url}}" class="workout__product_link">
+                            <div class="product__img">
+                                <img src="{{all_products[block.settings.product_4].featured_image.src | img_url : '145x'}}" alt="">
+                                <div class="view">
+                                    <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ all_products[block.settings.product_4].id }} small--hide" data-product-id="{{ all_products[block.settings.product_4].id }}">
+                                        <span class="quick__view quick-product__label">QUICK VIEW</span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <p class="product__title">{{all_products[block.settings.product_4].title}}</p>
+                        </div>
+                        {%- render 'quick-shop-modal', product: all_products[block.settings.product_4] -%}
+                    </div>
+                {% endif %}
+                {% if block.settings.product_5 != blank %}
+                    <div class="workout__product grid-product " data-product-handle="{{ all_products[block.settings.product_5].handle }}">
+                        <div data-href="{{all_products[block.settings.product_5].url}}" class="workout__product_link">
+                            <div class="product__img">
+                                <img src="{{all_products[block.settings.product_5].featured_image.src | img_url : '145x'}}" alt="">
+                                <div class="view">
+                                    <div class=" quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ all_products[block.settings.product_5].id }} small--hide" data-product-id="{{ all_products[block.settings.product_5].id }}">
+                                        <span class="quick__view quick-product__label">QUICK VIEW</span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <p class="product__title">{{all_products[block.settings.product_5].title}}</p>
+                        </div>
+                        {%- render 'quick-shop-modal', product: all_products[block.settings.product_5] -%}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    </div>
+    {%- endcomment -%}
+    <div class="notify-workouts">
+        <h3>VITAL WORKOUTS </h3>
+        <h2>COMING SOON</h2>
+        <p>We are working on a range of workout videos, specially-made 
+        by top trainers in the UK to help you achieve your fitness goals. 
+        Watch this space as they'll be launching soon...</p>
+    </div>
+   
+</section>
+
+<script>
+$(document).ready(function() {
+    if(window.matchMedia("(max-width: 480px)").matches) {
+        $('.workout__product_link').on('click', function(){
+            window.location.href = $(this).attr('data-href');
+        });
+    }
+  /*Switching workouts*/
+    var back_link = $('.back-link')
+    var fullpage = $('.workouts__fullpage')
+    $('.cta').on('click',function(){
+        $('.workouts__wrapper').addClass('disabled');
+        var index = $(this).attr('data-index');
+        if(fullpage.hasClass(index)){
+            $('.workouts__fullpage'+'.'+index).addClass('active');
+        }
+        back_link.removeClass('disabled');
+        $('.account-menu li:not(.back-link)').fadeOut();
+    });
+    back_link.on('click',function(){
+        $('.workouts__wrapper').removeClass('disabled');
+        $(this).addClass('disabled');
+        fullpage.removeClass('active');
+        $('.account-menu li:not(.back-link)').fadeIn();
+    });
+});
+</script>
+
+<style>
+    .modal__inner .grid__item{
+        padding-left: 0;
+    }
+    .modal__inner .product-single__meta{
+        padding-left: 20px;
+    }
+    .modal__inner p,
+    .modal__inner span,
+    .modal__inner li,
+    .modal__inner h1,
+    .modal__inner h2,
+    .modal__inner h3,
+    .modal__inner h4{
+        color: black!important;
+    }
+    .workout__product .quick-product__btn{
+        background: none;
+        top: unset;
+        right: unset;
+    }
+    .modal__inner .product-single__title{
+        font-family: 'Industry-Bold'!important;
+    }
+    .shopify-payment-button span{
+        color: #fff!important;
+    }
+    .modal__inner .grid{
+        display: flex;
+    }
+    .back-link.mobile,
+    .modal__inner .pagination-link:nth-child(3) {
+        display: none;
+    }
+    .back-link span{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .tab.workouts{
+        position: relative;
+    }
+    .bg__img_mob{
+        display: none;
+    }
+    .block__type.mobile{
+        display: none;
+    }
+    .mobile__wrapper {
+        width: 48%;
+        float: left;
+    }
+    .mobile__wrapper:nth-child(odd){
+        margin-right: 30px;
+    }
+    .workout__block{
+        position: relative;
+        /* float: left;
+        width: 48%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        padding: 30px 0 30px 36px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        margin-bottom: 30px;
+    }
+    .workouts__wrapper.disabled{
+        display:none;
+    }
+    /* .workout__block:nth-child(odd){
+        margin-right: 30px;
+    } */
+    .workout__block p{
+        margin-bottom: 0;
+    }
+    .fullpage__block_top p{
+        margin-bottom: 16px;
+    }
+    .block__type {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #000;
+        padding: 10px 16px;
+    }
+    .type {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .author {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        color: #666666!important;
+    }
+    .title {
+        margin-top: 8px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        font-family: 'Industry'!important;
+    }
+    .block__description{
+        max-width: 307px;
+    }
+    .description,
+    .detail {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+        color: #EEEEEE!important;
+        font-family: 'Industry-Light'!important;
+    }
+    .workout-details{
+        margin: 8px 0 0 0;
+    }
+    .workout-details {
+        margin: 8px 0 16px 16px;
+    }
+    .detail-bold{
+        font-family: 'Industry-Medium'!important;
+    }
+    .workouts__wrapper.disabled{
+        display: none;
+    }
+    @media screen and (max-width:800px){
+        .workout__block,
+        .mobile__wrapper{
+            width: 100%;
+            float: unset;
+        }
+    }
+    @media screen and (max-width:480px){
+        .block-cta{
+            width: 100%;
+        }
+        .cta{
+            min-width: 100%;
+        }
+        .workout__block{
+            padding:20px;
+            margin-bottom: 20px;
+            background: #000!important;
+        }
+    }
+    /*Fullpage workout description*/
+    .workouts__fullpage {
+        display: none;
+        flex-direction: column;
+        position: relative;
+    }
+    .workouts__fullpage.active{
+        display: flex;
+    }
+    .fullpage__block_top {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .workout__video {
+        margin-right: 30px;
+    }
+    .author.full {
+        font-size: 16px;
+    }
+    .title.full {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .description.full,
+    .detail.full {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .workouts__fullpage .block__description{
+        max-width: 496px;
+    }
+    .fullpage__block_bottom {
+        display: flex;
+        background: #000;
+        padding: 20px 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fullpage__block_bottom p{
+        margin: 0 0 6px 0!important;
+    }
+    .workout__products {
+        display: flex;
+    }
+    .workout__product {
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        margin-left: 24px;
+    }
+    .product__title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .product__img{
+        position: relative;
+        max-width: 145px;
+    }
+    .view {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: none;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .quick__view {
+        font-size: 16px;
+        font-family: 'Industry-Bold'!important;
+        line-height: 24px;
+        text-align: center;
+    }
+    @media (hover: hover) {
+        .workout__product:hover .view{
+            display: flex;
+        }
+    }
+    .product__modal-wrapper{
+        position: fixed;
+        background: rgba(102, 102, 102, 0.6);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .product__modal-wrapper.active{
+        display: flex;
+        transition: all 0.3s ease-in;
+    }
+    .product__modal {
+        width: 728px;
+        background: #fff;
+        height: 632px;
+        overflow: scroll;
+    }
+    body.template-customers-account .main-content .product__modal,
+    .product__modal p,.product__modal h4, .product__modal span, .product__modal li{
+        color:#1c1c1d!important;
+    }
+    .product__modal .grid{
+        margin-left: -0px;
+    }
+    @media screen and (max-width:1024px) {
+        .fullpage__block_bottom{
+            padding: 12px 20px;
+        }
+        .workout__product{
+            margin-left: 12px;
+        }
+        .workout__video{
+            width: 65%;
+        }
+        .modal__inner .product__main-photos .slick-track{
+            height: 300px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .modal__inner .product__main-photos .slick-track {
+            height: 250px;
+        }
+        .fullpage__block_bottom .title{
+            font-size: 20px;
+        }
+        .fullpage__block_top{
+            flex-direction: column;
+        }
+        .workout__video{
+            width: 100%;
+            margin-right: 0;
+        }
+        .workouts__fullpage .block__description{
+            max-width: 100%;
+        }
+        .back-link.mobile{
+            display: flex;
+            margin-bottom: 16px;
+        }
+    }
+    @media screen and (max-width:480px) {
+        .fullpage__block_top{
+            flex-direction: column-reverse;
+        }
+        .workout__video iframe{
+            height: 250px;
+        }
+        .fullpage__block_bottom {
+            padding: 12px;
+            flex-direction: column;
+            align-items: baseline;
+        }
+        .workout__products{
+            display: block;
+        }
+        .workout__product {
+            margin-left: 0;
+            float: left;
+            width: 47%;
+        }
+        .workout__product:nth-child(odd){
+            margin-right: 12px;
+        }
+        .workout__product:nth-child(3) {
+            clear: both;
+        }
+        .product__img{
+            max-width: 100%;
+            width: 100%;
+        }
+        .product__img img{
+            width: 100%;
+        }
+        .workout__text_block {
+            margin-bottom: 12px;
+        }
+        .bg__img_mob{
+            display: flex;
+            padding: 150px;
+            transform: scale(-1, 1);
+            position: relative;
+        }
+        .block__type{
+            display: none;
+        }
+        .block__type.mobile{
+            transform: scale(1, -1);
+            display: flex;
+            left: 0;
+            right: unset;
+        }
+        .type {
+            transform: rotate(180deg);
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    section.tab.workouts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+{% schema %}
+{
+    "name": "Workouts",
+    "settings": [
+        
+    ],
+    "blocks":[
+        {
+            "type": "workout",
+            "name": "Workout",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Workout image"
+                },
+                {
+                    "type": "text",
+                    "id": "video_link",
+                    "label": "Video link"
+                },
+                {
+                    "type": "text",
+                    "id": "author",
+                    "label": "Author"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Workout title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "description",
+                    "label": "Workout description"
+                },
+                {
+                    "type": "textarea",
+                    "id": "full_description",
+                    "label": "Workout fullpage description"
+                },
+                {
+                    "type": "text",
+                    "id": "muscle_group",
+                    "label": "Muscle group"
+                },
+                {
+                    "type": "text",
+                    "id": "level",
+                    "label": "Workout level"
+                },
+                {
+                    "type": "text",
+                    "id": "intensity",
+                    "label": "Workout intensity"
+                },
+                {
+                    "type": "text",
+                    "id": "duration",
+                    "label": "Workout duration"
+                },
+                {
+                    "type": "text",
+                    "id": "type",
+                    "label": "Workout training type"
+                },
+                {
+                    "type": "text",
+                    "id": "goal",
+                    "label": "Main goal"
+                },
+                {
+                    "type": "text",
+                    "id": "sets",
+                    "label": "Sets"
+                },
+                {
+                    "type": "text",
+                    "id": "reps",
+                    "label": "Reps"
+                },
+                {
+                    "type": "text",
+                    "id": "powerlifting",
+                    "label": "Powerlifting"
+                },
+                {
+                    "type": "product",
+                    "id": "product_1",
+                    "label": "Product 1"
+                },
+                {
+                    "type": "product",
+                    "id": "product_2",
+                    "label": "Product 2"
+                },
+                {
+                    "type": "product",
+                    "id": "product_3",
+                    "label": "Product 3"
+                },
+                {
+                    "type": "product",
+                    "id": "product_4",
+                    "label": "Product 4"
+                },
+                {
+                    "type": "product",
+                    "id": "product_5",
+                    "label": "Product 5"
+                }
+                
+            ]
+        }
+    ]
+}
+{% endschema %}

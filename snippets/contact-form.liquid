@@ -1,0 +1,55 @@
+{%- liquid
+assign blockId = block.id
+if product
+assign blockId = block.id | append: product.id
+endif
+-%}
+
+
+{%- assign form_id = 'contact-' | append: blockId -%}
+{%- form 'contact', id: form_id  -%}
+
+  {%- if form.posted_successfully? -%}
+    <p class="note note--success">
+      {{ 'contact.form.post_success' | t }}
+    </p>
+  {%- endif -%}
+
+  {{ form.errors | default_errors }}
+
+  <div class="contact__fields">
+    <div class="field">
+      <label for="ContactFormName-{{ blockId }}">{{ 'contact.form.name' | t }}</label>
+      <input placeholder="Enter Name" type="text" id="ContactFormName-{{ blockId }}" class="input-full" name="contact[name]" autocapitalize="words" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}">
+    </div>
+
+    <div class="field">
+      <label for="ContactFormEmail-{{ blockId }}">{{ 'contact.form.email' | t }}</label>
+      <input placeholder="Enter Email" type="email" id="ContactFormEmail-{{ blockId }}" class="input-full" name="contact[email]" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+    </div>
+  </div>
+
+  {%- if block.settings.show_phone -%}
+    <label for="ContactFormPhone-{{ blockId }}">{{ 'contact.form.phone' | t }}</label>
+    <input type="tel" id="ContactFormPhone-{{ blockId }}" class="input-full" name="contact[phone]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+  {%- endif -%}
+
+  <label for="ContactFormMessage-{{ blockId }}">{{ 'contact.form.message' | t }}</label>
+  <textarea placeholder="Type the message here..." rows="5" id="ContactFormMessage-{{ blockId }}" class="input-full" name="contact[body]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+  <button type="submit" class="btn">
+    {{ 'contact.form.send' | t }}
+  </button>
+
+  {% comment %}
+    Remove the following three lines of code to remove the note
+    about being protected by Google's reCAPTCHA service.
+    By removing it, the small reCAPTCHA widget will appear in the
+    bottom right corner of the page.
+  {% endcomment %}
+  <p class="protection">{{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}</p>
+
+{%- endform -%}
+
+
+

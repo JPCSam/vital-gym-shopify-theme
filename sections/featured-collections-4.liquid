@@ -1,0 +1,275 @@
+{%- liquid
+  assign collection1 = collections[section.settings.collection1]
+  assign collection2 = collections[section.settings.collection2]
+  assign collection3 = collections[section.settings.collection3]
+  assign collection4 = collections[section.settings.collection4]
+  assign collection5 = collections[section.settings.collection5]
+  assign collection6 = collections[section.settings.collection6]
+  assign collection1_img = section.settings.collection1_img
+  assign collection2_img = section.settings.collection2_img
+  assign collection3_img = section.settings.collection3_img
+  assign collection4_img = section.settings.collection4_img
+  assign collection5_img = section.settings.collection5_img
+  assign collection6_img = section.settings.collection6_img
+-%}
+<div class="page-width">
+    <div class="main-collection__grid">
+        <div class="grid__row">
+            <div class="grid__item_double">
+                <a href="{{collection1.url}}" class="go-to lazyload" style="margin-bottom: 30px;">
+                    <div class="image__wrapper lazyload">
+                        <div class="collection__wrapper" style="background-image: url({{collection1_img  | img_url: '670x' }});">
+                            <div class="collection__link">
+                                <p>{{collection1.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{collection2.url}}" class="go-to lazyload">
+                    <div class="image__wrapper lazyload">
+                        <div class="collection__wrapper" style="background-image: url({{collection2_img  | img_url: '670x' }});">
+                            <div class="collection__link">
+                                <p>{{collection2.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                <div class="grid__item_tall" style="margin-left: 30px;">
+                    <a href="{{collection3.url}}" class="go-to lazyload">
+                        <div class="image__wrapper-tall lazyload">
+                            <div class="collection__wrapper" style="background-image: url({{collection3_img  | img_url: '470x' }});">
+                                <div class="collection__link">
+                                    <p>{{collection3.title}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+        <div class="grid__row">
+            <div class="grid__item_tall" style="margin-top: 30px; margin-right: 30px;">
+                <a href="{{collection4.url}}" class="go-to lazyload">
+                    <div class="image__wrapper-tall lazyload">
+                        <div class="collection__wrapper" style="background-image: url({{collection4_img  | img_url: '470x' }});">
+                            <div class="collection__link">
+                                <p>{{collection4.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid__item_double">
+                <a href="{{collection5.url}}" class="go-to lazyload" style="margin-bottom: 30px;">
+                    <div class="image__wrapper lazyload">
+                        <div class="collection__wrapper" style="background-image: url({{collection5_img  | img_url: '670x' }});">
+                            <div class="collection__link">
+                                <p>{{collection5.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{collection6.url}}" class="go-to lazyload">
+                    <div class="image__wrapper lazyload">
+                        <div class="collection__wrapper" style="background-image: url({{collection6_img  | img_url: '670x' }});">
+                            <div class="collection__link">
+                                <p>{{collection6.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .image__wrapper {
+        max-width: 678.3px;
+        overflow: hidden;
+    }
+    .image__wrapper-tall{
+        max-width: 511.7px;
+        overflow: hidden;
+    }
+    .collection__wrapper:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease;
+    }
+    .go-to{
+        width:100%;
+        height:100%;
+    }
+    .main-collection__grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items:center;
+        margin-bottom: 120px;
+    }
+    .grid__row {
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        max-height: 670px;
+        margin-bottom: 30px;
+    }
+    .grid__item_double {
+        display: flex;
+        flex-direction: column;
+        width: 57%;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid__item_tall {
+        width: 43%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .collection__link {
+        display: flex;
+        justify-content: center;
+    }
+    .collection__link p{
+        background: #1C1C1D;
+        padding: 24px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0;
+    }
+    .collection__wrapper{
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+    .grid__item_double .collection__wrapper {
+        padding: 124px 0;
+    }
+    .grid__item_tall .collection__wrapper{
+        padding: 299px 0;
+    }
+    @media screen and (max-width:850px){
+        .grid__item_tall .collection__wrapper{
+            padding: 174.5px 0;
+        }
+        .grid__item_double .collection__wrapper {
+            padding: 62px 0;
+        }
+        .grid__row{
+            margin-bottom: 0;
+        }
+    }
+    @media screen and (max-width:480px){
+        .grid__row{
+            flex-direction: column;
+            margin-bottom: 0
+        }
+        .grid__item_double,
+        .grid__item_tall{
+            width: 100%;
+        }
+        .grid__item_tall{
+            margin: 0!important;
+        }
+        .grid__item_double .collection__wrapper,
+        .grid__item_tall .collection__wrapper{
+            padding: 67px 0;
+        }
+        .collection__link p{
+            font-size: 14px;
+            padding: 6px;
+        }
+        .go-to {
+            margin: 0 0 15px 0!important;
+        }
+        .main-collection__grid{
+            margin-bottom: 50px;
+        }
+    }
+</style>
+{% schema %}
+    {
+        "name": "Collection list 4",
+        "settings": [
+            {
+            "type": "text",
+            "id": "title",
+            "default": "Main product collections",
+            "label": "Heading"
+            },
+            {
+                "type": "collection",
+                "id": "collection1",
+                "label": "Colection 1"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection1_img",
+                "label": "Collection 1 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection2",
+                "label": "Colection 2"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection2_img",
+                "label": "Collection 2 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection3",
+                "label": "Colection 3"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection3_img",
+                "label": "Collection 3 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection4",
+                "label": "Colection 4"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection4_img",
+                "label": "Collection 4 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection5",
+                "label": "Colection 5"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection5_img",
+                "label": "Collection 5 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection6",
+                "label": "Colection 6"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection6_img",
+                "label": "Collection 6 image"
+            }
+        ],
+        "presets": [{
+        "name": "Collection list 4",
+        "category": "Collection"
+        }]
+    }
+{% endschema %}

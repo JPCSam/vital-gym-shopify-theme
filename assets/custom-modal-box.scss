@@ -1,0 +1,259 @@
+.custom-modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999999999999999;
+
+  .modal-content {
+    background-color: #1B1C1F;
+    margin: auto;
+    padding: 16px;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .modal-back-container {
+    float: left;
+    cursor: pointer;
+    line-height: 9px;
+    display: none;
+  }
+
+  .modal-back-icon {
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  .modal-back-text {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    line-height: 21px;
+    font-family: "Industry" !important;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  .modal-close-container {
+    float: right;
+    cursor: pointer;
+  }
+
+  .modal-container {
+    padding: 25px 0;
+    max-width: 426px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .modal-title {
+    text-align: center;
+  }
+
+  .modal-title-text-before, .modal-title-text-after {
+    font-family: "Industry" !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    background: none;
+    display: inline-block !important;
+  }
+
+  .modal-title-text-before {
+    color: #FFCC00;
+  }
+
+  .modal-title-text-after {
+    color: #FFFFFF;
+  }
+
+  .modal-form {
+    max-width: 344px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .modal-form-label-text {
+    font-family: 'Industry';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+    text-transform: none;
+    letter-spacing: 0;
+    display: inline-block;
+    width: 50%;
+    cursor: default;
+  }
+
+  .modal-form-validate {
+    font-family: "Industry" !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #D12A2A;
+    padding: 0;
+    opacity: 0;
+    margin-bottom: 4px;
+  }
+
+  .modal-form-password {
+    position: relative;
+  }
+
+  .password-eye {
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    cursor: pointer;
+  }
+
+  .modal-form-input {
+    height: 60px;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 12px;
+    padding: 8px 30px 8px 12px;
+  }
+
+  .modal-form-input-error {
+    border: 1px solid #D12A2A !important;
+  }
+
+  .modal-form-input-last {
+    margin-bottom: 8px !important;
+  }
+
+  .modal-customer-register .modal-form-input-last {
+    margin-bottom: 20px !important;
+  }
+
+  .modal-customer-register .modal-form-input-last:last-child {
+    margin-bottom: 0px !important;
+  }
+
+  .modal-form-input::placeholder {
+    font-family: "Industry";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .modal-form-input-error::placeholder {
+    color: #D12A2A;
+  }
+
+  .modal-redirect {
+    line-height: 16px;
+  }
+
+  .modal-redirect-text {
+    font-family: 'Industry';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+
+  .modal-redirect-text-last {
+    margin-bottom: 0px !important;
+  }
+
+  .modal-redirect-link {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+  }
+
+  .modal-customer-register {
+    display: none;
+  }
+
+  .modal-customer-recover-password {
+    display: none;
+  }
+
+  .modal-customer-recover-password .modal-title-text-before, .modal-customer-recover-password .modal-title-text-after {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .modal-above-form-content {
+    margin-bottom: 20px;
+  }
+
+  .modal-above-form-content-text {
+    font-family: "Industry" !important;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    max-width: 310px;
+  }
+
+  .modal-customer-recover-password .modal-form-input-last {
+    margin-bottom: 24px !important;
+  }
+
+  .modal-success-image {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .modal-success-title {
+    font-family: "Industry" !important;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .modal-success-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 358px;
+    margin: 0 auto 24px auto;
+  }
+}
+
+.recover-password-success-modal {
+  .modal-content {
+    max-width: 460px;
+  }
+
+  .modal-container {
+    padding: 57px 0 35px 0;
+    max-width: 372px;
+  }
+
+  .modal-form-input-last {
+    margin-bottom: 0px !important;
+  }
+}
+#to-confirm-email-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}

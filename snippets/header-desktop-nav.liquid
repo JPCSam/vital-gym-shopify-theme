@@ -1,0 +1,151 @@
+{%- liquid
+  unless limit
+    assign limit = main_menu.links.size
+  endunless
+  unless offset
+    assign offset = 0
+  endunless
+-%}
+
+<ul
+  class="site-nav site-navigation medium-down--hide"
+  {% unless disable_aria %}
+    role="navigation" aria-label="Primary"
+  {% endunless %}>
+  {% if template contains 'customers/account' %}
+    <li class="site-nav__item site-nav__expanded-item">
+
+        <a href="{{ routes.root_url }}" class="site-nav__link" title="STORE">
+            Store
+        </a></li>
+  {% elsif template contains 'customers/reset_password' %}
+    <li class="site-nav__item site-nav__expanded-item">
+      <a href="{{ routes.root_url }}" class="site-nav__link" title="HOME">
+        Home
+      </a>
+    </li>
+    <li class="site-nav__item site-nav__expanded-item">
+      <a href="/collections/all-products" class="site-nav__link" title="SHOP">
+        Shop
+      </a>
+    </li>
+    <li class="site-nav__item site-nav__expanded-item">
+      <a href="/pages/about-us" class="site-nav__link" title="THE VITAL CLUB">
+        The Vital Club
+      </a>
+    </li>
+    <li class="site-nav__item site-nav__expanded-item">
+      <a href="/pages/contact-us" class="site-nav__link">
+        Contact
+      </a>
+    </li>
+  {% else %}
+    {%- for link in main_menu.links limit: limit offset: offset -%}
+    {%- liquid
+        assign has_dropdown = false
+        if link.links != blank
+        assign has_dropdown = true
+        endif
+    -%}
+
+    <li
+            class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% unless template == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless %}"
+            {% if has_dropdown %}aria-haspopup="true"{% endif %}>
+
+        <a href="{{ link.url }}" class="site-nav__link{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}" >
+            {{ link.title }}
+            {%- if has_dropdown -%}
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="M1.57 1.59l12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none" fill-rule="evenodd"/></svg>
+            {%- endif -%}
+        </a>
+        {%- if has_dropdown -%}
+            <div class="mega-menu-wrapper" onclick="">
+              <div class="mega-menu">
+                  <ul class="mega-menu_l1">
+                    {%- for childlink in link.links -%}
+                        {%- liquid
+                            assign has_sub_dropdown = false
+                            if childlink.links != blank
+                            assign has_sub_dropdown = true
+                            endif
+                        -%}
+    
+                        <li class="{% if childlink.active %}site-nav--active{% endif %} ">
+                            <a href="{{ childlink.url }}" class="{% if has_sub_dropdown %} site-nav__dropdown-link--has-children{% endif %}">
+                                {{ childlink.title | escape }}
+                               
+                            </a>
+                            {%- if has_sub_dropdown -%}
+                                <ul class="mega-menu_l2">
+                                    {%- for grandchildlink in childlink.links -%}
+                                        <li>
+                                            <a href="{{ grandchildlink.url }}" class="">{{ grandchildlink.title | escape }}</a>
+                                        </li>
+                                    {%- endfor -%}
+                                </ul>
+                            {%- endif -%}
+                        </li>
+                    {%- endfor -%}
+                  </ul>
+                
+               
+                  <ul class="additional-links">
+                    <li>
+                      <a href="/collections/on-sale" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
+                        <span class="link-title">Sale</span>
+                        <span class="subtitle">
+                          Savings not to be missed
+                        </span>
+                       
+                          
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://vitalgym.co/collections/bundles" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
+                        <span class="link-title">Bundles</span>
+                        <span class="subtitle">
+                          We’ve made it easy for you
+                        </span>
+                       
+                          
+                      </a>
+                    </li>
+                    <li class="separate">
+                      <a href="https://vitalgym.co/collections/all-products" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
+                        <span class="link-title" >All Products</span>
+                       
+                          
+                      </a>
+                    </li>
+                  </ul>
+                
+              </div>
+              
+            </div>
+            
+        {%- endif -%}
+    </li>
+    {%- endfor -%}
+  {% endif %}
+</ul>
+{%style%}
+  .mega-menu-wrapper .mega-menu .additional-links li a{
+    background-image: url({{'yellow-arrow.svg' | asset_url}});
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    margin-right:40px;
+  }
+  .mega-menu-wrapper .mega-menu .additional-links li a:hover{
+    background-image: url({{'yellow-arrow-hover.svg' | asset_url}});
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+  }
+{%endstyle%}
+<script>
+  /*TODO*/
+  $('.site-nav__link--has-dropdown:contains("SHOP")').on('click',function(e){
+    $(this).attr('href','https://vitalgym.co/collections/all-products');
+  });
+</script>

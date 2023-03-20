@@ -1,0 +1,15 @@
+{% if template.name == 'index' %}
+  <meta name="description" content="{{ settings.home_meta | escape }}">
+{% elsif template.name == 'collection' %}
+  <meta name="description" content="{{ settings.collection_meta | escape }}">
+{% elsif template.name == 'product' %}
+  <meta name="description" content="{{ settings.product_meta | replace: "[product_title]", product.title }}">
+{% elsif template.name == 'blog' %}
+  <meta name="description" content="{{ settings.blog_meta | escape }}">
+{% elsif template.name == 'article' %}
+  <meta name="description" content="{{ settings.blog_post_meta | escape }}">
+{% elsif page_title == 'Contact Us' %}
+  <meta name="description" content="{{ settings.contact_page_meta | escape }}">
+{% else %}
+  <meta name="description" content="{{ settings.default_page_meta | escape }}">
+{% endif %}

@@ -1,0 +1,155 @@
+{% comment %}
+<div class="partners">
+    <div class="page-width">
+        <div class="partners-list">
+            {% if section.blocks.size > 0 %}
+                {%- for block in section.blocks-%}
+                    <div class="partners-card">
+                        <span class="percent">{{block.settings.percent}}</span>
+                        <div class="partners-card-image">
+                            <img src="{{block.settings.image | img_url : 'x210'}}" alt="">
+                        </div>
+                        <div class="partners-card-content">
+                            <div class="partners-card-content-subtitle">{{ block.settings.sub_title }}</div>
+                            <div class="partners-card-content-title">{{ block.settings.title }}</div>
+                            <div class="partners-card-content-description">{{ block.settings.description }}</div>
+                       </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endcomment %}
+<div class="partners">
+    <div class="page-width">
+        <div class="partners__header">
+            {%- capture highlighted -%}
+                <span>{{- section.settings.section_title_highlighted -}}</span>
+            {%- endcapture -%}
+            <div class="partners__header-title">{{ section.settings.section_title | replace: section.settings.section_title_highlighted, highlighted }}</div>
+            <div class="partners__header-description">{{ section.settings.description }}</div>
+        </div>
+        <div class="partners__card-wrapper">
+            {%- for block in section.blocks-%}
+                <div class="partners__card">
+                    <div class="partners__card-image">
+                        <img src="{{ block.settings.image | img_url : '900x' }}" alt="{{ block.settings.image.alt }}">
+                        <div class="partners__card-image-percent">{{ block.settings.percent }}% OFF</div>
+                    </div>
+                    <div class="partners__card-content">
+                        <div class="partners__card-content-subtitle">{{ block.settings.sub_title }}</div>
+                        <div class="partners__card-content-title">{{ block.settings.title }}</div>
+                        <div class="partners__card-content-description">{{ block.settings.description }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="partners__bottom">
+            <button type="button" class="partners__bottom-button scroll-to-form">{{ section.settings.button_text }}</button>
+            <div class="partners__bottom-text">{{ section.settings.additional_text }} <a href="{{ section.settings.additional_link_url }}">{{ section.settings.additional_link_title }}</a></div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Partners",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Section header"
+            },
+            {
+                "type": "text",
+                "id": "section_title",
+                "label": "Title",
+                "default": "Perks from our partners"
+            },
+            {
+                "type": "text",
+                "id": "section_title_highlighted",
+                "label": "Highlighted word",
+                "default": "partners"
+            },
+            {
+                "type": "richtext",
+                "id": "description",
+                "label": "Description",
+                "default": "<p>We’ve partnered with a handpicked range of health & wellness  brands, negotiating massive discounts just for you.</p><p>Below is a few of our partner brands...</p>"
+            },
+            {
+                "type": "text",
+                "id": "button_text",
+                "label": "Button text",
+                "default": "ACCESS ALL PERKS"
+            },
+            {
+                "type": "header",
+                "content": "Additional"
+            },
+            {
+                "type": "text",
+                "id": "additional_text",
+                "label": "Text",
+                "default": "* Want to become a partner?"
+            },
+            {
+                "type": "text",
+                "id": "additional_link_title",
+                "label": "Link title",
+                "default": "Learn more"
+            },
+            {
+                "type": "url",
+                "id": "additional_link_url",
+                "label": "Link url"
+            }
+        ],
+        "max_blocks": 20,
+        "blocks": [
+            {
+            "type": "image",
+            "name": "Slide",
+            "settings": [
+                {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+                },
+                {
+                    "type": "range",
+                    "id": "percent",
+                    "min": 1,
+                    "max": 100, 
+                    "step": 1,
+                    "unit": "%",
+                    "label": "Percent Off",
+                    "default": 20
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "sub_title",
+                    "label": "Sub Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "description",
+                    "label": "Description"
+                }
+            ]
+            }
+        ],
+        "presets": [
+            {
+                "category": "Vital Club",
+                "name":"Partners"
+            }
+        ]
+    }
+{% endschema %}

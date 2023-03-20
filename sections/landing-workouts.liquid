@@ -1,0 +1,61 @@
+<div class="workouts">
+   <div class="page-width">
+      <div class="workouts__wrapper">
+         <div class="workouts__info">
+            <div class="workouts__info-subtitle">{{ section.settings.section_subtitle }}</div>
+            <div class="workouts__info-title">{{ section.settings.section_title }}</div>
+            <div class="workouts__info-description">{{ section.settings.description }}</div>
+         </div>
+         <div class="workouts__image">
+            <div class="workouts__image-desktop">
+               <img src="{{ section.settings.image_desktop | img_url: "x410" }}" alt="{{ section.settings.image_desktop.alt }}">
+            </div>
+            <div class="workouts__image-mobile">
+               <img src="{{ section.settings.image_mobile | img_url: "x550" }}" alt="{{ section.settings.image_mobile.alt }}">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+{% schema %}
+   {
+      "name": "Workouts",
+      "settings": [
+         {
+            "type": "text",
+            "id": "section_title",
+            "label": "Title",
+            "default": "Workouts"
+         },
+         {
+            "type": "text",
+            "id": "section_subtitle",
+            "label": "Subtitle",
+            "default": "Coming soon"
+         },
+         {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description",
+            "default": "We’ve partnered with some of the top trainers in the UK to provide you with a range of workouts to help you achieve your fitness goals. You’ll learn the best ways to use your Vital Gym products so you make sure you’re working out as effectively as possible."
+         },
+         {
+            "type": "image_picker",
+            "id": "image_desktop",
+            "label": "Image for desktop"
+         },
+         {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Image for mobile"
+         }
+      ],
+      "presets": [
+         {
+            "category": "Vital CLub",
+            "name":"Workouts"
+         }
+      ]
+   }
+{% endschema %}

@@ -1,0 +1,115 @@
+
+<link type="text/css" href="{{ 'account-page.scss.css' | asset_url }}" rel="stylesheet">
+<div class="customer-account-page">
+  <ul class="account-menu medium-down--hide">
+    {%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
+    {%- assign page_url = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |   replace:'\/','/' |    replace:'%20',' ' |    replace:'\u0026','&'  -%}
+    {%- assign paramPage = page_url | split:'?' | last -%}
+    <li class="disabled back-link">
+      <span>
+        <img src="{{'back-arrow.svg' | asset_url}}" alt="">
+        Back
+      </span>
+    </li>
+    <li class="{% if paramPage contains 'tab=1' %}active{% endif %} {% unless paramPage contains 'tab' %}active{% endunless %}"><a href="?tab=1">Dashboard</a></li>
+    <li class="{% if paramPage contains 'tab=2'%}active{% endif %}"><a href="?tab=2">Orders</a></li>
+    <li class="{% if paramPage contains 'tab=3'%}active{% endif %}"><a href="?tab=3">Perks</a></li>
+    <li class="{% if paramPage contains 'tab=4'%}active{% endif %}"><a href="?tab=4">Workouts</a></li>
+    {%- comment -%}     <li class="{% if paramPage contains 'tab=5'%}active{% endif %}"><a href="?tab=5">Refer a friend</a></li>{%- endcomment -%}
+
+  </ul>
+  <div class="content-tab">
+    {% if paramPage contains 'tab=1' %}
+      {% section 'account-dashboard' %}
+    {% endif %}
+    {% unless paramPage contains 'tab' %}
+    {% section 'account-dashboard' %}
+    {% endunless %}
+     {% if paramPage contains 'tab=2' %}
+      {% section 'account-orders' %}
+    {% endif %}
+    {% if paramPage contains 'tab=3' %}
+      {% section 'account-vital-perks' %}
+    {% endif %}
+    {% if paramPage contains 'tab=4' %}
+      {% section 'account-workouts' %}
+    {% endif %}
+    {%- comment -%}
+    {% if paramPage contains 'tab=5' %}
+      {% section 'account-refer-friends' %}
+    {% endif %}
+    {%- endcomment -%}
+
+  </div>
+</div>
+
+{%- comment -%}
+{%- paginate customer.orders by 20 -%}
+
+<div class="page-width page-content customers">
+  <header class="section-header">
+    <h1 class="section-header__title">{{ 'customer.account.title' | t }}</h1>
+    <br>
+    {{ 'layout.customer.log_out'| t | customer_logout_link }}
+  </header>
+
+  <div class="grid">
+
+    <div class="grid__item medium-up--two-thirds">
+      <h2 class="h3">{{ 'customer.orders.title' | t }}</h2>
+
+      {% if customer.orders.size != 0 %}
+
+        <table class="full table--responsive">
+          <thead>
+            <tr>
+              <th>{{ 'customer.orders.order_number' | t }}</th>
+              <th>{{ 'customer.orders.date' | t }}</th>
+              <th>{{ 'customer.orders.payment_status' | t }}</th>
+              <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
+              <th>{{ 'customer.orders.total' | t }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {%- for order in customer.orders -%}
+              <tr class="table__section">
+                <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
+                <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
+                <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
+                <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+              </tr>
+            {%- endfor -%}
+          </tbody>
+        </table>
+
+        <hr class="hr--clear">
+
+      {% else %}
+
+        <p>{{ 'customer.orders.none' | t }}</p>
+
+      {% endif %}
+    </div>
+
+    <div class="grid__item medium-up--one-third">
+      <h3>{{ 'customer.account.details' | t }}</h3>
+
+      <p class="h5">{{ customer.name }}</p>
+
+      {{ customer.default_address | format_address }}
+
+      <p><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
+    </div>
+
+  </div>
+
+  {%- if paginate.pages > 1 -%}
+    {%- render 'pagination', paginate: paginate -%}
+  {% endif %}
+</div>
+{%- endpaginate -%}
+{%- endcomment -%}
+<script>
+  console.log('account page');
+</script>

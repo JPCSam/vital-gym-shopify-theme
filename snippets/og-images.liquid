@@ -1,0 +1,20 @@
+{% if template.name == 'index' %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/files/image_bundles_web.jpg?v=1644339409' %}
+{% elsif template.name == 'collection' %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/products/bench_720x.png?v=1614955630' %}
+{% elsif template.name == 'product' %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/files/Kettlebell_1.jpg?v=1641479148' %}
+{% elsif template.name == 'blog' %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/files/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png?v=1630063058' %}
+{% elsif template.name == 'article' %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/files/vital-gym_white-logo-flat_10361896-8b40-410a-a30f-e71a796e71b2.png?v=1626690257' %}
+{% elsif page_title == 'Contact Us' %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/files/Vector_3d289c32-8419-4822-b433-cf3c9d50f7f2.png?v=1639576737' %}
+{% else %}
+  {% assign ogImage = 'https://cdn.shopify.com/s/files/1/0365/5414/5928/files/young-fitness-man-studio.png?v=1616609366' %}
+{% endif %}
+
+<meta property="og:image" content="{{ ogImage }}">
+<meta property="og:image:secure_url" content="{{ ogImage }}">
+<meta property="og:image:width" content="{{ ogImage.width }}">
+<meta property="og:image:height" content="{{ ogImage.height }}">

@@ -1,0 +1,246 @@
+{%- liquid
+  assign collection1 = collections[section.settings.collection1]
+  assign collection2 = collections[section.settings.collection2]
+  assign collection3 = collections[section.settings.collection3]
+  assign collection4 = collections[section.settings.collection4]
+  assign collection1_img = section.settings.collection1_img
+  assign collection2_img = section.settings.collection2_img
+  assign collection3_img = section.settings.collection3_img
+  assign collection4_img = section.settings.collection4_img
+-%}
+<div class="page-width">
+    {% if section.settings.show_title %}
+         <h2 class="collection-settings-title">{{section.settings.title}}</h2>
+    {% endif %}
+   
+    <div class="collection__grid">
+        <div class="first-row-mobile">
+            <a href="{{collection1.url}}">
+                <div class="collection__block">
+                <img src="{{collection1_img  | img_url: '80x' }}" alt="VitalGym">
+                    <p>{{collection1.title}}</p>
+                </div> 
+            </a>
+            <a href="{{collection2.url}}">
+                <div class="collection__block">
+                    <img src="{{collection2_img  | img_url: '80x' }}" alt="VitalGym">
+                    <p>{{collection2.title}}</p>
+                </div>
+            </a>
+        </div>
+        <div class="second-row-mobile">
+            <a href="{{collection3.url}}">
+                <div class="collection__block">
+                    <img src="{{collection3_img  | img_url: '80x' }}" alt="VitalGym">
+                    <p>{{collection3.title}}</p>
+                </div>
+                </a>
+                <a href="{{collection4.url}}">
+                <div class="collection__block">
+                    <img src="{{collection4_img  | img_url: '80x' }}" alt="VitalGym">
+                    <p>{{collection4.title}}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<style>
+    .collection-settings-title {
+  font-family: "Industry" !important;
+  font-weight: bold !important;
+  font-size: 24px !important;
+  line-height: 24px;
+  text-transform: uppercase !important;
+  color: #1C1C1D;
+  margin-top: 20px;
+  display: inline-block !important;
+}
+
+.collection__grid {
+  display: flex;
+  margin-top: 36px;
+  margin-bottom: 100px;
+}
+
+.collection__block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  padding: 70px 50px 57px 50px;
+}
+
+.collection__grid a {
+  display: flex;
+  height: 270px;
+  width: 50%;
+}
+
+.collection__grid a:first-of-type {
+  padding-right: 15px;
+}
+
+.collection__grid a:last-of-type {
+  padding-left: 15px;
+}
+
+.second-row-mobile {
+  padding-left: 15px;
+}
+
+.first-row-mobile {
+  padding-right: 15px;
+}
+
+.collection__block p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1C1C1D;
+  margin: 0;
+}
+
+.collection__block img {
+  margin-bottom: 24px;
+}
+
+.first-row-mobile,
+.second-row-mobile {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+
+a.view-all-btn:hover,
+.collection__block:hover {
+  background: #F0F0F0;
+}
+
+.collection__link p:hover {
+  background: #333334;
+}
+@media only screen and (max-width: 850px) {
+  .collection__grid {
+    flex-direction: column;
+    align-items: center;
+  }
+    .collection__block {
+    margin-bottom: 30px;
+  }
+  .first-row-mobile, .second-row-mobile {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .first-row-mobile, .second-row-mobile {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .collection__grid a {
+    height: 171px;
+  }
+  .collection-settings-title {
+    margin: 0;
+  }
+
+  .collection__grid a:first-of-type {
+    padding-right: 6px;
+  }
+
+  .collection__grid a:last-of-type {
+    padding-left: 6px;
+  }
+
+  .collection__grid {
+    margin-bottom: 60px;
+    margin-top: 24px;
+  }
+
+  .collection__block {
+    padding: 35px 50px 0 50px;
+  }
+
+  .collection__block img {
+    width: 54px;
+    margin-bottom: 25px;
+  }
+
+  .collection__block p {
+    font-size: 14px;
+  }
+  .first-row-mobile, .second-row-mobile {
+    margin-bottom: 12px;
+  }
+}
+</style>
+{% schema %}
+    {
+        "name": "Collection list 3",
+        "settings": [
+            {
+            "type": "text",
+            "id": "title",
+            "default": "Shop by goal",
+            "label": "Heading"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_title",
+                "label": "Show title",
+                "default": true
+            },
+            {
+                "type": "collection",
+                "id": "collection1",
+                "label": "Colection 1"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection1_img",
+                "label": "Collection 1 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection2",
+                "label": "Colection 2"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection2_img",
+                "label": "Collection 2 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection3",
+                "label": "Colection 3"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection3_img",
+                "label": "Collection 3 image"
+            },
+            {
+                "type": "collection",
+                "id": "collection4",
+                "label": "Colection 4"
+            },
+            {
+                "type": "image_picker",
+                "id": "collection4_img",
+                "label": "Collection 4 image"
+            }
+        ],
+        "presets": [{
+        "name": "Collection list 3",
+        "category": "Collection"
+        }]
+    }
+{% endschema %}

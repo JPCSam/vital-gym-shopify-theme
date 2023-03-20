@@ -1,0 +1,83 @@
+<section class="tab vital-perks">
+    <div class="vital-list">
+        {% if section.blocks.size > 0 %}
+        {%- for block in section.blocks-%}
+        <div class="vital-visit">
+            <span class="percent">{{block.settings.percent}}</span>
+            <div class="vital-image">
+                <img src="{{block.settings.image | img_url : 'master'}}" alt="{{block.settings.title}}">
+            </div>
+            <div class="vital-content">
+                <div class="vital-text">
+                    <h3>{{block.settings.sub_title}}</h3>
+                    <h2>{{block.settings.title}}</h2>
+                    <div class="description-content">{{block.settings.description}}</div>
+                </div>
+                <div class="vital-button">
+                    <a class="btn" target="_blank" href="{{block.settings.url}}"> Visit store
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M12.1584 13.3367L4.98511 6.16417L6.16344 4.98584L13.3359 12.1575V5.83667H15.0026V15.0033H5.83594V13.3367H12.1584Z" fill="#1C1C1D"/>
+                        </svg>
+                    </a>
+                    <p>Enter <span>{{block.settings.code}}</span> on checkout </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</section>
+{% schema %}
+    {
+        "name": "Account Vital Perks",
+        "max_blocks": 20,
+        "blocks": [
+            {
+            "type": "image",
+            "name": "Slide",
+            "settings": [
+                {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "percent",
+                    "label": "Percent Off",
+                    "default": "20% Off"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Vegan Health Supplement"
+                },
+                {
+                    "type": "text",
+                    "id": "sub_title",
+                    "label": "Sub Title",
+                    "default": "SUPER U"
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description",
+                    "default": "<p>Get a discount on your first order from our partners “Vegan Supplement store” by entering <strong>VITAL20</strong> on checkout. </p>"
+                },
+                {
+                    "type":"url",
+                    "id":"url",
+                    "label":"Button Link"
+                },
+                {
+                    "type": "text",
+                    "id": "code",
+                    "label": "Code",
+                    "default": "VITAL20"
+                }
+            ]
+            }
+        ]
+    }
+{% endschema %}
