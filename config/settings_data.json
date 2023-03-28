@@ -93,7 +93,7 @@
               "banner_item_text": "",
               "banner_item_onclick": "",
               "banner_item_link_url": "",
-              "banner_item_link_text": "<a href=\"#footer\" style=\"text-decoration:none;\">Subscribe To Our Mailing Lists And Receive 10% Off<\/a>",
+              "banner_item_link_text": "<a href=\".site-footer\" style=\"text-decoration:none;\">Subscribe To Our Mailing Lists And Receive 10% Off<\/a>",
               "show_klarna": false
             }
           },
