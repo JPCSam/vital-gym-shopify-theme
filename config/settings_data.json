@@ -91,7 +91,7 @@
             "type": "Banner",
             "settings": {
               "banner_item_text": "<p>Subscribe To Our Mailing Lists And Receive <strong>10% off<\/strong><\/p>",
-              "banner_item_onclick": "<a href=\"subscribe__wrapper\"><\/a>",
+              "banner_item_onclick": "var $scrollingDiv = $(\"#scrollingDiv\");  $(window).scroll(function(){                 var y = $(this).scrollTop(),         maxY = $('.subscribe__wrapper').offset().top,         scrollHeight = $scrollingDiv.height();      if(y< maxY-scrollHeight ){         $scrollingDiv         .stop()         .animate({\"marginTop\": ($(window).scrollTop()) + \"px\"}, \"slow\" );             }     });",
               "banner_item_link_url": "",
               "banner_item_link_text": "",
               "show_klarna": false
