@@ -1,1 +1,1224 @@
-{"current":{"color_borders":"#e8e8e1","color_button":"#ffcc00","color_button_text":"#1c1d1d","color_cart_dot":"#ffcc00","color_header":"#1c1d1d","color_header_text":"#ffffff","color_footer":"#111111","color_footer_text":"#ffffff","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#e8e8e1","color_drawer_button":"#ffcc00","color_drawer_button_text":"#111111","color_image_2":"#000000","color_image_2_opacity":0,"color_image_1":"#000000","color_image_1_opacity":62,"color_small_image_bg":"#ffffff","color_large_image_bg":"#111111","type_header_font_family":"sans-serif","type_header_spacing":"0","type_header_base_size":35,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_base_font_family":"sans-serif","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"3px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":false,"animate_underlines":true,"product_save_amount":false,"product_save_type":"percent","product_grid_image_size":"natural","quick_shop_enable":false,"enable_swatches":false,"cart_type":"drawer","cart_icon":"vital_cart","cart_additional_buttons":false,"cart_notes_enable":false,"cart_terms_conditions_enable":false,"cart_terms_conditions_link":"shopify:\/\/policies\/terms-of-service","social_facebook_link":"https:\/\/www.facebook.com\/vitalgym.co","social_instagram_link":"https:\/\/www.instagram.com\/vitalgym.co","social_youtube_link":"https:\/\/www.youtube.com\/channel\/UC55r6DwzKdaRrbw5TuCNAEg","favicon":"shopify:\/\/shop_images\/favicon_309f7ff5-8f97-4ad9-83c8-2cb7b791d11b.png","search_type":"product","show_breadcrumbs":true,"show_breadcrumbs_collection_link":true,"collection_meta":"Take a look at our collections to find the perfect home gym equipment for your training needs.","product_meta":"Looking for [product_title] deliver straight to your door? Then Vital Gym can help you with that !  High-quality gym equipment is a part of your  mental and physical health!","blog_meta":"Getting ready to start your New Year gym programme? With the help of our blog 'a new focus on your body's health and fitness!' get the motivation you need!","blog_post_meta":"Knowledge is power! Keep up to date with our blogs to train better and stronger in 2023!","default_page_meta":"All your home gym equipment in one store. Train better, train stronger! Join The Vital Gym Club free today and start benefiting from those member-only offers!","contact_page_meta":"Need help with a product or inquiry? We are here to answer all your questions!","checkout_header_image":"","checkout_logo_image":"shopify:\/\/shop_images\/12345.png","checkout_logo_position":"center","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"show_bar":false,"bar_text":"","logo":"shopify:\/\/shop_images\/Christmas-logo-white_ad0a127a-51af-4798-bb03-9d24ffd15d29.png","logo-inverted":"shopify:\/\/shop_images\/Christmas-logo-white_ad0a127a-51af-4798-bb03-9d24ffd15d29.png","desktop_logo_width":160,"mobile_logo_width":80,"main_menu_link_list":"main-menu-new","main_menu_alignment":"left-center","header_sticky":false,"sticky_index":false,"sticky_collection":false,"show_announcement":true,"announcement_text":"We Now Offer Clearpay At Checkout - Shop Now, Pay later, Always Interest Free","announcement_link":"","announcement_closable":true,"show_banner":true}},"footer":{"type":"footer","blocks":{"1494301487049":{"type":"menu","settings":{"show_footer_title":true,"menu":"our-shop"}},"e6b974c0-92e9-4dc0-bc6b-1b22759715ec":{"type":"menu","settings":{"show_footer_title":true,"menu":"collections"}},"1494292485313":{"type":"menu","settings":{"show_footer_title":true,"menu":"about-vitalgym"}},"f9cc252f-a775-4751-8cac-45fcddc025f9":{"type":"menu","settings":{"show_footer_title":true,"menu":"footer"}},"61e7ad93-e109-40d8-b315-aba742985bcc":{"type":"right_block","settings":{"url1":"shopify:\/\/pages\/vitalclub","url1_text":"Vital Club","url2":"shopify:\/\/pages\/home-gym-build","url2_text":"BUILD YOUR Home GYM","title":"Subscribe","block_description":"Be notified about special offers, free giveaways, and once-in-a-lifetime deals."}}},"block_order":["1494301487049","e6b974c0-92e9-4dc0-bc6b-1b22759715ec","1494292485313","f9cc252f-a775-4751-8cac-45fcddc025f9","61e7ad93-e109-40d8-b315-aba742985bcc"],"settings":{"show_payment_icons":true,"logo":"shopify:\/\/shop_images\/Christmas-logo-white.png","pay_icons":true,"copyright":"JPC VITAL GYM UK LIMITED incorporated in England and Wales (company number: 14451749). Our registered office is 62, Bartholomew Street, Newbury, Berkshire, RG14 7BE. \nOur trading address is; Unit 3 Queens Square, Lyndhurst Road, Ascot, SL5 9FE."}},"footer-promotions":{"type":"footer-promotions","settings":{"hide_homepage":false,"image_size":"wide","align_text":"left"}},"newsletter-popup":{"type":"newsletter-popup","settings":{"mode":"disabled","popup_seconds":5,"popup_days":30,"popup_title":"Sign up and save","popup_text":"<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>","close_text":"No thanks","enable_newsletter":true,"button_label":"Optional button","button_link":"","enable_button":false}},"account-dashboard":{"type":"account-dashboard","blocks":{"6e1ff746-de1d-41bd-bc06-75a4319ab860":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Banner_2-Desktop-2x.jpg","image_mobile":"shopify:\/\/shop_images\/Banner_2-Mobile-2x.jpg","url":"https:\/\/open.spotify.com\/playlist\/3bVs5hjR2WCGIUxj69UZEl?si=093b2ed78ae64407"}}},"block_order":["6e1ff746-de1d-41bd-bc06-75a4319ab860"],"settings":{"percent":"VITALEXCLUSIVE","price_sale":"","featured_product":"adjustable-dumbbell-2-24kgs","product_offer":"EXCLUSIVE VIP OFFER","product_day":"March 30, 2023","give_name":"Protein shaker","give_image":"shopify:\/\/shop_images\/2_8_1_31f37d70-21ea-4990-a56f-34dc9a44c84c.png","discount":"£15 OFF COUPON","discount_id":"VITALCLUB","training_title":"OCTOBER PLAYLIST","training":"Official October","training_link":"https:\/\/open.spotify.com\/playlist\/5kzyXBluCBDO9jhzFc4mCB"}},"account-orders":{"type":"account-orders","settings":{}},"account-vital-perks":{"type":"account-vital-perks","blocks":{"e3f85fcc-c77c-435a-abe0-1b002a0fd5a6":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2572_aebd76db-a23a-4ba5-952e-040cb609ab89.png","percent":"10% Off","title":"FOOD MEAL PREP & JUICING","sub_title":"KBK","description":"<p>Food prep is critical if you want to build & repair muscle after working out. We have partnered with KBK, offering you a massive <strong>10% off <\/strong>your order. Just enter <strong>VitalKBK <\/strong>on checkout.<\/p>","url":"https:\/\/bit.ly\/35J74JT","code":"VitalKBK"}},"41c855f9-9346-443a-8643-1bedf388a798":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2573_9359c5ad-d886-476e-b6aa-1699f7fcc665.png","percent":"20% Off","title":"Vegan Shakes and Supplements","sub_title":"Vegan Supplements","description":"<p>We have partnered with Vegan Supplements as they provide high quality, great tasting, fully-Vegan sports nutrition products. Their products are 100% Vegan Certified and of the highest standards and as a Vital Club member, you receive 20% Off all purchases.<\/p>","url":"https:\/\/bit.ly\/3iINBk6","code":"VITAL20"}},"1d00891c-6efc-4459-961c-2c9ea075370c":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2572_e01a3a30-1d14-4862-93f1-d51513ad7b33.jpg","percent":"20% off","title":"Organic Lifestyle Products","sub_title":"Green People","description":"<p>Green People provide the best organic lifestyle products for Men, Women, Children and Pets. Vital Club members get 20% off their range of products - including Body, Sun, Anti Ageing, Skin and Hair to help you look after your body, organically.<\/p>","url":"https:\/\/www.greenpeople.co.uk","code":"GPVITALGYM"}},"497b1b41-7550-4542-a45c-3d7671a48c5e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_210_cdcb6635-f472-44cb-bcbd-40d3427d25e1.png","percent":"£250 OFF","title":"Home Gym Design & Build","sub_title":"Vital Gym","description":"<p>Vital Gym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home, a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.<\/p>","url":"shopify:\/\/pages\/home-gym-build","code":""}},"9084b99d-c8ff-43c5-a5be-eb286c432114":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2574_67ca8582-4ae7-4e8c-91bc-47d2c8c22d68.jpg","percent":"25% Off","title":"Frozen Fruit and Ready Packed Smoothies","sub_title":"PACKD","description":"<p>PACK’D provide maximum nutrition and minimum waste all whilst delivering fantastic fruit for snacks or smoothies.<\/p>","url":"https:\/\/www.packd.co.uk\/","code":"VITAL25 1st Purchase, VITAL10 for an ongoing 10% discount"}},"14045091-ea6b-4b6c-b724-743a7fb281a2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2722_8dd12306-ea05-400c-a8f0-04042d43ed0a.jpg","percent":"15% Off","title":"Supplements and Wellbeing Products","sub_title":"Discount Supplements","description":"<p>Discount Supplements are the UK’s largest online sports supplements store. We partnered with the best to give you access to a discounted rate on their fantastic new brands of supplements...<\/p>","url":"https:\/\/www.discount-supplements.co.uk","code":"VITALGYM15"}},"e89ed4e9-d067-45d2-9b31-5b3d7df68ef4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2723_8644600a-1a0a-4f99-83ca-5b8fa93b2067.jpg","percent":"15% Off","title":"Botanical Skincare","sub_title":"Meadow Skin Care","description":"<p>We partnered with Meadow Skincare as they are a fantastic small team in the UK who use 100% natural ingredients in all of their formulations. With 15% off sitewide.<\/p>","url":"https:\/\/www.meadowskincare.co.uk","code":"VITALGYM15"}},"489c0893-f452-4792-a385-3d8490dac05b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2583_81cf2d78-6dc9-4ac8-8496-5f4b9e3f240e.jpg","percent":"15% Off","title":"PROTEIN CHEESE","sub_title":"EATLEAN","description":"<p>Partnering with Eatlean was a no brainer for us. Savoury snacks and great additions to meals mean healthier fuel and guilty free ingredients...<\/p><p>Eatlean Protein cheese is handmade using 100% British cows milk by expert cheesemakers on their dairy farm in Cheshire, and it’s bursting with benefits for your new leaner healthier lifestyle…<\/p>","url":"https:\/\/www.eatleanfood.com\/","code":"VITALGYM"}},"666f9e73-74af-4426-ae64-6f5a861c6b26":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2586_747ac23f-6ffa-4a48-af34-abfa7cd68d8b.jpg","percent":"10% Off","title":"COFFEES FROM AROUND THE WORLD","sub_title":"LIMINI COFFEE","description":"<p>We got together with the guys from Limini Coffee Youri and Samantha, to provide exceptional coffee from around the globe to fuel your day with great natural health benefits...<\/p>","url":"https:\/\/www.liminicoffee.co.uk\/shop\/?discountcode=161349243800073","code":"No code - Automatically attached to link above"}}},"block_order":["e3f85fcc-c77c-435a-abe0-1b002a0fd5a6","41c855f9-9346-443a-8643-1bedf388a798","1d00891c-6efc-4459-961c-2c9ea075370c","497b1b41-7550-4542-a45c-3d7671a48c5e","9084b99d-c8ff-43c5-a5be-eb286c432114","14045091-ea6b-4b6c-b724-743a7fb281a2","e89ed4e9-d067-45d2-9b31-5b3d7df68ef4","489c0893-f452-4792-a385-3d8490dac05b","666f9e73-74af-4426-ae64-6f5a861c6b26"],"settings":{}},"banner-home-custom":{"type":"banner-home-custom","settings":{}},"banner-home-slider":{"type":"banner-home-slider","blocks":{"2f33145a-fce3-4fbe-8d94-7b25362d8805":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rectangle_11_95690f66-0864-480f-9c69-760ac89478d2.png","price":"£15,475","description":"VitalGym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home,  a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.","url":""}},"80375f19-c18b-4017-ab01-74d7bf45bcaa":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rectangle_13_22e54783-7ca2-4ccc-b9d8-2e7c17b29c90.png","price":"£18,245","description":"VitalGym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home,  a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.","url":""}},"2a17a952-b833-4319-a87c-a41d5c171ba5":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rectangle_18_53a6b03d-d0e2-4682-8102-46452838a782.png","price":"£19,245","description":"VitalGym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home,  a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.","url":""}}},"block_order":["2f33145a-fce3-4fbe-8d94-7b25362d8805","80375f19-c18b-4017-ab01-74d7bf45bcaa","2a17a952-b833-4319-a87c-a41d5c171ba5"],"settings":{}},"banner-content-guarantee":{"type":"banner-content-guarantee","settings":{"image":"shopify:\/\/shop_images\/6mx4m_Edge16_2_a52873cc-92b0-47a1-b9ef-3b387d0ea5fd.png"}},"how-we-work":{"type":"how-we-work","blocks":{"7b8bffa8-48c7-41f0-89a3-a067d78d67fa":{"type":"text","settings":{"title":"Consultation","description":"Book a no-obligation site survey  and design consultation by clicking on the sign up form below"}},"adbdd1da-2648-495c-8bc2-dd50890279d9":{"type":"text","settings":{"title":"Design &  Proposal","description":"After the consultation, you’ll receive a proposal with all the offerings to help you design and conceptualize your very own Home Gym"}},"4fd8b968-ae16-4d53-a618-016ff5ff6fdd":{"type":"text","settings":{"title":"Confirm","description":"Our customer care team will get in touch with you to finalise everything. All the final details will be settled, like the electrical plans to confirm the placement of the lights, switches, sockets, etc."}},"ac452b18-8eb7-476c-a9dd-9856bb8cebd0":{"type":"text","settings":{"title":"Build","description":"Our customer care team will be in touch again to start building your dream home gym, based on the confirmed plans."}},"478412ea-e2d4-44ef-9c43-14766d7daa9a":{"type":"text","settings":{"title":"Get Pumped!","description":"Enjoy your new home gym and get in those gains all-year round!"}}},"block_order":["7b8bffa8-48c7-41f0-89a3-a067d78d67fa","adbdd1da-2648-495c-8bc2-dd50890279d9","4fd8b968-ae16-4d53-a618-016ff5ff6fdd","ac452b18-8eb7-476c-a9dd-9856bb8cebd0","478412ea-e2d4-44ef-9c43-14766d7daa9a"],"settings":{}},"banner-image-text-left":{"type":"banner-image-text-left","settings":{"image":"shopify:\/\/shop_images\/Group_227_808b35ad-bea0-4f99-86c0-d717e457d555.png"}},"banner-image-text-right":{"type":"banner-image-text-right","settings":{"image":"shopify:\/\/shop_images\/Group_64_1_ff78a5b1-ca42-4241-849e-29e3544721b6.png"}},"service-list":{"type":"service-list","settings":{}},"home-gym-list":{"type":"home-gym-list","blocks":{"cc8ff750-7b23-42b0-968c-73044685d019":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/Rectangle_54_b1eb34fc-5a38-4ea2-8028-f5e9bba6976c.png","title":"Inspiration","description":"Compact & Contemporary","price":"14,745"}},"716b8e26-a5cd-43ad-bf35-11cc9a939b94":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/Rectangle_51_29e2e646-dd1c-4401-b890-6e0e13681bd3.png","title":"Expression","description":"Strikingly elegant","price":"17,245"}},"c1dbdc7b-ef27-4a6d-986e-5673c201b515":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/Rectangle_48_a69b7d05-7c29-49c5-ae5c-2072c5b06d6c.png","title":"Edge","description":"A modern classic","price":"17,245"}},"e2ac4cb0-70e1-4dd5-b21b-bfca6cc9373c":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/Rectangle_44_49933d37-b4a9-40f6-b4fa-32441723f01d.png","title":"Pinnacle","description":"Architecturally stunning","price":"18,245"}}},"block_order":["cc8ff750-7b23-42b0-968c-73044685d019","716b8e26-a5cd-43ad-bf35-11cc9a939b94","c1dbdc7b-ef27-4a6d-986e-5673c201b515","e2ac4cb0-70e1-4dd5-b21b-bfca6cc9373c"],"settings":{}},"buy-now":{"type":"buy-now","settings":{}},"our-case":{"type":"our-case","blocks":{"bf42691a-602b-485f-a911-78eb8e96c908":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_211_355237cc-4228-465e-a24d-d7964bb5972a.png","avatar":"shopify:\/\/shop_images\/Rectangle_76_abbed59e-d06d-4d88-82b0-877745cdee21.png","name":"John Geofrey","location":"Gym House owner at Green Retreats","description":"From our visit to your showroom to the completion our our garden gym studio the experience has been seemless and hassle free. All members of staff we dealt with from design to contruction have been professional, courteous and thoroughly nice people. Thank you.","price":"£ 30,745","size":"7.5M x 4M","type":"Edge"}},"1c942b54-93be-4fcc-ad28-de0fa4d18141":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_210_8325bd06-49de-4c02-82a0-a3bf3ab3d622.png","avatar":"shopify:\/\/shop_images\/Rectangle_75_351c48a2-cc8f-48b7-a82d-b987e13cf87e.png","name":"Mark Frowde","location":"Gym House owner at Green Retreats","description":"A very good experience from the beginning to end . quality of the product is excellent. the show room also very good. can’t fault the grounds work team or the install team who made up of day due to weather delay. neat and tidy, finish is really good. customer service team also very responsive and clear with their communication.","price":"£ 26,995","size":"6M x 4M","type":"Edge"}},"7ea0794e-51e6-4c83-aaf9-88741eb0ee37":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_206_047f19f7-6f8b-4929-a7fe-2a972c723237.png","avatar":"shopify:\/\/shop_images\/Rectangle_77_9fd46c1d-b1e8-4222-a990-e052a61e082f.png","name":"Trish Williams","location":"Gym House owner at Green Retreats","description":"The team installed our garden building in Autumn 2020. The process was really straightforward from start to finish and our requirements and queries were handled quickly and efficiently. The overall quality of the construction is excellent. Our building is everything we hoped it would be ... a lovely space for the whole family and cosy enough for all seasons.","price":"£ 21,495","size":"3M x 5.5M","type":"Inspiration"}}},"block_order":["bf42691a-602b-485f-a911-78eb8e96c908","1c942b54-93be-4fcc-ad28-de0fa4d18141","7ea0794e-51e6-4c83-aaf9-88741eb0ee37"],"settings":{}},"form-contact":{"type":"form-contact","settings":{}},"landing-fullscreen":{"type":"landing-fullscreen","settings":{"section_title":"VITALCLUB","section_subtitle_left":"Become a","section_subtitle_right":"member of","button_text":"Join free","background_desktop":"shopify:\/\/shop_images\/Group_2606_e8c19f58-7ffb-471a-949f-a5698e7eadd6.png","background_mobile":"shopify:\/\/shop_images\/landing-background-mobile_ede13a79-02c6-4683-b093-1a661a025e5c.png","image_between":"shopify:\/\/shop_images\/young-fitness-man-studio_x880_2d09ccd7-885f-4a81-b6ca-6fd1995c5fac.png"}},"landing-portal":{"type":"landing-portal","settings":{"section_title":"SPECIAL PORTAL\nFOR MEMBERS","section_subtitle":"Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines.","image_desktop":"shopify:\/\/shop_images\/Slice_1_1_x667_eb9e7562-310d-4db6-8e21-4d94364d9e6d.png","image_mobile":"shopify:\/\/shop_images\/PixelBook_Go_x270_8e601e66-fb93-451c-9de8-2b1651c9b4ae.png"}},"landing-offers":{"type":"landing-offers","settings":{"section_title":"Exclusive offers","section_title_highlighted":"offers","description":"<p>You can get huge discounts (up to 70% off) on Vital Gym products so you can kit out your home gym for less.<\/p><p>Plus, you’ll get early access on our new products so you can grab those dumbbells before they sell out again!<\/p><p>And if that’s not enough - you’ll also go in the draw to win a free prize worth up to £100 every month.<\/p>","image_desktop":"shopify:\/\/shop_images\/Group_2707_x632_230d9107-b294-49b5-9ca8-49bcd0d0b9f9.png","image_mobile":"shopify:\/\/shop_images\/Group_2721_x420_18c74fe3-c906-4881-9f94-aeeef6cfa6ba.png"}},"landing-partners":{"type":"landing-partners","blocks":{"64088069-fece-4601-a1ea-ec65133388c1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Group_2572_900x_f314ddcc-8f7e-4cf7-aa78-9c5b47922a3d.png","percent":20,"title":"organic lifestyle products","sub_title":"GREEN PEOPLE","description":"We’ve partnered with Green People as they provide the best organic lifestyle products for Men, Women, Children and Pets. We have arranged a 20% discount across their range of products Including Body, Sun, Anti Ageing, Skin and Hair to help you look after your body organically."}},"918775e7-0398-40cb-82ee-eedb6b57257c":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rectangle_1451_900x_c49ef7dd-5982-4003-b4a8-ed1c4d75b708.png","percent":25,"title":"Frozen Fruit and Ready Packed Smoothies","sub_title":"PACK’D","description":"We decided to partner with PACK’D as they are on a mission to provide maximum nutrition and minimum waste all whilst delivering fantastic fruit for snacks or smoothies."}},"16825757-64f8-4385-8ed8-7582793fc215":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rectangle_1452_900x_e77ba851-5fbf-41ad-b054-5256cb2073aa.png","percent":15,"title":"PROTEIN CHEESE","sub_title":"EATLEAN","description":"Partnering with Eatlean was a no brainer for us. Savoury snacks and great additions to meals mean healthier fuel and guilty free ingredients... Eatlean Protein cheese is handmade using 100% British cows milk by expert cheesemakers on their dairy farm in Cheshire, and it’s bursting with benefits for your new leaner healthier lifestyle…"}},"1fb9ad1f-dda8-4440-a561-76331aea8cab":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rectangle_1453_900x_1a5e1711-a075-4e2e-b901-d48b6c497e50.png","percent":15,"title":"BOTANICAL SKINCARE","sub_title":"MEADOW SKINCARE","description":"We partnered with Meadow Skincare as they are a fantastic small team in the UK who use 100% natural ingredients in all of their formulations."}}},"block_order":["64088069-fece-4601-a1ea-ec65133388c1","918775e7-0398-40cb-82ee-eedb6b57257c","16825757-64f8-4385-8ed8-7582793fc215","1fb9ad1f-dda8-4440-a561-76331aea8cab"],"settings":{"section_title":"Perks from our partners","section_title_highlighted":"partners","description":"<p>We’ve partnered with a handpicked range of health & wellness  brands, negotiating massive discounts just for you.<\/p><p>Below is a few of our partner brands...<\/p>","button_text":"ACCESS ALL PERKS","additional_text":"* Want to become a partner?","additional_link_title":"Contact us","additional_link_url":"shopify:\/\/pages\/contact-us"}},"landing-benefits":{"type":"landing-benefits","settings":{"section_title":"More vital benefits","section_title_highlighted":"benefits","section_subtitle":"As well as discounts on our carefully selected partners, you’ll get access to a private portal where you can:","first_title":"Monthly Giveaway","first_subtitle":"Go in the draw & you’ll get 12 chances of winning a Vital Gym product every year!","second_title":"Discount Coupon","second_subtitle":"£10 off your next Vital Gym purchase so you can kit out your home gym for less.","third_title":"Spotify Playlist","third_subtitle":"Bored of your tunes & need some extra motivation? Every month, we curate playlists with the best tunes for working out.","fourth_title":"Refer & Earn","fourth_subtitle":"Refer a friend to the Vital Club and earn commission for every person who joins."}},"landing-workouts":{"type":"landing-workouts","settings":{"section_title":"Workouts","section_subtitle":"Coming soon","description":"We’ve partnered with some of the top trainers in the UK to provide you with a range of workouts to help you achieve your fitness goals. You’ll learn the best ways to use your Vital Gym products so you make sure you’re working out as effectively as possible.","image_desktop":"shopify:\/\/shop_images\/Group_2703_x410_32f477c9-bec1-4876-8fbe-13076fe9f0bf.png","image_mobile":"shopify:\/\/shop_images\/Group_2736_x550_97d1ac5e-c628-446b-ae5a-fbee4b499f50.png"}},"landing-reviews":{"type":"landing-reviews","blocks":{"f3c46a3e-fef5-4e6c-8abb-1b3a484eeb6e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/woman-sits-in-a-yoga-pose-in-their-living-room_x600_14c69d0e-1f04-45ab-9bb2-1e0589fdb537.jpg","name":"Lucy Hunt","text":"I am loving being part of the Vital Club! I was looking to purchase your Yoga mat and saw your offer for 30% to Vital Club members so signed up and was so surprised to see how much good stuff you guys are offering for free!"}},"1e4f96ef-9170-46e5-be58-55b1ba403e7f":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/man-relaxing_x600_761447f3-4890-44c0-8c6f-7ce6a7d49770.jpg","name":"Matthew o'hara","text":"Just wanted to drop you guys a message to say am really impressed with what you are doing. I got invite to join the Vital Club couple weeks ago and was intrigued so signed up... I ended saving £40 off dumbbells I was going to order and been loving all the health\/nutrition perks available. Keep up the good work!"}}},"block_order":["f3c46a3e-fef5-4e6c-8abb-1b3a484eeb6e","1e4f96ef-9170-46e5-be58-55b1ba403e7f"],"settings":{}},"landing-join":{"type":"landing-join","settings":{"section_title":"Join right now for free","section_title_highlighted":"Join","section_subtitle":"To celebrate the launch of the Vital Club, we’re giving you full access for free. But hurry - this won’t be available for long! Just fill in the simple registration form and instantly become a member.","image_desktop":"shopify:\/\/shop_images\/charles-gaudreault-xXofYCc3hqc-unsplash_2_fb8725d4-ab17-40dc-b82a-e777d1c18ae1.png","image_mobile":"shopify:\/\/shop_images\/charles-gaudreault-xXofYCc3hqc-unsplash_2_fb8725d4-ab17-40dc-b82a-e777d1c18ae1.png"}},"page-contact-template":{"type":"page-contact-template","blocks":{"dd0f5b1e-46bd-4320-bfda-3cff26433821":{"type":"rich-text","settings":{"title":"","text":"<p>At Vital Gym, we strive to help you keep fit, stay strong, and be healthy - all from the comfort of your own home. <\/p>","align_text":"left","narrow_column":true,"enlarge_text":true}},"eccb33d8-2520-4b48-9aab-ca0f9076b341":{"type":"text-and-image","settings":{"image":"shopify:\/\/shop_images\/hkSwUhBA_1_540x_5f47b4b8-bb66-4132-90ac-b6caf84b5390.png","image_width":500,"subtitle":"Our Mission","title":"WHO WE ARE","text":"<p>We know how expensive gym memberships can be, and often all we're really paying for is the equipment. So we wanted to bring you top-quality fitness equipment which you can use at home. You only need to purchase the equipment once and you'll be able to use it forever. If you want to keep fit, tone up, or build muscle - we know you'll love Vital Gym.<\/p>","button_label":"","button_link":"","layout":"left"}},"29d4d1d6-30b3-4f9f-af4d-3ff3c464a4f9":{"type":"text-and-image","settings":{"image":"shopify:\/\/shop_images\/Instagram_1080x1080-kettlebell_540x_c89a0b4f-3b19-4a4f-a98a-7b7c00a19208.png","image_width":500,"subtitle":"COMPACT & ADJUSTABLE","title":"FUNCTIONAL FITNESS EQUIPMENT","text":"<p>Our signature Adjustable Dumbbells & Kettlebells have been designed for maximum versatility and strength-building. Just one dumbbell contains up to 17 different weight options so you can gradually increase your weight as you change exercises or get stronger. Plus, it's super compact which save loads of space at home!<\/p>","button_label":"","button_link":"","layout":"right"}},"57d28241-03f5-4c8e-95e4-7faa842d1761":{"type":"text-columns","settings":{"title":"OUR TEAM","align_text":"left","enable_image_1":true,"image_1":"shopify:\/\/shop_images\/John_Bromley_360x_5565a024-f998-429d-ba21-98272115aabb.png","image_width_1":650,"title_1":"JOHN BROMLEY","text_1":"<p>Chief Executive Officer (CEO)<\/p>","button_label_1":"","button_link_1":"","enable_image_2":true,"image_2":"shopify:\/\/shop_images\/Henry_Mallory_360x_b16a7dc0-9b37-44af-b2c5-b22734f7f722.png","image_width_2":650,"title_2":"HENRY MALLORY","text_2":"<p>Head of Service Department<\/p>","button_label_2":"","button_link_2":"","enable_image_3":true,"image_3":"shopify:\/\/shop_images\/Oli_Mallory_360x_40f4260e-1c05-4b90-846d-bd3892b94971.png","image_width_3":650,"title_3":"OLI MALLORY","text_3":"<p>Head of Communications Department<\/p>","button_label_3":"","button_link_3":""}},"2012e169-4b35-40ec-8c6f-649931ec26f9":{"type":"text-columns","settings":{"title":"","align_text":"center","enable_image_1":true,"image_1":"shopify:\/\/shop_images\/Chloe_Zhou_360x_1109589d-db32-4ad3-83d0-55157e176439.png","image_width_1":650,"title_1":"CHLOE ZHOU","text_1":"<p>Head of Supply Department<\/p>","button_label_1":"","button_link_1":"","enable_image_2":true,"image_2":"shopify:\/\/shop_images\/Adam_Balint_360x_bad6f6fb-66e3-4b45-a84a-91b0211dd65a.png","image_width_2":650,"title_2":"ADAM BALINT","text_2":"<p>Technical Specialist<\/p>","button_label_2":"","button_link_2":"","enable_image_3":true,"image_3":"shopify:\/\/shop_images\/Yurii_Funkendorf_360x_3e9c28d9-d273-4b55-9739-9100f0f84c13.png","image_width_3":650,"title_3":"YURII FUNKENDORF","text_3":"<p>Design Lead<\/p>","button_label_3":"","button_link_3":""}},"5467c4c2-0544-40e9-a43e-5b4c258dc3d6":{"type":"image-row","settings":{"image_1":"shopify:\/\/shop_images\/t-shirt-and-shorts-mockup-featuring-a-fit-man-33058-min_360x_1227f577-8266-40c0-9bea-93b418ecdc73.png","image_1_link":"","image_2":"shopify:\/\/shop_images\/IMG_4547_360x_e8998fc3-dc95-4011-9e90-cdbf3ae08475.png","image_2_link":"","image_3":"shopify:\/\/shop_images\/mockup-of-a-girl-wearing-custom-sportswear-and-boxfit-equipment-while-at-the-gym-a16842-min_360x_d89e6a18-05b8-4d7f-8fee-e1cd1de6bea6.png","image_3_link":"","image_4":"shopify:\/\/shop_images\/athletic-man-lifting-weights-at-the-gym-tank-top-mockup-a8157_360x_ea9a3e74-9833-457e-b51a-3b1b91417409.png","image_4_link":"","enable_gutter":false,"enable_zoom":true}}},"block_order":["dd0f5b1e-46bd-4320-bfda-3cff26433821","eccb33d8-2520-4b48-9aab-ca0f9076b341","29d4d1d6-30b3-4f9f-af4d-3ff3c464a4f9","57d28241-03f5-4c8e-95e4-7faa842d1761","2012e169-4b35-40ec-8c6f-649931ec26f9","5467c4c2-0544-40e9-a43e-5b4c258dc3d6"],"settings":{"page_title_enable":true,"page_content_enable":true,"overlaid_header":true}},"page-contact-us":{"type":"page-contact-us","blocks":{"9b2b57dd-ecd2-4e00-b89b-287a50dd7c1f":{"type":"address","settings":{"img":"shopify:\/\/shop_images\/favicon_309f7ff5-8f97-4ad9-83c8-2cb7b791d11b.png","title":"OUR Headquarters","addres_text":"Unit 3, Queens Square, Lyndhurst Road, Ascot, SL5 9FE","phoneOn":false,"phone":""}},"32a61278-7244-4110-ba79-76a9e92a6818":{"type":"contact-form","settings":{"title":"","show_phone":false,"narrow_column":true}}},"block_order":["9b2b57dd-ecd2-4e00-b89b-287a50dd7c1f","32a61278-7244-4110-ba79-76a9e92a6818"],"settings":{}},"giftcard-header":{"type":"giftcard-header","settings":{"logo":"shopify:\/\/shop_images\/Frame_3285.png","desktop_logo_width":140,"mobile_logo_width":140}}},"content_for_index":[],"blocks":{"855628211100114053":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507","disabled":false,"settings":{}},"5149645339031002760":{"type":"shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475","disabled":false,"settings":{"async":false}},"1097096201824731535":{"type":"shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/app-embeded\/65705a60-a3b0-43ae-9dc8-15db78d76b3b","disabled":true,"settings":{}}}},"presets":{"Classic":{"color_borders":"#e8e8e1","color_button":"#111111","color_button_text":"#ffffff","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#e8e8e1","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_footer":"#111111","color_footer_text":"#ffffff","color_image_1":"#000000","color_image_1_opacity":62,"color_image_2":"#000000","color_image_2_opacity":0,"color_small_image_bg":"#ffffff","color_large_image_bg":"#111111","type_header_spacing":"0","type_header_font_family":"itc_avant_garde_gothic_n7","type_header_base_size":35,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"3px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":true,"animate_underlines":true,"cart_type":"drawer","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":true,"sticky_collection":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292485313":{"type":"menu","settings":{"menu":"main-menu"}},"1494301487049":{"type":"menu","settings":{"menu":"footer"}}},"block_order":["1494301487049","1494292485313"],"settings":{}}}},"Elegant":{"color_borders":"#e8e8e1","color_button":"#353956","color_button_text":"#ffffff","color_footer":"#17172c","color_footer_text":"#ffffff","color_drawer_background":"#ffffff","color_drawer_text":"#17172c","color_drawer_border":"#e8e8e1","color_drawer_button":"#353956","color_drawer_button_text":"#ffffff","color_modal_overlays":"#17172c","color_image_2":"#17172c","color_image_2_opacity":0,"color_image_1":"#17172c","color_image_1_opacity":32,"color_small_image_bg":"#f4f4f4","color_large_image_bg":"#17172c","type_header_spacing":"0","type_header_font_family":"bauer_bodoni_n7","type_header_base_size":42,"type_header_line_height":1.3,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"icon_weight":"3px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":true,"animate_underlines":true,"cart_type":"drawer","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":true,"sticky_collection":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292485313":{"type":"menu","settings":{"menu":"main-menu"}},"1494301487049":{"type":"menu","settings":{"menu":"footer"}}},"block_order":["1494301487049","1494292485313"],"settings":{}}}},"Minimal":{"color_borders":"#f0f1f3","color_button":"#111111","color_button_text":"#ffffff","color_footer":"#f0f1f3","color_footer_text":"#2c2c2c","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#f0f1f3","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_modal_overlays":"#aeb1b8","color_image_2":"#000000","color_image_2_opacity":0,"color_image_1":"#000000","color_image_1_opacity":26,"color_small_image_bg":"#ffffff","color_large_image_bg":"#dedfe1","type_header_spacing":"50","type_header_font_family":"chivo_n7","type_header_base_size":34,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_base_font_family":"neuzeit_office_n4","type_base_spacing":"25","type_base_size":16,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"2px","icon_linecaps":"round","animate_page_transitions":true,"animate_page_transition_style":"page-slide-reveal-down","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"fade-in","animate_buttons":true,"animate_underlines":true,"cart_type":"drawer","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":false,"sticky_collection":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292485313":{"type":"menu","settings":{"menu":"main-menu"}},"1494301487049":{"type":"menu","settings":{"menu":"footer"}}},"block_order":["1494301487049","1494292485313"],"settings":{}}}}}}
+{
+  "current": {
+    "color_borders": "#e8e8e1",
+    "color_button": "#ffcc00",
+    "color_button_text": "#1c1d1d",
+    "color_cart_dot": "#ffcc00",
+    "color_header": "#1c1d1d",
+    "color_header_text": "#ffffff",
+    "color_footer": "#111111",
+    "color_footer_text": "#ffffff",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#ffcc00",
+    "color_drawer_button_text": "#111111",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 62,
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#111111",
+    "type_header_font_family": "sans-serif",
+    "type_header_spacing": "0",
+    "type_header_base_size": 35,
+    "type_header_line_height": 1.2,
+    "type_header_accent_transform": true,
+    "type_base_font_family": "sans-serif",
+    "type_base_spacing": "25",
+    "type_base_size": 17,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "icon_weight": "3px",
+    "icon_linecaps": "miter",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-slow-fade",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": true,
+    "animate_images_style": "zoom-fade",
+    "animate_buttons": false,
+    "animate_underlines": true,
+    "product_save_amount": false,
+    "product_save_type": "percent",
+    "product_grid_image_size": "natural",
+    "quick_shop_enable": false,
+    "enable_swatches": false,
+    "cart_type": "drawer",
+    "cart_icon": "vital_cart",
+    "cart_additional_buttons": false,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "shopify:\/\/policies\/terms-of-service",
+    "social_facebook_link": "https:\/\/www.facebook.com\/vitalgym.co",
+    "social_instagram_link": "https:\/\/www.instagram.com\/vitalgym.co",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC55r6DwzKdaRrbw5TuCNAEg",
+    "favicon": "shopify:\/\/shop_images\/favicon_309f7ff5-8f97-4ad9-83c8-2cb7b791d11b.png",
+    "search_type": "product",
+    "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
+    "collection_meta": "Take a look at our collections to find the perfect home gym equipment for your training needs.",
+    "product_meta": "Looking for [product_title] deliver straight to your door? Then Vital Gym can help you with that !  High-quality gym equipment is a part of your  mental and physical health!",
+    "blog_meta": "Getting ready to start your New Year gym programme? With the help of our blog 'a new focus on your body's health and fitness!' get the motivation you need!",
+    "blog_post_meta": "Knowledge is power! Keep up to date with our blogs to train better and stronger in 2023!",
+    "default_page_meta": "All your home gym equipment in one store. Train better, train stronger! Join The Vital Gym Club free today and start benefiting from those member-only offers!",
+    "contact_page_meta": "Need help with a product or inquiry? We are here to answer all your questions!",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/12345.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_bg": "#000000",
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "31c5e8ad-2af3-4db8-9280-9a5955b0e82e": {
+            "type": "Banner",
+            "settings": {
+              "banner_item_text": "<p>Subscribe to our mailing lists and receive 10% off<\/p>",
+              "banner_item_onclick": "",
+              "banner_item_link_url": "",
+              "banner_item_link_text": "",
+              "show_klarna": false
+            }
+          },
+          "a9ba5855-35f0-45ae-acfa-a06e45d74346": {
+            "type": "Banner",
+            "settings": {
+              "banner_item_text": "<p>We Now Offer Clearpay At Checkout - Shop Now, Pay later, Always Interest Free <\/p>",
+              "banner_item_onclick": "",
+              "banner_item_link_url": "",
+              "banner_item_link_text": "",
+              "show_klarna": false
+            }
+          }
+        },
+        "block_order": [
+          "31c5e8ad-2af3-4db8-9280-9a5955b0e82e",
+          "a9ba5855-35f0-45ae-acfa-a06e45d74346"
+        ],
+        "settings": {
+          "show_bar": false,
+          "bar_text": "",
+          "logo": "shopify:\/\/shop_images\/Christmas-logo-white_ad0a127a-51af-4798-bb03-9d24ffd15d29.png",
+          "logo-inverted": "shopify:\/\/shop_images\/Christmas-logo-white_ad0a127a-51af-4798-bb03-9d24ffd15d29.png",
+          "desktop_logo_width": 160,
+          "mobile_logo_width": 80,
+          "main_menu_link_list": "main-menu-new",
+          "main_menu_alignment": "left-center",
+          "header_sticky": false,
+          "sticky_index": false,
+          "sticky_collection": false,
+          "show_announcement": false,
+          "announcement_text": "",
+          "announcement_link": "",
+          "announcement_closable": false,
+          "show_banner": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1494301487049": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "our-shop"
+            }
+          },
+          "e6b974c0-92e9-4dc0-bc6b-1b22759715ec": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "collections"
+            }
+          },
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "about-vitalgym"
+            }
+          },
+          "f9cc252f-a775-4751-8cac-45fcddc025f9": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer"
+            }
+          },
+          "61e7ad93-e109-40d8-b315-aba742985bcc": {
+            "type": "right_block",
+            "settings": {
+              "url1": "shopify:\/\/pages\/vitalclub",
+              "url1_text": "Vital Club",
+              "url2": "shopify:\/\/pages\/home-gym-build",
+              "url2_text": "BUILD YOUR Home GYM",
+              "title": "Subscribe",
+              "block_description": "Be notified about special offers, free giveaways, and once-in-a-lifetime deals."
+            }
+          }
+        },
+        "block_order": [
+          "1494301487049",
+          "e6b974c0-92e9-4dc0-bc6b-1b22759715ec",
+          "1494292485313",
+          "f9cc252f-a775-4751-8cac-45fcddc025f9",
+          "61e7ad93-e109-40d8-b315-aba742985bcc"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "logo": "shopify:\/\/shop_images\/Christmas-logo-white.png",
+          "pay_icons": true,
+          "copyright": "JPC VITAL GYM UK LIMITED incorporated in England and Wales (company number: 14451749). Our registered office is 62, Bartholomew Street, Newbury, Berkshire, RG14 7BE. \nOur trading address is; Unit 3 Queens Square, Lyndhurst Road, Ascot, SL5 9FE."
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide",
+          "align_text": "left"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "account-dashboard": {
+        "type": "account-dashboard",
+        "blocks": {
+          "6e1ff746-de1d-41bd-bc06-75a4319ab860": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_2-Desktop-2x.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/Banner_2-Mobile-2x.jpg",
+              "url": "https:\/\/open.spotify.com\/playlist\/3bVs5hjR2WCGIUxj69UZEl?si=093b2ed78ae64407"
+            }
+          }
+        },
+        "block_order": [
+          "6e1ff746-de1d-41bd-bc06-75a4319ab860"
+        ],
+        "settings": {
+          "percent": "VITALEXCLUSIVE",
+          "price_sale": "",
+          "featured_product": "adjustable-dumbbell-2-24kgs",
+          "product_offer": "EXCLUSIVE VIP OFFER",
+          "product_day": "March 30, 2023",
+          "give_name": "Protein shaker",
+          "give_image": "shopify:\/\/shop_images\/2_8_1_31f37d70-21ea-4990-a56f-34dc9a44c84c.png",
+          "discount": "£15 OFF COUPON",
+          "discount_id": "VITALCLUB",
+          "training_title": "OCTOBER PLAYLIST",
+          "training": "Official October",
+          "training_link": "https:\/\/open.spotify.com\/playlist\/5kzyXBluCBDO9jhzFc4mCB"
+        }
+      },
+      "account-orders": {
+        "type": "account-orders",
+        "settings": {
+        }
+      },
+      "account-vital-perks": {
+        "type": "account-vital-perks",
+        "blocks": {
+          "e3f85fcc-c77c-435a-abe0-1b002a0fd5a6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2572_aebd76db-a23a-4ba5-952e-040cb609ab89.png",
+              "percent": "10% Off",
+              "title": "FOOD MEAL PREP & JUICING",
+              "sub_title": "KBK",
+              "description": "<p>Food prep is critical if you want to build & repair muscle after working out. We have partnered with KBK, offering you a massive <strong>10% off <\/strong>your order. Just enter <strong>VitalKBK <\/strong>on checkout.<\/p>",
+              "url": "https:\/\/bit.ly\/35J74JT",
+              "code": "VitalKBK"
+            }
+          },
+          "41c855f9-9346-443a-8643-1bedf388a798": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2573_9359c5ad-d886-476e-b6aa-1699f7fcc665.png",
+              "percent": "20% Off",
+              "title": "Vegan Shakes and Supplements",
+              "sub_title": "Vegan Supplements",
+              "description": "<p>We have partnered with Vegan Supplements as they provide high quality, great tasting, fully-Vegan sports nutrition products. Their products are 100% Vegan Certified and of the highest standards and as a Vital Club member, you receive 20% Off all purchases.<\/p>",
+              "url": "https:\/\/bit.ly\/3iINBk6",
+              "code": "VITAL20"
+            }
+          },
+          "1d00891c-6efc-4459-961c-2c9ea075370c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2572_e01a3a30-1d14-4862-93f1-d51513ad7b33.jpg",
+              "percent": "20% off",
+              "title": "Organic Lifestyle Products",
+              "sub_title": "Green People",
+              "description": "<p>Green People provide the best organic lifestyle products for Men, Women, Children and Pets. Vital Club members get 20% off their range of products - including Body, Sun, Anti Ageing, Skin and Hair to help you look after your body, organically.<\/p>",
+              "url": "https:\/\/www.greenpeople.co.uk",
+              "code": "GPVITALGYM"
+            }
+          },
+          "497b1b41-7550-4542-a45c-3d7671a48c5e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_210_cdcb6635-f472-44cb-bcbd-40d3427d25e1.png",
+              "percent": "£250 OFF",
+              "title": "Home Gym Design & Build",
+              "sub_title": "Vital Gym",
+              "description": "<p>Vital Gym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home, a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.<\/p>",
+              "url": "shopify:\/\/pages\/home-gym-build",
+              "code": ""
+            }
+          },
+          "9084b99d-c8ff-43c5-a5be-eb286c432114": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2574_67ca8582-4ae7-4e8c-91bc-47d2c8c22d68.jpg",
+              "percent": "25% Off",
+              "title": "Frozen Fruit and Ready Packed Smoothies",
+              "sub_title": "PACKD",
+              "description": "<p>PACK’D provide maximum nutrition and minimum waste all whilst delivering fantastic fruit for snacks or smoothies.<\/p>",
+              "url": "https:\/\/www.packd.co.uk\/",
+              "code": "VITAL25 1st Purchase, VITAL10 for an ongoing 10% discount"
+            }
+          },
+          "14045091-ea6b-4b6c-b724-743a7fb281a2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2722_8dd12306-ea05-400c-a8f0-04042d43ed0a.jpg",
+              "percent": "15% Off",
+              "title": "Supplements and Wellbeing Products",
+              "sub_title": "Discount Supplements",
+              "description": "<p>Discount Supplements are the UK’s largest online sports supplements store. We partnered with the best to give you access to a discounted rate on their fantastic new brands of supplements...<\/p>",
+              "url": "https:\/\/www.discount-supplements.co.uk",
+              "code": "VITALGYM15"
+            }
+          },
+          "e89ed4e9-d067-45d2-9b31-5b3d7df68ef4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2723_8644600a-1a0a-4f99-83ca-5b8fa93b2067.jpg",
+              "percent": "15% Off",
+              "title": "Botanical Skincare",
+              "sub_title": "Meadow Skin Care",
+              "description": "<p>We partnered with Meadow Skincare as they are a fantastic small team in the UK who use 100% natural ingredients in all of their formulations. With 15% off sitewide.<\/p>",
+              "url": "https:\/\/www.meadowskincare.co.uk",
+              "code": "VITALGYM15"
+            }
+          },
+          "489c0893-f452-4792-a385-3d8490dac05b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2583_81cf2d78-6dc9-4ac8-8496-5f4b9e3f240e.jpg",
+              "percent": "15% Off",
+              "title": "PROTEIN CHEESE",
+              "sub_title": "EATLEAN",
+              "description": "<p>Partnering with Eatlean was a no brainer for us. Savoury snacks and great additions to meals mean healthier fuel and guilty free ingredients...<\/p><p>Eatlean Protein cheese is handmade using 100% British cows milk by expert cheesemakers on their dairy farm in Cheshire, and it’s bursting with benefits for your new leaner healthier lifestyle…<\/p>",
+              "url": "https:\/\/www.eatleanfood.com\/",
+              "code": "VITALGYM"
+            }
+          },
+          "666f9e73-74af-4426-ae64-6f5a861c6b26": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2586_747ac23f-6ffa-4a48-af34-abfa7cd68d8b.jpg",
+              "percent": "10% Off",
+              "title": "COFFEES FROM AROUND THE WORLD",
+              "sub_title": "LIMINI COFFEE",
+              "description": "<p>We got together with the guys from Limini Coffee Youri and Samantha, to provide exceptional coffee from around the globe to fuel your day with great natural health benefits...<\/p>",
+              "url": "https:\/\/www.liminicoffee.co.uk\/shop\/?discountcode=161349243800073",
+              "code": "No code - Automatically attached to link above"
+            }
+          }
+        },
+        "block_order": [
+          "e3f85fcc-c77c-435a-abe0-1b002a0fd5a6",
+          "41c855f9-9346-443a-8643-1bedf388a798",
+          "1d00891c-6efc-4459-961c-2c9ea075370c",
+          "497b1b41-7550-4542-a45c-3d7671a48c5e",
+          "9084b99d-c8ff-43c5-a5be-eb286c432114",
+          "14045091-ea6b-4b6c-b724-743a7fb281a2",
+          "e89ed4e9-d067-45d2-9b31-5b3d7df68ef4",
+          "489c0893-f452-4792-a385-3d8490dac05b",
+          "666f9e73-74af-4426-ae64-6f5a861c6b26"
+        ],
+        "settings": {
+        }
+      },
+      "banner-home-custom": {
+        "type": "banner-home-custom",
+        "settings": {
+        }
+      },
+      "banner-home-slider": {
+        "type": "banner-home-slider",
+        "blocks": {
+          "2f33145a-fce3-4fbe-8d94-7b25362d8805": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_11_95690f66-0864-480f-9c69-760ac89478d2.png",
+              "price": "£15,475",
+              "description": "VitalGym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home,  a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.",
+              "url": ""
+            }
+          },
+          "80375f19-c18b-4017-ab01-74d7bf45bcaa": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_13_22e54783-7ca2-4ccc-b9d8-2e7c17b29c90.png",
+              "price": "£18,245",
+              "description": "VitalGym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home,  a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.",
+              "url": ""
+            }
+          },
+          "2a17a952-b833-4319-a87c-a41d5c171ba5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_18_53a6b03d-d0e2-4682-8102-46452838a782.png",
+              "price": "£19,245",
+              "description": "VitalGym has partnered with one of the UK’s leading garden room companies to provide you with the home gym of your dreams. With experience installing over 13,000 bespoke spaces for the home,  a 5-star rating on Trustpilot, and a free perk worth up to £1000 - you can have absolute confidence that you’ll get the best gym for your needs.",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "2f33145a-fce3-4fbe-8d94-7b25362d8805",
+          "80375f19-c18b-4017-ab01-74d7bf45bcaa",
+          "2a17a952-b833-4319-a87c-a41d5c171ba5"
+        ],
+        "settings": {
+        }
+      },
+      "banner-content-guarantee": {
+        "type": "banner-content-guarantee",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/6mx4m_Edge16_2_a52873cc-92b0-47a1-b9ef-3b387d0ea5fd.png"
+        }
+      },
+      "how-we-work": {
+        "type": "how-we-work",
+        "blocks": {
+          "7b8bffa8-48c7-41f0-89a3-a067d78d67fa": {
+            "type": "text",
+            "settings": {
+              "title": "Consultation",
+              "description": "Book a no-obligation site survey  and design consultation by clicking on the sign up form below"
+            }
+          },
+          "adbdd1da-2648-495c-8bc2-dd50890279d9": {
+            "type": "text",
+            "settings": {
+              "title": "Design &  Proposal",
+              "description": "After the consultation, you’ll receive a proposal with all the offerings to help you design and conceptualize your very own Home Gym"
+            }
+          },
+          "4fd8b968-ae16-4d53-a618-016ff5ff6fdd": {
+            "type": "text",
+            "settings": {
+              "title": "Confirm",
+              "description": "Our customer care team will get in touch with you to finalise everything. All the final details will be settled, like the electrical plans to confirm the placement of the lights, switches, sockets, etc."
+            }
+          },
+          "ac452b18-8eb7-476c-a9dd-9856bb8cebd0": {
+            "type": "text",
+            "settings": {
+              "title": "Build",
+              "description": "Our customer care team will be in touch again to start building your dream home gym, based on the confirmed plans."
+            }
+          },
+          "478412ea-e2d4-44ef-9c43-14766d7daa9a": {
+            "type": "text",
+            "settings": {
+              "title": "Get Pumped!",
+              "description": "Enjoy your new home gym and get in those gains all-year round!"
+            }
+          }
+        },
+        "block_order": [
+          "7b8bffa8-48c7-41f0-89a3-a067d78d67fa",
+          "adbdd1da-2648-495c-8bc2-dd50890279d9",
+          "4fd8b968-ae16-4d53-a618-016ff5ff6fdd",
+          "ac452b18-8eb7-476c-a9dd-9856bb8cebd0",
+          "478412ea-e2d4-44ef-9c43-14766d7daa9a"
+        ],
+        "settings": {
+        }
+      },
+      "banner-image-text-left": {
+        "type": "banner-image-text-left",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_227_808b35ad-bea0-4f99-86c0-d717e457d555.png"
+        }
+      },
+      "banner-image-text-right": {
+        "type": "banner-image-text-right",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_64_1_ff78a5b1-ca42-4241-849e-29e3544721b6.png"
+        }
+      },
+      "service-list": {
+        "type": "service-list",
+        "settings": {
+        }
+      },
+      "home-gym-list": {
+        "type": "home-gym-list",
+        "blocks": {
+          "cc8ff750-7b23-42b0-968c-73044685d019": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_54_b1eb34fc-5a38-4ea2-8028-f5e9bba6976c.png",
+              "title": "Inspiration",
+              "description": "Compact & Contemporary",
+              "price": "14,745"
+            }
+          },
+          "716b8e26-a5cd-43ad-bf35-11cc9a939b94": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_51_29e2e646-dd1c-4401-b890-6e0e13681bd3.png",
+              "title": "Expression",
+              "description": "Strikingly elegant",
+              "price": "17,245"
+            }
+          },
+          "c1dbdc7b-ef27-4a6d-986e-5673c201b515": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_48_a69b7d05-7c29-49c5-ae5c-2072c5b06d6c.png",
+              "title": "Edge",
+              "description": "A modern classic",
+              "price": "17,245"
+            }
+          },
+          "e2ac4cb0-70e1-4dd5-b21b-bfca6cc9373c": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_44_49933d37-b4a9-40f6-b4fa-32441723f01d.png",
+              "title": "Pinnacle",
+              "description": "Architecturally stunning",
+              "price": "18,245"
+            }
+          }
+        },
+        "block_order": [
+          "cc8ff750-7b23-42b0-968c-73044685d019",
+          "716b8e26-a5cd-43ad-bf35-11cc9a939b94",
+          "c1dbdc7b-ef27-4a6d-986e-5673c201b515",
+          "e2ac4cb0-70e1-4dd5-b21b-bfca6cc9373c"
+        ],
+        "settings": {
+        }
+      },
+      "buy-now": {
+        "type": "buy-now",
+        "settings": {
+        }
+      },
+      "our-case": {
+        "type": "our-case",
+        "blocks": {
+          "bf42691a-602b-485f-a911-78eb8e96c908": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_211_355237cc-4228-465e-a24d-d7964bb5972a.png",
+              "avatar": "shopify:\/\/shop_images\/Rectangle_76_abbed59e-d06d-4d88-82b0-877745cdee21.png",
+              "name": "John Geofrey",
+              "location": "Gym House owner at Green Retreats",
+              "description": "From our visit to your showroom to the completion our our garden gym studio the experience has been seemless and hassle free. All members of staff we dealt with from design to contruction have been professional, courteous and thoroughly nice people. Thank you.",
+              "price": "£ 30,745",
+              "size": "7.5M x 4M",
+              "type": "Edge"
+            }
+          },
+          "1c942b54-93be-4fcc-ad28-de0fa4d18141": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_210_8325bd06-49de-4c02-82a0-a3bf3ab3d622.png",
+              "avatar": "shopify:\/\/shop_images\/Rectangle_75_351c48a2-cc8f-48b7-a82d-b987e13cf87e.png",
+              "name": "Mark Frowde",
+              "location": "Gym House owner at Green Retreats",
+              "description": "A very good experience from the beginning to end . quality of the product is excellent. the show room also very good. can’t fault the grounds work team or the install team who made up of day due to weather delay. neat and tidy, finish is really good. customer service team also very responsive and clear with their communication.",
+              "price": "£ 26,995",
+              "size": "6M x 4M",
+              "type": "Edge"
+            }
+          },
+          "7ea0794e-51e6-4c83-aaf9-88741eb0ee37": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_206_047f19f7-6f8b-4929-a7fe-2a972c723237.png",
+              "avatar": "shopify:\/\/shop_images\/Rectangle_77_9fd46c1d-b1e8-4222-a990-e052a61e082f.png",
+              "name": "Trish Williams",
+              "location": "Gym House owner at Green Retreats",
+              "description": "The team installed our garden building in Autumn 2020. The process was really straightforward from start to finish and our requirements and queries were handled quickly and efficiently. The overall quality of the construction is excellent. Our building is everything we hoped it would be ... a lovely space for the whole family and cosy enough for all seasons.",
+              "price": "£ 21,495",
+              "size": "3M x 5.5M",
+              "type": "Inspiration"
+            }
+          }
+        },
+        "block_order": [
+          "bf42691a-602b-485f-a911-78eb8e96c908",
+          "1c942b54-93be-4fcc-ad28-de0fa4d18141",
+          "7ea0794e-51e6-4c83-aaf9-88741eb0ee37"
+        ],
+        "settings": {
+        }
+      },
+      "form-contact": {
+        "type": "form-contact",
+        "settings": {
+        }
+      },
+      "landing-fullscreen": {
+        "type": "landing-fullscreen",
+        "settings": {
+          "section_title": "VITALCLUB",
+          "section_subtitle_left": "Become a",
+          "section_subtitle_right": "member of",
+          "button_text": "Join free",
+          "background_desktop": "shopify:\/\/shop_images\/Group_2606_e8c19f58-7ffb-471a-949f-a5698e7eadd6.png",
+          "background_mobile": "shopify:\/\/shop_images\/landing-background-mobile_ede13a79-02c6-4683-b093-1a661a025e5c.png",
+          "image_between": "shopify:\/\/shop_images\/young-fitness-man-studio_x880_2d09ccd7-885f-4a81-b6ca-6fd1995c5fac.png"
+        }
+      },
+      "landing-portal": {
+        "type": "landing-portal",
+        "settings": {
+          "section_title": "SPECIAL PORTAL\nFOR MEMBERS",
+          "section_subtitle": "Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines.",
+          "image_desktop": "shopify:\/\/shop_images\/Slice_1_1_x667_eb9e7562-310d-4db6-8e21-4d94364d9e6d.png",
+          "image_mobile": "shopify:\/\/shop_images\/PixelBook_Go_x270_8e601e66-fb93-451c-9de8-2b1651c9b4ae.png"
+        }
+      },
+      "landing-offers": {
+        "type": "landing-offers",
+        "settings": {
+          "section_title": "Exclusive offers",
+          "section_title_highlighted": "offers",
+          "description": "<p>You can get huge discounts (up to 70% off) on Vital Gym products so you can kit out your home gym for less.<\/p><p>Plus, you’ll get early access on our new products so you can grab those dumbbells before they sell out again!<\/p><p>And if that’s not enough - you’ll also go in the draw to win a free prize worth up to £100 every month.<\/p>",
+          "image_desktop": "shopify:\/\/shop_images\/Group_2707_x632_230d9107-b294-49b5-9ca8-49bcd0d0b9f9.png",
+          "image_mobile": "shopify:\/\/shop_images\/Group_2721_x420_18c74fe3-c906-4881-9f94-aeeef6cfa6ba.png"
+        }
+      },
+      "landing-partners": {
+        "type": "landing-partners",
+        "blocks": {
+          "64088069-fece-4601-a1ea-ec65133388c1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_2572_900x_f314ddcc-8f7e-4cf7-aa78-9c5b47922a3d.png",
+              "percent": 20,
+              "title": "organic lifestyle products",
+              "sub_title": "GREEN PEOPLE",
+              "description": "We’ve partnered with Green People as they provide the best organic lifestyle products for Men, Women, Children and Pets. We have arranged a 20% discount across their range of products Including Body, Sun, Anti Ageing, Skin and Hair to help you look after your body organically."
+            }
+          },
+          "918775e7-0398-40cb-82ee-eedb6b57257c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_1451_900x_c49ef7dd-5982-4003-b4a8-ed1c4d75b708.png",
+              "percent": 25,
+              "title": "Frozen Fruit and Ready Packed Smoothies",
+              "sub_title": "PACK’D",
+              "description": "We decided to partner with PACK’D as they are on a mission to provide maximum nutrition and minimum waste all whilst delivering fantastic fruit for snacks or smoothies."
+            }
+          },
+          "16825757-64f8-4385-8ed8-7582793fc215": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_1452_900x_e77ba851-5fbf-41ad-b054-5256cb2073aa.png",
+              "percent": 15,
+              "title": "PROTEIN CHEESE",
+              "sub_title": "EATLEAN",
+              "description": "Partnering with Eatlean was a no brainer for us. Savoury snacks and great additions to meals mean healthier fuel and guilty free ingredients... Eatlean Protein cheese is handmade using 100% British cows milk by expert cheesemakers on their dairy farm in Cheshire, and it’s bursting with benefits for your new leaner healthier lifestyle…"
+            }
+          },
+          "1fb9ad1f-dda8-4440-a561-76331aea8cab": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_1453_900x_1a5e1711-a075-4e2e-b901-d48b6c497e50.png",
+              "percent": 15,
+              "title": "BOTANICAL SKINCARE",
+              "sub_title": "MEADOW SKINCARE",
+              "description": "We partnered with Meadow Skincare as they are a fantastic small team in the UK who use 100% natural ingredients in all of their formulations."
+            }
+          }
+        },
+        "block_order": [
+          "64088069-fece-4601-a1ea-ec65133388c1",
+          "918775e7-0398-40cb-82ee-eedb6b57257c",
+          "16825757-64f8-4385-8ed8-7582793fc215",
+          "1fb9ad1f-dda8-4440-a561-76331aea8cab"
+        ],
+        "settings": {
+          "section_title": "Perks from our partners",
+          "section_title_highlighted": "partners",
+          "description": "<p>We’ve partnered with a handpicked range of health & wellness  brands, negotiating massive discounts just for you.<\/p><p>Below is a few of our partner brands...<\/p>",
+          "button_text": "ACCESS ALL PERKS",
+          "additional_text": "* Want to become a partner?",
+          "additional_link_title": "Contact us",
+          "additional_link_url": "shopify:\/\/pages\/contact-us"
+        }
+      },
+      "landing-benefits": {
+        "type": "landing-benefits",
+        "settings": {
+          "section_title": "More vital benefits",
+          "section_title_highlighted": "benefits",
+          "section_subtitle": "As well as discounts on our carefully selected partners, you’ll get access to a private portal where you can:",
+          "first_title": "Monthly Giveaway",
+          "first_subtitle": "Go in the draw & you’ll get 12 chances of winning a Vital Gym product every year!",
+          "second_title": "Discount Coupon",
+          "second_subtitle": "£10 off your next Vital Gym purchase so you can kit out your home gym for less.",
+          "third_title": "Spotify Playlist",
+          "third_subtitle": "Bored of your tunes & need some extra motivation? Every month, we curate playlists with the best tunes for working out.",
+          "fourth_title": "Refer & Earn",
+          "fourth_subtitle": "Refer a friend to the Vital Club and earn commission for every person who joins."
+        }
+      },
+      "landing-workouts": {
+        "type": "landing-workouts",
+        "settings": {
+          "section_title": "Workouts",
+          "section_subtitle": "Coming soon",
+          "description": "We’ve partnered with some of the top trainers in the UK to provide you with a range of workouts to help you achieve your fitness goals. You’ll learn the best ways to use your Vital Gym products so you make sure you’re working out as effectively as possible.",
+          "image_desktop": "shopify:\/\/shop_images\/Group_2703_x410_32f477c9-bec1-4876-8fbe-13076fe9f0bf.png",
+          "image_mobile": "shopify:\/\/shop_images\/Group_2736_x550_97d1ac5e-c628-446b-ae5a-fbee4b499f50.png"
+        }
+      },
+      "landing-reviews": {
+        "type": "landing-reviews",
+        "blocks": {
+          "f3c46a3e-fef5-4e6c-8abb-1b3a484eeb6e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/woman-sits-in-a-yoga-pose-in-their-living-room_x600_14c69d0e-1f04-45ab-9bb2-1e0589fdb537.jpg",
+              "name": "Lucy Hunt",
+              "text": "I am loving being part of the Vital Club! I was looking to purchase your Yoga mat and saw your offer for 30% to Vital Club members so signed up and was so surprised to see how much good stuff you guys are offering for free!"
+            }
+          },
+          "1e4f96ef-9170-46e5-be58-55b1ba403e7f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/man-relaxing_x600_761447f3-4890-44c0-8c6f-7ce6a7d49770.jpg",
+              "name": "Matthew o'hara",
+              "text": "Just wanted to drop you guys a message to say am really impressed with what you are doing. I got invite to join the Vital Club couple weeks ago and was intrigued so signed up... I ended saving £40 off dumbbells I was going to order and been loving all the health\/nutrition perks available. Keep up the good work!"
+            }
+          }
+        },
+        "block_order": [
+          "f3c46a3e-fef5-4e6c-8abb-1b3a484eeb6e",
+          "1e4f96ef-9170-46e5-be58-55b1ba403e7f"
+        ],
+        "settings": {
+        }
+      },
+      "landing-join": {
+        "type": "landing-join",
+        "settings": {
+          "section_title": "Join right now for free",
+          "section_title_highlighted": "Join",
+          "section_subtitle": "To celebrate the launch of the Vital Club, we’re giving you full access for free. But hurry - this won’t be available for long! Just fill in the simple registration form and instantly become a member.",
+          "image_desktop": "shopify:\/\/shop_images\/charles-gaudreault-xXofYCc3hqc-unsplash_2_fb8725d4-ab17-40dc-b82a-e777d1c18ae1.png",
+          "image_mobile": "shopify:\/\/shop_images\/charles-gaudreault-xXofYCc3hqc-unsplash_2_fb8725d4-ab17-40dc-b82a-e777d1c18ae1.png"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "dd0f5b1e-46bd-4320-bfda-3cff26433821": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>At Vital Gym, we strive to help you keep fit, stay strong, and be healthy - all from the comfort of your own home. <\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "eccb33d8-2520-4b48-9aab-ca0f9076b341": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hkSwUhBA_1_540x_5f47b4b8-bb66-4132-90ac-b6caf84b5390.png",
+              "image_width": 500,
+              "subtitle": "Our Mission",
+              "title": "WHO WE ARE",
+              "text": "<p>We know how expensive gym memberships can be, and often all we're really paying for is the equipment. So we wanted to bring you top-quality fitness equipment which you can use at home. You only need to purchase the equipment once and you'll be able to use it forever. If you want to keep fit, tone up, or build muscle - we know you'll love Vital Gym.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "29d4d1d6-30b3-4f9f-af4d-3ff3c464a4f9": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Instagram_1080x1080-kettlebell_540x_c89a0b4f-3b19-4a4f-a98a-7b7c00a19208.png",
+              "image_width": 500,
+              "subtitle": "COMPACT & ADJUSTABLE",
+              "title": "FUNCTIONAL FITNESS EQUIPMENT",
+              "text": "<p>Our signature Adjustable Dumbbells & Kettlebells have been designed for maximum versatility and strength-building. Just one dumbbell contains up to 17 different weight options so you can gradually increase your weight as you change exercises or get stronger. Plus, it's super compact which save loads of space at home!<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "57d28241-03f5-4c8e-95e4-7faa842d1761": {
+            "type": "text-columns",
+            "settings": {
+              "title": "OUR TEAM",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/John_Bromley_360x_5565a024-f998-429d-ba21-98272115aabb.png",
+              "image_width_1": 650,
+              "title_1": "JOHN BROMLEY",
+              "text_1": "<p>Chief Executive Officer (CEO)<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/Henry_Mallory_360x_b16a7dc0-9b37-44af-b2c5-b22734f7f722.png",
+              "image_width_2": 650,
+              "title_2": "HENRY MALLORY",
+              "text_2": "<p>Head of Service Department<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/Oli_Mallory_360x_40f4260e-1c05-4b90-846d-bd3892b94971.png",
+              "image_width_3": 650,
+              "title_3": "OLI MALLORY",
+              "text_3": "<p>Head of Communications Department<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "2012e169-4b35-40ec-8c6f-649931ec26f9": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/Chloe_Zhou_360x_1109589d-db32-4ad3-83d0-55157e176439.png",
+              "image_width_1": 650,
+              "title_1": "CHLOE ZHOU",
+              "text_1": "<p>Head of Supply Department<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/Adam_Balint_360x_bad6f6fb-66e3-4b45-a84a-91b0211dd65a.png",
+              "image_width_2": 650,
+              "title_2": "ADAM BALINT",
+              "text_2": "<p>Technical Specialist<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/Yurii_Funkendorf_360x_3e9c28d9-d273-4b55-9739-9100f0f84c13.png",
+              "image_width_3": 650,
+              "title_3": "YURII FUNKENDORF",
+              "text_3": "<p>Design Lead<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "5467c4c2-0544-40e9-a43e-5b4c258dc3d6": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/t-shirt-and-shorts-mockup-featuring-a-fit-man-33058-min_360x_1227f577-8266-40c0-9bea-93b418ecdc73.png",
+              "image_1_link": "",
+              "image_2": "shopify:\/\/shop_images\/IMG_4547_360x_e8998fc3-dc95-4011-9e90-cdbf3ae08475.png",
+              "image_2_link": "",
+              "image_3": "shopify:\/\/shop_images\/mockup-of-a-girl-wearing-custom-sportswear-and-boxfit-equipment-while-at-the-gym-a16842-min_360x_d89e6a18-05b8-4d7f-8fee-e1cd1de6bea6.png",
+              "image_3_link": "",
+              "image_4": "shopify:\/\/shop_images\/athletic-man-lifting-weights-at-the-gym-tank-top-mockup-a8157_360x_ea9a3e74-9833-457e-b51a-3b1b91417409.png",
+              "image_4_link": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "dd0f5b1e-46bd-4320-bfda-3cff26433821",
+          "eccb33d8-2520-4b48-9aab-ca0f9076b341",
+          "29d4d1d6-30b3-4f9f-af4d-3ff3c464a4f9",
+          "57d28241-03f5-4c8e-95e4-7faa842d1761",
+          "2012e169-4b35-40ec-8c6f-649931ec26f9",
+          "5467c4c2-0544-40e9-a43e-5b4c258dc3d6"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": true,
+          "overlaid_header": true
+        }
+      },
+      "page-contact-us": {
+        "type": "page-contact-us",
+        "blocks": {
+          "9b2b57dd-ecd2-4e00-b89b-287a50dd7c1f": {
+            "type": "address",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/favicon_309f7ff5-8f97-4ad9-83c8-2cb7b791d11b.png",
+              "title": "OUR Headquarters",
+              "addres_text": "Unit 3, Queens Square, Lyndhurst Road, Ascot, SL5 9FE",
+              "phoneOn": false,
+              "phone": ""
+            }
+          },
+          "32a61278-7244-4110-ba79-76a9e92a6818": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "9b2b57dd-ecd2-4e00-b89b-287a50dd7c1f",
+          "32a61278-7244-4110-ba79-76a9e92a6818"
+        ],
+        "settings": {
+        }
+      },
+      "giftcard-header": {
+        "type": "giftcard-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Frame_3285.png",
+          "desktop_logo_width": 140,
+          "mobile_logo_width": 140
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5149645339031002760": {
+        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "disabled": false,
+        "settings": {
+          "async": false
+        }
+      },
+      "1097096201824731535": {
+        "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/app-embeded\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Classic": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#ffffff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "cart_type": "drawer",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292485313"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Elegant": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#ffffff",
+      "color_footer": "#17172c",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "cart_type": "drawer",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292485313"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Minimal": {
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "50",
+      "type_header_font_family": "chivo_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "neuzeit_office_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "cart_type": "drawer",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292485313"
+          ],
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}
