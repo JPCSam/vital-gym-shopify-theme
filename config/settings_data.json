@@ -276,6 +276,7 @@
           },
           "1d00891c-6efc-4459-961c-2c9ea075370c": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_2572_e01a3a30-1d14-4862-93f1-d51513ad7b33.jpg",
               "percent": "20% off",
