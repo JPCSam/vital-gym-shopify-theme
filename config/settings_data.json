@@ -236,8 +236,8 @@
           "give_image": "shopify:\/\/shop_images\/2_8_1_31f37d70-21ea-4990-a56f-34dc9a44c84c.png",
           "discount": "£15 OFF COUPON",
           "discount_id": "VITALCLUB",
-          "training_title": "OCTOBER PLAYLIST",
-          "training": "Official October",
+          "training_title": "",
+          "training": "LET'S GET BUSY 2023",
           "training_link": "https:\/\/open.spotify.com\/playlist\/5kzyXBluCBDO9jhzFc4mCB"
         }
       },
@@ -915,6 +915,11 @@
           "logo": "shopify:\/\/shop_images\/Frame_3285.png",
           "desktop_logo_width": 140,
           "mobile_logo_width": 140
+        }
+      },
+      "account-workouts": {
+        "type": "account-workouts",
+        "settings": {
         }
       }
     },
