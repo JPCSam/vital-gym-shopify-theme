@@ -251,6 +251,7 @@
         "blocks": {
           "e3f85fcc-c77c-435a-abe0-1b002a0fd5a6": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_2572_aebd76db-a23a-4ba5-952e-040cb609ab89.png",
               "percent": "10% Off",
@@ -287,6 +288,7 @@
           },
           "497b1b41-7550-4542-a45c-3d7671a48c5e": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_210_cdcb6635-f472-44cb-bcbd-40d3427d25e1.png",
               "percent": "£250 OFF",
