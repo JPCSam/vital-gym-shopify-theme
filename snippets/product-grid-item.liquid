@@ -35,6 +35,7 @@
           {{ 'products.product.sold_out' | t }}
         </div>
       {%- endunless -%}
+      <span class="from_txt">From</span>
       {%- if on_sale and product.available -%}
         {%- if settings.product_save_amount -%}
           <div class="grid-product__tag grid-product__tag--sale">
