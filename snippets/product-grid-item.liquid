@@ -135,8 +135,7 @@
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
           {%- if product_variant.unit_price_measurement -%}
-            <div class="product__unit-price">
-            <span class="from_txt">From</span>
+            <div class="product__unit-price">          
               {%- capture unit_price_base_unit -%}
                 {%- if product_variant.unit_price_measurement -%}
                   {%- if product_variant.unit_price_measurement.reference_value != 1 -%}
