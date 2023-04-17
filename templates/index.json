@@ -102,6 +102,7 @@
     },
     "1643017918f1e17063": {
       "type": "homepage-slider",
+      "disabled": true,
       "blocks": {
         "8402b842-503a-4b3a-aad6-f7ab1f090e75": {
           "type": "image",
@@ -129,11 +130,23 @@
             "btn_label": "",
             "reversed_slide": false
           }
+        },
+        "a791f2b2-75aa-435f-8cc0-bc0e076092e9": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "slide_header": "",
+            "description": "CrossFit is a lifestyle characterized by safe, effective exercise and sound nutrition.",
+            "url": "",
+            "btn_label": "GO TO CATALOGUE",
+            "reversed_slide": false
+          }
         }
       },
       "block_order": [
         "8402b842-503a-4b3a-aad6-f7ab1f090e75",
-        "b2253cb3-da35-4e50-bc5e-2a7c26710964"
+        "b2253cb3-da35-4e50-bc5e-2a7c26710964",
+        "a791f2b2-75aa-435f-8cc0-bc0e076092e9"
       ],
       "settings": {
       }
