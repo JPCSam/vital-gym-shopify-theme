@@ -326,6 +326,7 @@
           },
           "e89ed4e9-d067-45d2-9b31-5b3d7df68ef4": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_2723_8644600a-1a0a-4f99-83ca-5b8fa93b2067.jpg",
               "percent": "15% Off",
@@ -350,6 +351,7 @@
           },
           "666f9e73-74af-4426-ae64-6f5a861c6b26": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_2586_747ac23f-6ffa-4a48-af34-abfa7cd68d8b.jpg",
               "percent": "10% Off",
