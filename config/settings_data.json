@@ -1230,5 +1230,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "klarna-placement {display: block !important;}"
+    ]
   }
 }
