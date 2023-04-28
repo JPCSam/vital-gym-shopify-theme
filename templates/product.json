@@ -49,7 +49,7 @@
           "settings": {
             "data_key": "credit-promotion-badge",
             "locale_option": "manual",
-            "locale_fallback": "United Kingdom",
+            "locale_fallback": "en-GB",
             "theme": "light",
             "topPadding": "5",
             "bottomPadding": "5"
