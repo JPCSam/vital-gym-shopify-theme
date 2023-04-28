@@ -51,8 +51,8 @@
             "locale_option": "manual",
             "locale_fallback": "en-GB",
             "theme": "light",
-            "topPadding": "5",
-            "bottomPadding": "5"
+            "topPadding": "0",
+            "bottomPadding": "0"
           }
         },
         "420a3daf-513b-4e07-b800-9fa94d04e6a1": {
