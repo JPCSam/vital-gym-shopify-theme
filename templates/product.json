@@ -103,12 +103,12 @@
         },
         "fc0396f0-2efb-4713-83b2-6b44bfaa2aa5": {
           "type": "reviews",
-          "disabled": true,
           "settings": {
           }
         },
         "18400520-7008-4175-a4ad-b3966239f59c": {
           "type": "trust_badge",
+          "disabled": true,
           "settings": {
           }
         }
@@ -129,7 +129,7 @@
         "18400520-7008-4175-a4ad-b3966239f59c"
       ],
       "settings": {
-        "sku_enable": false,
+        "sku_enable": true,
         "image_size": "medium",
         "product_zoom_enable": true,
         "thumbnail_position": "below",
