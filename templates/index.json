@@ -189,7 +189,7 @@
         "collection3": "racks",
         "collection3_img": "shopify:\/\/shop_images\/Mask_Group_2255c62a-924d-423a-b0a4-0c97bc7250ab.png",
         "collection4": "weights",
-        "collection4_img": "shopify:\/\/shop_images\/bulletproof-vest_470x_1.png",
+        "collection4_img": "shopify:\/\/shop_images\/weights_collection.png",
         "collection5": "dumbbells",
         "collection5_img": "shopify:\/\/shop_images\/image_197_1_-min_670x_1.png",
         "collection6": "accessories",
@@ -215,6 +215,7 @@
     },
     "16300697747b041413": {
       "type": "tree-cols-section",
+      "disabled": true,
       "blocks": {
         "16300697747b041413-0": {
           "type": "text_block",
@@ -228,6 +229,7 @@
         },
         "16300697747b041413-1": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hat_7cc7dda8-7ab6-4a6e-b354-e6471ea9f897.png",
             "title": "Student Discount",
