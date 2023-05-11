@@ -8544,7 +8544,7 @@ lazySizesConfig.expFactor = 2.2;
 $(document).ready(function () {
   //Loox
   $("#looxReviews").wrap('<div class="page-width" />');
-  $("#looxReviews").before('<div class="review-lable"><p>REVIEWS</p></div>');
+  // $("#looxReviews").before('<div class="review-lable"><p>REVIEWS</p></div>');
 
   //Make blog titles in 2 lines
   var $blog_title = $(".blog__title");
