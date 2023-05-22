@@ -6,27 +6,13 @@
       "settings": {
       }
     },
-    "6014eedc-797c-4cd2-8c72-e6cbbc3079c1": {
-      "type": "page-contact-us",
-      "blocks": {
-        "399766f6-c03b-436c-9dca-3fb9cab8e1d4": {
-          "type": "address",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/logo-transparent.png",
-            "title": "OUR Headquarters",
-            "addres_text": "Unit 3, Queens Square, Lyndhurst Road, Ascot, SL5 9FE",
-            "phoneOn": false,
-            "phone": ""
-          }
-        }
-      },
-      "block_order": [
-        "399766f6-c03b-436c-9dca-3fb9cab8e1d4"
-      ],
-      "custom_css": [
-        ".contacts__map {display: none;}"
-      ],
+    "3e215528-fe23-401e-9bfc-c5d02c73a5c6": {
+      "type": "contact-form",
       "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
       }
     },
     "a8544723-aeaf-49a7-903c-d9f3703a91dd": {
@@ -35,7 +21,7 @@
         "template--16900791009494__a8544723-aeaf-49a7-903c-d9f3703a91dd-16847613691451f51e-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display: flex; flex-direction: row; justify-content: center;\">\n<iframe src=\"https:\/\/chatfast.io\/chat\/55a1fc23-1bb9-4bee-96e0-517f7aea2bbe\" width=\"450px\" height=\"600px\"><\/iframe>\n<\/div>",
+            "code": "<div style=\"display: flex; flex-direction: row; justify-content: center;\">\n<iframe src=\"https:\/\/chatfast.io\/chat\/55a1fc23-1bb9-4bee-96e0-517f7aea2bbe\" width=\"80%\" height=\"600px\"><\/iframe>\n<\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -52,7 +38,7 @@
   },
   "order": [
     "main",
-    "6014eedc-797c-4cd2-8c72-e6cbbc3079c1",
+    "3e215528-fe23-401e-9bfc-c5d02c73a5c6",
     "a8544723-aeaf-49a7-903c-d9f3703a91dd"
   ]
 }
