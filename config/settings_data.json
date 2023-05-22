@@ -117,12 +117,23 @@
               "banner_item_link_text": "",
               "show_klarna": false
             }
+          },
+          "9e0c1f6a-adfc-41ca-b616-7850752341bb": {
+            "type": "Banner",
+            "settings": {
+              "banner_item_text": "<p>Talk to our new Chatbot, Laura, for all things Vital Gym!<\/p>",
+              "banner_item_onclick": "",
+              "banner_item_link_url": "https:\/\/vitalgym.co\/pages\/contact",
+              "banner_item_link_text": "",
+              "show_klarna": false
+            }
           }
         },
         "block_order": [
           "31c5e8ad-2af3-4db8-9280-9a5955b0e82e",
           "a9ba5855-35f0-45ae-acfa-a06e45d74346",
-          "402309fe-a8b5-474c-89f2-f6b9c7317ea7"
+          "402309fe-a8b5-474c-89f2-f6b9c7317ea7",
+          "9e0c1f6a-adfc-41ca-b616-7850752341bb"
         ],
         "settings": {
           "show_bar": false,
