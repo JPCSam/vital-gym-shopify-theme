@@ -12,14 +12,14 @@
         "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-0": {
           "type": "heading",
           "settings": {
-            "title": "Email Us"
+            "title": "Contact Us"
           }
         },
         "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Feel free to use our Chat Bot to find out any information you need, or contact us via Email!<\/p>"
+            "text": "<p>Feel free to chat to Laura to find out any information you need - she will try her best to help you! <br\/><\/p><p>Alternatively, contact us via Email!<\/p>"
           }
         }
       },
