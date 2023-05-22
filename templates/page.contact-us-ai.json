@@ -6,13 +6,31 @@
       "settings": {
       }
     },
-    "3e215528-fe23-401e-9bfc-c5d02c73a5c6": {
-      "type": "contact-form",
+    "35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Email Us"
+          }
+        },
+        "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Feel free to use our Chat Bot to find out any information you need, or contact us via Email!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-0",
+        "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-1"
+      ],
       "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "a8544723-aeaf-49a7-903c-d9f3703a91dd": {
@@ -34,11 +52,21 @@
         "full_width": true,
         "space_around": true
       }
+    },
+    "3e215528-fe23-401e-9bfc-c5d02c73a5c6": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
     }
   },
   "order": [
     "main",
-    "3e215528-fe23-401e-9bfc-c5d02c73a5c6",
-    "a8544723-aeaf-49a7-903c-d9f3703a91dd"
+    "35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea",
+    "a8544723-aeaf-49a7-903c-d9f3703a91dd",
+    "3e215528-fe23-401e-9bfc-c5d02c73a5c6"
   ]
 }
