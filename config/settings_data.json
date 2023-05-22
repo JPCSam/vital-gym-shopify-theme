@@ -90,6 +90,7 @@
         "blocks": {
           "31c5e8ad-2af3-4db8-9280-9a5955b0e82e": {
             "type": "Banner",
+            "disabled": true,
             "settings": {
               "banner_item_text": "<p>Subscribe To Our Mailing Lists And Receive <strong>10% Off<\/strong><\/p>",
               "banner_item_onclick": "",
@@ -100,6 +101,7 @@
           },
           "a9ba5855-35f0-45ae-acfa-a06e45d74346": {
             "type": "Banner",
+            "disabled": true,
             "settings": {
               "banner_item_text": "<p>We Now Offer Clearpay At Checkout - Shop Now, Pay later, Always Interest Free <\/p>",
               "banner_item_onclick": "",
@@ -110,6 +112,7 @@
           },
           "402309fe-a8b5-474c-89f2-f6b9c7317ea7": {
             "type": "Banner",
+            "disabled": true,
             "settings": {
               "banner_item_text": "<p>Review your equipment and get £15 OFF your next order.<\/p>",
               "banner_item_onclick": "",
@@ -944,19 +947,6 @@
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "5149645339031002760": {
-        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
-        "disabled": false,
-        "settings": {
-          "async": false
-        }
-      },
-      "1097096201824731535": {
-        "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/app-embeded\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
-        "disabled": true,
         "settings": {
         }
       }

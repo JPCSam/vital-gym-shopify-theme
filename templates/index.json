@@ -31,6 +31,7 @@
         },
         "abddf354-59bf-412a-bc91-e84f6aa25519": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "show_fw": false,
             "image": "shopify:\/\/shop_images\/image_2_2.jpg",
