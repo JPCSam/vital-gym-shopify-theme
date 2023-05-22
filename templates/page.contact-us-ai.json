@@ -35,7 +35,7 @@
         "template--16900791009494__a8544723-aeaf-49a7-903c-d9f3703a91dd-16847613691451f51e-1": {
           "type": "liquid",
           "settings": {
-            "code": "<iframe src=\"https:\/\/chatfast.io\/chat\/55a1fc23-1bb9-4bee-96e0-517f7aea2bbe\" width=\"100%\" height=\"600px\"><\/iframe>",
+            "code": "<div style=\"display: flex; flex-direction: row; justify-content: center;\">\n<iframe src=\"https:\/\/chatfast.io\/chat\/55a1fc23-1bb9-4bee-96e0-517f7aea2bbe\" width=\"450px\" height=\"600px\"><\/iframe>\n<\/div>",
             "width": "100%",
             "alignment": "center"
           }
