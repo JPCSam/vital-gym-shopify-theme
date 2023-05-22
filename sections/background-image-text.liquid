@@ -24,7 +24,7 @@
       {%- if section.settings.image != blank -%}
         {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
         <img
-          class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyload"
+          class="image-fit background-media-text__image background-media-text__image--{{ section.id }}"
           src=""
           data-src="{{ img_url }}"
           data-aspectratio="{{ section.settings.image.aspect_ratio }}"
@@ -34,7 +34,7 @@
           style="object-position: {{ section.settings.focal_point }}">
         <noscript>
           <img
-            class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyloaded"
+            class="image-fit background-media-text__image background-media-text__image--{{ section.id }}"
             src="{{ section.settings.image | img_url: '1800x' }}"
             alt="{{ section.settings.image.alt }}">
         </noscript>
