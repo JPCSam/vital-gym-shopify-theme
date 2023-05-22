@@ -2,7 +2,15 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
 {% render 'spurit_uac_meta_snippet' %}
 <head>
-<meta name="google-site-verification" content="3g-4xVH6ewR47trxZkCRD524wGOXxRd9E66cEjpCsUA" />
+  
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TC5CTMN');</script>
+<!-- End Google Tag Manager -->
+  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -85,7 +93,7 @@
   {%- endif -%}
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <script src="{{ 'custom-jquery.js' | asset_url }}" defer="defer"></script>
   {%- if request.page_type contains 'customers/' -%}
@@ -193,7 +201,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       app_id: "cn1t2mhh" 
     };
 </script>
-<script defer>
+ <script defer>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:1764134,hjsv:6};
@@ -203,6 +211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+
 	{{ shop.metafields.loox["global_html_body"] }}
 {% render 'preorder-now' %}
   {% include 'subscribe-it-helper' %}
@@ -237,28 +246,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   // }
 
   </script>  
-<!-- PF EDT START -->
-<script type='text/javascript'>
-{%- if content_for_header contains 'shopify-product-customizer' -%}
-    {%- if product -%}
-        {%- if product.first_available_variant -%}
-            var pfProductId = {{ product.metafields.printful.is_synced | json }};
-            var pfEdt = {{ shop.metafields.printful.is_edt_enabled | json }};
-            var pfEdtTextColor = {{ shop.metafields.printful.edt_text_color | json }};
-            var pfEdtBackgroundColor = {{ shop.metafields.printful.edt_background_color | json }};
-            var pfEdtBorderColor = {{ shop.metafields.printful.edt_border_color | json }};  
-            var pfEdtUseDefaultStyling = {{ shop.metafields.printful.edt_default_style | json }};
-            var pfEdtTextAlignment = {{ shop.metafields.printful.edt_text_alignment | json }};
-            var pfEdtFlags = {
-                US: "{{ 'US.svg' | asset_url }}",CA: "{{ 'CA.svg' | asset_url }}",ES: "{{ 'ES.svg' | asset_url }}",LV: "{{ 'LV.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",DE: "{{ 'DE.svg' | asset_url }}",FR: "{{ 'FR.svg' | asset_url }}",AU: "{{ 'AU.svg' | asset_url }}",JP: "{{ 'JP.svg' | asset_url }}",NZ: "{{ 'NZ.svg' | asset_url }}",IT: "{{ 'IT.svg' | asset_url }}",BR: "{{ 'BR.svg' | asset_url }}",KR: "{{ 'KR.svg' | asset_url }}",NL: "{{ 'NL.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",US: "{{ 'US.svg' | asset_url }}",
-            };
-        {%- else -%}
-            var pfEdt = 0;
-        {%- endif -%}
-    {%- endif -%}
-{%- endif -%}
-</script>
-<!-- PF EDT END -->
 </body>
 </html>
 <!-- Begin Shopify-Clearpay JavaScript Snippet (v1.1.5) -->
@@ -297,19 +284,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 // var clearpay_footer_logo_template = '<li class="payment-icon"><object data="{logo_path}" type="image/svg+xml"></object></li>';
 
 // Non-editable fields:
-// var clearpay_js_language = {{ localization.language.iso_code | slice: 0, 2 | json }};
-// var clearpay_js_country = {{ localization.country.iso_code | json }};
-// var clearpay_shop_currency = {{ shop.currency | json }};
-// var clearpay_cart_currency = {{ cart.currency.iso_code | json }};
-// var clearpay_shop_money_format = {{ shop.money_format | json }};
-// var clearpay_shop_permanent_domain = {{ shop.permanent_domain | json }};
-// var clearpay_theme_name = {{ theme.name | json }};
-// var clearpay_product = {{ product | json }};
-// var clearpay_current_variant = {{ product.selected_or_first_available_variant | json }};
-// var clearpay_cart_total_price = {{ cart.total_price | json }};
-// var clearpay_js_snippet_version = '1.1.5';
+var clearpay_js_language = {{ localization.language.iso_code | slice: 0, 2 | json }};
+var clearpay_js_country = {{ localization.country.iso_code | json }};
+var clearpay_shop_currency = {{ shop.currency | json }};
+var clearpay_cart_currency = {{ cart.currency.iso_code | json }};
+var clearpay_shop_money_format = {{ shop.money_format | json }};
+var clearpay_shop_permanent_domain = {{ shop.permanent_domain | json }};
+var clearpay_theme_name = {{ theme.name | json }};
+var clearpay_product = {{ product | json }};
+var clearpay_current_variant = {{ product.selected_or_first_available_variant | json }};
+var clearpay_cart_total_price = {{ cart.total_price | json }};
+var clearpay_js_snippet_version = '1.1.5';
 </script>
-<!-- <script type="text/javascript" src="https://static.afterpay.com/shopify-clearpay-javascript.js"></script> -->
+<script type="text/javascript" src="https://static.afterpay.com/shopify-clearpay-javascript.js"></script>
 {% else %}
 Clearpay disabled: {{ cart.currency.iso_code }} != {{ shop.currency }}
 {% endif %}
