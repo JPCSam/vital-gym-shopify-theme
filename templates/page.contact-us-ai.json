@@ -18,8 +18,8 @@
         "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Feel free to chat to Laura to find out any information you need - she will try her best to help you! <br\/><\/p><p>Alternatively, contact us via Email!<\/p>"
+            "enlarge_text": false,
+            "text": "<p>Feel free to talk to Laura, our Vital Gym AI, ask her anything you need to know about Vital Gym, and she'll do her best to help you out.<br\/><br\/>If you still need more information, contact us via email below.<\/p>"
           }
         }
       },
