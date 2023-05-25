@@ -93,8 +93,8 @@
     "1631102601ac5546f6": {
       "type": "featured-collection",
       "settings": {
-        "title": "LATEST OFFERS",
-        "home_featured_products": "sale",
+        "title": "GREAT PRICE BUNDLES",
+        "home_featured_products": "bundles",
         "per_row": 3,
         "rows": 1,
         "view_all": true,
