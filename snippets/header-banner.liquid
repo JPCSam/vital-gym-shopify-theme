@@ -36,9 +36,8 @@
         {% endif %}
       {% endfor %}
     </div>
-    <div class="btn-wrap">
+    <div class="btn-wrap" style="height: 100% !important;">
       {% if customer %}
-        <a href="/account"><button class="btn account-btn" id="account-btn">My Account</button></a>
       {% else %}
         <button class="btn btn--transparent open-custom-modal" id="open-login-modal">Log In</button>
         <button class="btn btn--inverse open-custom-modal open_signup" id="open-signup-modal">Sign Up</button>
@@ -49,62 +48,52 @@
 {%- comment -%}<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>{%- endcomment -%}
 
 <style>
-  .header-banner{
+  .header-banner {
     background: #1c1c1d;
     opacity: 0.9;
     padding: 6px 15px;
     height: 40px;
   }
-  klarna-placement{
-    display: none!important;
+  klarna-placement {
+    display: none !important;
   }
-  .header-banner .banner-item-inner{
+  .header-banner .banner-item-inner {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     flex-wrap: wrap;
-
   }
-  .header-banner .slick-track{
+  .header-banner .slick-track {
     display: flex;
     align-items: center;
   }
-  .header-banner .banner-container{
+  .header-banner .banner-container {
     max-width: 1300px;
     margin: 0 auto;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-  }
-  .header-banner .btn-wrap{
-    position: absolute;
-    top: 0px;
-    right: 0;
-    background:none!important;
+    display: flex;
+    flex-direction: row;
   }
 
-  .btn-wrap {
-    transform: translateY(-14%);
-  }
-
-  .header-banner .banner-slider-container{
+  .header-banner .banner-slider-container {
     max-width: 720px;
     margin: 0 auto;
   }
-  .header-banner .banner-item-inner p{
+  .header-banner .banner-item-inner p {
     margin-bottom: 0;
-    color: #F0F0F0;
+    color: #f0f0f0;
     font-weight: 100;
     font-size: 14px;
     line-height: 14px;
-    font-family: 'Industry Demi'!important;
+    font-family: 'Industry Demi' !important;
   }
-  .header-banner .banner-item-inner p strong{
+  .header-banner .banner-item-inner p strong {
     color: #ffcc00;
-
   }
-  .header-banner .banner-item-inner a{
+  .header-banner .banner-item-inner a {
     padding: 3px 0;
     font-size: 14px;
     margin-bottom: 0;
@@ -112,81 +101,82 @@
     font-weight: 900;
     line-height: 14px;
     margin-left: 8px;
-    font-family: 'Industry'!important;
+    font-family: 'Industry' !important;
     display: flex;
     text-decoration: underline;
   }
   @media screen and (max-width: 1000px) {
-    .header-banner .banner-item-inner a{
+    .header-banner .banner-item-inner a {
       padding: 17px 4px 17px 0;
     }
   }
-  #open-login-modal, #open-signup-modal {
-      font-size: 12px;
-      line-height: 18px;
-      text-align: center;
-      text-transform: uppercase;
-      font-family: 'Industry Demi'!important;
-      padding: 6px 12px;
-      max-height: 28px;
-      min-width: unset;
+  #open-login-modal,
+  #open-signup-modal {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Industry Demi' !important;
+    padding: 6px 12px;
+    max-height: 28px;
+    min-width: unset;
   }
   #open-signup-modal {
     padding: 7px 12px;
   }
-  .header-banner .banner-item-inner .badge{
+  .header-banner .banner-item-inner .badge {
     height: 27px;
   }
-  .header-banner .slick-next{
+  .header-banner .slick-next {
     width: 48px;
     height: 48px;
     background: url("{{'right.png' | asset_img_url: '100x'}}") center no-repeat;
   }
-  .header-banner .slick-prev{
+  .header-banner .slick-prev {
     width: 48px;
     height: 48px;
     background: url("{{'left.png' | asset_img_url: '100x'}}") center no-repeat;
   }
-  .header-banner .btn{
-   height: 28px;
-   display: inline-flex;
-   justify-content: center;
+  .header-banner .btn {
+    height: 28px;
+    display: inline-flex;
+    justify-content: center;
   }
 
   .header-banner .btn.btn--transparent {
     max-width: 720px;
     margin: 0 auto;
-    background: #1c1c1d!important;
-    color: #fff!important;
+    background: #1c1c1d !important;
+    color: #fff !important;
     border: 1px solid #616060;
   }
   #open-signup-modal {
-    color: #1C1C1D;
-    background: #fc0!important;
+    color: #1c1c1d;
+    background: #fc0 !important;
     border: 0;
   }
   #open-signup-modal:hover {
-    background: #FED955!important;
-    transition: all .4s ease;
+    background: #fed955 !important;
+    transition: all 0.4s ease;
   }
   #open-login-modal:hover {
-    background: #616060!important;
-    border: 0!important;
-    transition: all .4s ease;
+    background: #616060 !important;
+    border: 0 !important;
+    transition: all 0.4s ease;
   }
   @media screen and (max-width: 1000px) {
-      .header-banner .btn-wrap{
-          display: none;
-      }
+    .header-banner .btn-wrap {
+      display: none;
+    }
   }
   @media screen and (max-width: 768px) {
-    .header-banner .banner-item-inner p, .header-banner .banner-item-inner a{
+    .header-banner .banner-item-inner p,
+    .header-banner .banner-item-inner a {
       font-size: 12px;
     }
-
   }
-  @media screen and (max-width:480px){
-    body .header-banner{
+  @media screen and (max-width: 480px) {
+    body .header-banner {
       height: 48px;
     }
   }
@@ -196,12 +186,12 @@
     width: 100%;
     top: 0;
   }
-  .site-header.fixed-carousel{
+  .site-header.fixed-carousel {
     padding-top: 40px;
   }
   #account-btn {
-      font-weight: 700;
-      text-transform: uppercase;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 </style>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
