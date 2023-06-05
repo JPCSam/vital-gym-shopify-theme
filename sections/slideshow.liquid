@@ -149,7 +149,7 @@
 
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-                    <img class="hero__image hero__image--{{ block.id }} lazyload{% if has_mobile_image %} small--hide{% endif %}"
+                    <img class="hero__image hero__image--{{ block.id }} {% if has_mobile_image %} small--hide{% endif %}"
                       src="{{ block.settings.image | img_url: '300x' }}"
                       data-src="{{ img_url }}"
                       data-aspectratio="{{ block.settings.image.aspect_ratio }}"
@@ -157,7 +157,7 @@
                       alt="{{ block.settings.image.alt | escape }}">
                     {%- if has_mobile_image -%}
                       {%- assign img_url_mobile = block.settings.image_mobile | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                      <img class="hero__image hero__image--{{ block.id }} lazyload medium-up--hide"
+                      <img class="hero__image hero__image--{{ block.id }} medium-up--hide"
                         src="{{ block.settings.image_mobile | img_url: '300x' }}"
                         data-src="{{ img_url_mobile }}"
                         data-aspectratio="{{ block.settings.image_mobile.aspect_ratio }}"
@@ -172,7 +172,7 @@
                   {%- else -%}
                     {%- if template == 'password' -%}
                       {%- assign password_image = 'password-page-background.jpg' | asset_url -%}
-                      <img class="hero__image lazyload" src="{{ password_image }}" alt="VitalGym">
+                      <img class="hero__image" src="{{ password_image }}" alt="VitalGym">
                     {%- else -%}
                       {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}

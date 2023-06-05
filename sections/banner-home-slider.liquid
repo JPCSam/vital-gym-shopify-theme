@@ -19,8 +19,12 @@
 
 <div class="slick-navigation container">
   <div class="slick-dots-custom"></div>
-  <div class="slick-button slick-left"><img src="{{ 'Arrow-Left.svg' | asset_url}}" loading="lazy" class="lazyload" alt="left arrow"></div>
-  <div class="slick-button slick-right"><img src="{{ 'Arrow-Right.svg' | asset_url}}" loading="lazy" class="lazyload" alt="right arrow"></div>
+  <!-- <div class="slick-button slick-left"><img src="{{ 'Arrow-Left.svg' | asset_url}}" loading="lazy" class="lazyload" alt="left arrow"></div>
+  <div class="slick-button slick-right"><img src="{{ 'Arrow-Right.svg' | asset_url}}" loading="lazy" class="lazyload" alt="right arrow"></div> -->
+
+<!--  Removed Lazyload  -->
+  <div class="slick-button slick-left"><img src="{{ 'Arrow-Left.svg' | asset_url}}" alt="left arrow"></div>
+  <div class="slick-button slick-right"><img src="{{ 'Arrow-Right.svg' | asset_url}}" alt="right arrow"></div>
 </div>
 {% endif %}
 {% schema %}

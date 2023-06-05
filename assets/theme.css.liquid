@@ -2087,7 +2087,7 @@ button[disabled],html input[disabled]{
 
 .btn, .product-reviews .spr-button, .product-reviews .spr-summary-actions a, .rte .btn, .shopify-payment-button .shopify-payment-button__button--unbranded {
 	display: inline-block !important;
-	padding: 0px 20px;
+	padding: 10px 20px;
 	margin: 0;
 	width: auto;
 	min-width: 90px;
@@ -4252,20 +4252,20 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
     position:relative;
   }
 
-[data-animate_underlines=true] .rte a:not(.btn):after{
+<!-- [data-animate_underlines=true] .rte a:not(.btn):after{
       content:"";
       position:absolute;
       bottom:-2px;
       left:0;
       width:100%;
-      border-bottom:2px solid currentColor;
+      border-bottom:0px solid currentColor;
       transform:scale(0);
       transform-origin:0 50%;
       transition:transform 0.5s ease;
-    }
+    } -->
 
 [data-animate_underlines=true] .rte a:not(.btn):focus:after,[data-animate_underlines=true] .rte a:not(.btn):hover:after{
-        transform:scale(1);
+        transform:scale(0);
       }
 
 [data-animate_underlines=true] .rte a.rte__image:after{
@@ -8505,12 +8505,13 @@ html[dir=rtl] .grid-product__content{
   }
 
 .inventory--low .icon--inventory:after,.inventory--low .icon--inventory:before{
-      background:#f4af29;
+      background:#d53221;
     }
 
-.inventory--low{
-  color:#f4af29;
-}
+    .inventory--low {
+      color: #d53221;
+      font-weight: bold;
+    }
 
 .color-swatch{
   position:relative;
@@ -11626,7 +11627,7 @@ html[dir=rtl] .slick-slider {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -12042,7 +12043,7 @@ html[dir=rtl] .slick-slider {
 }
 .btn.btn--full.add-to-cart.add-to-cart--secondary {
   font-family: 'Industry Demi'!important;
-  line-height: 24px;
+  line-height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12573,6 +12574,25 @@ h1.section-header__title.collection-title {
   font-size: 36px;
   line-height: 36px;
 }
+@media (hover: hover){
+	.grid-product__content:hover .product-button::after,
+	.grid-product__content:hover .product-button::before, 
+	.grid-product__content:hover::after, .grid-product__content:hover::before {
+		/* content: "";
+		position: absolute;
+		width: 16px;
+		height: 16px; */
+		display: none;
+	}
+	.grid-product__content:hover .product-button::after, 
+	.grid-product__content:hover .product-button::before, 
+	.grid-product__content:hover::after, .grid-product__content:hover::before {
+	  /* content: "";
+	  position: absolute;
+	  width: 16px;
+	  height: 16px; */
+	  display: none;
+	}
 @media screen and (max-width:1024px){
   .grid-product__tag{
     bottom: 7px;
@@ -12930,11 +12950,11 @@ h1.section-header__title.collection-title {
 
 }
 /*Loox styling*/
-#looxReviews:not(.reviews) {
+/* #looxReviews:not(.reviews) {
   width: 50%;
   display: flex;
   margin: 0;
-}
+} */
 .loox-rating .loox-icon {
   margin-right: 1px;
   color: #ffcc00;
@@ -13168,4 +13188,28 @@ article.page-width.page-width--narrow.page-content.article {
 	padding: 6px 12px;
 	max-height: 28px;
 	min-width: unset;
+}
+
+/* Blog date margin change */
+.blog__date {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #1c1c1d;
+	padding: 8px 10px;
+	width: 64px;
+	height: 64px;
+	margin-bottom: 15px !important;
+}
+.header-banner .banner-slider-container {
+	max-width: 720px;
+	margin: 8px auto !important;
+	padding: 2px 0 !important;
+}
+
+
+/* trustpilot widget review in header */
+.template-index.loaded {
+	padding: 0px !important;
 }

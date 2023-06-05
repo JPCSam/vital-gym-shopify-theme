@@ -1,1 +1,289 @@
-{"sections":{"1630069768a2bf06d2":{"type":"homepage-slider","blocks":{"4890a446-a447-4704-bf7e-1cc3d45d2e82":{"type":"image","disabled":true,"settings":{"show_fw":true,"image":"shopify:\/\/shop_images\/Clearance_website_banner.jpg","image_mob":"shopify:\/\/shop_images\/Clearance_mobile_banner.jpg","slide_header":"","description":"","url":"shopify:\/\/collections\/sale","btn_label":"","reversed_slide":false}},"73fca9a7-22eb-4cfb-a3a3-84f589bce2a0":{"type":"image","settings":{"show_fw":false,"image":"shopify:\/\/shop_images\/image_bundles_web.jpg","slide_header":"Save on bundles","description":"Shop our full collection of must have bundles for your home gym and gain access to our exclusive spring offers.","url":"shopify:\/\/collections\/bundles","btn_label":"SHOP NOW","reversed_slide":true}},"abddf354-59bf-412a-bc91-e84f6aa25519":{"type":"image","settings":{"show_fw":false,"image":"shopify:\/\/shop_images\/image_2_2.jpg","slide_header":"THE VITAL CLUB","description":"Discounts on Vital Gym products, entry in our monthly giveaway, exclusive offers with our partner brands and equipment specific workout library.","url":"shopify:\/\/pages\/vitalclub","btn_label":"Vital Club","reversed_slide":false}},"a5432215-8909-4275-ab03-9efb698f3c4b":{"type":"image","disabled":true,"settings":{"show_fw":false,"image":"shopify:\/\/shop_images\/image_4-min_1.jpg","slide_header":"HOME GYM DESIGN & BUILD","description":"Size doesn’t matter; we can create amazing, functional home gyms in small areas. We specialise in making effective, efficient and inspiring place to work out.","url":"shopify:\/\/pages\/home-gym-build","btn_label":"Build your home gym","reversed_slide":false}},"450ea53f-829b-42b0-a25f-197109082a5b":{"type":"image","disabled":true,"settings":{"show_fw":false,"image":"shopify:\/\/shop_images\/image_02.png","slide_header":"CLEARANCE SALE UP TO 60% OFF","description":"Limited time offer on all products site-wide!","url":"shopify:\/\/collections\/all-products","btn_label":"SHOP NOW","reversed_slide":true}}},"block_order":["4890a446-a447-4704-bf7e-1cc3d45d2e82","73fca9a7-22eb-4cfb-a3a3-84f589bce2a0","abddf354-59bf-412a-bc91-e84f6aa25519","a5432215-8909-4275-ab03-9efb698f3c4b","450ea53f-829b-42b0-a25f-197109082a5b"],"settings":{}},"71fb9905-28de-49b7-80e0-e9b96229b597":{"type":"featured-collection","settings":{"title":"BEST SELLER","home_featured_products":"best-sellers","per_row":3,"rows":1,"view_all":true,"divider":false}},"1631102601ac5546f6":{"type":"featured-collection","settings":{"title":"LATEST OFFERS","home_featured_products":"sale","per_row":3,"rows":1,"view_all":true,"divider":false}},"1643017918f1e17063":{"type":"homepage-slider","blocks":{"8402b842-503a-4b3a-aad6-f7ab1f090e75":{"type":"image","settings":{"show_fw":true,"image":"shopify:\/\/shop_images\/Weekdeal_1.png","image_mob":"shopify:\/\/shop_images\/Weekdeal_1.png","slide_header":"","description":"","url":"shopify:\/\/products\/vital-gym-af-200-foldable-home-treadmilll","btn_label":"","reversed_slide":false}},"b2253cb3-da35-4e50-bc5e-2a7c26710964":{"type":"image","disabled":true,"settings":{"show_fw":true,"image":"shopify:\/\/shop_images\/Frame_3455_19b134c3-69d3-4793-b459-0c046da299ea.png","image_mob":"shopify:\/\/shop_images\/Frame_3456_5cd0f625-7c52-4846-8d20-7d141d70db38.png","slide_header":"","description":"","url":"shopify:\/\/products\/massage-gun","btn_label":"","reversed_slide":false}}},"block_order":["8402b842-503a-4b3a-aad6-f7ab1f090e75","b2253cb3-da35-4e50-bc5e-2a7c26710964"],"settings":{}},"1630140057cf707248":{"type":"collection-switcher-new","disabled":true,"settings":{"title":"","collection1":"sale","collection2":"in-stock","collection3":"bundles","per_row":3,"view_all":true}},"163006974727d4fcd3":{"type":"featured-collections-3","settings":{"title":"Shop by goal","show_title":true,"collection1":"strength-conditioning","collection1_img":"shopify:\/\/shop_images\/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png","collection2":"calistenics","collection2_img":"shopify:\/\/shop_images\/4_80x_feb2ee65-0f8b-45d6-bdfc-42d3c8ff0d40.png","collection3":"weights","collection3_img":"shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png","collection4":"crossfit","collection4_img":"shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"}},"16300697594fc839fe":{"type":"featured-collections-4","settings":{"title":"Main product collections","collection1":"barbells","collection1_img":"shopify:\/\/shop_images\/image_197_670x_1.png","collection2":"benches","collection2_img":"shopify:\/\/shop_images\/image_107-min_670x_1.png","collection3":"racks","collection3_img":"shopify:\/\/shop_images\/Mask_Group_2255c62a-924d-423a-b0a4-0c97bc7250ab.png","collection4":"weights","collection4_img":"shopify:\/\/shop_images\/bulletproof-vest_470x_1.png","collection5":"dumbbells","collection5_img":"shopify:\/\/shop_images\/image_197_1_-min_670x_1.png","collection6":"accessories","collection6_img":"shopify:\/\/shop_images\/Elly_Vitalgym-75_1.png"}},"1630069804bb48c4df":{"type":"video-with-cta","settings":{"uptitle":"Become a member","title":"Vitalclub","text_description":"<p>Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines.<\/p>","button_label":"Vital club","button_link":"shopify:\/\/pages\/vitalclub"}},"16300697437ba5bb61":{"type":"blog-slider","settings":{"title":"The Vital Blog","blog":"news"}},"16300697747b041413":{"type":"tree-cols-section","blocks":{"16300697747b041413-0":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/truck_60000392-cd9b-4232-a411-8033c42e0e58.png","title":"FAST DELIVERY","text":"<p>Order before 10am and we will get your order dispatched the same day.<\/p>","button_label":"","url":""}},"16300697747b041413-1":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/hat_7cc7dda8-7ab6-4a6e-b354-e6471ea9f897.png","title":"Student Discount","text":"<p>We are proud partners of Student Beans giving your 10% off all our products.<\/p>","button_label":"","url":""}},"16300697747b041413-2":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/bag_4675f82c-e87c-4934-be4d-f3a429e3751d.png","title":"BUY NOW, PAY LATER","text":"<p>Spread the cost of your purchase into 3 interest-free instalments.<\/p>","button_label":"","url":""}}},"block_order":["16300697747b041413-0","16300697747b041413-1","16300697747b041413-2"],"settings":{"title":""}},"1643017499f7fd2cce":{"type":"loox-carousel-reviews","settings":{"max_width":1920,"arrows_color":"","dots_color":"","button_color":"","show_more":true,"only_photos":false,"use_widget_font":false,"product_handle":""}}},"order":["1630069768a2bf06d2","71fb9905-28de-49b7-80e0-e9b96229b597","1631102601ac5546f6","1643017918f1e17063","1630140057cf707248","163006974727d4fcd3","16300697594fc839fe","1630069804bb48c4df","16300697437ba5bb61","16300697747b041413","1643017499f7fd2cce"]}
+{
+  "sections": {
+    "1630069768a2bf06d2": {
+      "type": "homepage-slider",
+      "blocks": {
+        "4890a446-a447-4704-bf7e-1cc3d45d2e82": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show_fw": true,
+            "image": "shopify:\/\/shop_images\/Clearance_website_banner.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Clearance_mobile_banner.jpg",
+            "slide_header": "",
+            "description": "",
+            "url": "shopify:\/\/collections\/sale",
+            "btn_label": "",
+            "reversed_slide": false
+          }
+        },
+        "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/image_bundles_web.jpg",
+            "slide_header": "Save on bundles",
+            "description": "Shop our full collection of must have bundles for your home gym and gain access to our exclusive spring offers.",
+            "url": "shopify:\/\/collections\/bundles",
+            "btn_label": "SHOP NOW",
+            "reversed_slide": true
+          }
+        },
+        "abddf354-59bf-412a-bc91-e84f6aa25519": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/image_2_2.jpg",
+            "slide_header": "THE VITAL CLUB",
+            "description": "Discounts on Vital Gym products, entry in our monthly giveaway, exclusive offers with our partner brands and equipment specific workout library.",
+            "url": "shopify:\/\/pages\/vitalclub",
+            "btn_label": "Vital Club",
+            "reversed_slide": false
+          }
+        },
+        "a5432215-8909-4275-ab03-9efb698f3c4b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/image_4-min_1.jpg",
+            "slide_header": "HOME GYM DESIGN & BUILD",
+            "description": "Size doesn’t matter; we can create amazing, functional home gyms in small areas. We specialise in making effective, efficient and inspiring place to work out.",
+            "url": "shopify:\/\/pages\/home-gym-build",
+            "btn_label": "Build your home gym",
+            "reversed_slide": false
+          }
+        },
+        "450ea53f-829b-42b0-a25f-197109082a5b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/image_02.png",
+            "slide_header": "CLEARANCE SALE UP TO 60% OFF",
+            "description": "Limited time offer on all products site-wide!",
+            "url": "shopify:\/\/collections\/all-products",
+            "btn_label": "SHOP NOW",
+            "reversed_slide": true
+          }
+        }
+      },
+      "block_order": [
+        "4890a446-a447-4704-bf7e-1cc3d45d2e82",
+        "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0",
+        "abddf354-59bf-412a-bc91-e84f6aa25519",
+        "a5432215-8909-4275-ab03-9efb698f3c4b",
+        "450ea53f-829b-42b0-a25f-197109082a5b"
+      ],
+      "settings": {
+      }
+    },
+    "71fb9905-28de-49b7-80e0-e9b96229b597": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "home_featured_products": "best-sellers",
+        "per_row": 3,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1631102601ac5546f6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "GREAT PRICE BUNDLES",
+        "home_featured_products": "bundles",
+        "per_row": 3,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1643017918f1e17063": {
+      "type": "homepage-slider",
+      "disabled": true,
+      "blocks": {
+        "8402b842-503a-4b3a-aad6-f7ab1f090e75": {
+          "type": "image",
+          "settings": {
+            "show_fw": true,
+            "image": "shopify:\/\/shop_images\/Weekdeal_1.png",
+            "image_mob": "shopify:\/\/shop_images\/Weekdeal_1.png",
+            "slide_header": "",
+            "description": "",
+            "url": "shopify:\/\/products\/vital-gym-af-200-foldable-home-treadmilll",
+            "btn_label": "",
+            "reversed_slide": false
+          }
+        },
+        "b2253cb3-da35-4e50-bc5e-2a7c26710964": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show_fw": true,
+            "image": "shopify:\/\/shop_images\/Frame_3455_19b134c3-69d3-4793-b459-0c046da299ea.png",
+            "image_mob": "shopify:\/\/shop_images\/Frame_3456_5cd0f625-7c52-4846-8d20-7d141d70db38.png",
+            "slide_header": "",
+            "description": "",
+            "url": "shopify:\/\/products\/massage-gun",
+            "btn_label": "",
+            "reversed_slide": false
+          }
+        },
+        "a791f2b2-75aa-435f-8cc0-bc0e076092e9": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "slide_header": "",
+            "description": "CrossFit is a lifestyle characterized by safe, effective exercise and sound nutrition.",
+            "url": "",
+            "btn_label": "GO TO CATALOGUE",
+            "reversed_slide": false
+          }
+        }
+      },
+      "block_order": [
+        "8402b842-503a-4b3a-aad6-f7ab1f090e75",
+        "b2253cb3-da35-4e50-bc5e-2a7c26710964",
+        "a791f2b2-75aa-435f-8cc0-bc0e076092e9"
+      ],
+      "settings": {
+      }
+    },
+    "1630140057cf707248": {
+      "type": "collection-switcher-new",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "collection1": "sale",
+        "collection2": "in-stock",
+        "collection3": "bundles",
+        "per_row": 3,
+        "view_all": true
+      }
+    },
+    "163006974727d4fcd3": {
+      "type": "featured-collections-3",
+      "settings": {
+        "title": "Shop by goal",
+        "show_title": true,
+        "collection1": "strength-conditioning",
+        "collection1_img": "shopify:\/\/shop_images\/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png",
+        "collection2": "calistenics",
+        "collection2_img": "shopify:\/\/shop_images\/4_80x_feb2ee65-0f8b-45d6-bdfc-42d3c8ff0d40.png",
+        "collection3": "weights",
+        "collection3_img": "shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
+        "collection4": "crossfit",
+        "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
+      }
+    },
+    "16300697594fc839fe": {
+      "type": "featured-collections-4",
+      "settings": {
+        "title": "Main product collections",
+        "collection1": "barbells",
+        "collection1_img": "shopify:\/\/shop_images\/image_197_670x_1.png",
+        "collection2": "calistenics",
+        "collection2_img": "shopify:\/\/shop_images\/Nay_Vitalgym-61.jpg",
+        "collection3": "racks",
+        "collection3_img": "shopify:\/\/shop_images\/Mask_Group_2255c62a-924d-423a-b0a4-0c97bc7250ab.png",
+        "collection4": "weights",
+        "collection4_img": "shopify:\/\/shop_images\/weights_collection.png",
+        "collection5": "dumbbells",
+        "collection5_img": "shopify:\/\/shop_images\/dumbells.png",
+        "collection6": "accessories",
+        "collection6_img": "shopify:\/\/shop_images\/Elly_Vitalgym-75_1.png"
+      }
+    },
+    "1630069804bb48c4df": {
+      "type": "video-with-cta",
+      "settings": {
+        "uptitle": "Become a member",
+        "title": "Vitalclub",
+        "text_description": "<p>Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines.<\/p>",
+        "button_label": "Vital club",
+        "button_link": "shopify:\/\/pages\/vitalclub"
+      }
+    },
+    "16300697437ba5bb61": {
+      "type": "blog-slider",
+      "settings": {
+        "title": "The Vital Blog",
+        "blog": "news"
+      }
+    },
+    "16300697747b041413": {
+      "type": "tree-cols-section",
+      "disabled": true,
+      "blocks": {
+        "16300697747b041413-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/truck_60000392-cd9b-4232-a411-8033c42e0e58.png",
+            "title": "FAST DELIVERY",
+            "text": "<p>Order before 10am and we will get your order dispatched the same day.<\/p>",
+            "button_label": "",
+            "url": ""
+          }
+        },
+        "16300697747b041413-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hat_7cc7dda8-7ab6-4a6e-b354-e6471ea9f897.png",
+            "title": "Student Discount",
+            "text": "<p>We are proud partners of Student Beans giving your 10% off all our products.<\/p>",
+            "button_label": "",
+            "url": ""
+          }
+        },
+        "16300697747b041413-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bag_4675f82c-e87c-4934-be4d-f3a429e3751d.png",
+            "title": "BUY NOW, PAY LATER",
+            "text": "<p>Spread the cost of your purchase into 3 interest-free instalments.<\/p>",
+            "button_label": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16300697747b041413-0",
+        "16300697747b041413-1",
+        "16300697747b041413-2"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1643017499f7fd2cce": {
+      "type": "loox-carousel-reviews",
+      "settings": {
+        "max_width": 1920,
+        "arrows_color": "",
+        "dots_color": "",
+        "button_color": "",
+        "show_more": true,
+        "only_photos": false,
+        "use_widget_font": false,
+        "product_handle": ""
+      }
+    }
+  },
+  "order": [
+    "1630069768a2bf06d2",
+    "71fb9905-28de-49b7-80e0-e9b96229b597",
+    "1631102601ac5546f6",
+    "1643017918f1e17063",
+    "1630140057cf707248",
+    "163006974727d4fcd3",
+    "16300697594fc839fe",
+    "1630069804bb48c4df",
+    "16300697437ba5bb61",
+    "16300697747b041413",
+    "1643017499f7fd2cce"
+  ]
+}
