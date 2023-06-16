@@ -14988,7 +14988,7 @@ h1.section-header__title.collection-title {
 
 /*Loox styling*/
 #looxReviews:not(.reviews) {
-  width: 50%;
+  width: 100%;
   display: flex;
   margin: 0;
 }
