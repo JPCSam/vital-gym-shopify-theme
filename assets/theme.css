@@ -13380,7 +13380,7 @@ i.loox-icon.loox-star {
   color: #fc0;
 }
 
-.grid-product__tag.grid-product__tag--sale::after {
+/* .grid-product__tag.grid-product__tag--sale::after {
   background-color: #fc0;
 }
 
@@ -13410,7 +13410,7 @@ i.loox-icon.loox-star {
   left: 0;
   transform: skew(160deg);
   z-index: -1;
-}
+} */
 
 .product-image-main:after {
   content: '';
