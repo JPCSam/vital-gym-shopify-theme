@@ -350,12 +350,5 @@
     "here": "here",
     "free": "FREE",
     "sold_out": "Coming Soon"
-  },
-  "shopify": {
-    "filters": {
-      "product_type": {
-        "label": "Product Type"
-      }
-    }
   }
 }
