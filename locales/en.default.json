@@ -305,7 +305,7 @@
         "one": "Low stock - {{ count }} item left",
         "other": "Low stock - {{ count }} items left"
       },
-      "sold_out": "",
+      "sold_out": "Coming Soon",
       "unavailable": "Unavailable",
       "quantity": "Quantity",
       "add_to_cart": "Add to cart",
@@ -350,12 +350,5 @@
     "here": "here",
     "free": "FREE",
     "sold_out": "Coming Soon"
-  },
-  "shopify": {
-    "filters": {
-      "product_type": {
-        "label": "Product Type"
-      }
-    }
   }
 }
