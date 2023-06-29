@@ -14080,9 +14080,8 @@ html[dir=rtl] .slick-slider {
 }
 
 .icon--payment {
-  width: 30px;
   height: 20px;
-  margin-right: 12px;
+  margin-right: 6px;
 }
 
 .footer_left,
