@@ -135,6 +135,9 @@
           "402309fe-a8b5-474c-89f2-f6b9c7317ea7",
           "9e0c1f6a-adfc-41ca-b616-7850752341bb"
         ],
+        "custom_css": [
+          ".slick-dotted.slick-slider {margin-bottom: 0px;}"
+        ],
         "settings": {
           "show_bar": false,
           "bar_text": "",
