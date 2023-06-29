@@ -8,6 +8,29 @@
           "settings": {
           }
         },
+        "4c2059f4-0292-49c7-bda6-09f213192148": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -35,17 +58,6 @@
             "surface_pickup_enable": true
           }
         },
-        "4c2059f4-0292-49c7-bda6-09f213192148": {
-          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
-          "settings": {
-            "data_key": "credit-promotion-badge",
-            "locale_option": "geolocation",
-            "locale_fallback": "",
-            "theme": "light",
-            "topPadding": "0",
-            "bottomPadding": "0"
-          }
-        },
         "420a3daf-513b-4e07-b800-9fa94d04e6a1": {
           "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
           "settings": {
@@ -68,14 +80,15 @@
             "margin_bottom_mobile": 16,
             "show_lower_limit": true,
             "show_upper_limit": true,
-            "show_if_outside_limits": true
+            "show_if_outside_limits": true,
+            "product": ""
           }
         },
         "f7c90154-0dd5-43dc-a561-62036eb3b862": {
           "type": "shopify:\/\/apps\/aftership-order-tracking\/blocks\/edd\/3375afd5-c790-4ee3-abbc-ae4972ab72ed",
           "settings": {
             "description": "Estimated Delivery",
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "text-color": "#1c1d1d",
             "icon-color": "#ffcc00",
             "top-padding": 15,
@@ -112,21 +125,16 @@
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
-        },
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "price",
+        "4c2059f4-0292-49c7-bda6-09f213192148",
         "loox-rating",
         "separator",
         "variant_picker",
         "inventory_status",
         "buy_buttons",
-        "4c2059f4-0292-49c7-bda6-09f213192148",
         "420a3daf-513b-4e07-b800-9fa94d04e6a1",
         "f7c90154-0dd5-43dc-a561-62036eb3b862",
         "description",
