@@ -77,7 +77,7 @@
         "450ea53f-829b-42b0-a25f-197109082a5b"
       ],
       "custom_css": [
-
+        ".slick-dotted.slick-slider {margin-bottom: 0px !important;}"
       ],
       "settings": {
       }
