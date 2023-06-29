@@ -79,8 +79,11 @@
   }
 
   .header-banner .banner-slider-container {
+    display: flex;
     max-width: 720px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
   .header-banner .banner-item-inner p {
     margin-bottom: 0;
@@ -192,6 +195,14 @@
   #account-btn {
     font-weight: 700;
     text-transform: uppercase;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  .slick-list {
+    display: flex;
+    height: 100% !important;
+    align-items: center;
   }
 </style>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
