@@ -712,11 +712,11 @@
         "settings": {
           "section_title": "Perks from our partners",
           "section_title_highlighted": "partners",
-          "description": "<p>We’ve partnered with a handpicked range of health & wellness  brands, negotiating massive discounts just for you.<\/p><p>Below is a few of our partner brands...<\/p>",
+          "description": "<p>We’ve partnered with a handpicked range of health & wellness brands, negotiating massive discounts just for you.<\/p><p>See some of our partners below!<\/p>",
           "button_text": "ACCESS ALL PERKS",
-          "additional_text": "* Want to become a partner?",
+          "additional_text": "Want to become a partner?",
           "additional_link_title": "Contact us",
-          "additional_link_url": "shopify:\/\/pages\/contact-us"
+          "additional_link_url": "mailto:hello@vitalgym.co"
         }
       },
       "landing-benefits": {
