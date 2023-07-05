@@ -12002,7 +12002,8 @@ div[data-section-type=fading-images] {
 }
 
 .cart__price--strikethrough {
-  text-decoration: line-through;
+	text-decoration: line-through;
+	padding: 0px 10px;
 }
 
 /*FOR BLCKFRD*/
