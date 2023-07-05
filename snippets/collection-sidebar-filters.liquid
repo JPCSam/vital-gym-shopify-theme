@@ -3,11 +3,17 @@
     {%- assign filter_index = forloop.index -%}
 
     {%- for filter_value in filter.active_values -%}
-      <li class="tag tag--remove">
-        <a class="btn btn--small btn--no-animate" href="{{ filter_value.url_to_remove }}">
+      <li class="tag tag--remove" style="background-color: #ffcc00">
+        <a
+          class="btn btn--small btn--no-animate"
+          href="{{ filter_value.url_to_remove }}"
+          style="width: 100% !important"
+        >
           {{ filter_value.label | escape }}
         </a>
-        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64">
+          <path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/>
+        </svg>
       </li>
     {%- endfor -%}
   {%- endfor -%}
@@ -22,16 +28,20 @@
     <div class="collection-sidebar__group--{{ filter_index }}">
       <div class="collection-sidebar__group">
         {%- render 'collection-sidebar-filter-trigger',
-              id: filter_id,
-              location: location,
-              title: filter.label,
-              index: filter_index,
-              collapsed_state: collapsed_state -%}
+          id: filter_id,
+          location: location,
+          title: filter.label,
+          index: filter_index,
+          collapsed_state: collapsed_state
+        -%}
         <div
           id="{{ location }}-{{ filter_index }}-{{ filter_id }}"
           class="collapsible-content collapsible-content--sidebar{% unless collapsed_state %} is-open{% endunless %}"
           data-collapsible-id="{{ filter_id }}"
-          {% unless collapsed_state %}style="height: auto;"{% endunless %}>
+          {% unless collapsed_state %}
+            style="height: auto;"
+          {% endunless %}
+        >
           <div class="collapsible-content__inner">
             {%- case filter.type -%}
               {%- when 'list' -%}
@@ -67,7 +77,10 @@
                           type="checkbox"
                           name="{{ filter_value.param_name }}"
                           value="{{ filter_value.value }}"
-                          {% if filter_value.active -%}checked{%- endif %}>
+                          {% if filter_value.active -%}
+                            checked
+                          {%- endif %}
+                        >
                         {%- if is_color -%}
                           <span
                             class="color-swatch color-swatch--filter color-swatch--{{ tag_name | handle }}"
@@ -91,7 +104,7 @@
                     .collection-sidebar__group--{{ filter_index }} { display: none; }
                   {%- endstyle -%}
                 {%- endif -%}
-              {%- when 'price_range'-%}
+              {%- when 'price_range' -%}
                 {% comment %} Comma code from Dawn {% endcomment %}
                 {% liquid
                   assign currencies_using_comma_decimals = 'ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND' | split: ','
@@ -126,7 +139,8 @@
                   data-min="{{ filter_range_min }}"
                   data-max-value="{{ filter_max_value }}"
                   data-max-name="{{ filter.max_value.param_name }}"
-                  data-max="{{ filter_range_max }}">
+                  data-max="{{ filter_range_max }}"
+                >
                   <div class="price-range__display-wrapper">
                     <span class="price-range__display-min">{{ filter_min_value }}</span>
                     <span class="price-range__display-max">{{ filter_max_value }}</span>
@@ -138,12 +152,14 @@
                     class="price-range__input price-range__input-min"
                     name="{{ filter.min_value.param_name }}"
                     value="{{ filter_min_value }}"
-                    readonly>
+                    readonly
+                  >
                   <input
                     class="price-range__input price-range__input-max"
                     name="{{ filter.max_value.param_name }}"
                     value="{{ filter_max_value }}"
-                    readonly>
+                    readonly
+                  >
                 </div>
             {%- endcase -%}
           </div>

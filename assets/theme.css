@@ -9758,7 +9758,8 @@ input:checked~.tag-checkbox:after {
 }
 
 .tag--remove {
-  position: relative
+  position: relative;
+  background-color: #ffcc00 !important;
 }
 
 .tag--remove a {
