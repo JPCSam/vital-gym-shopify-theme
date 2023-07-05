@@ -12046,8 +12046,9 @@ span.cart__price.cart__discount {
 }
 
 .cart__checkout {
-  width: 100%;
-  text-transform: uppercase;
+	width: 100%;
+	text-transform: uppercase;
+	padding: 10px 0px;
 }
 
 iframe.zoid-component-frame {
