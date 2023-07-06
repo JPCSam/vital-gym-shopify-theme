@@ -67,6 +67,18 @@
             "btn_label": "SHOP NOW",
             "reversed_slide": true
           }
+        },
+        "88afdcc0-d7aa-4116-a687-22b9f9a85e43": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/image-1600x1000-vital-banner.png",
+            "slide_header": "Save Big on Home Gym Floor Mats",
+            "description": "Enhance your home gym with discounted floor mats! Shop now for durable, slip-resistant mats that provide comfort and protection.",
+            "url": "shopify:\/\/products\/buckle-gym-floor-mat",
+            "btn_label": "SHOP NOW",
+            "reversed_slide": false
+          }
         }
       },
       "block_order": [
@@ -74,7 +86,8 @@
         "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0",
         "abddf354-59bf-412a-bc91-e84f6aa25519",
         "a5432215-8909-4275-ab03-9efb698f3c4b",
-        "450ea53f-829b-42b0-a25f-197109082a5b"
+        "450ea53f-829b-42b0-a25f-197109082a5b",
+        "88afdcc0-d7aa-4116-a687-22b9f9a85e43"
       ],
       "custom_css": [
         ".slick-dotted.slick-slider {margin-bottom: 0px !important;}"
@@ -110,18 +123,6 @@
       "settings": {
         "title": "BEST SELLERS",
         "home_featured_products": "best-sellers",
-        "per_row": 3,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1631102601ac5546f6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "GREAT PRICE BUNDLES",
-        "home_featured_products": "bundles",
         "per_row": 3,
         "rows": 1,
         "view_all": true,
@@ -304,7 +305,6 @@
     "1630069768a2bf06d2",
     "16880400091a49f4e9",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
-    "1631102601ac5546f6",
     "1643017918f1e17063",
     "1630140057cf707248",
     "163006974727d4fcd3",
