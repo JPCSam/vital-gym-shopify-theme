@@ -24,7 +24,7 @@
             "image": "shopify:\/\/shop_images\/image_bundles_web.jpg",
             "slide_header": "Save on bundles",
             "description": "Shop our full collection of must have bundles for your home gym and gain access to our exclusive spring offers.",
-            "url": "shopify:\/\/collections\/bundles",
+            "url": "shopify:\/\/pages\/bundles",
             "btn_label": "SHOP NOW",
             "reversed_slide": true
           }
