@@ -29,64 +29,34 @@
             "reversed_slide": true
           }
         },
-        "abddf354-59bf-412a-bc91-e84f6aa25519": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/image_2_2.jpg",
-            "slide_header": "THE VITAL CLUB",
-            "description": "Discounts on Vital Gym products, entry in our monthly giveaway, exclusive offers with our partner brands and equipment specific workout library.",
-            "url": "shopify:\/\/pages\/vitalclub",
-            "btn_label": "Vital Club",
-            "reversed_slide": false
-          }
-        },
-        "a5432215-8909-4275-ab03-9efb698f3c4b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/image_4-min_1.jpg",
-            "slide_header": "HOME GYM DESIGN & BUILD",
-            "description": "Size doesn’t matter; we can create amazing, functional home gyms in small areas. We specialise in making effective, efficient and inspiring place to work out.",
-            "url": "shopify:\/\/pages\/home-gym-build",
-            "btn_label": "Build your home gym",
-            "reversed_slide": false
-          }
-        },
         "450ea53f-829b-42b0-a25f-197109082a5b": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/image_02.png",
-            "slide_header": "CLEARANCE SALE UP TO 60% OFF",
-            "description": "Limited time offer on all products site-wide!",
-            "url": "shopify:\/\/collections\/all-products",
+            "image": "shopify:\/\/shop_images\/3_259b7711-dbee-45f3-a8c9-1cf87cafccc0.png",
+            "slide_header": "Versatile Workouts with our Adjustable Kettlebell!",
+            "description": "Maximise your fitness routine with our Adjustable Kettlebell! Experience the convenience of multiple weights in one compact design.",
+            "url": "shopify:\/\/products\/adjustable-kettlebell",
             "btn_label": "SHOP NOW",
-            "reversed_slide": true
+            "reversed_slide": false
           }
         },
         "88afdcc0-d7aa-4116-a687-22b9f9a85e43": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/image-1600x1000-vital-banner.png",
+            "image": "shopify:\/\/shop_images\/1_432fa328-5cdc-419c-8e08-b9da3d7f57de.png",
             "slide_header": "Save Big on Home Gym Floor Mats",
             "description": "Enhance your home gym with discounted floor mats! Shop now for durable, slip-resistant mats that provide comfort and protection.",
             "url": "shopify:\/\/products\/buckle-gym-floor-mat",
             "btn_label": "SHOP NOW",
-            "reversed_slide": false
+            "reversed_slide": true
           }
         }
       },
       "block_order": [
         "4890a446-a447-4704-bf7e-1cc3d45d2e82",
         "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0",
-        "abddf354-59bf-412a-bc91-e84f6aa25519",
-        "a5432215-8909-4275-ab03-9efb698f3c4b",
         "450ea53f-829b-42b0-a25f-197109082a5b",
         "88afdcc0-d7aa-4116-a687-22b9f9a85e43"
       ],
