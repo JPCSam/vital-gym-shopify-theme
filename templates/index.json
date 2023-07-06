@@ -118,6 +118,7 @@
     },
     "1631102601ac5546f6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "GREAT PRICE BUNDLES",
         "home_featured_products": "bundles",
