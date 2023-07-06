@@ -70,6 +70,7 @@
         },
         "88afdcc0-d7aa-4116-a687-22b9f9a85e43": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "show_fw": false,
             "image": "shopify:\/\/shop_images\/image-1600x1000-vital-banner.png",
