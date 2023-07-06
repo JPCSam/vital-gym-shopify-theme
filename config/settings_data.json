@@ -101,7 +101,7 @@
           "a9ba5855-35f0-45ae-acfa-a06e45d74346": {
             "type": "Banner",
             "settings": {
-              "banner_item_text": "<p>We Now Offer Clearpay At Checkout - Shop now. Pay it in 4 interest-free instalments. Choose Clearpay.<\/p>",
+              "banner_item_text": "<p>Klarna and Clearpay available at checkout<\/p>",
               "banner_item_onclick": "",
               "banner_item_link_url": "",
               "banner_item_link_text": "",
@@ -111,7 +111,7 @@
           "402309fe-a8b5-474c-89f2-f6b9c7317ea7": {
             "type": "Banner",
             "settings": {
-              "banner_item_text": "<p>Review your equipment and get £15 OFF your next order.<\/p>",
+              "banner_item_text": "<p>Review your equipment and get £15 OFF your next order<\/p>",
               "banner_item_onclick": "",
               "banner_item_link_url": "",
               "banner_item_link_text": "",
@@ -127,7 +127,7 @@
         "custom_css": [
           ".slick-dotted.slick-slider {margin-bottom: 0px;}",
           ".header-banner {background: #ffcc00; opacity: 0.9; padding: 6px 15px; height: 45px;}",
-          ".header-banner .banner-item-inner p {margin-bottom: 0;color: #1d1e1e;font-weight: 100;font-size: 16px;line-height: 16px;font-family: 'Industry Demi' !important;}"
+          ".header-banner .banner-item-inner p {margin-bottom: 0; color: #1d1e1e; font-weight: 100; font-size: 16px; line-height: 16px; font-family: \"Industry Demi\" !important;}"
         ],
         "settings": {
           "show_bar": false,
