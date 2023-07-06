@@ -125,7 +125,8 @@
           "402309fe-a8b5-474c-89f2-f6b9c7317ea7"
         ],
         "custom_css": [
-          ".slick-dotted.slick-slider {margin-bottom: 0px;}"
+          ".slick-dotted.slick-slider {margin-bottom: 0px;}",
+          ".header-banner {background: #ffcc00;opacity: 0.9;padding: 6px 15px;height: 45px;}"
         ],
         "settings": {
           "show_bar": false,
