@@ -127,7 +127,8 @@
         "custom_css": [
           ".slick-dotted.slick-slider {margin-bottom: 0px;}",
           ".header-banner {background: #ffcc00; opacity: 0.9; padding: 6px 15px; height: 45px;}",
-          ".header-banner .banner-item-inner p {margin-bottom: 0; color: #1d1e1e; font-weight: 100; font-size: 16px; line-height: 16px; font-family: \"Industry Demi\" !important;}"
+          ".header-banner .banner-item-inner p {margin-bottom: 0; color: #1d1e1e; font-weight: 100; font-size: 16px; line-height: 16px; font-family: \"Industry Demi\" !important;}",
+          ".header-banner .banner-item-inner p strong {color: #1d1e1e;}"
         ],
         "settings": {
           "show_bar": false,
