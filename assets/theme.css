@@ -13723,7 +13723,7 @@ html[dir=rtl] .slick-slider {
 [data-section-type=collection-switcher] .slick-arrow {
   width: 40px;
   height: 40px;
-  transition: transform 3s ease-in-out;
+  transition: transform 3s ease-in;
 }
 
 [data-section-type=collection-switcher] .slick-arrow:hover {
