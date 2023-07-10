@@ -384,7 +384,7 @@
           </div>
           <div class="mobile-description">
             <div class="description__pagination">
-              <a href="#details" class="pagination-link active">Details</a>
+              <a href="#details" class="pagination-link active">Details Extra</a>
               <a href="#spec_anchor_mob" class="pagination-link">Specification</a>
               <a href="#looxReviews" class="pagination-link">Reviews</a>
             </div>
@@ -439,7 +439,7 @@
   $('.product-single__description p, .product-single__description h4').find('img').wrap('<div class="slice"></div>');
 </script> -->
 {% if product.metafields.loox.num_reviews %}
-<!-- <script id="looxSchemaJson" type="application/ld+json">
+<script id="looxSchemaJson" type="application/ld+json">
 {
 	"@context": "http://schema.org",
 	"@type": "Product",
@@ -451,7 +451,7 @@
 	},
 	"name": {{ product.title | json }}
 }
-</script> -->
+</script>
 {% endif %}
 	<!-- <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default">{{ product.metafields.loox.reviews }}</div> -->
   <script type="text/javascript">
