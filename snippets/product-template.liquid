@@ -159,12 +159,12 @@
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
-<!--                   {%- when 'reviews' -%}
+                  {%- when 'reviews' -%}
                     <div class="product-block product-block--small">
                       <a href="#shopify-product-reviews-{{ product.id }}">
                         <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
                       </a>
-                    </div> -->
+                    </div>
                   {%- when 'separator' -%}
                     <div class="product-block"><hr></div>
                   {%- when 'text' -%}
