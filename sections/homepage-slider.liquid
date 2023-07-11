@@ -7,10 +7,10 @@
     <div class="homepage-slide {% if block.settings.reversed_slide %}reversed{% endif %} {% if block.settings.show_fw %}slide-fullwidth{% endif %}">
       {% unless block.settings.show_fw %}
         <div class="slide__image-block">
-        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img">
-        <img class="logo-vertical" src="{{'vital-gym-logo.svg' | asset_url}}" alt="VitalGym">
-        <img class='x-absolute' src="{{'cross-line.svg' | asset_url}}" alt="VitalGym">
-        <img class='curve-line' src="{{'curv-line.svg' | asset_url}}" alt="VitalGym">
+        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img lazyload" loading="lazy">
+        <img class="logo-vertical lazyload" loading="lazy" src="{{'vital-gym-logo.svg' | asset_url}}" alt="VitalGym">
+        <img class='x-absolute lazyload' loading="lazy" src="{{'cross-line.svg' | asset_url}}" alt="VitalGym">
+        <img class='curve-line lazyload' loading="lazy" src="{{'curv-line.svg' | asset_url}}" alt="VitalGym">
       </div>
       <div class="slide__text-block">
           <p class="slide__header">{{block.settings.slide_header}}</p>
@@ -18,14 +18,14 @@
           <div class="btn-wrapper">
               <a href="{{ block.settings.url }}" class="btn catalogue">
                  {{ block.settings.btn_label }}
-                  <img class='arrow-btn' src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
+                  <img class='arrow-btn lazyload' loading="lazy" src="{{'Arrow-North-East.svg' | asset_url}}" alt="Arrow North West">
               </a>
           </div>
       </div>
       {% else %}
         <a href='{{block.settings.url}}' class="fullwidth-banner">
-          <img src="{{block.settings.image | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="desktop-banner">
-          <img src="{{block.settings.image_mob | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="mobile-banner">
+          <img src="{{block.settings.image | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload desktop-banner">
+          <img src="{{block.settings.image_mob | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload mobile-banner">
         </a>
       {% endunless %}
 
