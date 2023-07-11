@@ -15274,3 +15274,15 @@ article.page-width.page-width--narrow.page-content.article {
   max-height: 28px;
   min-width: unset;
 }
+/* Styles for fast bundle FBT section */
+.rbr-addBundleBtn-container {
+	background-color: #fc0;
+	border-radius: 0;
+	color: #1d1e1e;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	margin-top: 20px;
+	padding: 12px;
+	text-align: center;
+}
