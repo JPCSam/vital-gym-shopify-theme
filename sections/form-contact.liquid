@@ -1,6 +1,7 @@
 <section class="form-contact-custom" id="contact">
   <div class="contact-image"><img class="desktop" src="{{'contact.png' | asset_url}}" alt="VitalGym"></div>
   <div class="form-contact">
+    {%- comment -%}
      {% form 'contact' %}
     <h2 class="desktop">Get a Free Consultation</h2>
       <h2 class="mobile" >Get in touch</h2>
@@ -41,6 +42,7 @@
     </div>
     <input type="submit" class="button btn" value="Submit"/>
     {% endform %}
+    {%- endcomment -%}
    <div class="klaviyo-form-Tt8hfi"></div>
   </div>
 </section>
