@@ -1147,7 +1147,7 @@ html[dir=rtl] .grid {
 
 .grid__item {
   float: left;
-/*   padding-left: 30px; */
+  padding-left: 30px;
   width: 100%;
   min-height: 1px
 }
