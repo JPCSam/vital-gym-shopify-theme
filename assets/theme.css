@@ -9816,6 +9816,9 @@ input:checked~.tag-checkbox:after {
   width: 10px;
   left: 3px;
 }
+.checkbox {
+	padding-left: 0px;
+}
 
 .tag-list input {
   position: absolute;
