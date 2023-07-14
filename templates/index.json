@@ -19,6 +19,7 @@
         },
         "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "show_fw": false,
             "image": "shopify:\/\/shop_images\/2_a46468d3-0e0e-4bc6-af43-20906b118efb.png",
