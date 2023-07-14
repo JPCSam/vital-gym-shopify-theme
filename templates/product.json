@@ -39,6 +39,12 @@
             "inventory_transfers_enable": true
           }
         },
+        "abc8ec5e-b11f-481c-9419-c719e7e53400": {
+          "type": "shopify:\/\/apps\/wishlist-myappgurus\/blocks\/pdp-wishlist\/c6177d6e-9cc4-45ab-abe5-45a6a5289882",
+          "settings": {
+            "show_wishlist_btn": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -113,6 +119,7 @@
         "separator",
         "variant_picker",
         "inventory_status",
+        "abc8ec5e-b11f-481c-9419-c719e7e53400",
         "buy_buttons",
         "description",
         "f7c90154-0dd5-43dc-a561-62036eb3b862",
