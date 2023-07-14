@@ -15289,3 +15289,7 @@ article.page-width.page-width--narrow.page-content.article {
 	padding: 12px;
 	text-align: center;
 }
+/* display none been set to vital club section */
+.footer-link.yellow {
+	display: none;
+}
