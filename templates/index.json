@@ -200,6 +200,7 @@
     },
     "1630069804bb48c4df": {
       "type": "video-with-cta",
+      "disabled": true,
       "settings": {
         "uptitle": "Become a member",
         "title": "Vitalclub",
