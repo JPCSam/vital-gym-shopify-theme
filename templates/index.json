@@ -1,69 +1,38 @@
 {
   "sections": {
-    "1630069768a2bf06d2": {
+    "8d83a537-71c2-4221-beac-82bb513a61e8": {
       "type": "homepage-slider",
       "blocks": {
-        "4890a446-a447-4704-bf7e-1cc3d45d2e82": {
+        "90d58bd6-f0b6-48b7-9d92-7c1e07d88c56": {
           "type": "image",
-          "disabled": true,
-          "settings": {
-            "show_fw": true,
-            "image": "shopify:\/\/shop_images\/Clearance_website_banner.jpg",
-            "image_mob": "shopify:\/\/shop_images\/Clearance_mobile_banner.jpg",
-            "slide_header": "",
-            "description": "",
-            "url": "shopify:\/\/collections\/sale",
-            "btn_label": "",
-            "reversed_slide": false
-          }
-        },
-        "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0": {
-          "type": "image",
-          "disabled": true,
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/2_a46468d3-0e0e-4bc6-af43-20906b118efb.png",
-            "slide_header": "Save on bundles",
-            "description": "Shop our full collection of must have bundles for your home gym and gain access to our exclusive spring offers.",
-            "url": "shopify:\/\/pages\/bundles",
-            "btn_label": "SHOP NOW",
+            "image": "shopify:\/\/shop_images\/image-1600x1000-vital-banner.png",
+            "image_mob": "shopify:\/\/shop_images\/image-1600x1000-vital-banner.png",
+            "slide_header": "Save Big on Home Gym Floor Mats",
+            "description": "Enhance your home gym with discounted floor mats! Shop now for durable, slip-resistant mats that provide comfort and protection. Create the perfect workout space while saving big.",
+            "url": "shopify:\/\/products\/buckle-gym-floor-mat",
+            "btn_label": "shop now",
             "reversed_slide": true
           }
         },
-        "450ea53f-829b-42b0-a25f-197109082a5b": {
+        "d6633cca-6531-44e4-88da-172fe0722349": {
           "type": "image",
           "settings": {
             "show_fw": false,
             "image": "shopify:\/\/shop_images\/3_259b7711-dbee-45f3-a8c9-1cf87cafccc0.png",
+            "image_mob": "shopify:\/\/shop_images\/3_259b7711-dbee-45f3-a8c9-1cf87cafccc0.png",
             "slide_header": "Versatile Workouts with our Adjustable Kettlebell!",
-            "description": "Maximise your fitness routine with our Adjustable Kettlebell! Experience the convenience of multiple weights in one compact design.",
+            "description": "From beginners to advanced, this versatile equipment adapts to your needs.",
             "url": "shopify:\/\/products\/adjustable-kettlebell",
-            "btn_label": "SHOP NOW",
+            "btn_label": "shop now",
             "reversed_slide": false
-          }
-        },
-        "88afdcc0-d7aa-4116-a687-22b9f9a85e43": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/1_432fa328-5cdc-419c-8e08-b9da3d7f57de.png",
-            "slide_header": "Save Big on Home Gym Floor Mats",
-            "description": "Enhance your home gym with discounted floor mats! Shop now for durable, slip-resistant mats that provide comfort and protection.",
-            "url": "shopify:\/\/products\/buckle-gym-floor-mat",
-            "btn_label": "SHOP NOW",
-            "reversed_slide": true
           }
         }
       },
       "block_order": [
-        "4890a446-a447-4704-bf7e-1cc3d45d2e82",
-        "73fca9a7-22eb-4cfb-a3a3-84f589bce2a0",
-        "450ea53f-829b-42b0-a25f-197109082a5b",
-        "88afdcc0-d7aa-4116-a687-22b9f9a85e43"
-      ],
-      "custom_css": [
-
+        "90d58bd6-f0b6-48b7-9d92-7c1e07d88c56",
+        "d6633cca-6531-44e4-88da-172fe0722349"
       ],
       "settings": {
       }
@@ -276,7 +245,7 @@
     }
   },
   "order": [
-    "1630069768a2bf06d2",
+    "8d83a537-71c2-4221-beac-82bb513a61e8",
     "16880400091a49f4e9",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
     "1643017918f1e17063",
