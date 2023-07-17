@@ -34,6 +34,9 @@
         "90d58bd6-f0b6-48b7-9d92-7c1e07d88c56",
         "d6633cca-6531-44e4-88da-172fe0722349"
       ],
+      "custom_css": [
+        ".slick-arrow {display: flex !important;}"
+      ],
       "settings": {
       }
     },
