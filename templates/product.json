@@ -39,19 +39,19 @@
             "inventory_transfers_enable": true
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
         "tab": {
           "type": "tab",
           "settings": {
             "title": "Shipping information",
             "content": "<p>The available products will be dispatched 2-3 working days from when the order is placed. <\/p><p>We offer local collection for free. Collection option can be found at checkout.<\/p>",
             "page": "delivery-shipping"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
           }
         },
         "description": {
@@ -113,8 +113,8 @@
         "separator",
         "variant_picker",
         "inventory_status",
-        "tab",
         "buy_buttons",
+        "tab",
         "description",
         "f7c90154-0dd5-43dc-a561-62036eb3b862",
         "84b76a57-7eff-4f46-aa5e-8b00544e5b64",
