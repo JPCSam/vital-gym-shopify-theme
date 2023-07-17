@@ -158,7 +158,7 @@
               {%- for block in blocks -%}
                 {%- case block.type -%}
                   {%- when '@app' -%}
-<!--                     {% render block %} -->
+                   {% comment %} {% render block %} {% endcomment %}
                   {%- when 'reviews' -%}
                     <div class="product-block product-block--small">
                       <a href="#shopify-product-reviews-{{ product.id }}">
