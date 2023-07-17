@@ -60,57 +60,6 @@
         "divider": false
       }
     },
-    "1643017918f1e17063": {
-      "type": "homepage-slider",
-      "disabled": true,
-      "blocks": {
-        "8402b842-503a-4b3a-aad6-f7ab1f090e75": {
-          "type": "image",
-          "settings": {
-            "show_fw": true,
-            "image": "shopify:\/\/shop_images\/Weekdeal_1.png",
-            "image_mob": "shopify:\/\/shop_images\/Weekdeal_1.png",
-            "slide_header": "",
-            "description": "",
-            "url": "shopify:\/\/products\/vital-gym-af-200-foldable-home-treadmilll",
-            "btn_label": "",
-            "reversed_slide": false
-          }
-        },
-        "b2253cb3-da35-4e50-bc5e-2a7c26710964": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "show_fw": true,
-            "image": "shopify:\/\/shop_images\/Frame_3455_19b134c3-69d3-4793-b459-0c046da299ea.png",
-            "image_mob": "shopify:\/\/shop_images\/Frame_3456_5cd0f625-7c52-4846-8d20-7d141d70db38.png",
-            "slide_header": "",
-            "description": "",
-            "url": "shopify:\/\/products\/massage-gun",
-            "btn_label": "",
-            "reversed_slide": false
-          }
-        },
-        "a791f2b2-75aa-435f-8cc0-bc0e076092e9": {
-          "type": "image",
-          "settings": {
-            "show_fw": false,
-            "slide_header": "",
-            "description": "CrossFit is a lifestyle characterized by safe, effective exercise and sound nutrition.",
-            "url": "",
-            "btn_label": "GO TO CATALOGUE",
-            "reversed_slide": false
-          }
-        }
-      },
-      "block_order": [
-        "8402b842-503a-4b3a-aad6-f7ab1f090e75",
-        "b2253cb3-da35-4e50-bc5e-2a7c26710964",
-        "a791f2b2-75aa-435f-8cc0-bc0e076092e9"
-      ],
-      "settings": {
-      }
-    },
     "1630140057cf707248": {
       "type": "collection-switcher-new",
       "disabled": true,
@@ -237,7 +186,6 @@
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "16880400091a49f4e9",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
-    "1643017918f1e17063",
     "1630140057cf707248",
     "163006974727d4fcd3",
     "16300697594fc839fe",
