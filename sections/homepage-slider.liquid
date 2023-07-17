@@ -7,7 +7,7 @@
     <div class="homepage-slide {% if block.settings.reversed_slide %}reversed{% endif %} {% if block.settings.show_fw %}slide-fullwidth{% endif %}">
       {% unless block.settings.show_fw %}
         <div class="slide__image-block">
-        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img lazyload" loading="lazy">
+        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img lazyload" loading="lazy" width="100%" height="Auto">
         <img class="logo-vertical lazyload" loading="lazy" src="{{'vital-gym-logo.svg' | asset_url}}" alt="VitalGym">
         <img class='x-absolute lazyload' loading="lazy" src="{{'cross-line.svg' | asset_url}}" alt="VitalGym">
         <img class='curve-line lazyload' loading="lazy" src="{{'curv-line.svg' | asset_url}}" alt="VitalGym">
@@ -24,8 +24,8 @@
       </div>
       {% else %}
         <a href='{{block.settings.url}}' class="fullwidth-banner">
-          <img src="{{block.settings.image | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload desktop-banner">
-          <img src="{{block.settings.image_mob | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload mobile-banner">
+          <img src="{{block.settings.image | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload desktop-banner" width="100%" height="Auto">
+          <img src="{{block.settings.image_mob | img_url : 'master'}}" alt="Banner slide" loading="lazy" class="lazyload mobile-banner" width="100%" height="Auto">
         </a>
       {% endunless %}
 
@@ -47,10 +47,10 @@
 {% endif %}
 <style>
 @media screen and (max-width: 1550px){
-    /* .homepage-slider .slick-list,
+   .homepage-slider .slick-list,
     .homepage-slide.slick-slide{
       max-height: 500px;
-    } */
+    } 
 }
     .bg-img{
       height: 100%;
