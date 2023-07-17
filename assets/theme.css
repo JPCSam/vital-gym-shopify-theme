@@ -15293,3 +15293,7 @@ article.page-width.page-width--narrow.page-content.article {
 .footer-link.yellow {
 	display: none;
 }
+/* custom from tag before variable prices */
+.variant_price_tag {
+	display: inline;
+}
