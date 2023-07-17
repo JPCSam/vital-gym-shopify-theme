@@ -144,8 +144,7 @@
                   {{ product_variant.unit_price_measurement.reference_unit }}
                 {%- endif -%}
               {%- endcapture -%}
-
-              {{ product_variant.unit_price | money }}/{{ unit_price_base_unit }}
+              {% comment %}}{{ product_variant.unit_price | money }}/{{ unit_price_base_unit }}{% endcomment %}}
             </div>
           {%- endif -%}
         </div>
