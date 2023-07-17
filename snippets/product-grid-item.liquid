@@ -129,7 +129,7 @@
             </span>
           {%- else -%}
             <span {% if on_sale %}class="sale-price"{% endif %}>
-              {{ product.price  | money }}
+              FROM {{ product.price  | money }}
             </span>
           {%- endif -%}
 
