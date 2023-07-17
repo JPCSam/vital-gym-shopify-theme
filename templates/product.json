@@ -39,11 +39,6 @@
             "inventory_transfers_enable": true
           }
         },
-        "4eaa7592-bf84-46fe-8f5a-82da68071359": {
-          "type": "shopify:\/\/apps\/wishlist-wishify\/blocks\/product\/e14a43b5-34c6-492d-b46f-3ad2eda08696",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -55,6 +50,14 @@
           "type": "description",
           "settings": {
             "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>The available products will be dispatched 2-3 working days from when the order is placed. <\/p><p>We offer local collection for free. Collection option can be found at checkout.<\/p>",
+            "page": "delivery-shipping"
           }
         },
         "f7c90154-0dd5-43dc-a561-62036eb3b862": {
@@ -73,15 +76,6 @@
           "settings": {
           }
         },
-        "tab": {
-          "type": "tab",
-          "disabled": true,
-          "settings": {
-            "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
         "4c3e1f69-d4d9-4829-b6cd-0f79ee77d5aa": {
           "type": "custom",
           "settings": {
@@ -98,7 +92,8 @@
             "alignment": "",
             "textColor": "",
             "starColor": "",
-            "showAllReviews": false
+            "showAllReviews": false,
+            "emptyRatingWidget": false
           }
         },
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a": {
@@ -118,12 +113,11 @@
         "separator",
         "variant_picker",
         "inventory_status",
-        "4eaa7592-bf84-46fe-8f5a-82da68071359",
         "buy_buttons",
         "description",
+        "tab",
         "f7c90154-0dd5-43dc-a561-62036eb3b862",
         "84b76a57-7eff-4f46-aa5e-8b00544e5b64",
-        "tab",
         "4c3e1f69-d4d9-4829-b6cd-0f79ee77d5aa",
         "loox-rating",
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a"
