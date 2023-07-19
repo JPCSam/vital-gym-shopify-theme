@@ -15297,3 +15297,9 @@ article.page-width.page-width--narrow.page-content.article {
 .variant_price_tag {
 	display: inline;
 }
+/* blog responsive style for mobile version > home page */
+.blog__slide {
+	width: 46%;
+	position: relative;
+	padding: 0 0.5em;
+}
