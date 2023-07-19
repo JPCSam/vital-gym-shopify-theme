@@ -15262,7 +15262,7 @@ article.page-width.page-width--narrow.page-content.article {
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
-  /* top: 10% !important; */
+  top: 10% !important;
   transform: translateY(-50%);
 }
 
