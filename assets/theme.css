@@ -14470,7 +14470,7 @@ li.icon--payment svg {
 }
 
 .mega-menu-wrapper .mega-menu {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: auto;
 	background: #fff;
 	padding: 10px 0 10px 10px;
@@ -14480,7 +14480,7 @@ li.icon--payment svg {
 }
 
 .mega-menu-wrapper .mega-menu .mega-menu_l1 {
-	/* display: flex; */
+	display: flex;
 	width: 100%;
 	list-style: none;
 	border-right: 1px solid #f0f0f0;
