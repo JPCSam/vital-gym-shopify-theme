@@ -2384,7 +2384,7 @@ html {
 }
 
 .page-width {
-  max-width: 1300px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -2402,7 +2402,7 @@ html {
 
   .page-full,
   .page-width {
-    padding: 0 40px
+    padding: 0 15px
   }
 }
 
