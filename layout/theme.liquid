@@ -150,7 +150,7 @@
     "url": {{ request.origin | append: page.url | json }}
   }
 </script>
-<!--   <meta name="google-site-verification" content="jeIKlu5jiSHDYea0IA71KXE5OZPuth02X6LzBElcYFs" /> -->
+{% comment %} <meta name="google-site-verification" content="jeIKlu5jiSHDYea0IA71KXE5OZPuth02X6LzBElcYFs" /> {% endcomment %}
 
 {% if content_for_header contains 'fastbundle.co' %}
     {% render 'fast_bundle_service' %}
