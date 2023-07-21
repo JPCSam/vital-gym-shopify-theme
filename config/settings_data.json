@@ -133,7 +133,7 @@
           "logo": "shopify:\/\/shop_images\/vital-gym-logo-CMYK_1.png",
           "desktop_logo_width": 160,
           "mobile_logo_width": 80,
-          "main_menu_link_list": "main-menu-new",
+          "main_menu_link_list": "vital-header-navigation",
           "main_menu_alignment": "left-center",
           "header_sticky": false,
           "sticky_index": false,
