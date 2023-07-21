@@ -123,7 +123,7 @@
             <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
           {%- endif -%}
           {%- if product.price_varies -%}
-            <p class="variant_price_tag"> From {%- assign price = product.price_min | money -%}</p>
+            <p class="variant_price_tag" style="margin:0px;"> From {%- assign price = product.price_min | money -%}</p>
             <span {% if on_sale %}class="sale-price"{% endif %}>
               {{ 'products.general.from_text_html' | t: price: price }}
             </span>
