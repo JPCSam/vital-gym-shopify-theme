@@ -52,7 +52,7 @@
     "163006974727d4fcd3": {
       "type": "featured-collections-3",
       "custom_css": [
-        "h2 {margin-top:2em;}"
+        "h2 {margin-top: 2em;}"
       ],
       "settings": {
         "title": "Shop by goal",
@@ -124,6 +124,9 @@
     },
     "16300697437ba5bb61": {
       "type": "blog-slider",
+      "custom_css": [
+        ".slick-list {display: block !important; height: 100% !important; align-items: center; overflow: auto;}"
+      ],
       "settings": {
         "title": "The Vital Blog",
         "blog": "news"
