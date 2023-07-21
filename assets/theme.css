@@ -14826,10 +14826,10 @@ h1.section-header__title.collection-title {
   }
 
   .drawer a {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 17px;
-  }
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+}
 
   .mobile-nav__sublist .mobile-nav__item:last-child {
     padding-bottom: 0px;
