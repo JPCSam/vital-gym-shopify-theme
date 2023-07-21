@@ -49,6 +49,21 @@
         "space_around": false
       }
     },
+    "163006974727d4fcd3": {
+      "type": "featured-collections-3",
+      "settings": {
+        "title": "Shop by goal",
+        "show_title": true,
+        "collection1": "strength-conditioning",
+        "collection1_img": "shopify:\/\/shop_images\/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png",
+        "collection2": "calistenics",
+        "collection2_img": "shopify:\/\/shop_images\/4_80x_feb2ee65-0f8b-45d6-bdfc-42d3c8ff0d40.png",
+        "collection3": "weights",
+        "collection3_img": "shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
+        "collection4": "crossfit",
+        "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
+      }
+    },
     "71fb9905-28de-49b7-80e0-e9b96229b597": {
       "type": "featured-collection",
       "settings": {
@@ -70,21 +85,6 @@
         "collection3": "bundles",
         "per_row": 3,
         "view_all": true
-      }
-    },
-    "163006974727d4fcd3": {
-      "type": "featured-collections-3",
-      "settings": {
-        "title": "Shop by goal",
-        "show_title": true,
-        "collection1": "strength-conditioning",
-        "collection1_img": "shopify:\/\/shop_images\/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png",
-        "collection2": "calistenics",
-        "collection2_img": "shopify:\/\/shop_images\/4_80x_feb2ee65-0f8b-45d6-bdfc-42d3c8ff0d40.png",
-        "collection3": "weights",
-        "collection3_img": "shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
-        "collection4": "crossfit",
-        "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
       }
     },
     "16300697594fc839fe": {
@@ -185,9 +185,9 @@
   "order": [
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "16880400091a49f4e9",
+    "163006974727d4fcd3",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
     "1630140057cf707248",
-    "163006974727d4fcd3",
     "16300697594fc839fe",
     "1630069804bb48c4df",
     "16300697437ba5bb61",
