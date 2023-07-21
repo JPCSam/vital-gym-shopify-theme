@@ -14920,7 +14920,7 @@ h1.section-header__title.collection-title {
 
   .mobile-nav__child-item {
     display: flex !important;
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
 
   ul.mobile-nav__sublist {
