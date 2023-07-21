@@ -33,8 +33,6 @@
     {% endfor %}
   </div>
    <div class="slide__counter">
-      <p>
-      </p>
       <span class="total-counter">
         {%- for block in section.blocks-%}
           {% if forloop.last %}
@@ -42,6 +40,7 @@
           {% endif %}
         {% endfor %}
       </span>
+   </div>
 </section>
 {% endif %}
 <style>
