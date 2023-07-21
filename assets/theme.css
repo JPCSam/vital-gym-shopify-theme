@@ -15043,7 +15043,7 @@ h1.section-header__title.collection-title {
 }
 
 /*Add to cart sticky*/
-.add-to-cart.add-to-cart--secondary.fixed {
+/* .add-to-cart.add-to-cart--secondary.fixed {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -15052,7 +15052,7 @@ h1.section-header__title.collection-title {
   transition: bottom .4s linear;
   height: 88px;
   border: 16px solid white;
-}
+} */
 
 #shopify-chat-dummy {
   transition: all .4s linear;
