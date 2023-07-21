@@ -51,6 +51,9 @@
     },
     "163006974727d4fcd3": {
       "type": "featured-collections-3",
+      "custom_css": [
+        "h2 {margin-top:2em;}"
+      ],
       "settings": {
         "title": "Shop by goal",
         "show_title": true,
