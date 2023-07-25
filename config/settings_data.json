@@ -90,6 +90,7 @@
         "blocks": {
           "31c5e8ad-2af3-4db8-9280-9a5955b0e82e": {
             "type": "Banner",
+            "disabled": true,
             "settings": {
               "banner_item_text": "<p>Subscribe To Our Mailing Lists And Receive <strong>10% Off<\/strong><\/p>",
               "banner_item_onclick": "",
@@ -111,6 +112,7 @@
           },
           "402309fe-a8b5-474c-89f2-f6b9c7317ea7": {
             "type": "Banner",
+            "disabled": true,
             "settings": {
               "banner_item_text": "<p>Review your equipment and get £15 OFF your next order<\/p>",
               "banner_item_onclick": "",
@@ -122,7 +124,7 @@
           "35bcfb9f-ee54-4b4c-9d2f-24a8738415d7": {
             "type": "Banner",
             "settings": {
-              "banner_item_text": "<p>Get Up To 50% Off In Our Summer Sale Collection<\/p>",
+              "banner_item_text": "<p>Get <strong>Up To 50%<\/strong> Off In Our Summer Sale Collection<\/p>",
               "banner_item_onclick": "",
               "banner_item_link_url": "shopify:\/\/collections\/sale",
               "banner_item_link_text": "Click Here",
