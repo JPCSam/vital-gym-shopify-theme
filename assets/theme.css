@@ -14363,10 +14363,6 @@ li.icon--payment svg {
     width: 100%;
     max-width: unset;
   }
-
-  .header-banner {
-    display: none;
-  }
 }
 
 @media screen and (max-width:480px) {
