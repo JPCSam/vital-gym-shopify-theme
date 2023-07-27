@@ -7,11 +7,11 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Kettle-banner.png",
-            "image_mob": "shopify:\/\/shop_images\/B-2.png",
-            "slide_header": "Versatile Workouts with our Adjustable Kettlebell!",
-            "description": "From beginners to advanced, this versatile equipment adapts to your needs.",
-            "url": "shopify:\/\/products\/adjustable-kettlebell",
+            "image": "shopify:\/\/shop_images\/adjustable-dumbbell.png",
+            "image_mob": "shopify:\/\/shop_images\/adjustable-dumbbells.png",
+            "slide_header": "Adjustable Dumbbells: Your Home Gym's Space-Saving Solution!",
+            "description": "Get a complete weight set in one sleek package and take the first step towards a stronger, healthier you.",
+            "url": "shopify:\/\/collections\/dumbbells",
             "btn_label": "shop now",
             "reversed_slide": true
           }
