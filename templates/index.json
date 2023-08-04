@@ -7,11 +7,11 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/adjustable-dumbbell.webp",
-            "image_mob": "shopify:\/\/shop_images\/adjustable-dumbbells.png",
-            "slide_header": "Adjustable Dumbbells: Your Home Gym's Space-Saving Solution!",
-            "description": "Get a complete weight set in one sleek package and take the first step towards a stronger, healthier you.",
-            "url": "shopify:\/\/collections\/dumbbells",
+            "image": "shopify:\/\/shop_images\/Best-price-bundles.png",
+            "image_mob": "shopify:\/\/shop_images\/Best-price-bundles-mobile.png",
+            "slide_header": "Craft Your Ideal Bundle and Enjoy Up To 15% Off!",
+            "description": "Indulge in the ultimate freedom of choice with our Mix and Match Custom Bundles.",
+            "url": "shopify:\/\/pages\/bundles",
             "btn_label": "shop now",
             "reversed_slide": true
           }
