@@ -22,11 +22,57 @@
         "show_phone": false,
         "narrow_column": true
       }
+    },
+    "c8b7d816-10cf-462e-8f20-26d246e2038c": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "805481fe-d113-4cfa-ad13-f156b592a94f": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16870323978454__805481fe-d113-4cfa-ad13-f156b592a94f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-transparent.png",
+            "link": "shopify:\/\/collections\/all-products",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "template--16870323978454__805481fe-d113-4cfa-ad13-f156b592a94f-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Mission statement<\/h2><p>Vital Gym is dedicated to empowering lives through fitness and well-being. Our comprehensive range of resources and support is tailored to individuals of all ages and backgrounds, guiding them towards vitality and a happier lifestyle. With a strong focus on community and innovation, we're here to support your journey to a healthier, stronger, and more vibrant you. Welcome to Vital Gym, where your well-being is our priority.<\/p>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16870323978454__805481fe-d113-4cfa-ad13-f156b592a94f-image-1",
+        "template--16870323978454__805481fe-d113-4cfa-ad13-f156b592a94f-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
     "23a4f4aa-faa3-49af-a33f-8ea27232668f",
-    "form"
+    "form",
+    "c8b7d816-10cf-462e-8f20-26d246e2038c",
+    "805481fe-d113-4cfa-ad13-f156b592a94f"
   ]
 }
