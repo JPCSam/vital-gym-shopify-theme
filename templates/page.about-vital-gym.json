@@ -56,6 +56,33 @@
         "blog": "news"
       }
     },
+    "ba141a9a-c091-4eae-9400-6553f985fb00": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16935068336342__ba141a9a-c091-4eae-9400-6553f985fb00-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Join Vital Gym Today"
+          }
+        },
+        "template--16935068336342__ba141a9a-c091-4eae-9400-6553f985fb00-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Are you ready to revolutionise your fitness routine? Take the first step towards a healthier, fitter you by exploring our range of home gym equipment. Vital Gym is here to empower your fitness journey, and we can't wait to be a part of your success.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16935068336342__ba141a9a-c091-4eae-9400-6553f985fb00-heading-1",
+        "template--16935068336342__ba141a9a-c091-4eae-9400-6553f985fb00-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6": {
       "type": "newsletter",
       "blocks": {
@@ -100,6 +127,7 @@
     "e2250dab-db77-4e87-b603-c6f9b292a25e",
     "18deb891-cc97-4017-b563-92c32a9bb55e",
     "7927b46f-0c63-469d-bea5-97b098e2533d",
+    "ba141a9a-c091-4eae-9400-6553f985fb00",
     "90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6",
     "main"
   ]
