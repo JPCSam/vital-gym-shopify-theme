@@ -1,43 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "1631106316f5c76fb9": {
-      "type": "page-contact-us",
-      "disabled": true,
-      "blocks": {
-        "9c389937-9d93-4145-bd4d-4be75675f612": {
-          "type": "address",
-          "disabled": true,
-          "settings": {
-            "img": "shopify:\/\/shop_images\/store-sign-mockup-in-a-city-scenario-featuring-a-building-in-the-background-682-el-min.png",
-            "title": "OUR Headquarters",
-            "addres_text": "71–75 Shelton Street<br>\nCovent Garden<br>\nLondon<br>\nWC2H 9JQ",
-            "phoneOn": false,
-            "phone": ""
-          }
-        },
-        "b0bfa21f-6294-4b08-b8d1-155632b50f2a": {
-          "type": "contact-form",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "show_phone": false,
-            "narrow_column": true
-          }
-        }
-      },
-      "block_order": [
-        "9c389937-9d93-4145-bd4d-4be75675f612",
-        "b0bfa21f-6294-4b08-b8d1-155632b50f2a"
-      ],
-      "settings": {
-      }
-    },
     "c60b5d9d-ab5a-4af1-b2b2-ac20f6ea3b71": {
       "type": "featured-video",
       "settings": {
@@ -45,11 +7,88 @@
         "video_url": "https:\/\/youtu.be\/0-dX1r8kzHM",
         "divider": false
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "7927b46f-0c63-469d-bea5-97b098e2533d": {
+      "type": "blog-slider",
+      "settings": {
+        "title": "The Vital Blog",
+        "blog": "news"
+      }
+    },
+    "90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16935068336342__90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up and save",
+            "icon_enable": true
+          }
+        },
+        "template--16935068336342__90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "template--16935068336342__90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6-form-1": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16935068336342__90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6-title-1",
+        "template--16935068336342__90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6-text-1",
+        "template--16935068336342__90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6-form-1"
+      ],
+      "settings": {
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "e2250dab-db77-4e87-b603-c6f9b292a25e": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vital-gym_black-logo-flat.png",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>Vital Gym is dedicated to empowering lives through fitness and well-being. Our comprehensive range of resources and support is tailored to individuals of all ages and backgrounds, guiding them towards vitality and a happier lifestyle. With a strong focus on community and innovation, we're here to support your journey to a healthier, stronger, and more vibrant you. Welcome to Vital Gym, where your well-being is our priority.\n<\/p>",
+            "width": "75%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-image-1",
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
+    "c60b5d9d-ab5a-4af1-b2b2-ac20f6ea3b71",
     "main",
-    "1631106316f5c76fb9",
-    "c60b5d9d-ab5a-4af1-b2b2-ac20f6ea3b71"
+    "7927b46f-0c63-469d-bea5-97b098e2533d",
+    "90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6",
+    "e2250dab-db77-4e87-b603-c6f9b292a25e"
   ]
 }
