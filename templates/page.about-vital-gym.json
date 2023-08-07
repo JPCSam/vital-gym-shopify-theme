@@ -8,10 +8,34 @@
         "divider": false
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "e2250dab-db77-4e87-b603-c6f9b292a25e": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vital-gym_black-logo-flat.png",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>Vital Gym is dedicated to empowering lives through fitness and well-being. Our comprehensive range of resources and support is tailored to individuals of all ages and backgrounds, guiding them towards vitality and a happier lifestyle. With a strong focus on community and innovation, we're here to support your journey to a healthier, stronger, and more vibrant you. Welcome to Vital Gym, where your well-being is our priority.\n<\/p>\n<p>\nStep into our virtual store and explore a world of fitness possibilities. We understand that finding the right equipment can be overwhelming, so we've made it our mission to provide a seamless shopping experience. Our team of fitness enthusiasts is here to offer expert advice, product recommendations, and support every step of the way, ensuring you find the perfect equipment to meet your fitness goals.\n\n<\/p>",
+            "width": "75%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-image-1",
+        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-liquid-1"
+      ],
       "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "7927b46f-0c63-469d-bea5-97b098e2533d": {
@@ -53,42 +77,18 @@
         "color_text": "#1c1d1d"
       }
     },
-    "e2250dab-db77-4e87-b603-c6f9b292a25e": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vital-gym_black-logo-flat.png",
-            "link": "",
-            "width": "25%",
-            "alignment": "center"
-          }
-        },
-        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-liquid-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<p>Vital Gym is dedicated to empowering lives through fitness and well-being. Our comprehensive range of resources and support is tailored to individuals of all ages and backgrounds, guiding them towards vitality and a happier lifestyle. With a strong focus on community and innovation, we're here to support your journey to a healthier, stronger, and more vibrant you. Welcome to Vital Gym, where your well-being is our priority.\n<\/p>",
-            "width": "75%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-image-1",
-        "template--16935068336342__e2250dab-db77-4e87-b603-c6f9b292a25e-liquid-1"
-      ],
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "full_width": false,
-        "space_around": true
       }
     }
   },
   "order": [
     "c60b5d9d-ab5a-4af1-b2b2-ac20f6ea3b71",
-    "main",
+    "e2250dab-db77-4e87-b603-c6f9b292a25e",
     "7927b46f-0c63-469d-bea5-97b098e2533d",
     "90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6",
-    "e2250dab-db77-4e87-b603-c6f9b292a25e"
+    "main"
   ]
 }
