@@ -38,6 +38,17 @@
         "space_around": true
       }
     },
+    "18deb891-cc97-4017-b563-92c32a9bb55e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "weights",
+        "per_row": 3,
+        "rows": 2,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "7927b46f-0c63-469d-bea5-97b098e2533d": {
       "type": "blog-slider",
       "settings": {
@@ -82,25 +93,14 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "18deb891-cc97-4017-b563-92c32a9bb55e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Explore Your Weights",
-        "home_featured_products": "weights",
-        "per_row": 3,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "c60b5d9d-ab5a-4af1-b2b2-ac20f6ea3b71",
     "e2250dab-db77-4e87-b603-c6f9b292a25e",
+    "18deb891-cc97-4017-b563-92c32a9bb55e",
     "7927b46f-0c63-469d-bea5-97b098e2533d",
     "90569cfa-c8ec-4e23-84a4-c6bd0cd2b8a6",
-    "main",
-    "18deb891-cc97-4017-b563-92c32a9bb55e"
+    "main"
   ]
 }
