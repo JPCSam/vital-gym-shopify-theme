@@ -6,6 +6,14 @@
       "settings": {
       }
     },
+    "23a4f4aa-faa3-49af-a33f-8ea27232668f": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Who We Are?",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=0-dX1r8kzHM",
+        "divider": false
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -14,19 +22,11 @@
         "show_phone": false,
         "narrow_column": true
       }
-    },
-    "23a4f4aa-faa3-49af-a33f-8ea27232668f": {
-      "type": "featured-video",
-      "settings": {
-        "title": "Who We Are?",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=0-dX1r8kzHM",
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
-    "form",
-    "23a4f4aa-faa3-49af-a33f-8ea27232668f"
+    "23a4f4aa-faa3-49af-a33f-8ea27232668f",
+    "form"
   ]
 }
