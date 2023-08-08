@@ -81,6 +81,17 @@
         "divider": false
       }
     },
+    "6d97a917-601e-4bfa-9bdd-156656d48ce9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "CREATE YOUR OWN BUNDLE",
+        "home_featured_products": "make-your-own-bundle",
+        "per_row": 3,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "1630140057cf707248": {
       "type": "collection-switcher-new",
       "disabled": true,
@@ -196,6 +207,7 @@
     "16880400091a49f4e9",
     "163006974727d4fcd3",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
+    "6d97a917-601e-4bfa-9bdd-156656d48ce9",
     "1630140057cf707248",
     "16300697594fc839fe",
     "1630069804bb48c4df",
