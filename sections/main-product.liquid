@@ -1,11 +1,9 @@
-{%- comment -%}
-  {%- liquid
+{%- liquid
     assign isModal = false
     if template == 'product.modal'
       assign isModal = true
     endif
   -%}
-{%- endcomment -%}
 {% assign isModal = false %}
 
 {%- render 'product-template',
