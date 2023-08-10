@@ -107,24 +107,6 @@
         "view_all": true
       }
     },
-    "16300697594fc839fe": {
-      "type": "featured-collections-4",
-      "settings": {
-        "title": "Essential Homegym Collection",
-        "collection1": "barbells",
-        "collection1_img": "shopify:\/\/shop_images\/image_197_670x_1.png",
-        "collection2": "calistenics",
-        "collection2_img": "shopify:\/\/shop_images\/Nay_Vitalgym-61.jpg",
-        "collection3": "racks",
-        "collection3_img": "shopify:\/\/shop_images\/Mask_Group_2255c62a-924d-423a-b0a4-0c97bc7250ab.png",
-        "collection4": "weights",
-        "collection4_img": "shopify:\/\/shop_images\/weights_collection.png",
-        "collection5": "dumbbells",
-        "collection5_img": "shopify:\/\/shop_images\/dumbells.png",
-        "collection6": "accessories",
-        "collection6_img": "shopify:\/\/shop_images\/Elly_Vitalgym-75_1.png"
-      }
-    },
     "1630069804bb48c4df": {
       "type": "video-with-cta",
       "disabled": true,
@@ -148,7 +130,6 @@
     },
     "16300697747b041413": {
       "type": "tree-cols-section",
-      "disabled": true,
       "blocks": {
         "16300697747b041413-0": {
           "type": "text_block",
@@ -187,6 +168,7 @@
         "16300697747b041413-1",
         "16300697747b041413-2"
       ],
+      "disabled": true,
       "settings": {
         "title": ""
       }
@@ -212,7 +194,6 @@
     "71fb9905-28de-49b7-80e0-e9b96229b597",
     "6d97a917-601e-4bfa-9bdd-156656d48ce9",
     "1630140057cf707248",
-    "16300697594fc839fe",
     "1630069804bb48c4df",
     "16300697437ba5bb61",
     "16300697747b041413",
