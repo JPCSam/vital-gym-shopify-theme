@@ -963,9 +963,16 @@
         "settings": {
         }
       },
+      "124348908681409149": {
+        "type": "shopify:\/\/apps\/simple-bundles-kits\/blocks\/simple-bundles-v2\/e553276b-36b2-446d-b80a-aa47fe5f96ac",
+        "disabled": false,
+        "settings": {
+          "select_placeholder": "Please select an option"
+        }
+      },
       "6810535121229352664": {
         "type": "shopify:\/\/apps\/monster-cart-upsell-free-gifts\/blocks\/app-embed\/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "markets_rounding": false,
           "send_gtag_atc": false,
