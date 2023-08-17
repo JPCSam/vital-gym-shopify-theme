@@ -199,6 +199,13 @@
         "use_widget_font": false,
         "product_handle": ""
       }
+    },
+    "1692267212769c6df1": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -212,6 +219,7 @@
     "1630069804bb48c4df",
     "16300697437ba5bb61",
     "16300697747b041413",
-    "1643017499f7fd2cce"
+    "1643017499f7fd2cce",
+    "1692267212769c6df1"
   ]
 }
