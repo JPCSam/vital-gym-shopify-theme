@@ -15310,3 +15310,8 @@ article.page-width.page-width--narrow.page-content.article {
 #clear-cart {
 	padding: 10px 40px;
 }
+@media screen and (max-width:480px) {
+#clear-cart {
+	padding: 20px 25px;
+}
+}
