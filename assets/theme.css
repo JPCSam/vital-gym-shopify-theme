@@ -15306,3 +15306,7 @@ article.page-width.page-width--narrow.page-content.article {
 	position: relative;
 	padding: 0 0.5em;
 }
+/* clear cart style */
+#clear-cart {
+	padding: 10px 40px;
+}
