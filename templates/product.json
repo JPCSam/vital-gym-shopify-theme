@@ -49,17 +49,6 @@
             "is_tab": false
           }
         },
-        "f7c90154-0dd5-43dc-a561-62036eb3b862": {
-          "type": "shopify:\/\/apps\/aftership-order-tracking\/blocks\/edd\/3375afd5-c790-4ee3-abbc-ae4972ab72ed",
-          "settings": {
-            "description": "Estimated Delivery",
-            "background-color": "#ffffff",
-            "text-color": "#1c1d1d",
-            "icon-color": "#ffcc00",
-            "top-padding": 15,
-            "bottom-padding": 15
-          }
-        },
         "4c3e1f69-d4d9-4829-b6cd-0f79ee77d5aa": {
           "type": "custom",
           "disabled": true,
@@ -86,7 +75,6 @@
         "buy_buttons",
         "tab",
         "description",
-        "f7c90154-0dd5-43dc-a561-62036eb3b862",
         "4c3e1f69-d4d9-4829-b6cd-0f79ee77d5aa",
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a"
       ],
