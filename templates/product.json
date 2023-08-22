@@ -8,17 +8,6 @@
           "settings": {
           }
         },
-        "4c2059f4-0292-49c7-bda6-09f213192148": {
-          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
-          "settings": {
-            "data_key": "credit-promotion-badge",
-            "locale_option": "manual",
-            "locale_fallback": "en-GB",
-            "theme": "light",
-            "topPadding": "0",
-            "bottomPadding": "0"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -91,7 +80,6 @@
       },
       "block_order": [
         "price",
-        "4c2059f4-0292-49c7-bda6-09f213192148",
         "separator",
         "variant_picker",
         "inventory_status",
