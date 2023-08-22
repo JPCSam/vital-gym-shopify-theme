@@ -156,14 +156,7 @@
               {%- capture form_id -%}AddToCartForm-{{ section_id }}-{{ product.id }}{%- endcapture -%}
               {%- for block in blocks -%}
                 {%- case block.type -%}
-                  {%- when '@app' -%}
-                   {% comment %} {% render block %} {% endcomment %}
-                  {%- when 'reviews' -%}
-                    <div class="product-block product-block--small">
-                      <a href="#shopify-product-reviews-{{ product.id }}">
-                        <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-                      </a>
-                    </div>
+                  
                   {%- when 'separator' -%}
                     <div class="product-block"><hr></div>
                   {%- when 'text' -%}
