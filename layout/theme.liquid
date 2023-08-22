@@ -281,7 +281,7 @@ var clearpay_current_variant = {{ product.selected_or_first_available_variant | 
 var clearpay_cart_total_price = {{ cart.total_price | json }};
 var clearpay_js_snippet_version = '1.1.5';
 </script>
-<script type="text/javascript" src="https://static.afterpay.com/shopify-clearpay-javascript.js"></script>
+
 {% else %}
 Clearpay disabled: {{ cart.currency.iso_code }} != {{ shop.currency }}
 {% endif %}
