@@ -30,9 +30,40 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "c5fda1e6-5b26-4e10-bb59-1d4663601aa7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16943395143894__c5fda1e6-5b26-4e10-bb59-1d4663601aa7-image-1": {
+          "type": "image",
+          "settings": {
+            "title": "Endless\npossibilities.",
+            "title_size": 70,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/flash-sale-banner.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16943395143894__c5fda1e6-5b26-4e10-bb59-1d4663601aa7-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "500px",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
     }
   },
   "order": [
-    "main-collection"
+    "main-collection",
+    "c5fda1e6-5b26-4e10-bb59-1d4663601aa7"
   ]
 }
