@@ -1,25 +1,18 @@
 {
   "sections": {
-    "c7450631-eee2-4680-b044-fcd48cd79b74": {
-      "type": "homepage-slider",
-      "blocks": {
-        "12290c8a-34a7-4dee-96cc-b16c27b9b7ed": {
-          "type": "image",
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/flash-sale-banner.jpg",
-            "slide_header": "summer flash sale",
-            "description": "Enjoy up to 40% off on selected home gym products at Vital Gym. Limited-time offer for fitness enthusiasts. Shop now!",
-            "url": "shopify:\/\/collections\/flash-sale",
-            "btn_label": "",
-            "reversed_slide": false
-          }
-        }
-      },
-      "block_order": [
-        "12290c8a-34a7-4dee-96cc-b16c27b9b7ed"
-      ],
+    "19940768-e2ed-4f3f-8641-b85e962dc308": {
+      "type": "background-image-text",
       "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/flash-sale-banner.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
       }
     },
     "main-collection": {
@@ -55,7 +48,7 @@
     }
   },
   "order": [
-    "c7450631-eee2-4680-b044-fcd48cd79b74",
+    "19940768-e2ed-4f3f-8641-b85e962dc308",
     "main-collection"
   ]
 }
