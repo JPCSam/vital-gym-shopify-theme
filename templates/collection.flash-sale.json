@@ -31,13 +31,6 @@
         "enable_sort": true
       }
     },
-    "ca930880-b2dc-4338-b6b1-ac92c2e798ba": {
-      "type": "blog-slider",
-      "settings": {
-        "title": "The Vital Blog",
-        "blog": "news"
-      }
-    },
     "dd5499e5-d840-4db2-92bc-ebcba32601eb": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -48,11 +41,18 @@
         "view_all": false,
         "divider": false
       }
+    },
+    "ca930880-b2dc-4338-b6b1-ac92c2e798ba": {
+      "type": "blog-slider",
+      "settings": {
+        "title": "The Vital Blog",
+        "blog": "news"
+      }
     }
   },
   "order": [
     "main-collection",
-    "ca930880-b2dc-4338-b6b1-ac92c2e798ba",
-    "dd5499e5-d840-4db2-92bc-ebcba32601eb"
+    "dd5499e5-d840-4db2-92bc-ebcba32601eb",
+    "ca930880-b2dc-4338-b6b1-ac92c2e798ba"
   ]
 }
