@@ -30,9 +30,29 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "ca930880-b2dc-4338-b6b1-ac92c2e798ba": {
+      "type": "blog-slider",
+      "settings": {
+        "title": "The Vital Blog",
+        "blog": "news"
+      }
+    },
+    "dd5499e5-d840-4db2-92bc-ebcba32601eb": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "match your weights",
+        "collection1": "barbells",
+        "collection2": "weight-plates",
+        "per_row": 3,
+        "view_all": false,
+        "divider": false
+      }
     }
   },
   "order": [
-    "main-collection"
+    "main-collection",
+    "ca930880-b2dc-4338-b6b1-ac92c2e798ba",
+    "dd5499e5-d840-4db2-92bc-ebcba32601eb"
   ]
 }
