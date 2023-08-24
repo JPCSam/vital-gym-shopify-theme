@@ -1,5 +1,27 @@
 {
   "sections": {
+    "c7450631-eee2-4680-b044-fcd48cd79b74": {
+      "type": "homepage-slider",
+      "blocks": {
+        "12290c8a-34a7-4dee-96cc-b16c27b9b7ed": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/flash-sale-banner.jpg",
+            "slide_header": "summer flash sale",
+            "description": "Enjoy up to 40% off on selected home gym products at Vital Gym. Limited-time offer for fitness enthusiasts. Shop now!",
+            "url": "shopify:\/\/collections\/flash-sale",
+            "btn_label": "",
+            "reversed_slide": false
+          }
+        }
+      },
+      "block_order": [
+        "12290c8a-34a7-4dee-96cc-b16c27b9b7ed"
+      ],
+      "settings": {
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -30,32 +52,10 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
-    },
-    "c7450631-eee2-4680-b044-fcd48cd79b74": {
-      "type": "homepage-slider",
-      "blocks": {
-        "12290c8a-34a7-4dee-96cc-b16c27b9b7ed": {
-          "type": "image",
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/flash-sale-banner.jpg",
-            "slide_header": "summer flash sale",
-            "description": "Enjoy up to 40% off on selected home gym products at Vital Gym. Limited-time offer for fitness enthusiasts. Shop now!",
-            "url": "shopify:\/\/collections\/flash-sale",
-            "btn_label": "",
-            "reversed_slide": false
-          }
-        }
-      },
-      "block_order": [
-        "12290c8a-34a7-4dee-96cc-b16c27b9b7ed"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
-    "main-collection",
-    "c7450631-eee2-4680-b044-fcd48cd79b74"
+    "c7450631-eee2-4680-b044-fcd48cd79b74",
+    "main-collection"
   ]
 }
