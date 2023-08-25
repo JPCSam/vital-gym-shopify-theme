@@ -123,6 +123,7 @@
           },
           "35bcfb9f-ee54-4b4c-9d2f-24a8738415d7": {
             "type": "Banner",
+            "disabled": true,
             "settings": {
               "banner_item_text": "<h6>Enjoy up to <strong>40% off<\/strong> on selected items<\/h6>",
               "banner_item_onclick": "",
