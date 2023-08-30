@@ -7,7 +7,7 @@
     <div class="homepage-slide {% if block.settings.reversed_slide %}reversed{% endif %} {% if block.settings.show_fw %}slide-fullwidth{% endif %}">
       {% unless block.settings.show_fw %}
         <div class="slide__image-block">
-        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img lazyload" loading="lazy">
+        <img src="{{block.settings.image | img_url : 'master'}}" alt="VitalGym" class="bg-img">
         <img class="logo-vertical lazyload" loading="lazy" src="{{'vital-gym-logo.svg' | asset_url}}" alt="VitalGym">
         <img class='x-absolute lazyload' loading="lazy" src="{{'cross-line.svg' | asset_url}}" alt="VitalGym">
         <img class='curve-line lazyload' loading="lazy" src="{{'curv-line.svg' | asset_url}}" alt="VitalGym">
