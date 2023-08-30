@@ -13327,7 +13327,7 @@ border:1px solid var(--colorBorder)
     url('Industry-Book.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-
+  font-display: swap;
 }
 
 @font-face {
@@ -13336,6 +13336,7 @@ border:1px solid var(--colorBorder)
   src: local("Industry Bold"), local("Industry-Bold"), url("Industry-Bold.eot?#iefix") format("embedded-opentype"), url("Industry-Bold.woff") format("woff"), url("Industry-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -13344,6 +13345,7 @@ border:1px solid var(--colorBorder)
   src: local("Industry Black"), local("Industry-Black"), url("Industry-Black.eot?#iefix") format("embedded-opentype"), url("Industry-Black.woff") format("woff"), url("Industry-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -13352,6 +13354,7 @@ border:1px solid var(--colorBorder)
   src: local("Industry Demi"), local("Industry-Demi"), url("Industry-Demi.eot?#iefix") format("embedded-opentype"), url("Industry-Demi.woff") format("woff"), url("Industry-Demi.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -13360,6 +13363,7 @@ border:1px solid var(--colorBorder)
   src: local("Industry Light"), local("Industry-Light"), url("Industry-Light.eot?#iefix") format("embedded-opentype"), url("Industry-Light.woff") format("woff"), url("Industry-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -13368,6 +13372,7 @@ border:1px solid var(--colorBorder)
   src: local("Industry Medium"), local("Industry-Medium"), url("Industry-Medium.eot?#iefix") format("embedded-opentype"), url("Industry-Medium.woff") format("woff"), url("Industry-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 .arrow-btn {
