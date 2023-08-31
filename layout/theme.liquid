@@ -155,11 +155,6 @@
         "url": {{ request.origin | append: page.url | json }}
       }
     </script>
-    <script
-      src="https://x.klarnacdn.net/express-button/v1/lib.js"
-      data-id="K6653475"
-      defer
-    ></script>
   </head>
 
   <body
@@ -181,6 +176,7 @@
     </script>
     <script
       defer
+      data-environment="production"
       src="https://js.klarna.com/web-sdk/v1/klarna.js"
       data-client-id="5dd884f7-6cc2-5daf-834c-37152bfbef6a"
     ></script>
