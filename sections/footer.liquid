@@ -34,13 +34,12 @@
         {%- if section.settings.show_payment_icons -%}
           {%- unless shop.enabled_payment_types == empty -%}
             <ul class="inline-list payment-icons site-footer__bottom-block text-center">              
-              {% assign enabled_payment_types = 'visa,master,american_express,maestro,paypal,google_pay,apple_pay,afterpay,klarna,klarna-pay-later' | remove: ' ' | split: ',' %}
+              {% assign enabled_payment_types = 'visa,master,american_express,maestro,paypal,google_pay,apple_pay,afterpay,klarna' | remove: ' ' | split: ',' %}
               {% for type in enabled_payment_types %}
                 <li class="icon--payment">
                   {{ type | payment_type_svg_tag }}
                 </li>
-              {%- endfor -%}
-              
+              {%- endfor -%}              
             </ul>
           {%- endunless -%}
         {%- endif -%}
