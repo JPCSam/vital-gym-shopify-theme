@@ -1,1 +1,49 @@
-{"sections":{"main":{"type":"main-cart","settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Popular picks","home_featured_products":"sale","per_row":3,"rows":1,"view_all":true,"divider":false}}},"order":["main","featured-collection"]}
+{
+  "sections": {
+    "169348703856276e0f": {
+      "type": "apps",
+      "blocks": {
+        "29c3de23-21b6-4f19-a107-9edf34a6016a": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "dark",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        }
+      },
+      "block_order": [
+        "29c3de23-21b6-4f19-a107-9edf34a6016a"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "main": {
+      "type": "main-cart",
+      "settings": {
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Popular picks",
+        "home_featured_products": "sale",
+        "per_row": 3,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "169348703856276e0f",
+    "main",
+    "featured-collection"
+  ]
+}
