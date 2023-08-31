@@ -952,6 +952,15 @@
         "type": "account-workouts",
         "settings": {
         }
+      },
+      "afterpay-banner": {
+        "type": "afterpay-banner",
+        "settings": {
+          "should_show_afterpay_banner": true,
+          "afterpay_banner_background_color": "#B2FCE4",
+          "afterpay_banner_text_color": "#000000",
+          "afterpay_banner_logo_color": "black"
+        }
       }
     },
     "content_for_index": [
@@ -986,6 +995,18 @@
           "dev_mode": false,
           "beta_version": false,
           "custom_code": "<script>\n    \/\/ custom code here\n<\/script>"
+        }
+      },
+      "1360768219604461044": {
+        "type": "shopify:\/\/apps\/tinyimg\/blocks\/store-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14971748854670876780": {
+        "type": "shopify:\/\/apps\/tinyimg\/blocks\/product-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
         }
       }
     }
