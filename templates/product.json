@@ -1,5 +1,29 @@
 {
   "sections": {
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "9dc3493c-9e35-4bbc-a141-1d86ae260069": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "dark",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        }
+      },
+      "block_order": [
+        "9dc3493c-9e35-4bbc-a141-1d86ae260069"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -94,19 +118,12 @@
         "product_recommendations_heading": "You may also like",
         "related_count": 4
       }
-    },
-    "loox-product-reviews-app-section": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
+    "loox-product-reviews-app-section",
     "main",
     "sub",
-    "product-recommendations",
-    "loox-product-reviews-app-section"
+    "product-recommendations"
   ]
 }
