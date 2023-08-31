@@ -34,8 +34,8 @@
         {%- if section.settings.show_payment_icons -%}
           {%- unless shop.enabled_payment_types == empty -%}
             <ul class="inline-list payment-icons site-footer__bottom-block text-center">              
-              {% assign enabled_payment_types = 'visa,master,american_express,paypal' | remove: ' ' | split: ',' %}
-                      {% for type in enabled_payment_types %}
+              {% assign enabled_payment_types = 'visa,master,american_express,paypal,google_pay' | remove: ' ' | split: ',' %}
+              {% for type in enabled_payment_types %}
                 <li class="icon--payment">
                   {{ type | payment_type_svg_tag }}
                 </li>
