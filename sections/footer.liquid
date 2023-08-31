@@ -33,8 +33,7 @@
       <div class="pay__icons">
         {%- if section.settings.show_payment_icons -%}
           {%- unless shop.enabled_payment_types == empty -%}
-            <ul class="inline-list payment-icons site-footer__bottom-block text-center">
-              {% assign enabled_payment_types = 'clearpay' | concat: shop.enabled_payment_types %}
+            <ul class="inline-list payment-icons site-footer__bottom-block text-center">              
               {%- for type in shop.enabled_payment_types -%}
                 <li class="icon--payment">
                   {{ type | payment_type_svg_tag }}
