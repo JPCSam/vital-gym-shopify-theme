@@ -14,11 +14,11 @@
           </div>
         </div>
       </div>
-    <div id="clear-cart"><a href="/cart/clear">Clear cart</a></div>
+      <div id="clear-cart"><a href="/cart/clear">Clear cart</a></div>
       <div class="drawer__inner">
         <div class="drawer__scrollable">
           <div data-products class="appear-animation appear-delay-2"></div>
-  
+
           {% if settings.cart_notes_enable %}
             <div class="appear-animation appear-delay-3">
               <label for="CartNoteDrawer">{{ 'cart.general.note' | t }}</label>
@@ -37,11 +37,13 @@
                 {% assign actualSaving = savings | times: item.quantity %}
               {% endif %}
             {% endfor %}
-              {% if savings > 0 %}
-                <p style="font-size: 17px;text-transform: uppercase;margin: 0;" >You're saving <span id='totalSavingsP' data-tsaving>{{ actualSaving | money }}</span>!</p>
-              {% endif %}
+            {% if savings > 0 %}
+              <p style="font-size: 17px;text-transform: uppercase;margin: 0;">
+                You're saving <span id="totalSavingsP" data-tsaving>{{ actualSaving | money }}</span>!
+              </p>
+            {% endif %}
           </div>
-<div class="savings-block" style="text-align: center; margin-top: 20px; text-transform: uppercase;">
+          <div class="savings-block" style="text-align: center; margin-top: 20px; text-transform: uppercase;">
             You're saving <span id="totalSavingsP" data-tsaving></span>!
           </div>
 
@@ -109,6 +111,10 @@
               </div>
             {% endif %}
           </div>
+          <klarna-express-button
+            data-locale="en-GB"
+            data-theme="default (default) | dark | light"
+          />
         </div>
       </div>
 
