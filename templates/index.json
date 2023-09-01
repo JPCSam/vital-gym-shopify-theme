@@ -7,11 +7,10 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Best-price-bundles.webp",
-            "image_mob": "shopify:\/\/shop_images\/Best-price-bundles-mobile.png",
-            "slide_header": "Craft Your Ideal Bundle and Enjoy Up To 15% Off!",
-            "description": "Indulge in the ultimate freedom of choice with our Mix and Match Custom Bundles.",
-            "url": "shopify:\/\/collections\/make-your-own-bundle",
+            "image": "shopify:\/\/shop_images\/p3-pro-suspension-trainer-955472.jpg",
+            "slide_header": "Ignite Full-Body Strength!!!",
+            "description": "Optimize Your Fitness with Vital Gym's Suspension Trainer",
+            "url": "shopify:\/\/products\/suspension-trainer",
             "btn_label": "shop now",
             "reversed_slide": true
           }
