@@ -7,10 +7,10 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/p3-pro-suspension-trainer-955472.jpg",
-            "slide_header": "Ignite Full-Body Strength!!!",
-            "description": "Optimise Your Fitness with Vital Gym's Suspension Trainer",
-            "url": "shopify:\/\/products\/suspension-trainer",
+            "image": "shopify:\/\/shop_images\/compound-banner_fbc0b820-51e6-4976-9489-cbfc0167a762.png",
+            "slide_header": "Unlock Your Full Potential!!!",
+            "description": "Elevate Your Workouts with Versatile Compound Exercises.",
+            "url": "shopify:\/\/products\/the-compound-bundle",
             "btn_label": "shop now",
             "reversed_slide": true
           }
