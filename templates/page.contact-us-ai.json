@@ -27,6 +27,7 @@
         "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-0",
         "template--16900796154070__35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea-1684763053acb6ace2-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -48,6 +49,7 @@
       "block_order": [
         "template--16900791009494__a8544723-aeaf-49a7-903c-d9f3703a91dd-16847613691451f51e-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "space_around": true
