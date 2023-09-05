@@ -36,7 +36,7 @@
     {%- render 'font-face' -%}
     {{ 'theme.css' | asset_url | stylesheet_tag }}
     {%- render 'css-variables' -%}
-    {{ 'custom-modal-box.scss.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-modal-box.scss.liquid' | asset_url | stylesheet_tag }}
     {%- if page.template_suffix == 'test-page' -%}
       {{ 'vital-club.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
