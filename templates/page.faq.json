@@ -167,7 +167,21 @@
           "type": "question",
           "settings": {
             "title": "Can I track my orders?",
-            "text": "<p>Once your order has been processed you will be sent an email with an updated status. To track your order you can go <a href=\"https:\/\/vitalgym.co\/apps\/aftership\" target=\"_blank\" title=\"https:\/\/vitalgym.co\/apps\/aftership\">here <\/a>or you can get in touch with our customer services team.<\/p>"
+            "text": "<p>Once your order has been processed you will be sent an email with an updated status. To track your order you can go <a href=\"https:\/\/vitalgym.co\/apps\/aftership\" target=\"_blank\" title=\"https:\/\/vitalgym.co\/apps\/aftership\">here<\/a> or you can get in touch with our customer services team.<\/p>"
+          }
+        },
+        "1c2aab75-d59c-4e87-87d3-430beeb89250": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know when my order is going to arrive?",
+            "text": "<p>Once you’ve placed an order with us, we’ll send you an email confirming all the details. The courier should then send you a notification with an expected delivery date.<\/p>"
+          }
+        },
+        "99d1cecc-cc74-4690-8c82-cece02d2fa4d": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "text": "<p>We only ship to the UK at the moment. We are hoping to offer international shipping in future.<\/p>"
           }
         }
       },
@@ -182,7 +196,9 @@
         "4e21d8a9-5d2f-4d68-aef6-7783831093bd",
         "d5683282-f3ad-418c-a144-bbc561faa689",
         "e24a6bd7-1f72-40a2-a0f5-e3944eb862b1",
-        "c6edd355-6616-427b-9bc8-bd6d518d3079"
+        "c6edd355-6616-427b-9bc8-bd6d518d3079",
+        "1c2aab75-d59c-4e87-87d3-430beeb89250",
+        "99d1cecc-cc74-4690-8c82-cece02d2fa4d"
       ],
       "settings": {
         "title": "DELIVERY FAQS"
