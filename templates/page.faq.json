@@ -183,6 +183,13 @@
             "title": "Do you ship internationally?",
             "text": "<p>We only ship to the UK at the moment. We are hoping to offer international shipping in future.<\/p>"
           }
+        },
+        "012a40ca-35eb-4f59-b371-12de17b74ef4": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping?",
+            "text": "<p>Shipping is calculated at the checkout. The amount will depend on the weight of the items you have purchased.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -198,7 +205,8 @@
         "e24a6bd7-1f72-40a2-a0f5-e3944eb862b1",
         "c6edd355-6616-427b-9bc8-bd6d518d3079",
         "1c2aab75-d59c-4e87-87d3-430beeb89250",
-        "99d1cecc-cc74-4690-8c82-cece02d2fa4d"
+        "99d1cecc-cc74-4690-8c82-cece02d2fa4d",
+        "012a40ca-35eb-4f59-b371-12de17b74ef4"
       ],
       "settings": {
         "title": "DELIVERY FAQS"
