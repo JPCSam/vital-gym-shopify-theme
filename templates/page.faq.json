@@ -190,6 +190,13 @@
             "title": "How much is shipping?",
             "text": "<p>Shipping is calculated at the checkout. The amount will depend on the weight of the items you have purchased.<\/p>"
           }
+        },
+        "b0823a9e-9f9a-484f-9cdb-a0b63758229e": {
+          "type": "question",
+          "settings": {
+            "title": "Part of my order is missing, when it will arrive?",
+            "text": "<p>It is very likely for large orders (orders with multiple boxes) to get delivered on separate days due to the size and weight. If part of your order arrives then the rest should arrive in the next couple days after. Please allow at least 48 hours before contacting us.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -206,7 +213,8 @@
         "c6edd355-6616-427b-9bc8-bd6d518d3079",
         "1c2aab75-d59c-4e87-87d3-430beeb89250",
         "99d1cecc-cc74-4690-8c82-cece02d2fa4d",
-        "012a40ca-35eb-4f59-b371-12de17b74ef4"
+        "012a40ca-35eb-4f59-b371-12de17b74ef4",
+        "b0823a9e-9f9a-484f-9cdb-a0b63758229e"
       ],
       "settings": {
         "title": "DELIVERY FAQS"
