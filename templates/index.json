@@ -7,11 +7,11 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/compound-banner_fbc0b820-51e6-4976-9489-cbfc0167a762.png",
-            "slide_header": "Unlock Your Full Potential!!!",
-            "description": "Elevate Your Workouts with Versatile Compound Exercises.",
-            "url": "shopify:\/\/products\/the-compound-bundle",
-            "btn_label": "shop now",
+            "image": "shopify:\/\/shop_images\/compound-email-banner_a89c3c89-3e36-4849-b5e4-ee5d2515680a.png",
+            "slide_header": "PRICE REDUCTION!",
+            "description": "Your all-in-one strength training solution.",
+            "url": "https:\/\/vitalgym.co\/products\/the-compound-bundle",
+            "btn_label": "From £265.00",
             "reversed_slide": true
           }
         }
