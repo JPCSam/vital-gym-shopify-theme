@@ -33,13 +33,16 @@
       <div class="pay__icons">
         {%- if section.settings.show_payment_icons -%}
           {%- unless shop.enabled_payment_types == empty -%}
-            <ul class="inline-list payment-icons site-footer__bottom-block text-center">              
-              {% assign enabled_payment_types = 'visa,master,american_express,maestro,paypal,google_pay,apple_pay,afterpay,klarna' | remove: ' ' | split: ',' %}
+            <ul class="inline-list payment-icons site-footer__bottom-block text-center">
+              {% assign enabled_payment_types = 'visa,master,american_express,maestro,paypal,google_pay,apple_pay,afterpay,klarna'
+                | remove: ' '
+                | split: ','
+              %}
               {% for type in enabled_payment_types %}
                 <li class="icon--payment">
                   {{ type | payment_type_svg_tag }}
                 </li>
-              {%- endfor -%}              
+              {%- endfor -%}
             </ul>
           {%- endunless -%}
         {%- endif -%}
@@ -98,7 +101,7 @@
       "type": "textarea",
       "id": "copyright",
       "label": "Footer copyright",
-      "default": "2021 Vital Gym LTD - 71–75 Shelton Street, LONDON, WC2H 9JQ"
+      "default": "© 2021 JPC Vital Gym UK LTD - Unit 3 Queens Square, Lyndhurst Road, Ascot, SL5 9FE"
     }
   ],
   "blocks": [
