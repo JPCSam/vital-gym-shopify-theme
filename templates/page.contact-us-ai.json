@@ -34,27 +34,6 @@
         "divider": false
       }
     },
-    "a8544723-aeaf-49a7-903c-d9f3703a91dd": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16900791009494__a8544723-aeaf-49a7-903c-d9f3703a91dd-16847613691451f51e-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div style=\"display: flex; flex-direction: row; justify-content: center;\">\n<iframe src=\"https:\/\/chatfast.io\/chat\/55a1fc23-1bb9-4bee-96e0-517f7aea2bbe\" width=\"80%\" height=\"600px\"><\/iframe>\n<\/div>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16900791009494__a8544723-aeaf-49a7-903c-d9f3703a91dd-16847613691451f51e-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "space_around": true
-      }
-    },
     "3e215528-fe23-401e-9bfc-c5d02c73a5c6": {
       "type": "contact-form",
       "settings": {
@@ -68,7 +47,6 @@
   "order": [
     "main",
     "35ae7ad5-5fa6-4ff6-9a5e-9dfaeda28cea",
-    "a8544723-aeaf-49a7-903c-d9f3703a91dd",
     "3e215528-fe23-401e-9bfc-c5d02c73a5c6"
   ]
 }
