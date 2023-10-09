@@ -930,8 +930,8 @@
           "32a61278-7244-4110-ba79-76a9e92a6818": {
             "type": "contact-form",
             "settings": {
-              "title": "",
-              "show_phone": false,
+              "title": "Contact us",
+              "show_phone": true,
               "narrow_column": true
             }
           }
