@@ -79,20 +79,6 @@
         "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
       }
     },
-    "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-family: \"Industry\" !important; font-weight: bold !important; font-size: 24px !important; line-height: 24px; text-transform: uppercase !important; color: #1c1c1d; margin-top: 0px; text-align: left;}"
-      ],
-      "settings": {
-        "title": "New-in",
-        "home_featured_products": "new-in",
-        "per_row": 3,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "71fb9905-28de-49b7-80e0-e9b96229b597": {
       "type": "featured-collection",
       "custom_css": [
@@ -101,6 +87,20 @@
       "settings": {
         "title": "BEST SELLERS",
         "home_featured_products": "best-sellers",
+        "per_row": 3,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"Industry\" !important; font-weight: bold !important; font-size: 24px !important; line-height: 24px; text-transform: uppercase !important; color: #1c1c1d; margin-top: 0px; text-align: left;}"
+      ],
+      "settings": {
+        "title": "ACCESSORIES",
+        "home_featured_products": "accessories",
         "per_row": 3,
         "rows": 1,
         "view_all": true,
@@ -217,8 +217,8 @@
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "1694704399f84ff262",
     "163006974727d4fcd3",
-    "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
+    "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7",
     "6d97a917-601e-4bfa-9bdd-156656d48ce9",
     "1630140057cf707248",
     "1630069804bb48c4df",
