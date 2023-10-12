@@ -43,8 +43,8 @@
         "80388d2f-643e-4b61-9eb6-63884082321d": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "only_photos": true,
-            "hide_thumbnails": false,
+            "only_photos": false,
+            "hide_thumbnails": true,
             "product_handle": "",
             "aggregated": true,
             "data-limit": 20,
