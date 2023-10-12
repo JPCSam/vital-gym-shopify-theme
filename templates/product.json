@@ -52,35 +52,12 @@
         },
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
           "settings": {
             "only_photos": false,
             "aggregated": false,
             "limit": 4,
             "hide_thumbnails": false,
             "maxwidth": 1080
-          }
-        },
-        "8e764391-ff89-4e72-bfc1-08f0f92a2de1": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1100,
-            "desktopFontSize": 32,
-            "mobileFontSize": 20,
-            "maxNumberOfCharacters": 100,
-            "quoteMarkIcon": "style-1",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "starsColor": "",
-            "quotesIconColor": "#EAEAEA",
-            "arrows_iconColor": "#000000",
-            "arrows_hideOnMobile": true,
-            "pagination_active": true,
-            "pagination_selectedDotColor": "#000000",
-            "pagination_dotColor": "#000000",
-            "autoplay_active": true,
-            "autoplay_duration": 3,
-            "productIds": ""
           }
         }
       },
@@ -92,17 +69,16 @@
         "tab",
         "description",
         "4c3e1f69-d4d9-4829-b6cd-0f79ee77d5aa",
-        "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
-        "8e764391-ff89-4e72-bfc1-08f0f92a2de1"
+        "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a"
       ],
       "settings": {
         "sku_enable": true,
         "image_size": "medium",
         "product_zoom_enable": true,
-        "thumbnail_position": "below",
+        "thumbnail_position": "beside",
         "thumbnail_arrows": true,
         "enable_video_looping": false,
-        "product_video_style": "muted"
+        "product_video_style": "unmuted"
       }
     },
     "sub": {
