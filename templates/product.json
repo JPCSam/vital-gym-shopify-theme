@@ -16,6 +16,13 @@
             "color_swatches": false
           }
         },
+        "2d77bb88-4c20-4e99-b260-98fac1f2ed55": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "{{ product.metafields.custom.custom_sales_point.value }}"
+          }
+        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -64,6 +71,7 @@
       "block_order": [
         "price",
         "variant_picker",
+        "2d77bb88-4c20-4e99-b260-98fac1f2ed55",
         "inventory_status",
         "buy_buttons",
         "tab",
