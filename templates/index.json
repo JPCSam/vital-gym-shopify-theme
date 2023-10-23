@@ -93,6 +93,29 @@
         "divider": false
       }
     },
+    "164ef42a-eb9c-4069-a935-9e01262135f3": {
+      "type": "homepage-slider",
+      "blocks": {
+        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/buckle-mat.png",
+            "image_mob": "shopify:\/\/shop_images\/buckle-mat.png",
+            "slide_header": "Buy More Save More",
+            "description": "An Exercise Mat You Will Only Need To Buy Once. Get the best price. LIMITED TIME OFFER!",
+            "url": "shopify:\/\/collections\/fitness-mats",
+            "btn_label": "GO TO MATS",
+            "reversed_slide": false
+          }
+        }
+      },
+      "block_order": [
+        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
+      ],
+      "settings": {
+      }
+    },
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
       "type": "featured-collection",
       "custom_css": [
@@ -247,6 +270,7 @@
     "1694704399f84ff262",
     "163006974727d4fcd3",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
+    "164ef42a-eb9c-4069-a935-9e01262135f3",
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7",
     "1630140057cf707248",
     "1630069804bb48c4df",
