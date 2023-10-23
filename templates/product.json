@@ -60,32 +60,6 @@
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
-        },
-        "acec2f10-0493-4009-80fc-f8496ee02420": {
-          "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
-          "settings": {
-            "text_align": "inherit",
-            "margin_top": 16,
-            "margin_bottom": 16,
-            "color": "",
-            "size": "md",
-            "intro_text": "or",
-            "show_interest_free": true,
-            "payment_amount_is_bold": true,
-            "show_with": true,
-            "logo_type": "badge",
-            "logo_theme": "black-on-mint",
-            "modal_link_style": "circled-info-icon",
-            "modal_theme": "mint",
-            "breakpoint": 749,
-            "text_align_mobile": "inherit",
-            "margin_top_mobile": 16,
-            "margin_bottom_mobile": 16,
-            "show_lower_limit": true,
-            "show_upper_limit": true,
-            "show_if_outside_limits": true,
-            "product": "{{product}}"
-          }
         }
       },
       "block_order": [
@@ -96,8 +70,7 @@
         "buy_buttons",
         "tab",
         "description",
-        "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
-        "acec2f10-0493-4009-80fc-f8496ee02420"
+        "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a"
       ],
       "settings": {
         "sku_enable": true,
