@@ -24,14 +24,7 @@
       </div>
     </div>
     <div class="drawer__scrollable">
-      <ul class="mobile-nav" role="navigation" aria-label="Primary">
-      {% if template != 'customers/account' %}
-        <li class="separate" onclick="window.location.href = '/collections/all-products'">
-            <a href="https://vitalgym.co/collections/all-products" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
-            <span class="link-title all-prod" >All Products</span>  
-            </a>
-        </li>
-      {% endif %}
+      <ul class="mobile-nav" role="navigation" aria-label="Primary">      
         {%- for link in main_menu.links -%}
           {%- liquid
             assign animation_row = animation_row | plus: 1
