@@ -46,7 +46,6 @@
               for block in section.blocks
                 if link.title == block.settings.menu_item
                   assign is_megamenu = true
-
                   assign promo_image_1 = block.settings.promo_image_1
                   assign promo_heading_1 = block.settings.promo_heading_1
                   assign promo_text_1 = block.settings.promo_text_1
@@ -280,9 +279,7 @@
           {% else %}
               <button class="btn btn--transparent open-custom-modal" id="open-login-modal">Log In</button>
               <button class="btn btn--inverse open-custom-modal open_signup" id="open-signup-modal">Sign Up</button>
-          {% endif %}
-        </div>
-        
+          {% endif %}                
       </ul>
 
     </div>
