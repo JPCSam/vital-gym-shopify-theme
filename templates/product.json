@@ -23,6 +23,13 @@
             "text": "{{ product.metafields.custom.custom_sales_point.value }}"
           }
         },
+        "70ada1d4-e061-466e-bcd5-7283ba2db4de": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "{{ product.metafields.custom.offer.value }}"
+          }
+        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -66,6 +73,7 @@
         "price",
         "variant_picker",
         "2d77bb88-4c20-4e99-b260-98fac1f2ed55",
+        "70ada1d4-e061-466e-bcd5-7283ba2db4de",
         "inventory_status",
         "buy_buttons",
         "tab",
