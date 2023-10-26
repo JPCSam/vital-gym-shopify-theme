@@ -65,7 +65,7 @@
           "type": "tab",
           "settings": {
             "title": "FAQS",
-            "content": "",
+            "content": "<p>Please go to our FAQs section here. <a href=\"https:\/\/vitalgym.co\/pages\/faqs\" target=\"_blank\" title=\"https:\/\/vitalgym.co\/pages\/faqs\">FAQs<\/a><\/p>",
             "page": "faqs"
           }
         }
