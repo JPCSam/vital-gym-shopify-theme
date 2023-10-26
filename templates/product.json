@@ -16,6 +16,13 @@
             "color_swatches": false
           }
         },
+        "f3f4285f-5c33-4eb9-ae68-4958208177cb": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "{{ product.metafields.custom.define_offer | metafield_text }}"
+          }
+        },
         "2d77bb88-4c20-4e99-b260-98fac1f2ed55": {
           "type": "sales_point",
           "settings": {
@@ -68,26 +75,19 @@
             "content": "<p>Please go to our FAQs section here. <a href=\"https:\/\/vitalgym.co\/pages\/faqs\" target=\"_blank\" title=\"https:\/\/vitalgym.co\/pages\/faqs\">FAQs<\/a><\/p>",
             "page": "faqs"
           }
-        },
-        "f3f4285f-5c33-4eb9-ae68-4958208177cb": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "lock",
-            "text": "{{ product.metafields.custom.define_offer | metafield_text }}"
-          }
         }
       },
       "block_order": [
         "price",
         "variant_picker",
+        "f3f4285f-5c33-4eb9-ae68-4958208177cb",
         "2d77bb88-4c20-4e99-b260-98fac1f2ed55",
         "inventory_status",
         "buy_buttons",
         "tab",
         "description",
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
-        "16bb8f05-637c-494c-b165-e2f3c7629b21",
-        "f3f4285f-5c33-4eb9-ae68-4958208177cb"
+        "16bb8f05-637c-494c-b165-e2f3c7629b21"
       ],
       "settings": {
         "sku_enable": true,
