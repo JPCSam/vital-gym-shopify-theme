@@ -41,7 +41,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>The available products will be dispatched 2-3 working days from when the order is placed. <\/p><p>We offer local collection for free. Collection option can be found at checkout.<\/p>",
+            "content": "<p>We offer free delivery to mainland UK on orders over £350<\/p><p>All of our UK stocked products are shipped directly from our UK warehouse, and we endeavour to dispatch your order within 24 hours of the order being placed between Monday to Friday. Any weekend orders will be shipped within 24 hours of the next business day.<\/p><p>Expect standard delivery within 2-5 business days. <\/p><p>We offer local collection for free. Collection option can be found at checkout. <\/p><p><strong>Returns<\/strong><br\/>Our policy lasts 14 days. If 14 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange. To be eligible for a return, your item must be unused and <br\/>in the same condition that you received it. It must also be in the original packaging. <a href=\"https:\/\/vitalgym.co\/policies\/refund-policy\" target=\"_blank\" title=\"https:\/\/vitalgym.co\/policies\/refund-policy\">Returns & Refunds<\/a><\/p><p>To complete your return, we require a receipt or proof of purchase. <br\/><\/p>",
             "page": "delivery-shipping"
           }
         },
@@ -60,6 +60,14 @@
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
+        },
+        "16bb8f05-637c-494c-b165-e2f3c7629b21": {
+          "type": "tab",
+          "settings": {
+            "title": "FAQS",
+            "content": "",
+            "page": "faqs"
+          }
         }
       },
       "block_order": [
@@ -70,7 +78,8 @@
         "buy_buttons",
         "tab",
         "description",
-        "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a"
+        "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
+        "16bb8f05-637c-494c-b165-e2f3c7629b21"
       ],
       "settings": {
         "sku_enable": true,
