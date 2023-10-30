@@ -326,7 +326,7 @@
                     </div>
                   {%- when 'sales_point' -%}
                   {% if product.metafields.custom.define_offer != blank %}
-   <p>metafield has a value: {{ product.metafields.custom.define_offer }}</p>
+                     { product.metafields.custom.define_offer }
 {% endif %} 
                     <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
                       <ul class="sales-points">
