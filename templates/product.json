@@ -52,12 +52,6 @@
             "page": "delivery-shipping"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": true
-          }
-        },
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -85,7 +79,6 @@
         "inventory_status",
         "buy_buttons",
         "tab",
-        "description",
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
         "16bb8f05-637c-494c-b165-e2f3c7629b21"
       ],
