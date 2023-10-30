@@ -1018,6 +1018,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15154131639906026026": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/broken-link-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11089864892113081655": {
+        "type": "shopify:\/\/apps\/tinyimg-seo-speed\/blocks\/website-json-ld-embed\/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": true,
+        "settings": {
+        }
       }
     }
   },
@@ -1304,7 +1316,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "klarna-placement {display: block !important;}"
+
     ]
   }
 }
