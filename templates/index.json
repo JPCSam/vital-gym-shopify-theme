@@ -7,10 +7,10 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/compound-email-banner_8aab3160-8fc6-4a41-8516-b90516a3b329.png",
-            "slide_header": "🎃 Payday + Halloween Sale",
-            "description": "Don't miss out on special savings, tailored just for you. Hurry, prices won't stay low for long!",
-            "url": "shopify:\/\/collections\/weights",
+            "image": "shopify:\/\/shop_images\/hex-dumbbells-5-25kg-299356.jpg",
+            "slide_header": "Discover the power of versatility",
+            "description": "From adjustable sets that grow with you, to sleek, space-saving designs that enhance your home gym, our dumbbells redefine the way you train.",
+            "url": "shopify:\/\/collections\/dumbbells",
             "btn_label": "shop now",
             "reversed_slide": true
           }
