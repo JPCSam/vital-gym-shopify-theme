@@ -7,10 +7,11 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/hex-dumbbells-5-25kg-299356.jpg",
-            "slide_header": "Discover the power of versatility",
-            "description": "From adjustable sets that grow with you, to sleek, space-saving designs that enhance your home gym, our dumbbells redefine the way you train.",
-            "url": "shopify:\/\/collections\/dumbbells",
+            "image": "shopify:\/\/shop_images\/vital-bf_1.png",
+            "image_mob": "shopify:\/\/shop_images\/vital-bf_1.png",
+            "slide_header": "Celebrating Black Friday",
+            "description": "This year we have went even bigger than before bringing in new lines throughout November for Black Friday as well as unbeatable discounts across key products.\n\nGet up to 15% off on entire order value",
+            "url": "shopify:\/\/collections\/all-products",
             "btn_label": "shop now",
             "reversed_slide": true
           }
