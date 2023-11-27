@@ -3384,11 +3384,7 @@ html input[disabled] {
   border-radius: 0;
   color: var(--colorBtnPrimaryText);
   background: #Fc0 !important;
-  transition: padding-right 0.3s, background 0.3s, opacity 1s;
-  -webkit-animation: glowing 1300ms infinite;
-        -moz-animation: glowing 1300ms infinite;
-        -o-animation: glowing 1300ms infinite;
-        animation: glowing 1300ms infinite;
+  transition: padding-right 0.3s, background 0.3s, opacity 1s; 
 }
  @-webkit-keyframes glowing {
         0% {
@@ -3418,7 +3414,15 @@ html input[disabled] {
           box-shadow: 0 0 3px #e8b94a;
         }
       }
-
+.product-reviews .spr-button,
+.product-reviews .spr-summary-actions a,
+.rte .btn,
+.shopify-payment-button .shopify-payment-button__button--unbranded {
+  -webkit-animation: glowing 1300ms infinite;
+        -moz-animation: glowing 1300ms infinite;
+        -o-animation: glowing 1300ms infinite;
+        animation: glowing 1300ms infinite;
+}
 @media only screen and (max-width:589px) {
 
   .btn,
