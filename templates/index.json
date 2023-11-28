@@ -88,7 +88,7 @@
       "settings": {
         "title": "BEST SELLERS",
         "home_featured_products": "best-sellers",
-        "per_row": 3,
+        "per_row": 4,
         "rows": 1,
         "view_all": true,
         "divider": false
@@ -125,7 +125,7 @@
       "settings": {
         "title": "ACCESSORIES",
         "home_featured_products": "accessories",
-        "per_row": 3,
+        "per_row": 4,
         "rows": 1,
         "view_all": true,
         "divider": false
