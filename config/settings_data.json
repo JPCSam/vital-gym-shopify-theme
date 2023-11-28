@@ -169,8 +169,16 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "about-vitalgym"
+            }
+          },
           "1494301487049": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "show_footer_title": true,
               "menu": "our-shop"
@@ -181,13 +189,6 @@
             "settings": {
               "show_footer_title": true,
               "menu": "collections"
-            }
-          },
-          "1494292485313": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "about-vitalgym"
             }
           },
           "f9cc252f-a775-4751-8cac-45fcddc025f9": {
@@ -210,9 +211,9 @@
           }
         },
         "block_order": [
+          "1494292485313",
           "1494301487049",
           "e6b974c0-92e9-4dc0-bc6b-1b22759715ec",
-          "1494292485313",
           "f9cc252f-a775-4751-8cac-45fcddc025f9",
           "61e7ad93-e109-40d8-b315-aba742985bcc"
         ],
