@@ -264,6 +264,17 @@
       "settings": {
         "title": ""
       }
+    },
+    "f6050b22-e194-4312-86ba-8ae5317e4475": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "home_featured_products": "vital-featured-collection",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -278,6 +289,7 @@
     "16300697437ba5bb61",
     "16300697747b041413",
     "a1be9e53-e267-4b84-aa95-b7b57073c0e1",
-    "bf2a297e-0411-4af0-aafc-242be57bfe1e"
+    "bf2a297e-0411-4af0-aafc-242be57bfe1e",
+    "f6050b22-e194-4312-86ba-8ae5317e4475"
   ]
 }
