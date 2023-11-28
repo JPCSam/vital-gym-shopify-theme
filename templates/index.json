@@ -62,8 +62,20 @@
         "space_around": false
       }
     },
+    "f6050b22-e194-4312-86ba-8ae5317e4475": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "home_featured_products": "vital-featured-collection",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "163006974727d4fcd3": {
       "type": "featured-collections-3",
+      "disabled": true,
       "custom_css": [
         "h2 {margin-top: 2em;}"
       ],
@@ -78,20 +90,6 @@
         "collection3_img": "shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
         "collection4": "crossfit",
         "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
-      }
-    },
-    "71fb9905-28de-49b7-80e0-e9b96229b597": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-family: \"Industry\" !important; font-weight: bold !important; font-size: 24px !important; line-height: 24px; text-transform: uppercase !important; color: #1c1c1d; margin-top: 0px; text-align: left;}"
-      ],
-      "settings": {
-        "title": "BEST SELLERS",
-        "home_featured_products": "best-sellers",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
       }
     },
     "164ef42a-eb9c-4069-a935-9e01262135f3": {
@@ -115,6 +113,20 @@
         "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
       ],
       "settings": {
+      }
+    },
+    "71fb9905-28de-49b7-80e0-e9b96229b597": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-family: \"Industry\" !important; font-weight: bold !important; font-size: 24px !important; line-height: 24px; text-transform: uppercase !important; color: #1c1c1d; margin-top: 0px; text-align: left;}"
+      ],
+      "settings": {
+        "title": "BEST SELLERS",
+        "home_featured_products": "best-sellers",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
       }
     },
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
@@ -264,32 +276,21 @@
       "settings": {
         "title": ""
       }
-    },
-    "f6050b22-e194-4312-86ba-8ae5317e4475": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured Products",
-        "home_featured_products": "vital-featured-collection",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": false,
-        "divider": false
-      }
     }
   },
   "order": [
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "1694704399f84ff262",
+    "f6050b22-e194-4312-86ba-8ae5317e4475",
     "163006974727d4fcd3",
-    "71fb9905-28de-49b7-80e0-e9b96229b597",
     "164ef42a-eb9c-4069-a935-9e01262135f3",
+    "71fb9905-28de-49b7-80e0-e9b96229b597",
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7",
     "1630140057cf707248",
     "1630069804bb48c4df",
     "16300697437ba5bb61",
     "16300697747b041413",
     "a1be9e53-e267-4b84-aa95-b7b57073c0e1",
-    "bf2a297e-0411-4af0-aafc-242be57bfe1e",
-    "f6050b22-e194-4312-86ba-8ae5317e4475"
+    "bf2a297e-0411-4af0-aafc-242be57bfe1e"
   ]
 }
