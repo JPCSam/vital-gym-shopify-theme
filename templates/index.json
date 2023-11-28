@@ -220,19 +220,6 @@
       "settings": {
         "title": ""
       }
-    },
-    "a1be9e53-e267-4b84-aa95-b7b57073c0e1": {
-      "type": "loox-carousel-reviews",
-      "settings": {
-        "max_width": 1520,
-        "arrows_color": "",
-        "dots_color": "",
-        "button_color": "",
-        "show_more": true,
-        "only_photos": true,
-        "use_widget_font": false,
-        "product_handle": ""
-      }
     }
   },
   "order": [
@@ -246,7 +233,6 @@
     "1630140057cf707248",
     "1630069804bb48c4df",
     "16300697437ba5bb61",
-    "16300697747b041413",
-    "a1be9e53-e267-4b84-aa95-b7b57073c0e1"
+    "16300697747b041413"
   ]
 }
