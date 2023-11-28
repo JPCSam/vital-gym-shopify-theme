@@ -7,10 +7,10 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/vita-cyber.png",
-            "image_mob": "shopify:\/\/shop_images\/vita-cyber.png",
-            "slide_header": "get your special deals",
-            "description": "Transform your home gym this Cyber Monday with Vital Gym! Score exclusive deals up to 70% off on top-tier equipment. \n\nUse code CM-VT15 for extra savings.",
+            "image": "shopify:\/\/shop_images\/p3-pro-suspension-trainer-803507.jpg",
+            "image_mob": "shopify:\/\/shop_images\/p3-pro-suspension-trainer-403283.jpg",
+            "slide_header": "Unleash Your Potential Anywhere, Anytime",
+            "description": "Experience the freedom of full-body workouts that adapt to your lifestyle with our P3 Pro Suspension Kit. Crafted for durability and versatility.",
             "url": "shopify:\/\/collections\/black-friday-sale",
             "btn_label": "explore deals",
             "reversed_slide": true
