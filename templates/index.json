@@ -233,49 +233,6 @@
         "use_widget_font": false,
         "product_handle": ""
       }
-    },
-    "bf2a297e-0411-4af0-aafc-242be57bfe1e": {
-      "type": "tree-cols-section",
-      "blocks": {
-        "template--16949432484054__bf2a297e-0411-4af0-aafc-242be57bfe1e-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vital-Caro-1_f7d3741f-c142-437d-a0c6-954df8c4d682.png",
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "url": "shopify:\/\/collections\/make-your-own-bundle"
-          }
-        },
-        "template--16949432484054__bf2a297e-0411-4af0-aafc-242be57bfe1e-text_block-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vital-Caro-2_f8216c84-734a-4a4f-ab8e-6edb8f626dfd.png",
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "url": "https:\/\/vitalgym.co\/collections\/weightlifting"
-          }
-        },
-        "template--16949432484054__bf2a297e-0411-4af0-aafc-242be57bfe1e-text_block-3": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vital-Caro-3_20c8766f-8b1e-4a65-b7fa-52dbd5b496b7.png",
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "url": "shopify:\/\/collections\/strength-conditioning"
-          }
-        }
-      },
-      "block_order": [
-        "template--16949432484054__bf2a297e-0411-4af0-aafc-242be57bfe1e-text_block-1",
-        "template--16949432484054__bf2a297e-0411-4af0-aafc-242be57bfe1e-text_block-2",
-        "template--16949432484054__bf2a297e-0411-4af0-aafc-242be57bfe1e-text_block-3"
-      ],
-      "settings": {
-        "title": ""
-      }
     }
   },
   "order": [
@@ -290,7 +247,6 @@
     "1630069804bb48c4df",
     "16300697437ba5bb61",
     "16300697747b041413",
-    "a1be9e53-e267-4b84-aa95-b7b57073c0e1",
-    "bf2a297e-0411-4af0-aafc-242be57bfe1e"
+    "a1be9e53-e267-4b84-aa95-b7b57073c0e1"
   ]
 }
