@@ -132,6 +132,29 @@
         "divider": false
       }
     },
+    "7d761e3a-3de5-4c0c-8745-13aa05b25c7d": {
+      "type": "homepage-slider",
+      "blocks": {
+        "ff6c04e9-aba4-4bbb-9898-809e2fcae669": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/NEW-PRODUCT_GRAPHIC.png",
+            "image_mob": "shopify:\/\/shop_images\/NEW-PRODUCT_GRAPHIC.png",
+            "slide_header": "Revolutionise your arms",
+            "description": "Featuring the Olympic EZ Curl Bar, 2x 5kg Bumper Plates and an Olympic Barbell Collar pack, we’ve provided everything you could need to get started with arms.",
+            "url": "shopify:\/\/products\/bi-s-tri-s",
+            "btn_label": "view product",
+            "reversed_slide": false
+          }
+        }
+      },
+      "block_order": [
+        "ff6c04e9-aba4-4bbb-9898-809e2fcae669"
+      ],
+      "settings": {
+      }
+    },
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
       "type": "featured-collection",
       "custom_css": [
@@ -232,6 +255,7 @@
     "163006974727d4fcd3",
     "164ef42a-eb9c-4069-a935-9e01262135f3",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
+    "7d761e3a-3de5-4c0c-8745-13aa05b25c7d",
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7",
     "1630140057cf707248",
     "1630069804bb48c4df",
