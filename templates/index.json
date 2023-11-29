@@ -129,7 +129,7 @@
         "per_row": 4,
         "rows": 1,
         "view_all": true,
-        "divider": false
+        "divider": true
       }
     },
     "7d761e3a-3de5-4c0c-8745-13aa05b25c7d": {
