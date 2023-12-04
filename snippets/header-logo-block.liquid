@@ -44,11 +44,10 @@
   <h1 id="LogoContainer" class="site-header__logo">
     <span class="visually-hidden">{{ shop.name }}</span>
 {%- else -%}
-<div id="LogoContainer" class="h1 site-header__logo">{%- endif -%}
+<div id="LogoContainer" class="h1 site-header__logo">
+{%- endif -%}
 {%- if section.settings.logo -%}
-  {% comment %}
-    .logo--has-inverted is only applied to the default logo if the inverted logo exists. That way it'll only be hidden on the slider when it has a backup.
-  {% endcomment %}
+
   <a
     href="{{ routes.root_url }}"
     class="site-header__logo-link{% if section.settings.logo-inverted %} logo--has-inverted{% endif %}">
