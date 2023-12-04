@@ -151,7 +151,8 @@
         "settings": {
           "show_bar": false,
           "bar_text": "",
-          "logo": "shopify:\/\/shop_images\/Christmas-logo-white_ad0a127a-51af-4798-bb03-9d24ffd15d29.png",
+          "logo": "shopify:\/\/shop_images\/Christmas-logo-white.png",
+          "logo-inverted": "shopify:\/\/shop_images\/Christmas-logo-white.png",
           "desktop_logo_width": 160,
           "mobile_logo_width": 80,
           "main_menu_link_list": "vital-header-navigation",
