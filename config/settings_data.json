@@ -106,7 +106,7 @@
             "type": "Banner",
             "disabled": true,
             "settings": {
-              "banner_item_text": "<p>Klarna and Clearpay available at checkout<\/p>",
+              "banner_item_text": "",
               "banner_item_onclick": "",
               "banner_item_link_url": "",
               "banner_item_link_text": "",
@@ -160,8 +160,8 @@
           "header_sticky": false,
           "sticky_index": false,
           "sticky_collection": false,
-          "show_announcement": false,
-          "announcement_text": "",
+          "show_announcement": true,
+          "announcement_text": "LAST ORDER DATE FOR GUARANTEED CHRISTMAS DELIVERY : 20TH DEC 2023",
           "announcement_link": "",
           "announcement_closable": false,
           "show_banner": true
