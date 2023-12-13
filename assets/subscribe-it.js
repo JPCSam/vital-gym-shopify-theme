@@ -2159,7 +2159,7 @@ function getRandomSubscribeAPIPath() {
                  "terms_and_conditions_text": "I accept the terms and conditions"
       },
         "form_display_type": "INLINE",
-        "madeby_link_visible": true,
+        "madeby_link_visible": false,
         "hide_for_product_tag": "notify-it-hidden",
         "hide_for_collections": "",
         "recaptcha_enabled": null,
@@ -2221,7 +2221,7 @@ function getRandomSubscribeAPIPath() {
                 "countdown_timer_enabled": false,
                 "countdown_timer_reset_enabled": false,
                 "countdown_timer_expiration": "-1",
-                "countdown_timer_products": "[{\"productId\":\"4785320231048\",\"expirationTime\":\"1586188800000\",\"variantId\":\"33388904710280\"}]"
+                "countdown_timer_products": "[]"
       },
       "main_button": {
             "main_caption": "NOTIFY WHEN AVAILABLE",
