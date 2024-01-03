@@ -77,6 +77,29 @@
         "divider": true
       }
     },
+    "164ef42a-eb9c-4069-a935-9e01262135f3": {
+      "type": "homepage-slider",
+      "blocks": {
+        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/kettlebell-social.png",
+            "image_mob": "shopify:\/\/shop_images\/kettlebell-social.png",
+            "slide_header": "want to save space?",
+            "description": "Instead of having a range of individual weights, our adjustable system allows you to tuck away a single weight, ready for your next workout. Weights increase as follows (in kgs): 3.5, 5.7, 8.2, 10.8, 13.5, 15.9, 18.",
+            "url": "shopify:\/\/products\/adjustable-kettlebell",
+            "btn_label": "Own It Now",
+            "reversed_slide": false
+          }
+        }
+      },
+      "block_order": [
+        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
+      ],
+      "settings": {
+      }
+    },
     "71fb9905-28de-49b7-80e0-e9b96229b597": {
       "type": "featured-collection",
       "custom_css": [
@@ -145,29 +168,6 @@
         "collection3_img": "shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
         "collection4": "crossfit",
         "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
-      }
-    },
-    "164ef42a-eb9c-4069-a935-9e01262135f3": {
-      "type": "homepage-slider",
-      "blocks": {
-        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202": {
-          "type": "image",
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Slider-2_21a77618-05a2-476f-a5d5-b0b8ef0524a2.png",
-            "image_mob": "shopify:\/\/shop_images\/Slider-2_21a77618-05a2-476f-a5d5-b0b8ef0524a2.png",
-            "slide_header": "want to save space?",
-            "description": "Instead of having a range of individual weights, our adjustable system allows you to tuck away a single weight, ready for your next workout. Weights increase as follows (in kgs): 3.5, 5.7, 8.2, 10.8, 13.5, 15.9, 18.",
-            "url": "shopify:\/\/products\/adjustable-kettlebell",
-            "btn_label": "See the offer",
-            "reversed_slide": false
-          }
-        }
-      },
-      "block_order": [
-        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
-      ],
-      "settings": {
       }
     },
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
@@ -268,11 +268,11 @@
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "1694704399f84ff262",
     "e4b65706-5988-4bff-9f28-136318e73813",
+    "164ef42a-eb9c-4069-a935-9e01262135f3",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
     "7d761e3a-3de5-4c0c-8745-13aa05b25c7d",
     "f6050b22-e194-4312-86ba-8ae5317e4475",
     "163006974727d4fcd3",
-    "164ef42a-eb9c-4069-a935-9e01262135f3",
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7",
     "1630140057cf707248",
     "1630069804bb48c4df",
