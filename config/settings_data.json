@@ -161,9 +161,9 @@
           "sticky_index": false,
           "sticky_collection": false,
           "show_announcement": true,
-          "announcement_text": "Crush Your Resolutions with Vital Gym - Use Code HNY2024 for hidden offers!",
+          "announcement_text": "Place your order before 2 PM every day, and relish the convenience of next-day delivery.",
           "announcement_link": "",
-          "announcement_closable": false,
+          "announcement_closable": true,
           "show_banner": true
         }
       },
