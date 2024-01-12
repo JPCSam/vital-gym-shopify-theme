@@ -9,10 +9,10 @@
             "show_fw": false,
             "image": "shopify:\/\/shop_images\/NEWYEAR-BANNER.png",
             "image_mob": "shopify:\/\/shop_images\/NEWYEAR-BANNER.png",
-            "slide_header": "New Beginnings, New Benchmarks",
-            "description": "Dive into Fitness Nirvana with Exclusive New Year Offers! Seize Your Fitness Destiny",
-            "url": "shopify:\/\/products\/the-compound-bundle",
-            "btn_label": "new year deals",
+            "slide_header": "New Year, New Bench: Level Up Your Workouts for 60% Off!",
+            "description": "Ditch the wobbly gym bench and sculpt your dream physique at home. The Adjustable Bench 3.0 is your personal strength studio, now at a jaw-dropping price. Don't miss this limited-time deal!",
+            "url": "shopify:\/\/collections\/benches",
+            "btn_label": "Claim Your Limited-Time Deal!",
             "reversed_slide": true
           }
         }
