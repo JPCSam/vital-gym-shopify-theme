@@ -7,11 +7,11 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Explore-benches.png",
-            "image_mob": "shopify:\/\/shop_images\/Explore-benches.png",
+            "image": "shopify:\/\/shop_images\/Curl-bench-4.png",
+            "image_mob": "shopify:\/\/shop_images\/Curl-bench-4.png",
             "slide_header": "New Year, New Bench: Level Up Your Workouts for 60% Off!",
             "description": "Ditch the wobbly gym bench and sculpt your dream physique at home. The Adjustable Bench 3.0 is your personal strength studio, now at a jaw-dropping price. Don't miss this limited-time deal!",
-            "url": "shopify:\/\/collections\/benches",
+            "url": "shopify:\/\/products\/vital-curl-bench",
             "btn_label": "Claim Your Limited-Time Deal!",
             "reversed_slide": true
           }
