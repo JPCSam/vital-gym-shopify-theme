@@ -80,6 +80,7 @@
         },
         "04d09832-18df-44b4-a823-be5682fd4994": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"tEFbvauMDHGGtj71zU7WWA\"><\/div>"
           }
