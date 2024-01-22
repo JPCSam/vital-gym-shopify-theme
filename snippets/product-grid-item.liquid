@@ -23,16 +23,21 @@
   endif
 -%}
 
-<div class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
+<div
+  class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}"
+  data-aos="row-of-{{ per_row }}"
+  data-product-handle="{{ product.handle }}"
+  data-product-id="{{ product.id }}"
+>
   <div class="grid-product__content">
     {%- if has_custom_label -%}
       <div class="grid-product__tag grid-product__tag--custom">
-<!--         {{ custom_label }} -->
+        <!-- {{ custom_label }} -->
       </div>
     {%- else -%}
       {%- unless product.available -%}
         <div class="grid-product__tag grid-product__tag--sold-out">
-<!--           {{ 'products.product.sold_out' | t }} -->
+          <!-- {{ 'products.product.sold_out' | t }} -->
         </div>
       {%- endunless -%}
       {%- if on_sale and product.available -%}
@@ -62,35 +67,43 @@
     -%}
 
     {%- assign preview_image = product.featured_media.preview_image -%}
-    {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+    {%- assign img_url = preview_image | image_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
     <a href="{{ product.url | within: collection }}" class="grid-product__link">
       <div class="grid-product__image-mask">
         {%- if fixed_aspect_ratio -%}
           <div
-            class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}">
-            <img class="lazyload{% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %}"
-                data-src="{{ img_url }}"
-                data-widths="[360, 540, 720, 900, 1080]"
-                data-aspectratio="{{ preview_image.aspect_ratio }}"
-                data-sizes="auto"
-                alt="{{ preview_image.alt | escape }}">
+            class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}"
+          >
+            <img
+              class="lazyload{% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %}"
+              data-src="{{ img_url }}"
+              data-widths="[360, 540, 720, 900, 1080]"
+              data-aspectratio="{{ preview_image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ preview_image.alt | escape }}"
+            >
           </div>
         {%- else -%}
-          <div class="image-wrap"
+          <div
+            class="image-wrap"
             style="height: 0; padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;"
-            >
+          >
             {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="grid-product__image lazyload"
-                data-src="{{ img_url }}"
-                data-widths="[180, 360, 540, 720, 900, 1080]"
-                data-aspectratio="{{ preview_image.aspect_ratio }}"
-                data-sizes="auto"
-                alt="{{ preview_image.alt | escape }}">
+            <img
+              class="grid-product__image lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[180, 360, 540, 720, 900, 1080]"
+              data-aspectratio="{{ preview_image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ preview_image.alt | escape }}"
+            >
             <noscript>
-              <img class="grid-product__image lazyloaded"
+              <img
+                class="grid-product__image lazyloaded"
                 src="{{ preview_image | img_url: '400x' }}"
-                alt="{{ preview_image.alt | escape }}">
+                alt="{{ preview_image.alt | escape }}"
+              >
             </noscript>
           </div>
         {%- endif -%}
@@ -101,12 +114,14 @@
           {%- endfor -%}
           <div class="grid-product__secondary-image small--hide">
             {%- assign img_url = second_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="lazyload"
-                data-src="{{ img_url }}"
-                data-widths="[360, 540, 720, 1000]"
-                data-aspectratio="{{ second_image.aspect_ratio }}"
-                data-sizes="auto"
-                alt="{{ second_image.alt }}">
+            <img
+              class="lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[360, 540, 720, 1000]"
+              data-aspectratio="{{ second_image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ second_image.alt }}"
+            >
           </div>
         {%- endif -%}
       </div>
@@ -123,19 +138,30 @@
             <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
           {%- endif -%}
           {%- if product.price_varies -%}
-            <span class="variant_price_tag" style="margin:0px;"> From {%- assign price = product.price_min | money -%}</span>
-            <span {% if on_sale %}class="sale-price"{% endif %}>
+            <span class="variant_price_tag" style="margin:0px;">
+              From
+              {%- assign price = product.price_min | money -%}
+            </span>
+            <span
+              {% if on_sale %}
+                class="sale-price"
+              {% endif %}
+            >
               {{ 'products.general.from_text_html' | t: price: price }}
             </span>
           {%- else -%}
-            <span {% if on_sale %}class="sale-price"{% endif %}>
-               {{ product.price  | money }}
+            <span
+              {% if on_sale %}
+                class="sale-price"
+              {% endif %}
+            >
+              {{ product.price | money }}
             </span>
           {%- endif -%}
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
           {%- if product_variant.unit_price_measurement -%}
-            <div class="product__unit-price">          
+            <div class="product__unit-price">
               {%- capture unit_price_base_unit -%}
                 {%- if product_variant.unit_price_measurement -%}
                   {%- if product_variant.unit_price_measurement.reference_value != 1 -%}
@@ -148,23 +174,23 @@
             </div>
           {%- endif -%}
         </div>
-        <a href="#looxReviews">
-          <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}">
-          </div>
-        </a>
+        <!--
+          <a href="#looxReviews">
+            <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}">
+            </div>
+          </a>
+        -->
       </div>
 
       <div class="product-button">
-        {% if product.available%}
+        {% if product.available %}
           <div class="payment-buttons">
-          <a href="{{ product.url }}" class="btn btn--full add-to-cart add-to-cart--secondary">
-            <span data-add-to-cart-text data-default-text="{{ default_text }}">
-              VIEW PRODUCT  
-            </span>
-          </a>
-          </div>    
-        {% else %} 
-        <button class="sold-out-btn">SOLD OUT</button>  
+            <a href="{{ product.url }}" class="btn btn--full add-to-cart add-to-cart--secondary">
+              <span data-add-to-cart-text data-default-text="{{ default_text }}"> VIEW PRODUCT </span>
+            </a>
+          </div>
+        {% else %}
+          <button class="sold-out-btn">SOLD OUT</button>
         {% endif %}
       </div>
     </a>
@@ -202,10 +228,11 @@
                   href="{{ variant.url | within: collection }}"
                   class="color-swatch color-swatch--small"
                   aria-label="{{ product.title }} - {{ value }}"
-                  style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
+                  style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
+                >
                 </a>
               {%- endunless -%}
-             {%- endfor -%}
+            {%- endfor -%}
           </div>
         {%- endif -%}
       {%- endfor -%}
@@ -214,5 +241,5 @@
       <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
     {%- endif -%}
   </div>
-{% comment %}{% render 'preorder-now-collection-item', product: product %} {% endcomment %}
+  {% comment %}{% render 'preorder-now-collection-item', product: product %} {% endcomment %}
 </div>
