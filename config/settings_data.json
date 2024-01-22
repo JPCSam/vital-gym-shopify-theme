@@ -154,7 +154,7 @@
           "logo": "shopify:\/\/shop_images\/Christmas-logo-white.png",
           "logo-inverted": "shopify:\/\/shop_images\/Christmas-logo-white.png",
           "desktop_logo_width": 160,
-          "mobile_logo_width": 120,
+          "mobile_logo_width": 100,
           "main_menu_link_list": "vital-header-navigation",
           "main_menu_alignment": "left-center",
           "header_sticky": false,
