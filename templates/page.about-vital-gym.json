@@ -42,9 +42,9 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "home_featured_products": "weights",
+        "home_featured_products": "best-sellers",
         "per_row": 3,
-        "rows": 1,
+        "rows": 2,
         "view_all": true,
         "divider": false
       }
