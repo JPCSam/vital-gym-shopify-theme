@@ -7,12 +7,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/adjustable-bench-30-664256.jpg",
-            "image_mob": "shopify:\/\/shop_images\/adjustable-bench-30-664256.jpg",
-            "slide_header": "New Year, New Bench: Level Up Your Workouts for 60% Off!",
-            "description": "Ditch the wobbly gym bench and sculpt your dream physique at home. The Adjustable Bench 3.0 is your personal strength studio, now at a jaw-dropping price. Don't miss this limited-time deal!",
-            "url": "shopify:\/\/products\/adjustable-bench-3-0",
-            "btn_label": "Claim Your Limited-Time Deal!",
+            "image": "shopify:\/\/shop_images\/lux-olympic-barbell-20kg-339640.jpg",
+            "image_mob": "shopify:\/\/shop_images\/spartan-olympic-barbell-15kg-230686.jpg",
+            "slide_header": "The Ultimate Power Package: The Compound Bundle Evolution!",
+            "description": "Featuring your choice of Olympic standard barbell (20kg\/15kg), Fleck weight plates, secure Olympic barbell collars, and a space-saving Barbell Holder.",
+            "url": "shopify:\/\/products\/the-compound-bundle",
+            "btn_label": "DISCOVER THE BUNDLE",
             "reversed_slide": true
           }
         }
