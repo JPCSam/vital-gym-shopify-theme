@@ -146,7 +146,8 @@
           "35bcfb9f-ee54-4b4c-9d2f-24a8738415d7"
         ],
         "custom_css": [
-          ".header-banner {background: #1c1c1d; opacity: 0.9; padding: 25px 15px; height: 55px; margin: ;}"
+          ".header-banner {background: #1c1c1d; opacity: 0.9; padding: 25px 15px; height: 55px; margin: ;}",
+          ".announcement__link {color: #1c1c1d;}"
         ],
         "settings": {
           "show_bar": false,
