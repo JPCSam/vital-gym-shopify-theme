@@ -161,8 +161,8 @@
           "sticky_index": false,
           "sticky_collection": false,
           "show_announcement": true,
-          "announcement_text": "Organize and save! Enjoy a 10% discount on Bundles, Gym Storage, and Racks. Unbeatable deals preapplied, valid for this weekend only!",
-          "announcement_link": "",
+          "announcement_text": "Weekend Fire Sale: 10% Extra Burns Out in: Get Scorching Deals Before They Disappear!",
+          "announcement_link": "shopify:\/\/collections\/make-your-own-bundle",
           "announcement_closable": true,
           "show_banner": true
         }
