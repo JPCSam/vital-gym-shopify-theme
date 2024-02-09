@@ -7,12 +7,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/lux-olympic-barbell-20kg-339640.jpg",
-            "image_mob": "shopify:\/\/shop_images\/spartan-olympic-barbell-15kg-230686.jpg",
-            "slide_header": "The Ultimate Power Package: The Compound Bundle Evolution!",
-            "description": "Featuring your choice of Olympic standard barbell (20kg\/15kg), Fleck weight plates, secure Olympic barbell collars, and a space-saving Barbell Holder.",
-            "url": "shopify:\/\/products\/the-compound-bundle",
-            "btn_label": "DISCOVER THE BUNDLE",
+            "image": "shopify:\/\/shop_images\/Vital-Weekend-Flash-Sale.png",
+            "image_mob": "shopify:\/\/shop_images\/Vital-Weekend-Flash-Sale.png",
+            "slide_header": "WEEKEND FIRE SALE!  10% EXTRA OFF Discounted Premium Gym Equipment",
+            "description": "10% EXTRA OFF bundles, barbells, plates & EVERYTHING! No Code Needed. Minimum £40. Ends Soon! ⏱️",
+            "url": "shopify:\/\/collections\/all-products",
+            "btn_label": "Shop now!",
             "reversed_slide": true
           }
         }
