@@ -162,8 +162,8 @@
           "sticky_index": false,
           "sticky_collection": false,
           "show_announcement": true,
-          "announcement_text": "20-30% Off Popular Equipment: Dumbbells, Yoga Mats, and Resistance bands",
-          "announcement_link": "shopify:\/\/collections\/weights",
+          "announcement_text": "Bringing you a MASSIVE 15% discount on all weight plates – no code required! - Click here",
+          "announcement_link": "shopify:\/\/collections\/weight-plates",
           "announcement_closable": true,
           "show_banner": true
         }
