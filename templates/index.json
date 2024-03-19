@@ -7,12 +7,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Vital-Weekend-Flash-Sale.png",
-            "image_mob": "shopify:\/\/shop_images\/Vital-Weekend-Flash-Sale.png",
-            "slide_header": "Upgrade Your Workouts!",
-            "description": "Massive Savings on Free Weights & Floor Mats! Score an extra 10% off free weights. Plus, grab our premium floor mats at an all-time low – 15% off! Don't miss out – Add to cart now and unlock your savings!",
-            "url": "https:\/\/vitalgym.co\/collections\/flooring-and-storage",
-            "btn_label": "get your offer!",
+            "image": "shopify:\/\/shop_images\/Slide-vital-banner.png",
+            "image_mob": "shopify:\/\/shop_images\/Slide-vital-banner.png",
+            "slide_header": "FLECK BUMPER PLATES SALE",
+            "description": "Massive Savings on Fleck Bumper Plates! Score an extra 10% off free weights – Add to cart now and unlock your savings!",
+            "url": "shopify:\/\/collections\/weight-plates",
+            "btn_label": "Grab From £59.00",
             "reversed_slide": true
           }
         }
