@@ -7,12 +7,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Slide-vital-banner.png",
-            "image_mob": "shopify:\/\/shop_images\/Slide-vital-banner.png",
-            "slide_header": "FLECK BUMPER PLATES SALE",
-            "description": "Massive Savings on Fleck Bumper Plates! Score an extra 10% off free weights – Add to cart now and unlock your savings!",
-            "url": "shopify:\/\/collections\/weight-plates",
-            "btn_label": "Grab From £59.00",
+            "image": "shopify:\/\/shop_images\/Nordic-track-vital-banner_251ec118-c70e-4e30-ba8f-23ac68811aa9.png",
+            "image_mob": "shopify:\/\/shop_images\/Nordic-track-vital-banner_251ec118-c70e-4e30-ba8f-23ac68811aa9.png",
+            "slide_header": "Row into Fitness with the NordicTrack RW700",
+            "description": "Revolutionize Your Workout with Ergometer Design, Interactive Training, and More!",
+            "url": "shopify:\/\/collections\/cardio",
+            "btn_label": "VIEW CARDIO COLLECTION",
             "reversed_slide": true
           }
         }
