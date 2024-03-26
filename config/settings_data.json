@@ -47,7 +47,7 @@
     "product_hover_image": false,
     "quick_shop_enable": false,
     "quick_shop_text": "Quick Buy",
-    "enable_swatches": true,
+    "enable_swatches": false,
     "enable_product_reviews": false,
     "cart_type": "page",
     "cart_icon": "vital_cart",
