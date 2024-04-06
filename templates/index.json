@@ -15,23 +15,10 @@
             "btn_label": "Shop now",
             "reversed_slide": true
           }
-        },
-        "image_PKrnPM": {
-          "type": "image",
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Nordic-track-vital-banner_251ec118-c70e-4e30-ba8f-23ac68811aa9.png",
-            "slide_header": "",
-            "description": "CrossFit is a lifestyle characterized by safe, effective exercise and sound nutrition.",
-            "url": "",
-            "btn_label": "GO TO CATALOGUE",
-            "reversed_slide": false
-          }
         }
       },
       "block_order": [
-        "d6633cca-6531-44e4-88da-172fe0722349",
-        "image_PKrnPM"
+        "d6633cca-6531-44e4-88da-172fe0722349"
       ],
       "custom_css": [
 
