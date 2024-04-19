@@ -99,12 +99,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/Nordic-track-vital-banner.png",
-            "image_mob": "shopify:\/\/shop_images\/Nordic-track-vital-banner.png",
-            "slide_header": "Row into Fitness",
-            "description": "Revolutionize Your Workout with Ergometer Design, Interactive Training, and More!",
-            "url": "shopify:\/\/products\/nordictrack-rw700-ntrw15122-air-rowing-machine",
-            "btn_label": "GRAB YOUR OFFER!",
+            "image": "shopify:\/\/shop_images\/adjustable-bench-30-664256.jpg",
+            "image_mob": "shopify:\/\/shop_images\/adjustable-bench-30-664256.jpg",
+            "slide_header": "Having problem with the sapce?",
+            "description": "Unfold endless possibilities: 6-position Adjustable Bench 3.0 - lightweight, compact & perfect for versatile workouts at home.",
+            "url": "shopify:\/\/products\/adjustable-bench-3-0",
+            "btn_label": "VIEW PRODUCT",
             "reversed_slide": false
           }
         }
