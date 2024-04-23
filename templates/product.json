@@ -75,20 +75,14 @@
             "aggregated": false,
             "limit": 4,
             "hide_thumbnails": false,
-            "maxwidth": 1080
+            "maxwidth": 1080,
+            "is_sample": true
           }
         },
         "04d09832-18df-44b4-a823-be5682fd4994": {
           "type": "custom",
-          "disabled": true,
           "settings": {
-            "code": "<div class=\"countdown-timer-block\" countdown-timer-id=\"clsei3h6o2282631mu7rj1vbdav\"><\/div>"
-          }
-        },
-        "essential_countdown_app_block_DYVyrz": {
-          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "clsei3h6o2282631mu7rj1vbdav"
+            "code": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"9tf4\"><\/div>"
           }
         }
       },
@@ -103,8 +97,7 @@
         "tab",
         "16bb8f05-637c-494c-b165-e2f3c7629b21",
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
-        "04d09832-18df-44b4-a823-be5682fd4994",
-        "essential_countdown_app_block_DYVyrz"
+        "04d09832-18df-44b4-a823-be5682fd4994"
       ],
       "settings": {
         "sku_enable": true,
@@ -114,6 +107,13 @@
         "thumbnail_arrows": true,
         "enable_video_looping": false,
         "product_video_style": "unmuted"
+      }
+    },
+    "1713876317b4347ee8": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "sub": {
@@ -133,6 +133,7 @@
   },
   "order": [
     "main",
+    "1713876317b4347ee8",
     "sub",
     "product-recommendations"
   ]
