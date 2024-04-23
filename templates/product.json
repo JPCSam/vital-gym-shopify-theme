@@ -116,15 +116,9 @@
         "product_video_style": "unmuted"
       }
     },
-    "1713876317b4347ee8": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "sub": {
       "type": "product-full-width",
+      "disabled": true,
       "settings": {
         "max_width": true
       }
@@ -136,12 +130,19 @@
         "product_recommendations_heading": "You may also like",
         "related_count": 4
       }
+    },
+    "17138847131b51170b": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
-    "1713876317b4347ee8",
     "sub",
-    "product-recommendations"
+    "product-recommendations",
+    "17138847131b51170b"
   ]
 }
