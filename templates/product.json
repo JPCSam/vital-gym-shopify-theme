@@ -84,6 +84,12 @@
           "settings": {
             "code": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"9tf4\"><\/div>"
           }
+        },
+        "custom_tT8K8t": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"9tfm\"><\/div>"
+          }
         }
       },
       "block_order": [
@@ -97,7 +103,8 @@
         "tab",
         "16bb8f05-637c-494c-b165-e2f3c7629b21",
         "b2c9a046-2d91-4c12-8f78-8a60fdf2ca2a",
-        "04d09832-18df-44b4-a823-be5682fd4994"
+        "04d09832-18df-44b4-a823-be5682fd4994",
+        "custom_tT8K8t"
       ],
       "settings": {
         "sku_enable": true,
