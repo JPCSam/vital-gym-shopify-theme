@@ -111,16 +111,6 @@
     },
     "1713876317b4347ee8": {
       "type": "apps",
-      "blocks": {
-        "bundler_bundler_target_element_VW8tKp": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "bundler_bundler_target_element_VW8tKp"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
