@@ -16,12 +16,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/compound_floormats_a9018fb6-97d3-4c3e-a63a-2643b2b237eb.png",
-            "image_mob": "shopify:\/\/shop_images\/compound_floormats_a9018fb6-97d3-4c3e-a63a-2643b2b237eb.png",
-            "slide_header": "Take Your Home Gym to the Next Level!",
-            "description": "Unbeatable Offer: Save 30% on Your Purchase + Get an Extra 10% Off with Vital's Guaranteed Premium Delivery - Free on Orders Above £350.00!",
-            "url": "shopify:\/\/collections\/make-your-own-bundle",
-            "btn_label": "Shop now",
+            "image": "shopify:\/\/shop_images\/adjustable-kettle-dumbbells-2-24kg-pairs-transformer-set-856173.jpg",
+            "image_mob": "shopify:\/\/shop_images\/adjustable-kettle-dumbbells-2-24kg-pairs-transformer-set-289201.jpg",
+            "slide_header": "Replace 17 sets of dumbbells with just one pair!",
+            "description": "Get into versatile training: Achieve 15 sets of weights in one pair, ranging from 5-40kg for comprehensive strength training.",
+            "url": "shopify:\/\/products\/vital-adjustable-dumbbells-2-24kg-pairs",
+            "btn_label": "Shop Now",
             "reversed_slide": true
           }
         }
