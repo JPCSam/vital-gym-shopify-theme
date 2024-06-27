@@ -100,6 +100,20 @@
         "divider": true
       }
     },
+    "background_video_text_KgDJDT": {
+      "type": "background-video-text",
+      "settings": {
+        "subtitle": "12KG\/20KG WEIGHTED VEST",
+        "title": "Combine comfort with results.",
+        "text": "<p>With 12 pockets evenly distributed around your body, you can adjust the weight to suit your needs.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/weighted-vest",
+        "video_url": "https:\/\/youtu.be\/1zxWZG7eHF4",
+        "color_border": "#1c1d1d",
+        "layout": "left",
+        "height": 650
+      }
+    },
     "164ef42a-eb9c-4069-a935-9e01262135f3": {
       "type": "homepage-slider",
       "blocks": {
@@ -120,6 +134,7 @@
       "block_order": [
         "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -306,6 +321,7 @@
     "1694704399f84ff262",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
     "e4b65706-5988-4bff-9f28-136318e73813",
+    "background_video_text_KgDJDT",
     "164ef42a-eb9c-4069-a935-9e01262135f3",
     "f6050b22-e194-4312-86ba-8ae5317e4475",
     "7d761e3a-3de5-4c0c-8745-13aa05b25c7d",
