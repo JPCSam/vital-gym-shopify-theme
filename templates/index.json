@@ -79,7 +79,7 @@
       ],
       "settings": {
         "title": "BEST SELLERS",
-        "home_featured_products": "vital-featured-collection",
+        "home_featured_products": "best-sellers",
         "per_row": 4,
         "rows": 1,
         "view_all": true,
