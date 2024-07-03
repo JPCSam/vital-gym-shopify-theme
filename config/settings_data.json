@@ -170,10 +170,10 @@
           "header_sticky": false,
           "sticky_index": false,
           "sticky_collection": false,
-          "show_announcement": false,
-          "announcement_text": "Bringing you a MASSIVE 15% discount on all weight plates – no code required! - Click here",
-          "announcement_link": "shopify:\/\/collections\/freeweights-bars-limited-offers",
-          "announcement_closable": false,
+          "show_announcement": true,
+          "announcement_text": "ENJOY FREE SHIPPING FOR NEXT 4 DAYS + 10% EXTRA DISCOUNT ON SELECTED ITEMS",
+          "announcement_link": "shopify:\/\/collections\/make-your-own-bundle",
+          "announcement_closable": true,
           "show_banner": true
         }
       },
