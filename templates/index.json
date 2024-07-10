@@ -114,6 +114,29 @@
         "divider": true
       }
     },
+    "164ef42a-eb9c-4069-a935-9e01262135f3": {
+      "type": "homepage-slider",
+      "blocks": {
+        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202": {
+          "type": "image",
+          "settings": {
+            "show_fw": false,
+            "image": "shopify:\/\/shop_images\/Strength_FlexibilityBundle.png",
+            "image_mob": "shopify:\/\/shop_images\/Strength_FlexibilityBundle.png",
+            "slide_header": "Strength & Flexibility Bundle",
+            "description": "Whether you're aiming to build strength, improve flexibility, or enhance your overall fitness, this bundle has everything you need to transform your home into a versatile workout space.",
+            "url": "shopify:\/\/products\/strength-flexibility-bundle",
+            "btn_label": "go to offer",
+            "reversed_slide": false
+          }
+        }
+      },
+      "block_order": [
+        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
+      ],
+      "settings": {
+      }
+    },
     "background_video_text_KgDJDT": {
       "type": "background-video-text",
       "disabled": true,
@@ -127,30 +150,6 @@
         "color_border": "#1c1d1d",
         "layout": "left",
         "height": 650
-      }
-    },
-    "164ef42a-eb9c-4069-a935-9e01262135f3": {
-      "type": "homepage-slider",
-      "blocks": {
-        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202": {
-          "type": "image",
-          "settings": {
-            "show_fw": false,
-            "image": "shopify:\/\/shop_images\/adjustable-bench-30-664256.jpg",
-            "image_mob": "shopify:\/\/shop_images\/adjustable-bench-30-664256.jpg",
-            "slide_header": "Having problem with the space?",
-            "description": "Unfold endless possibilities: 6-position Adjustable Bench 3.0 - lightweight, compact & perfect for versatile workouts at home.",
-            "url": "shopify:\/\/products\/adjustable-bench-3-0",
-            "btn_label": "VIEW PRODUCT",
-            "reversed_slide": false
-          }
-        }
-      },
-      "block_order": [
-        "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
-      ],
-      "disabled": true,
-      "settings": {
       }
     },
     "f6050b22-e194-4312-86ba-8ae5317e4475": {
@@ -338,8 +337,8 @@
     "featured_collection_switcher_xcnMBG",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
     "e4b65706-5988-4bff-9f28-136318e73813",
-    "background_video_text_KgDJDT",
     "164ef42a-eb9c-4069-a935-9e01262135f3",
+    "background_video_text_KgDJDT",
     "f6050b22-e194-4312-86ba-8ae5317e4475",
     "7d761e3a-3de5-4c0c-8745-13aa05b25c7d",
     "163006974727d4fcd3",
