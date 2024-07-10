@@ -16,12 +16,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-2-Vital-Banner-2.png",
-            "image_mob": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-2-Vital-Banner-2.png",
-            "slide_header": "Ready to Save More for Your Health?",
-            "description": "Exclusive Flash Sale: Unlock Secret Discounts & Fast Shipping!",
+            "image": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-9-coming-home-vital-banner.png",
+            "image_mob": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-9-coming-home-vital-banner.png",
+            "slide_header": "Score Big Savings! 20% OFF Selected Home Gym Equipment",
+            "description": "Cheer for England and gear up your home gym! Enjoy a flat 20% discount on selected free weights, calisthenics products, and yoga accessories. Offer valid today until midnight. Use Code: \"COMINGHOME20\" at checkout\n\n#ENGvsNED",
             "url": "shopify:\/\/collections\/dumbbells",
-            "btn_label": "Grab Up to 50% Off",
+            "btn_label": "Shop now",
             "reversed_slide": true
           }
         }
