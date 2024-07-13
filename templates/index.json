@@ -16,12 +16,12 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-9-coming-home-vital-banner.png",
-            "image_mob": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-9-coming-home-vital-banner.png",
-            "slide_header": "Celebrate England's Victory! 20% OFF Selected Home Gym Gear",
-            "description": "Celebrate England's victory with unbeatable discounts on top home gym equipment. Limited-time offer! Until Sunday Midnight - Use Code: \"COMINGHOME20\" at checkout",
-            "url": "shopify:\/\/collections\/weights",
-            "btn_label": "Shop now",
+            "image": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-3-Vital-Banner-2.png",
+            "image_mob": "shopify:\/\/shop_images\/VITAL-GYM-FACEBOOK-ADS-3-Vital-Banner-2.png",
+            "slide_header": "GET INTO VERSATILE TRAINING",
+            "description": "#1 Choice for All Levels (Over 500 Sold!) - start light, add weights (17.5kg, 22.5kg, 30kg), and progress your fitness journey at home. - Use Code: \"COMINGHOME20\" at checkout",
+            "url": "shopify:\/\/products\/20kg-bodypump-barbell-set",
+            "btn_label": "claim your offer",
             "reversed_slide": true
           }
         }
