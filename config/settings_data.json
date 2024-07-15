@@ -170,10 +170,10 @@
           "header_sticky": false,
           "sticky_index": false,
           "sticky_collection": false,
-          "show_announcement": true,
+          "show_announcement": false,
           "announcement_text": "Support England and Score 20% OFF on Selected Home Gym Gear! Use Code - \"COMINGHOME20\"",
           "announcement_link": "shopify:\/\/collections\/dumbbells",
-          "announcement_closable": true,
+          "announcement_closable": false,
           "show_banner": true
         }
       },
