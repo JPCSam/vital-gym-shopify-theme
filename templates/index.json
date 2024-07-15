@@ -72,20 +72,6 @@
         "space_around": false
       }
     },
-    "featured_collection_switcher_xcnMBG": {
-      "type": "featured-collection-switcher",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Your Fitness Essentials",
-        "collection1": "accessories",
-        "collection2": "strength-conditioning",
-        "per_row": 4,
-        "view_all": false,
-        "divider": true
-      }
-    },
     "71fb9905-28de-49b7-80e0-e9b96229b597": {
       "type": "featured-collection",
       "custom_css": [
@@ -97,6 +83,20 @@
         "per_row": 4,
         "rows": 1,
         "view_all": true,
+        "divider": true
+      }
+    },
+    "featured_collection_switcher_xcnMBG": {
+      "type": "featured-collection-switcher",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Your Fitness Essentials",
+        "collection1": "accessories",
+        "collection2": "strength-conditioning",
+        "per_row": 4,
+        "view_all": false,
         "divider": true
       }
     },
@@ -334,8 +334,8 @@
   "order": [
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "1694704399f84ff262",
-    "featured_collection_switcher_xcnMBG",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
+    "featured_collection_switcher_xcnMBG",
     "e4b65706-5988-4bff-9f28-136318e73813",
     "164ef42a-eb9c-4069-a935-9e01262135f3",
     "background_video_text_KgDJDT",
