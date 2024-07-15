@@ -93,8 +93,8 @@
       ],
       "settings": {
         "title": "Your Fitness Essentials",
-        "collection1": "accessories",
-        "collection2": "strength-conditioning",
+        "collection1": "dumbbells",
+        "collection2": "dumbbells-rack-storage",
         "per_row": 4,
         "view_all": false,
         "divider": true
