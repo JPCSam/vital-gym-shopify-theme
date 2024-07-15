@@ -59,7 +59,7 @@
     "enable_swatches": false,
     "enable_product_reviews": false,
     "cart_type": "page",
-    "cart_icon": "vital_cart",
+    "cart_icon": "cart",
     "cart_additional_buttons": true,
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": true,
