@@ -86,20 +86,6 @@
         "divider": true
       }
     },
-    "featured_collection_switcher_xcnMBG": {
-      "type": "featured-collection-switcher",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Your Fitness Essentials",
-        "collection1": "dumbbells",
-        "collection2": "dumbbells-rack-storage",
-        "per_row": 4,
-        "view_all": false,
-        "divider": true
-      }
-    },
     "e4b65706-5988-4bff-9f28-136318e73813": {
       "type": "featured-collection",
       "custom_css": [
@@ -135,6 +121,20 @@
         "f3dc9370-9b8b-431d-a0f4-fbe806dc4202"
       ],
       "settings": {
+      }
+    },
+    "featured_collection_switcher_xcnMBG": {
+      "type": "featured-collection-switcher",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Your Fitness Essentials",
+        "collection1": "dumbbells",
+        "collection2": "dumbbells-rack-storage",
+        "per_row": 4,
+        "view_all": false,
+        "divider": true
       }
     },
     "background_video_text_KgDJDT": {
@@ -335,9 +335,9 @@
     "8d83a537-71c2-4221-beac-82bb513a61e8",
     "1694704399f84ff262",
     "71fb9905-28de-49b7-80e0-e9b96229b597",
-    "featured_collection_switcher_xcnMBG",
     "e4b65706-5988-4bff-9f28-136318e73813",
     "164ef42a-eb9c-4069-a935-9e01262135f3",
+    "featured_collection_switcher_xcnMBG",
     "background_video_text_KgDJDT",
     "f6050b22-e194-4312-86ba-8ae5317e4475",
     "7d761e3a-3de5-4c0c-8745-13aa05b25c7d",
