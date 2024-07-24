@@ -92,6 +92,9 @@
             {% if product.tags contains 'prime-sale' %}
               <div class="custom-label">Prime Sale</div>
             {% endif %}
+            {% if product.tags contains 'multibuyer' %}
+              <div class="custom-label">Multibuy</div>
+            {% endif %}
             {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img
               class="grid-product__image lazyload"
