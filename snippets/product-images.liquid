@@ -13,6 +13,9 @@
         {% if product.tags contains 'prime-sale' %}
           <div class="custom-label">Prime Sale</div>
         {% endif %}
+        {% if product.tags contains 'multibuyer' %}
+          <div class="custom-label">Multibuy</div>
+        {% endif %}
 
         <div data-product-photos class="product-slideshow">
           {%- for media in product.media -%}
