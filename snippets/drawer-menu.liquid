@@ -1,3 +1,8 @@
+Current code 
+
+
+
+
 {%- comment -%}
 
 
@@ -14,9 +19,13 @@
   <div class="drawer__contents">
     <div class="drawer__fixed-header">
       <div class="drawer__header appear-animation appear-delay-{{ animation_row }}">
-        <div class="drawer__title"></div>
+        <div class="drawer__title">
+          <a href="/" class="site-header__logo-link">
+          <img class="small--show" src="https://cdn.shopify.com/s/files/1/0365/5414/5928/files/logo-transparent.png?v=1613710735" alt="Vital Gym">  
+          </a>
+        </div>
         <div class="drawer__close">
-          <button type="button" class="drawer__close-button js-drawer-close">
+          <button type="button" class="drawer__close-button js-drawer-close">Close
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
             <span class="icon__fallback-text">{{ 'general.drawers.close_menu' | t }}</span>
           </button>
@@ -24,14 +33,7 @@
       </div>
     </div>
     <div class="drawer__scrollable">
-      <ul class="mobile-nav" role="navigation" aria-label="Primary">
-      {% if template != 'customers/account' %}
-        <li class="separate" onclick="window.location.href = '/collections/all-products'">
-            <a href="https://vitalgym.co/collections/all-products" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
-            <span class="link-title all-prod" >All Products</span>  
-            </a>
-        </li>
-      {% endif %}
+      <ul class="mobile-nav" role="navigation" aria-label="Primary">      
         {%- for link in main_menu.links -%}
           {%- liquid
             assign animation_row = animation_row | plus: 1
@@ -46,7 +48,6 @@
               for block in section.blocks
                 if link.title == block.settings.menu_item
                   assign is_megamenu = true
-
                   assign promo_image_1 = block.settings.promo_image_1
                   assign promo_heading_1 = block.settings.promo_heading_1
                   assign promo_text_1 = block.settings.promo_text_1
@@ -108,8 +109,8 @@
                                 <span class="link-title">Sale</span> 
                               </a>
                             </li>
-                            <li class="separate" onclick="window.location.href = '/collections/bundles' ">
-                              <a href="https://vitalgym.co/collections/bundles" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
+                            <li class="separate" onclick="window.location.href = '/collections/make-your-own-bundle ">
+                              <a href="https://vitalgym.co/collections/make-your-own-bundle" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
                                 <span class="link-title">Bundles</span>        
                               </a>
                             </li>
@@ -255,8 +256,8 @@
                       </span>    
                       </a>
                       </li>
-                      <li class="separate" onclick="window.location.href = '/collections/bundles' ">
-                      <a href="https://vitalgym.co/collections/bundles" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
+                      <li class="separate" onclick="window.location.href = '/collections/make-your-own-bundle' ">
+                      <a href="https://vitalgym.co/collections/make-your-own-bundle" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
                       <span class="link-title">Bundles</span>
                       <span class="subtitle">
                       We've made it easy for you
@@ -265,11 +266,11 @@
                       </li>                     
                       {% endif %}
                       </ul>
-                      <!-- <li class="separate mobile" onclick='window.location.href = "/pages/home-gym-build"'>
+                      {% comment %} <li class="separate mobile" onclick='window.location.href = "/pages/home-gym-build"'>
   <a href="https://vitalgym.co/pages/home-gym-build" data-icon="{{'yellow-arrow.svg' | asset_url}}" data-icon-hover="{{'yellow-arrow-hover.svg' | asset_url}}">
   <span class="link-title">Home Gym Design</span> 
   </a>
-  </li> -->
+  </li> {% endcomment %}
                    </ul>
           <div class="btn-wrap">
           {% if customer %}
@@ -281,8 +282,7 @@
               <button class="btn btn--transparent open-custom-modal" id="open-login-modal">Log In</button>
               <button class="btn btn--inverse open-custom-modal open_signup" id="open-signup-modal">Sign Up</button>
           {% endif %}
-        </div>
-        
+        </div>        
       </ul>
 
     </div>
