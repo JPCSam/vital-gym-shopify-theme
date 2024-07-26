@@ -96,7 +96,9 @@
               <div class="custom-label">Multibuy</div>
             {% endif %}
             {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img
+            {% assign is_above_fold = true %} <!-- You might need to determine this conditionally -->
+
+<img
   class="grid-product__image{% unless is_above_fold %} lazyload{% endunless %}"
   {% unless is_above_fold %}data-src{% else %}src{% endunless %}="{{ img_url | img_url: '720x' }}"
   data-widths="[180, 360, 540, 720, 900, 1080]"
