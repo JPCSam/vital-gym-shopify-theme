@@ -149,7 +149,6 @@
       }
     </script>
   </head>
-
   <body
     class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{%- if page.template_suffix == "test-page" -%}-vitalclub{%- endif -%}  "
     data-transitions="{{ settings.animate_page_transitions }}"
@@ -239,7 +238,7 @@
       {%- endif -%}
     </script>
     <!-- PF EDT END -->
-    <script language="JavaScript" src="//porjs.com/2436.js" defer></script>
+    <script language="JavaScript" src="//porjs.com/2436.js"></script>
   </body>
 </html>
 <script>
