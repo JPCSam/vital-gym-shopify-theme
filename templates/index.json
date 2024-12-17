@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "8d83a537-71c2-4221-beac-82bb513a61e8": {
@@ -7,10 +16,10 @@
           "type": "image",
           "settings": {
             "show_fw": false,
-            "image": "shopify:\/\/shop_images\/compound-banner_fbc0b820-51e6-4976-9489-cbfc0167a762.png",
+            "image": "shopify://shop_images/compound-banner_fbc0b820-51e6-4976-9489-cbfc0167a762.png",
             "slide_header": "Unlock Your Full Potential!!!",
             "description": "Elevate Your Workouts with Versatile Compound Exercises.",
-            "url": "shopify:\/\/products\/the-compound-bundle",
+            "url": "shopify://products/the-compound-bundle",
             "btn_label": "shop now",
             "reversed_slide": true
           }
@@ -19,11 +28,8 @@
       "block_order": [
         "d6633cca-6531-44e4-88da-172fe0722349"
       ],
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
+      "custom_css": [],
+      "settings": {}
     },
     "163006974727d4fcd3": {
       "type": "featured-collections-3",
@@ -34,13 +40,13 @@
         "title": "Shop by goal",
         "show_title": true,
         "collection1": "strength-conditioning",
-        "collection1_img": "shopify:\/\/shop_images\/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png",
+        "collection1_img": "shopify://shop_images/1_80x_f2991ed7-9220-4ee0-be12-c493bf691923.png",
         "collection2": "calistenics",
-        "collection2_img": "shopify:\/\/shop_images\/4_80x_feb2ee65-0f8b-45d6-bdfc-42d3c8ff0d40.png",
+        "collection2_img": "shopify://shop_images/4_80x_feb2ee65-0f8b-45d6-bdfc-42d3c8ff0d40.png",
         "collection3": "weights",
-        "collection3_img": "shopify:\/\/shop_images\/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
+        "collection3_img": "shopify://shop_images/3_80x_6297c965-65af-4fd3-a0ca-a90600dba251.png",
         "collection4": "crossfit",
-        "collection4_img": "shopify:\/\/shop_images\/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
+        "collection4_img": "shopify://shop_images/2_80x_2e41154e-e5d3-4294-b628-d4b1f0541107.png"
       }
     },
     "9d2d9bc7-05c0-4cbc-b137-7ae490118ac7": {
@@ -78,7 +84,7 @@
       ],
       "settings": {
         "title": "BUILD YOUR OWN BUNDLE",
-        "home_featured_products": "make-your-own-bundle",
+        "home_featured_products": "personalised-fitness-kits",
         "per_row": 3,
         "rows": 1,
         "view_all": true,
@@ -103,9 +109,9 @@
       "settings": {
         "uptitle": "Become a member",
         "title": "Vitalclub",
-        "text_description": "<p>Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines.<\/p>",
+        "text_description": "<p>Join the Vital Club & you’ll get discounts on Vital Gym products, entry in our monthly giveaway, discounts & offers with our partner brands, access to curated Spotify playlists & workout routines.</p>",
         "button_label": "Vital club",
-        "button_link": "shopify:\/\/pages\/vitalclub"
+        "button_link": "shopify://pages/vitalclub"
       }
     },
     "16300697437ba5bb61": {
@@ -124,9 +130,9 @@
         "16300697747b041413-0": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/truck_60000392-cd9b-4232-a411-8033c42e0e58.png",
+            "image": "shopify://shop_images/truck_60000392-cd9b-4232-a411-8033c42e0e58.png",
             "title": "FAST DELIVERY",
-            "text": "<p>Order before 10am and we will get your order dispatched the same day.<\/p>",
+            "text": "<p>Order before 10am and we will get your order dispatched the same day.</p>",
             "button_label": "",
             "url": ""
           }
@@ -135,9 +141,9 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/hat_7cc7dda8-7ab6-4a6e-b354-e6471ea9f897.png",
+            "image": "shopify://shop_images/hat_7cc7dda8-7ab6-4a6e-b354-e6471ea9f897.png",
             "title": "Student Discount",
-            "text": "<p>We are proud partners of Student Beans giving your 10% off all our products.<\/p>",
+            "text": "<p>We are proud partners of Student Beans giving your 10% off all our products.</p>",
             "button_label": "",
             "url": ""
           }
@@ -145,9 +151,9 @@
         "16300697747b041413-2": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bag_4675f82c-e87c-4934-be4d-f3a429e3751d.png",
+            "image": "shopify://shop_images/bag_4675f82c-e87c-4934-be4d-f3a429e3751d.png",
             "title": "BUY NOW, PAY LATER",
-            "text": "<p>Spread the cost of your purchase into 3 interest-free instalments.<\/p>",
+            "text": "<p>Spread the cost of your purchase into 3 interest-free instalments.</p>",
             "button_label": "",
             "url": ""
           }
